@@ -22,7 +22,7 @@ const dyspnee_mrc: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `L'echelle MRC gradue la dyspnee de 0 (pas de gene) a 4 (essouffle au moindre effort). Grade 2+ est significatif.`,
+  interpretation: `L\'echelle MRC gradue la dyspnee de 0 (pas de gene) a 4 (essouffle au moindre effort). Grade 2+ est significatif.`,
   clinicalCommentary: `Utilisee dans la BPCO et les maladies respiratoires chroniques. Correllee a la qualite de vie et la mortalite.`,
   references: [
     {type:`pubmed`,title:`Fletcher CM et al. BMJ 1959`,pmid:`14484666`}

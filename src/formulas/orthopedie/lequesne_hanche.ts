@@ -130,8 +130,8 @@ const lequesne_hanche: FormulaDefinition = {
       ],
     }
   },
-  interpretation: "L'**indice de Lequesne** pour la hanche est un score fonctionnel validé pour l'évaluation de la coxarthrose.\n\n**6 items — score total 0 à 18 :**\n- Douleur nocturne (0-3)\n- Douleur à la station debout (0-3)\n- Douleur à la marche (0-3)\n- Temps de marche maximal (0-3)\n- Activités quotidiennes (0-3)\n- Monter/descendre de voiture (0-3)\n\n**Seuils :** ≤ 4 = handicap faible ; 5-8 = modéré ; 9-11 = sévère ; ≥ 12 = très sévère.",
-  clinicalCommentary: "L'indice de Lequesne hanche est utilisé pour l'évaluation de la sévérité de la coxarthrose et la décision de mise en place d'une prothèse totale de hanche. Un score ≥ 9 est généralement considéré comme un seuil d'indication chirurgicale si le traitement médical est insuffisant. La perte de poids, l'activité physique adaptée et la kinésithérapie sont les piliers du traitement conservateur.",
+  interpretation: "L'**indice de Lequesne** pour la hanche est un score fonctionnel validé pour l\'évaluation de la coxarthrose.\n\n**6 items — score total 0 à 18 :**\n- Douleur nocturne (0-3)\n- Douleur à la station debout (0-3)\n- Douleur à la marche (0-3)\n- Temps de marche maximal (0-3)\n- Activités quotidiennes (0-3)\n- Monter/descendre de voiture (0-3)\n\n**Seuils :** ≤ 4 = handicap faible ; 5-8 = modéré ; 9-11 = sévère ; ≥ 12 = très sévère.",
+  clinicalCommentary: "L\'indice de Lequesne hanche est utilisé pour l\'évaluation de la sévérité de la coxarthrose et la décision de mise en place d\'une prothèse totale de hanche. Un score ≥ 9 est généralement considéré comme un seuil d\'indication chirurgicale si le traitement médical est insuffisant. La perte de poids, l\'activité physique adaptée et la kinésithérapie sont les piliers du traitement conservateur.",
   references: [
     {
       type: 'pubmed',

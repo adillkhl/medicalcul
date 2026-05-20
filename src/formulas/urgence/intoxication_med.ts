@@ -4,7 +4,7 @@ const intoxication_med: FormulaDefinition = {
   id: `intoxication_med`, slug: `intoxication_med`,
   name: `Intoxication medicamenteuse (Gravite)`,
   specialty: `urgence`, category: `Toxicologie`,
-  description: `Evaluation de la gravite d'une intoxication medicamenteuse aigue`,
+  description: `Evaluation de la gravite d\'une intoxication medicamenteuse aigue`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `C`,
   inputs: [
     {id:`produit`,type:`radio`,label:`Produit`,options:[{value:0,label:`Paracetamol`},{value:1,label:`Benzodiazepine`},{value:2,label:`Antidepresseur`},{value:3,label:`Lithium`},{value:4,label:`Beta-bloquant / IC`},{value:5,label:`Autre`}]},
@@ -28,8 +28,8 @@ const intoxication_med: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `Evaluation de la gravite d'une intoxication medicamenteuse: signes vitaux, ECG, trouble de conscience.`,
-  clinicalCommentary: `L'intoxication au paracetamol necessite un dosage a H4 (normogramme de Prescott). Le N-acetylcysteine (NAC) est efficace dans les 8h.`,
+  interpretation: `Evaluation de la gravite d\'une intoxication medicamenteuse: signes vitaux, ECG, trouble de conscience.`,
+  clinicalCommentary: `L\'intoxication au paracetamol necessite un dosage a H4 (normogramme de Prescott). Le N-acetylcysteine (NAC) est efficace dans les 8h.`,
   references: [
     {type:`pubmed`,title:`Bateman DN. Lancet 2010`,pmid:`20116844`}
   ],

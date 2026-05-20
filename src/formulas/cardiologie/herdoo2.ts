@@ -56,10 +56,10 @@ const herdoo2: FormulaDefinition = {
   interpretation: `Le **score HERDOO2** (Hyperpigmentation, Edema, Redness, D-dimer, Obesity, Older) aide a decider si l’anticoagulation peut etre arretee apres 6 mois chez les femmes avec TVP/EP non provoquee.
 
 - **HERDOO2 <= 1** : arret possible (faible risque de recurrence)
-- **HERDOO2 >= 2** : prolongation de l'anticoagulation recommandee
+- **HERDOO2 >= 2** : prolongation de l\'anticoagulation recommandee
 
-Ce score a ete derive et valide dans l'etude REVERSE II. Il ne s’applique qu’aux femmes, et uniquement apres 6 mois d’anticoagulation pour un episode non provoque.`,
-  clinicalCommentary: `Le HERDOO2 s'utilise APRES 6 mois d'anticoagulation bien conduite. Ne s’applique PAS aux hommes. Les D-dimeres doivent etre mesures a 6 mois, sous anticoagulation. Si D-dimeres eleves, le risque de recurrence est plus eleve, ce qui justifie la poursuite. Attention : en cas de TVP/EP provoquee (post-chirurgie, cancer), la decision d’arret est differente (en general 3-6 mois suffisent).`,
+Ce score a ete derive et valide dans l\'etude REVERSE II. Il ne s’applique qu’aux femmes, et uniquement apres 6 mois d’anticoagulation pour un episode non provoque.`,
+  clinicalCommentary: `Le HERDOO2 s\'utilise APRES 6 mois d\'anticoagulation bien conduite. Ne s’applique PAS aux hommes. Les D-dimeres doivent etre mesures a 6 mois, sous anticoagulation. Si D-dimeres eleves, le risque de recurrence est plus eleve, ce qui justifie la poursuite. Attention : en cas de TVP/EP provoquee (post-chirurgie, cancer), la decision d’arret est differente (en general 3-6 mois suffisent).`,
   references: [
     {
       type: 'pubmed',

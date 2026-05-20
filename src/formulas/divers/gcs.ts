@@ -4,7 +4,7 @@ const gcs: FormulaDefinition = {
   id: `gcs`, slug: `gcs`,
   name: `Glasgow (Score)`,
   specialty: `divers`, category: `Conscience`,
-  description: `Echelle de Glasgow pour l'evaluation du coma`,
+  description: `Echelle de Glasgow pour l\'evaluation du coma`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`yeux`,type:`radio`,label:`Ouverture des yeux`,options:[{value:4,label:`Spontanee`},{value:3,label:`A la demande`},{value:2,label:`A la douleur`},{value:1,label:`Aucune`}]},
@@ -20,7 +20,7 @@ const gcs: FormulaDefinition = {
       return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
   interpretation: `Le score de Glasgow evalue le niveau de conscience. GCS <= 8 = coma severe justifiant une intubation.`,
-  clinicalCommentary: `GCS est le standard international. L'evaluation est faussee par l'intubation (V=1).`,
+  clinicalCommentary: `GCS est le standard international. L\'evaluation est faussee par l\'intubation (V=1).`,
   references: [
     {type:`pubmed`,title:`Teasdale G. Lancet 1974`,pmid:`4135064`}
   ],

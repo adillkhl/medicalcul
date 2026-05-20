@@ -40,8 +40,8 @@ const ccsangina: FormulaDefinition = {
 - **Classe III** : angor pour un effort léger
 - **Classe IV** : angor de repos
 
-Utilisée en routine pour suivre l'évolution clinique et décider de la revascularisation.`,
-  clinicalCommentary: `La classification CCS est utilisée quotidiennement en cardiologie. Associer à la fraction d'éjection (FEVG) et à la coronarographie. Une aggravation rapide (passage II→III en quelques semaines) doit faire rechercher une instabilité de plaque.`,
+Utilisée en routine pour suivre l\'évolution clinique et décider de la revascularisation.`,
+  clinicalCommentary: `La classification CCS est utilisée quotidiennement en cardiologie. Associer à la fraction d\'éjection (FEVG) et à la coronarographie. Une aggravation rapide (passage II→III en quelques semaines) doit faire rechercher une instabilité de plaque.`,
   references: [{ type: 'pubmed', title: 'Campeau L. Circulation 1976', pmid: '1253310' }],
 }
 export default ccsangina

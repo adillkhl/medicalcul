@@ -91,7 +91,7 @@ const neurodn4: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `Le **DN4** (Douleur Neuropathique 4 questions) est le questionnaire de dépistage de la douleur neuropathique le plus utilisé en France. Il comporte 10 items : 7 items issus de l’interrogatoire et 3 items de l'examen clinique.
+  interpretation: `Le **DN4** (Douleur Neuropathique 4 questions) est le questionnaire de dépistage de la douleur neuropathique le plus utilisé en France. Il comporte 10 items : 7 items issus de l’interrogatoire et 3 items de l\'examen clinique.
 
 **Seuil pathologique : ≥ 4/10.** Sensibilité 82,9 %, spécificité 89,9 %.
 
@@ -100,7 +100,7 @@ const neurodn4: FormulaDefinition = {
 **Items examen :** hypœsthésie au tact, hypœsthésie à la piqûre, allodynie au frottement.
 
 Le DN4 est validé en français et en plusieurs langues.`,
-  clinicalCommentary: `Le DN4 est indispensable en consultation de neurologie pour distinguer douleur neuropathique et nociceptive. À faire systématiquement devant toute douleur chronique. Si ≥ 4/10, la probabilité de neuropathie est > 80%. Les traitements de première intention sont : gabapentine, prégabaline, amitriptyline, duloxétine. Éviter les AINS et opioïdes faibles peu efficaces sur la douleur neuropathique. L'Allodynie (item 10) est un signe très spécifique.`,
+  clinicalCommentary: `Le DN4 est indispensable en consultation de neurologie pour distinguer douleur neuropathique et nociceptive. À faire systématiquement devant toute douleur chronique. Si ≥ 4/10, la probabilité de neuropathie est > 80%. Les traitements de première intention sont : gabapentine, prégabaline, amitriptyline, duloxétine. Éviter les AINS et opioïdes faibles peu efficaces sur la douleur neuropathique. L\'Allodynie (item 10) est un signe très spécifique.`,
   references: [
     {
       type: 'pubmed',

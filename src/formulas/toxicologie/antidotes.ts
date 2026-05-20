@@ -170,10 +170,10 @@ const antidotes: FormulaDefinition = {
 
 ⚠️ **Règles générales :**
 - Contacter systématiquement un **Centre Anti-Poison** (CAP)
-- Ne pas attendre la confirmation biologique pour administrer l'antidote si suspicion forte
-- Vérifier les posologies selon le poids, l'âge et la fonction rénale
+- Ne pas attendre la confirmation biologique pour administrer l\'antidote si suspicion forte
+- Vérifier les posologies selon le poids, l\'âge et la fonction rénale
 - Surveiller les effets indésirables des antidotes eux-mêmes`,
-  clinicalCommentary: `Les centres antipoison (CAP) sont joignables 24h/24 : 04 91 75 25 25 (Marseille), 01 40 05 48 48 (Paris). En cas de doute sur une intoxication, n'hésitez pas à les contacter. La naloxone et la N-acétylcystéine doivent être disponibles dans toute structure d'urgence. Pour l'intoxication au paracétamol, ne pas attendre le dosage pour débuter la NAC si la dose ingérée dépasse 4 g/24h.`,
+  clinicalCommentary: `Les centres antipoison (CAP) sont joignables 24h/24 : 04 91 75 25 25 (Marseille), 01 40 05 48 48 (Paris). En cas de doute sur une intoxication, n\'hésitez pas à les contacter. La naloxone et la N-acétylcystéine doivent être disponibles dans toute structure d\'urgence. Pour l\'intoxication au paracétamol, ne pas attendre le dosage pour débuter la NAC si la dose ingérée dépasse 4 g/24h.`,
   references: [
     {
       type: 'pubmed',

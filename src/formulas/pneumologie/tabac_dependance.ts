@@ -27,7 +27,7 @@ const tabac_dependance: FormulaDefinition = {
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
   interpretation: `Le test de Fagerstrom evalue la dependance physique a la nicotine. Score >= 7 = forte dependance justifiant TNS (traitement nicotinique substitutif).`,
-  clinicalCommentary: `Le craving et la dependance comportementale sont egalement importants. L'arret du tabac reduit de 50% le risque CV a 1 an.`,
+  clinicalCommentary: `Le craving et la dependance comportementale sont egalement importants. L\'arret du tabac reduit de 50% le risque CV a 1 an.`,
   references: [
     {type:`pubmed`,title:`Heatherton TF et al. Br J Addict 1991`,pmid:`1958451`}
   ],

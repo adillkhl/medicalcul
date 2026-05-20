@@ -123,7 +123,7 @@ const burchWartofsky: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `Le **score de Burch-Wartofsky** (ou score de Wartofsky) permet d'évaluer la probabilité d'un **orage thyroïdien** (thyroid storm).
+  interpretation: `Le **score de Burch-Wartofsky** (ou score de Wartofsky) permet d\'évaluer la probabilité d\'un **orage thyroïdien** (thyroid storm).
 
 **Points par catégorie :**
 - Température : 5–30 points
@@ -138,7 +138,7 @@ const burchWartofsky: FormulaDefinition = {
 - < 25 : orage thyroïdien peu probable
 - 25–44 : orage thyroïdien probable
 - ≥ 45 : orage thyroïdien très probable (tempête thyroïdienne)`,
-  clinicalCommentary: `L'orage thyroïdien est une urgence vitale. Traitement : thionamides (PTU 500-1000 mg en charge puis 250 mg/4h ou carbimazole 60-80 mg/j), β-bloquants (propranolol 60-80 mg/4h PO ou IV), corticoïdes (hydrocortisone 300 mg IV puis 100 mg/8h), iode stable (Lugol 5 gouttes/6h) à débuter 1h après la première dose de thionamide. Traiter le facteur déclenchant.`,
+  clinicalCommentary: `L\'orage thyroïdien est une urgence vitale. Traitement : thionamides (PTU 500-1000 mg en charge puis 250 mg/4h ou carbimazole 60-80 mg/j), β-bloquants (propranolol 60-80 mg/4h PO ou IV), corticoïdes (hydrocortisone 300 mg IV puis 100 mg/8h), iode stable (Lugol 5 gouttes/6h) à débuter 1h après la première dose de thionamide. Traiter le facteur déclenchant.`,
   references: [
     {
       type: 'pubmed',

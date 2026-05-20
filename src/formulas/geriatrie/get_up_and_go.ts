@@ -4,7 +4,7 @@ const get_up_and_go: FormulaDefinition = {
   id: `get_up_and_go`, slug: `get_up_and_go`,
   name: `Timed Get Up and Go (TUG)`,
   specialty: `geriatrie`, category: `Evaluation Motrice`,
-  description: `Test de mobilite et d'equilibre: temps pour se lever, marcher 3m, faire demi-tour et se rasseoir`,
+  description: `Test de mobilite et d\'equilibre: temps pour se lever, marcher 3m, faire demi-tour et se rasseoir`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`temps`,type:`number`,label:`Temps (secondes)`,unit:`s`,min:0,step:0.1,placeholder:`Entrez le temps en secondes`},
@@ -19,7 +19,7 @@ const get_up_and_go: FormulaDefinition = {
         {min:20.1,max:999,label:'Risque eleve de chute',severity:'high'},
       ]}
   },
-  interpretation: `Le Timed Get Up and Go mesure le temps necessaire pour se lever d'une chaise, marcher 3 metres, faire demi-tour, revenir et se rasseoir. Un temps < 10 secondes est normal, 10-20 secondes suggere un risque de chute modere, > 20 secondes indique un risque eleve.`,
+  interpretation: `Le Timed Get Up and Go mesure le temps necessaire pour se lever d\'une chaise, marcher 3 metres, faire demi-tour, revenir et se rasseoir. Un temps < 10 secondes est normal, 10-20 secondes suggere un risque de chute modere, > 20 secondes indique un risque eleve.`,
   clinicalCommentary: `Test simple et reproductible. Le seuil de 13.5 secondes est souvent utilise pour identifier les patients a risque de chute. Necessite une chaise standard (hauteur ~46cm) et un parcours de 3 metres. Le patient peut utiliser son aide technique habituelle.`,
   references: [
     {type:`pubmed`,title:`Podsiadlo D, Richardson S. J Am Geriatr Soc 1991`,pmid:`1991946`},

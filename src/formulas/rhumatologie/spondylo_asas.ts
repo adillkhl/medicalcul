@@ -201,7 +201,7 @@ const spondyloAsas: FormulaDefinition = {
 6. Bonne réponse aux AINS
 7. CRP élevée
 8. Antécédents familiaux de SpA`,
-  clinicalCommentary: `Les critères ASAS ont révolutionné le diagnostic de la spondylarthrite axiale en permettant le diagnostic avant l'apparition de l'ankylose radiographique. L'IRM sacro-iliaque avec séquence STIR est l'examen clé pour la nr-axSpA.`,
+  clinicalCommentary: `Les critères ASAS ont révolutionné le diagnostic de la spondylarthrite axiale en permettant le diagnostic avant l\'apparition de l\'ankylose radiographique. L\'IRM sacro-iliaque avec séquence STIR est l\'examen clé pour la nr-axSpA.`,
   references: [
     {
       type: 'pubmed',

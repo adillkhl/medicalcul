@@ -73,7 +73,7 @@ const chevillebrasidx: FormulaDefinition = {
 - < 0,50 : AOMI sévère
 
 Mesure : patient au repos ≥ 5 min, brassard adapté à la cheville, sonde Doppler ou oscillométrie.`,
-  clinicalCommentary: `L'IPS est systématique devant toute suspicion d’AOMI. Un IPS < 0,90 a une sensibilité de 95% pour le diagnostic. Attention : chez le diabétique et l'insuffisant rénal, les artères peuvent être incompressibles (IPS > 1,40) — utiliser alors l’index orteil/bras. Un IPS > 1,40 n’est pas rassurant : il témoigne de calcifications.`,
+  clinicalCommentary: `L\'IPS est systématique devant toute suspicion d’AOMI. Un IPS < 0,90 a une sensibilité de 95% pour le diagnostic. Attention : chez le diabétique et l\'insuffisant rénal, les artères peuvent être incompressibles (IPS > 1,40) — utiliser alors l’index orteil/bras. Un IPS > 1,40 n’est pas rassurant : il témoigne de calcifications.`,
   references: [
     { type: 'pubmed', title: 'Aboyans V et al. ESC Guidelines on PAD. Eur Heart J 2018', pmid: '28886622' },
     { type: 'guideline', title: 'HAS — Artériopathie oblitérante des membres inférieurs', url: 'https://www.has-sante.fr' },

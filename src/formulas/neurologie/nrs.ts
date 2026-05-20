@@ -65,7 +65,7 @@ const nrs: FormulaDefinition = {
 - 8–10 : douleur très forte à intense
 
 La NRS est validée pour la douleur aiguë et chronique, adaptable à tous les âges (sauf enfants < 8 ans et troubles cognitifs sévères).`,
-  clinicalCommentary: `La NRS est la 4e mesure de la douleur en pratique clinique (après l'EVA). Avantage : simple, rapide (30 secondes), ne nécessite pas de matériel. Idéale pour le suivi antalgique (avant/après traitement). Attention : ne pas utiliser chez les patients avec troubles cognitifs sévères ou confusion (préférer Algoplus ou Doloplus). En neurologie, l'évaluation de la douleur est essentielle : migraine, névralgie du trijumeau, douleur neuropathique, lombalgie. Le « seuil de soulagement » est EN < 3.`,
+  clinicalCommentary: `La NRS est la 4e mesure de la douleur en pratique clinique (après l\'EVA). Avantage : simple, rapide (30 secondes), ne nécessite pas de matériel. Idéale pour le suivi antalgique (avant/après traitement). Attention : ne pas utiliser chez les patients avec troubles cognitifs sévères ou confusion (préférer Algoplus ou Doloplus). En neurologie, l\'évaluation de la douleur est essentielle : migraine, névralgie du trijumeau, douleur neuropathique, lombalgie. Le « seuil de soulagement » est EN < 3.`,
   references: [
     {
       type: 'pubmed',

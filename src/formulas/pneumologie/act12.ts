@@ -101,15 +101,15 @@ const act12: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `L'**Asthma Control Test (ACT)** est un auto-questionnaire de 5 questions validé pour évaluer le contrôle de l’asthme chez l'adulte et l'adolescent (≥ 12 ans) sur les 4 dernières semaines.
+  interpretation: `L'**Asthma Control Test (ACT)** est un auto-questionnaire de 5 questions validé pour évaluer le contrôle de l’asthme chez l\'adulte et l\'adolescent (≥ 12 ans) sur les 4 dernières semaines.
 
 **Score : 5–25** (chaque question de 1 à 5).
 - **≥ 20** : asthme bien contrôlé
 - **16–19** : partiellement contrôlé
 - **≤ 15** : non contrôlé
 
-L'ACT est un outil essentiel pour le suivi : il permet d’objectiver le contrôle et d'ajuster le traitement selon la stratégie GINA. Une amélioration de 3 points est cliniquement significative.`,
-  clinicalCommentary: `L'ACT est systématique à chaque consultation d’asthme. Complémentaire des EFR (VEMS). Un ACT < 20 doit faire vérifier l’observance et la technique d'inhalation avant d’augmenter le traitement. L'ACT est sensible au changement (utile pour le suivi). Attention : un ACT normal n'élimine pas un asthme sévère sous traitement lourd. L'ACT enfant (C-ACT) est validé pour les 4–11 ans.`,
+L\'ACT est un outil essentiel pour le suivi : il permet d’objectiver le contrôle et d\'ajuster le traitement selon la stratégie GINA. Une amélioration de 3 points est cliniquement significative.`,
+  clinicalCommentary: `L\'ACT est systématique à chaque consultation d’asthme. Complémentaire des EFR (VEMS). Un ACT < 20 doit faire vérifier l’observance et la technique d\'inhalation avant d’augmenter le traitement. L\'ACT est sensible au changement (utile pour le suivi). Attention : un ACT normal n\'élimine pas un asthme sévère sous traitement lourd. L\'ACT enfant (C-ACT) est validé pour les 4–11 ans.`,
   references: [
     {
       type: 'pubmed',

@@ -6,7 +6,7 @@ const ottawagenou: FormulaDefinition = {
   name: 'Ottawa, Genou (Critères)',
   specialty: 'orthopedie',
   category: 'Genou',
-  description: "Règles d'Ottawa pour le genou — critères cliniques permettant de déterminer la nécessité de réaliser une radiographie en cas de traumatisme du genou, réduisant les examens radiologiques inutiles.",
+  description: "Règles d\'Ottawa pour le genou — critères cliniques permettant de déterminer la nécessité de réaliser une radiographie en cas de traumatisme du genou, réduisant les examens radiologiques inutiles.",
   version: '2024',
   lastValidated: '2024-01',
   evidenceLevel: 'A',
@@ -61,7 +61,7 @@ const ottawagenou: FormulaDefinition = {
     if (!needXray) {
       label = 'Ottawa genou NÉGATIF — Radiographie non nécessaire'
       severity = 'low'
-      recommendation = "Pas de radiographie. Traitement symptomatique : repos, glace, compression. Reprise d'activité progressive. Consultation si persistance des symptômes > 7 jours."
+      recommendation = "Pas de radiographie. Traitement symptomatique : repos, glace, compression. Reprise d\'activité progressive. Consultation si persistance des symptômes > 7 jours."
     } else {
       label = 'Ottawa genou POSITIF — Radiographie indiquée'
       severity = 'moderate'
@@ -86,8 +86,8 @@ const ottawagenou: FormulaDefinition = {
       ],
     }
   },
-  interpretation: "Les **règles d'Ottawa pour le genou** sont des critères cliniques de décision pour la radiographie.\n\n**Une radiographie est indiquée si UN critère est présent :**\n- Âge ≥ 55 ans\n- Douleur isolée de la rotule (sans autre douleur osseuse)\n- Douleur à la tête de la fibula\n- Incapacité de fléchir le genou à 90°\n- Incapacité de faire 4 pas (immédiatement ET à l'examen)\n\n**Performance :** sensibilité 98-100%, spécificité 25-48%.",
-  clinicalCommentary: "Les règles d'Ottawa genou sont validées pour les traumatismes aigus (moins de 7 jours). Elles permettent de réduire les radiographies inutiles de 25% sans augmenter le risque de fracture méconnue. Attention : ne s'applique pas aux patients polytraumatisés, aux plaies pénétrantes, aux fractures évidentes, ou en cas d'intoxication. Le critère d'incapacité de mise en charge est le plus puissant prédicteur de fracture.",
+  interpretation: "Les **règles d\'Ottawa pour le genou** sont des critères cliniques de décision pour la radiographie.\n\n**Une radiographie est indiquée si UN critère est présent :**\n- Âge ≥ 55 ans\n- Douleur isolée de la rotule (sans autre douleur osseuse)\n- Douleur à la tête de la fibula\n- Incapacité de fléchir le genou à 90°\n- Incapacité de faire 4 pas (immédiatement ET à l\'examen)\n\n**Performance :** sensibilité 98-100%, spécificité 25-48%.",
+  clinicalCommentary: "Les règles d\'Ottawa genou sont validées pour les traumatismes aigus (moins de 7 jours). Elles permettent de réduire les radiographies inutiles de 25% sans augmenter le risque de fracture méconnue. Attention : ne s\'applique pas aux patients polytraumatisés, aux plaies pénétrantes, aux fractures évidentes, ou en cas d\'intoxication. Le critère d\'incapacité de mise en charge est le plus puissant prédicteur de fracture.",
   references: [
     {
       type: 'pubmed',

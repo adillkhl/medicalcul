@@ -95,7 +95,7 @@ const four: FormulaDefinition = {
 **R — Respiration** (0–4) : patterns respiratoires
 
 **Total : 0–16.** Avantages par rapport au GCS : évalue les réflexes du tronc cérébral, détecte les myoclonies, reconnaît le Locked-In Syndrome, ne nécessite pas la réponse verbale.`,
-  clinicalCommentary: `Le FOUR est supérieur au GCS chez les patients intubés, sédatés, ou avec Locked-In Syndrome. Il est validé en réanimation neurologique. Permet de détecter une hernie transtentielle précocement (perte des réflexes du tronc). L'item respiration est particulièrement utile pour les patients ventilés. En pratique, le GCS reste plus utilisé en préhospitalier et aux urgences, le FOUR est préféré en réanimation neurologique. Un score FOUR ≤ 4 est corrélé à une très mauvaise évolution neurologique.`,
+  clinicalCommentary: `Le FOUR est supérieur au GCS chez les patients intubés, sédatés, ou avec Locked-In Syndrome. Il est validé en réanimation neurologique. Permet de détecter une hernie transtentielle précocement (perte des réflexes du tronc). L\'item respiration est particulièrement utile pour les patients ventilés. En pratique, le GCS reste plus utilisé en préhospitalier et aux urgences, le FOUR est préféré en réanimation neurologique. Un score FOUR ≤ 4 est corrélé à une très mauvaise évolution neurologique.`,
   references: [
     {
       type: 'pubmed',

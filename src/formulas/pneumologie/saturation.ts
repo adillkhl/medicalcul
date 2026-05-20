@@ -26,8 +26,8 @@ const saturation: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `La SpO2 est une estimation non invasive de la saturation arterielle. Normale: > 94-95% chez l'adulte sain.`,
-  clinicalCommentary: `La SpO2 peut etre faussement normale si hyperoxie, Hb anormale (COHb), ou bas debit peripherique. Une SpO2 < 90% definit l'hypoxemie.`,
+  interpretation: `La SpO2 est une estimation non invasive de la saturation arterielle. Normale: > 94-95% chez l\'adulte sain.`,
+  clinicalCommentary: `La SpO2 peut etre faussement normale si hyperoxie, Hb anormale (COHb), ou bas debit peripherique. Une SpO2 < 90% definit l\'hypoxemie.`,
   references: [
     {type:`pubmed`,title:`O Driscoll BR et al. Thorax 2017`,pmid:`27231116`}
   ],

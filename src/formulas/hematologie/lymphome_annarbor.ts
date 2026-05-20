@@ -7,11 +7,11 @@ const lymphome_annarbor: FormulaDefinition = {
   description: `Classification des lymphomes (hodgkinien et non hodgkinien) selon le stade Ann Arbor (I-IV)`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
-    {id:`atteintes`,type:`radio`,label:`Nombre d'aires ganglionnaires atteintes`,options:[
+    {id:`atteintes`,type:`radio`,label:`Nombre d\'aires ganglionnaires atteintes`,options:[
       {value:0,label:`1 aire ganglionnaire`},
       {value:1,label:`≥ 2 aires du meme cote du diaphragme`},
       {value:2,label:`Aires des 2 cotes du diaphragme`},
-      {value:3,label:`Atteinte diffuse d'organes extra-lymphatiques`},
+      {value:3,label:`Atteinte diffuse d\'organes extra-lymphatiques`},
     ]},
     {id:`extraganglionnaire`,type:`radio`,label:`Atteinte extraganglionnaire`,options:[
       {value:0,label:`Aucune`},
@@ -48,8 +48,8 @@ const lymphome_annarbor: FormulaDefinition = {
         {min:4,max:4,label:'Stade IV - Atteinte diffuse extra-lymphatique',severity:'high'},
       ]}
   },
-  interpretation: `Classification de stade des lymphomes:<br/>• Stade I: 1 seule aire ganglionnaire<br/>• Stade II: ≥ 2 aires du meme cote du diaphragme<br/>• Stade III: aires des 2 cotes du diaphragme<br/>• Stade IV: atteinte diffuse d'organes extra-lymphatiques<br/><br/>Suffixes: E = atteinte extraganglionnaire localisee, S = splenique<br/>Symptomes B: fievre, sueurs nocturnes, perte de poids<br/>A = asymptomatique, B = symptomes presents`,
-  clinicalCommentary: `La classification Ann Arbor a ete modifiee par la classification de Cotswolds (1989). Pour les lymphomes non hodgkiniens, le stade Ann Arbor est utilise conjointement avec l'IPI. L'evaluation du stade necessite un bilan complet: TDM TAP/TEP, biopsie ganglionnaire/medullaire.`,
+  interpretation: `Classification de stade des lymphomes:<br/>• Stade I: 1 seule aire ganglionnaire<br/>• Stade II: ≥ 2 aires du meme cote du diaphragme<br/>• Stade III: aires des 2 cotes du diaphragme<br/>• Stade IV: atteinte diffuse d\'organes extra-lymphatiques<br/><br/>Suffixes: E = atteinte extraganglionnaire localisee, S = splenique<br/>Symptomes B: fievre, sueurs nocturnes, perte de poids<br/>A = asymptomatique, B = symptomes presents`,
+  clinicalCommentary: `La classification Ann Arbor a ete modifiee par la classification de Cotswolds (1989). Pour les lymphomes non hodgkiniens, le stade Ann Arbor est utilise conjointement avec l\'IPI. L\'evaluation du stade necessite un bilan complet: TDM TAP/TEP, biopsie ganglionnaire/medullaire.`,
   references: [
     {type:`pubmed`,title:`Carbone PP et al. Cancer Res 1971`,pmid:`5124207`},
     {type:`pubmed`,title:`Lister TA et al. J Clin Oncol 1989`,pmid:`2677091`},

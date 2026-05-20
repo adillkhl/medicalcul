@@ -97,8 +97,8 @@ const bisap: FormulaDefinition = {
 | 3     | ~ 6-8 % |
 | 4-5   | ~ 12-20 % |
 
-Avantage : simplicité, se calcule en quelques minutes à l'admission, sans TDM nécessaire.`,
-  clinicalCommentary: `Le BISAP est un excellent outil de triage à l'admission. Il ne nécessite que des données cliniques et biologiques basiques. Sa valeur pronostique est comparable à celle du Ranson (qui nécessite 48h) et de l’APACHE II. L'épanchement pleural est un marqueur péjoratif important. Le SIRS est le critère le plus sensible. À utiliser en routine aux urgences.`,
+Avantage : simplicité, se calcule en quelques minutes à l\'admission, sans TDM nécessaire.`,
+  clinicalCommentary: `Le BISAP est un excellent outil de triage à l\'admission. Il ne nécessite que des données cliniques et biologiques basiques. Sa valeur pronostique est comparable à celle du Ranson (qui nécessite 48h) et de l’APACHE II. L\'épanchement pleural est un marqueur péjoratif important. Le SIRS est le critère le plus sensible. À utiliser en routine aux urgences.`,
   references: [
     {
       type: 'pubmed',

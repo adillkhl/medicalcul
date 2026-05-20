@@ -121,8 +121,8 @@ const meldNa: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `Le **MELD-Na** améliore le score MELD en intégrant la natrémie, facteur pronostique majeur dans la cirrhose ascitique.\n\n**Formule** :\nMELD-Na = MELD + 1.32 × (137 - Na) - 0.033 × MELD × (137 - Na)\n\nAvec Na contrainte entre 125 et 140 mmol/L.\n\nL'hyponatrémie (< 135 mmol/L) est fréquente dans la cirrhose décompensée et constitue un facteur de mauvais pronostic indépendant. Le MELD-Na améliore la stratification du risque de mortalité à 3 mois chez les patients cirrhotiques en liste d’attente.`,
-  clinicalCommentary: `Le MELD-Na est utilisé par l’UNOS pour l'attribution des greffons depuis 2016. Il est supérieur au MELD seul pour prédire la mortalité chez les patients avec ascite et hyponatrémie. Attention : le MELD-Na ne doit pas être utilisé si le patient a une hyponatrémie de dilution (si le patient reçoit des diurétiques, la natrémie peut être faussement basse). Toujours vérifier la volémie et l'apport en sel avant d’interpréter.`,
+  interpretation: `Le **MELD-Na** améliore le score MELD en intégrant la natrémie, facteur pronostique majeur dans la cirrhose ascitique.\n\n**Formule** :\nMELD-Na = MELD + 1.32 × (137 - Na) - 0.033 × MELD × (137 - Na)\n\nAvec Na contrainte entre 125 et 140 mmol/L.\n\nL\'hyponatrémie (< 135 mmol/L) est fréquente dans la cirrhose décompensée et constitue un facteur de mauvais pronostic indépendant. Le MELD-Na améliore la stratification du risque de mortalité à 3 mois chez les patients cirrhotiques en liste d’attente.`,
+  clinicalCommentary: `Le MELD-Na est utilisé par l’UNOS pour l\'attribution des greffons depuis 2016. Il est supérieur au MELD seul pour prédire la mortalité chez les patients avec ascite et hyponatrémie. Attention : le MELD-Na ne doit pas être utilisé si le patient a une hyponatrémie de dilution (si le patient reçoit des diurétiques, la natrémie peut être faussement basse). Toujours vérifier la volémie et l\'apport en sel avant d’interpréter.`,
   references: [
     {
       type: 'pubmed',

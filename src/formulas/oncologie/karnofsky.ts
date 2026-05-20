@@ -84,8 +84,8 @@ const karnofsky: FormulaDefinition = {
       ],
     }
   },
-  interpretation: "L'**échelle de Karnofsky** (KPS, 0-100%) évalue l'état général du patient cancéreux.\n\n**Correspondance avec l'ECOG :**\n- KPS 100% = ECOG 0\n- KPS 80-90% = ECOG 1\n- KPS 60-70% = ECOG 2\n- KPS 40-50% = ECOG 3\n- KPS < 40% = ECOG 4\n\n**Seuil thérapeutique :** KPS ≥ 60% → chimiothérapie possible. KPS < 60% → soins de support.",
-  clinicalCommentary: "Le KPS est utilisé depuis les années 1950 et reste l'un des indicateurs pronostiques les plus puissants en oncologie. Il est corrélé à la survie, à la réponse au traitement et à la qualité de vie. Le KPS est souvent préféré à l'ECOG dans les essais cliniques américains, tandis que l'ECOG est plus utilisé en Europe. Les deux échelles sont interchangeables à l'aide de tables de conversion.",
+  interpretation: "L'**échelle de Karnofsky** (KPS, 0-100%) évalue l\'état général du patient cancéreux.\n\n**Correspondance avec l\'ECOG :**\n- KPS 100% = ECOG 0\n- KPS 80-90% = ECOG 1\n- KPS 60-70% = ECOG 2\n- KPS 40-50% = ECOG 3\n- KPS < 40% = ECOG 4\n\n**Seuil thérapeutique :** KPS ≥ 60% → chimiothérapie possible. KPS < 60% → soins de support.",
+  clinicalCommentary: "Le KPS est utilisé depuis les années 1950 et reste l\'un des indicateurs pronostiques les plus puissants en oncologie. Il est corrélé à la survie, à la réponse au traitement et à la qualité de vie. Le KPS est souvent préféré à l\'ECOG dans les essais cliniques américains, tandis que l\'ECOG est plus utilisé en Europe. Les deux échelles sont interchangeables à l\'aide de tables de conversion.",
   references: [
     {
       type: 'pubmed',

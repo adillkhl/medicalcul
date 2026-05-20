@@ -99,7 +99,7 @@ const stadenvip: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `La classification française de **l'envenimation vipérine** comporte 4 grades :
+  interpretation: `La classification française de **l\'envenimation vipérine** comporte 4 grades :
 
 - **Grade 0** : Morsure sans envenimation (trace de crochets sans signe clinique)
 - **Grade I** : Envenimation minime — œdème local modéré, pas de signes généraux
@@ -107,7 +107,7 @@ const stadenvip: FormulaDefinition = {
 - **Grade III** : Envenimation sévère — signes généraux sévères, coagulopathie, choc
 
 Le sérum **ViperaTAb®** (immunoglobulines Fab de mouton) est indiqué à partir du grade II.`,
-  clinicalCommentary: `En France, les principales espèces de vipères sont Vipera aspis et Vipera berus. La morsure a lieu principalement au printemps et en été. La décision d'administer le sérum repose sur la présence de signes d'envenimation systémique. Le sérum doit être administré dans les 4 à 6 heures suivant la morsure pour une efficacité maximale. Contre-indications relatives : allergie connue aux protéines de mouton (préférer ViperaTAb® sous surveillance). Toujours vérifier la vaccination antitétanique (VAT).`,
+  clinicalCommentary: `En France, les principales espèces de vipères sont Vipera aspis et Vipera berus. La morsure a lieu principalement au printemps et en été. La décision d\'administer le sérum repose sur la présence de signes d\'envenimation systémique. Le sérum doit être administré dans les 4 à 6 heures suivant la morsure pour une efficacité maximale. Contre-indications relatives : allergie connue aux protéines de mouton (préférer ViperaTAb® sous surveillance). Toujours vérifier la vaccination antitétanique (VAT).`,
   references: [
     {
       type: 'pubmed',

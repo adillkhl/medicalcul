@@ -9,7 +9,7 @@ const mannheim: FormulaDefinition = {
   inputs: [
     {id:`age`,type:`boolean`,label:`Age > 50 ans`,weight:5},
     {id:`femme`,type:`boolean`,label:`Sexe feminin`,weight:5},
-    {id:`insuff_organe`,type:`boolean`,label:`Defaillance d'organe`,weight:7},
+    {id:`insuff_organe`,type:`boolean`,label:`Defaillance d\'organe`,weight:7},
     {id:`cancer`,type:`boolean`,label:`Cancer evolutif`,weight:4},
     {id:`duree`,type:`boolean`,label:`Peritonite > 24h`,weight:4},
     {id:`origine_cc`,type:`boolean`,label:`Origine colique`,weight:4},
@@ -28,7 +28,7 @@ const mannheim: FormulaDefinition = {
       ]}
   },
   interpretation: `Le Mannheim Peritonitis Index evalue le risque de mortalite dans les peritonites. Score > 29 = mortalite > 40%.`,
-  clinicalCommentary: `Valide dans de nombreuses series. L'age, la defaillance d'organe et l'origine colique sont les facteurs les plus ponderes. Necessite une reanimation agressive si score eleve.`,
+  clinicalCommentary: `Valide dans de nombreuses series. L\'age, la defaillance d\'organe et l\'origine colique sont les facteurs les plus ponderes. Necessite une reanimation agressive si score eleve.`,
   references: [
     {type:`pubmed`,title:`Linder MM et al. Chirurg 1987`,pmid:`3608781`}
   ],

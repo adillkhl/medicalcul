@@ -25,7 +25,7 @@ const timi_coronarographique: FormulaDefinition = {
     return {value:retval, label:retlabel, severity:retsev, ranges}
   },
   interpretation: `Le grade TIMI coronarographique evalue le flux distal apres thrombolyse ou angioplastie. TIMI 3 = resultat optimal (reperfusion complete).`,
-  clinicalCommentary: `Utilise en cardiologie interventionnelle pour evaluer le resultat de l'angioplastie. Un TIMI < 3 apres procedure est associe a un moins bon pronostic. Le blush myocardique (perfusion tissulaire) est un complement utile.`,
+  clinicalCommentary: `Utilise en cardiologie interventionnelle pour evaluer le resultat de l\'angioplastie. Un TIMI < 3 apres procedure est associe a un moins bon pronostic. Le blush myocardique (perfusion tissulaire) est un complement utile.`,
   references: [
     {type:`pubmed`,title:`TIMI Study Group. N Engl J Med 1985`,pmid:`2863757`}
   ],

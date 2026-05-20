@@ -56,9 +56,9 @@ const borg: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `L'**échelle de Borg CR-10** (Category Ratio 10) est l'échelle d’auto-évaluation de la dyspnée la plus utilisée en pratique clinique et à l’effort.
+  interpretation: `L'**échelle de Borg CR-10** (Category Ratio 10) est l\'échelle d’auto-évaluation de la dyspnée la plus utilisée en pratique clinique et à l’effort.
 
-Le patient évalue sa sensation d'essoufflement de 0 (aucune) à 10 (maximale).
+Le patient évalue sa sensation d\'essoufflement de 0 (aucune) à 10 (maximale).
 
 **Grades :**
 - 0–1 : très léger
@@ -67,8 +67,8 @@ Le patient évalue sa sensation d'essoufflement de 0 (aucune) à 10 (maximale).
 - 6–8 : très fort
 - 9–10 : extrêmement fort / maximal
 
-L'échelle de Borg est linéaire et permet un suivi reproductible de la dyspnée, notamment lors des épreuves d’effort (test de marche 6 min, épreuve d'effort cardiorespiratoire).`,
-  clinicalCommentary: `L'échelle de Borg est complémentaire du mMRC. Avantage : évalue la dyspnée à l’instant T (pas sur la durée). Très utilisée lors des tests de marche ou de réhabilitation respiratoire. Montrer l'échelle visuelle au patient. Demander « à combien évaluez-vous votre essoufflement ? ». La dyspnée est un symptôme subjectif : le même niveau d’obstruction peut donner des scores très variables selon les patients.`,
+L\'échelle de Borg est linéaire et permet un suivi reproductible de la dyspnée, notamment lors des épreuves d’effort (test de marche 6 min, épreuve d\'effort cardiorespiratoire).`,
+  clinicalCommentary: `L\'échelle de Borg est complémentaire du mMRC. Avantage : évalue la dyspnée à l’instant T (pas sur la durée). Très utilisée lors des tests de marche ou de réhabilitation respiratoire. Montrer l\'échelle visuelle au patient. Demander « à combien évaluez-vous votre essoufflement ? ». La dyspnée est un symptôme subjectif : le même niveau d’obstruction peut donner des scores très variables selon les patients.`,
   references: [
     {
       type: 'pubmed',

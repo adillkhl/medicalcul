@@ -28,7 +28,7 @@ const cockcroft: FormulaDefinition = {
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
   interpretation: `Clairance de la creatinine: (140 - age) x poids / (creat x 0.8136) x (0.85 si femme).`,
-  clinicalCommentary: `Surestime la clairance chez les patients ages et en cas d'obesite. Remplacee par CKD-EPI pour le DFG.`,
+  clinicalCommentary: `Surestime la clairance chez les patients ages et en cas d\'obesite. Remplacee par CKD-EPI pour le DFG.`,
   references: [
     {type:`pubmed`,title:`Cockcroft DW, Gault MH. Nephron 1976`,pmid:`1244564`}
   ],

@@ -27,7 +27,7 @@ const rempbruleadulte: FormulaDefinition = {
     
   },
   interpretation: `Formule de Parkland: 4 mL de Ringer Lactate / kg / % SCB. Moitie dans les 8h, moitie dans les 16h suivantes.`,
-  clinicalCommentary: `Standard international. Adapter le debit a la diurese horaire (objectif: 0.5-1 mL/kg/h chez l'adulte).`,
+  clinicalCommentary: `Standard international. Adapter le debit a la diurese horaire (objectif: 0.5-1 mL/kg/h chez l\'adulte).`,
   references: [
     {type:`pubmed`,title:`Baxter CR, Shires T. Adv Surg 1968`,pmid:`4880290`}
   ],

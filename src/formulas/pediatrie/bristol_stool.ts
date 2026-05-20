@@ -31,8 +31,8 @@ const bristol_stool: FormulaDefinition = {
         {min:6,max:7,label:`Type 6-7 — Diarrhée`,severity:'high'},
       ]}
   },
-  interpretation: `L'échelle de Bristol classe les selles en 7 types selon leur forme et consistance. Types 3-4 : normal. Types 1-2 : constipation (transit lent). Types 5-7 : diarrhée (transit accéléré). Outil validé pour le suivi des troubles fonctionnels intestinaux.`,
-  clinicalCommentary: `Simple, reproductible, utilisable dès l'âge de 4-5 ans avec des pictogrammes. Couramment utilisée pour le suivi de la constipation fonctionnelle de l'enfant et les diarrhées chroniques. Associée aux critères de Rome IV pour le diagnostic du syndrome de l'intestin irritable.`,
+  interpretation: `L\'échelle de Bristol classe les selles en 7 types selon leur forme et consistance. Types 3-4 : normal. Types 1-2 : constipation (transit lent). Types 5-7 : diarrhée (transit accéléré). Outil validé pour le suivi des troubles fonctionnels intestinaux.`,
+  clinicalCommentary: `Simple, reproductible, utilisable dès l\'âge de 4-5 ans avec des pictogrammes. Couramment utilisée pour le suivi de la constipation fonctionnelle de l\'enfant et les diarrhées chroniques. Associée aux critères de Rome IV pour le diagnostic du syndrome de l\'intestin irritable.`,
   references: [
     {type:`pubmed`,title:`Lewis SJ, Heaton KW. Stool form scale as a useful guide to intestinal transit time. Scand J Gastroenterol 1997`,pmid:`9207664`},
     {type:`pubmed`,title:`Rome IV Criteria — Functional GI Disorders (2016)`},

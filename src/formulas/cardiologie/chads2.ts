@@ -31,8 +31,8 @@ const chads2: FormulaDefinition = {
         ]
     return {value:retval, label:retlabel, severity:retsev, ranges}
   },
-  interpretation: `Le score CHADS2 estime le risque d'AVC ischemique chez les patients en fibrillation atriale. Un score ≥ 2 justifie une anticoagulation.`,
-  clinicalCommentary: `Le CHADS2 est progressivement remplace par le CHA2DS2-VASc qui offre une meilleure discrimination pour les faibles risques. L'anticoagulation est recommandee si score ≥ 2 chez l'homme ou ≥ 3 chez la femme.`,
+  interpretation: `Le score CHADS2 estime le risque d\'AVC ischemique chez les patients en fibrillation atriale. Un score ≥ 2 justifie une anticoagulation.`,
+  clinicalCommentary: `Le CHADS2 est progressivement remplace par le CHA2DS2-VASc qui offre une meilleure discrimination pour les faibles risques. L\'anticoagulation est recommandee si score ≥ 2 chez l\'homme ou ≥ 3 chez la femme.`,
   references: [
     {type:`pubmed`,title:`Gage BF et al. JAMA 2001`,pmid:`11453739`}
   ],

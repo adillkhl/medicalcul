@@ -123,14 +123,14 @@ const opioides_equiv: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `Les **équivalences opioïdes** permettent de convertir une dose d'un opioïde en une dose équivalente d'un autre.
+  interpretation: `Les **équivalences opioïdes** permettent de convertir une dose d\'un opioïde en une dose équivalente d\'un autre.
 
 ⚠️ **Règles de prudence :**
 - La tolérance croisée entre opioïdes est **incomplète** : réduire la dose calculée de **25 à 50 %** pour la première administration
 - Les ratios sont des **estimations** ; adapter selon la réponse clinique et les effets secondaires
-- La **méthadone** a une pharmacocinétique complexe (demi-vie longue, risque d'accumulation) : conversion particulièrement risquée, avis spécialisé recommandé
-- En cas de **doute** : demander l'avis d'une équipe de soins palliatifs ou d'un centre de la douleur`,
-  clinicalCommentary: `La conversion d'un opioïde à un autre est une situation à risque d'erreur médicamenteuse. Toujours recalculer la dose après conversion. Pour les patchs de fentanyl : 100 mg/j de morphine PO équivalent ≈ 25 µg/h de fentanyl TD. La rotation des opioïdes peut améliorer l'efficacité antalgique et réduire les effets indésirables. Attention aux interactions médicamenteuses (inhibiteurs du CYP3A4 : antifongiques azolés, macrolides — augmentent les taux d'oxycodone et de fentanyl).`,
+- La **méthadone** a une pharmacocinétique complexe (demi-vie longue, risque d\'accumulation) : conversion particulièrement risquée, avis spécialisé recommandé
+- En cas de **doute** : demander l\'avis d\'une équipe de soins palliatifs ou d\'un centre de la douleur`,
+  clinicalCommentary: `La conversion d\'un opioïde à un autre est une situation à risque d\'erreur médicamenteuse. Toujours recalculer la dose après conversion. Pour les patchs de fentanyl : 100 mg/j de morphine PO équivalent ≈ 25 µg/h de fentanyl TD. La rotation des opioïdes peut améliorer l\'efficacité antalgique et réduire les effets indésirables. Attention aux interactions médicamenteuses (inhibiteurs du CYP3A4 : antifongiques azolés, macrolides — augmentent les taux d\'oxycodone et de fentanyl).`,
   references: [
     {
       type: 'pubmed',

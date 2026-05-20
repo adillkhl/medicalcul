@@ -30,7 +30,7 @@ const lorenz: FormulaDefinition = {
       ]}
   },
   interpretation: `Formule de Lorenz: Poids ideal (kg) = Taille (cm) - 100 - ((Taille - 150) / X)<br/>• Homme: X = 4<br/>• Femme: X = 2<br/><br/>Elle donne un poids ideal plus bas que Broca et est consideree plus precise pour les tailles extremes. Toutefois, comme Broca, elle ne tient pas compte de la masse musculaire ni de la morphologie.`,
-  clinicalCommentary: `Formule surtout utilisee en France. Moins connue que Devine ou Robinson mais parfois preferee pour sa simplicite. Ne tient pas compte de l'age. Comme toute formule de poids ideal, elle donne une approximation qui doit etre adaptee au contexte clinique individuel.`,
+  clinicalCommentary: `Formule surtout utilisee en France. Moins connue que Devine ou Robinson mais parfois preferee pour sa simplicite. Ne tient pas compte de l\'age. Comme toute formule de poids ideal, elle donne une approximation qui doit etre adaptee au contexte clinique individuel.`,
   references: [
     {type:`url`,title:`Formule de Lorenz`,url:`https://fr.wikipedia.org/wiki/Poids_id%C3%A9al`},
   ],

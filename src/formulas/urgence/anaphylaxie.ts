@@ -26,8 +26,8 @@ const anaphylaxie: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `L'anaphylaxie est une reaction d'hypersensibilite systemique severe d'installation rapide. L'adrenaline IM (face antero-laterale de cuisse) est le traitement de premiere ligne.`,
-  clinicalCommentary: `L'adrenaline IM 0.3-0.5 mg (1/1000) est le traitement de premiere ligne. Ne pas retarder l'injection. Les antihistaminiques et corticoides sont des traitements adjuvants de seconde ligne.`,
+  interpretation: `L\'anaphylaxie est une reaction d\'hypersensibilite systemique severe d\'installation rapide. L\'adrenaline IM (face antero-laterale de cuisse) est le traitement de premiere ligne.`,
+  clinicalCommentary: `L\'adrenaline IM 0.3-0.5 mg (1/1000) est le traitement de premiere ligne. Ne pas retarder l\'injection. Les antihistaminiques et corticoides sont des traitements adjuvants de seconde ligne.`,
   references: [
     {type:`pubmed`,title:`Muraro A et al. Allergy 2014`,pmid:`24716825`}
   ],

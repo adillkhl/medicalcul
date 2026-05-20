@@ -16,8 +16,8 @@ const evs: FormulaDefinition = {
         const ranges = [{min:0,max:0,label:'Absente',severity:'low' as const},{min:1,max:1,label:'Legere',severity:'low' as const},{min:2,max:2,label:'Moderee',severity:'moderate' as const},{min:3,max:3,label:'Intense',severity:'high' as const},{min:4,max:4,label:'Extreme',severity:'high' as const}]
       return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `EVS: alternative a l'EVA, mieux comprise par les personnes agees.`,
-  clinicalCommentary: `Utilisee quand l'EVA est difficile (personnes agees, troubles cognitifs).`,
+  interpretation: `EVS: alternative a l\'EVA, mieux comprise par les personnes agees.`,
+  clinicalCommentary: `Utilisee quand l\'EVA est difficile (personnes agees, troubles cognitifs).`,
   references: [
     {type:`pubmed`,title:`Hjermstad MJ. J Pain 2011`,pmid:`21780197`}
   ],

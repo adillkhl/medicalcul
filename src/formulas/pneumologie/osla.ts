@@ -4,7 +4,7 @@ const osla: FormulaDefinition = {
   id: `osla`, slug: `osla`,
   name: `OSA (Apnee du sommeil)`,
   specialty: `pneumologie`, category: `Sommeil`,
-  description: `Classification de l'apnee obstructive du sommeil selon l'IAH`,
+  description: `Classification de l\'apnee obstructive du sommeil selon l\'IAH`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`iah`,type:`number`,label:`IAH (Index Apnee-Hypopnee)`,unit:`/h`},
@@ -22,7 +22,7 @@ const osla: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `Le syndrome d'apnee du sommeil (SAS) est defini par un IAH >= 5/h avec symptomes ou >= 15/h seul.`,
+  interpretation: `Le syndrome d\'apnee du sommeil (SAS) est defini par un IAH >= 5/h avec symptomes ou >= 15/h seul.`,
   clinicalCommentary: `Le traitement par PPC est recommande si IAH >= 30 ou IAH >= 15 avec somnolence diurne ou comorbidites CV.`,
   references: [
     {type:`pubmed`,title:`Kapur VK et al. J Clin Sleep Med 2017`,pmid:`28092060`}

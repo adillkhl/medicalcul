@@ -22,7 +22,7 @@ const albumine_creatinine_ratio: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `Le RAC (albumine/creatinine) sur echantillon est le marqueur de reference de l'atteinte renale.`,
+  interpretation: `Le RAC (albumine/creatinine) sur echantillon est le marqueur de reference de l\'atteinte renale.`,
   clinicalCommentary: `Marqueur precoce de nephropathie diabetique et de risque CV. Dosage sur echantillon aussi fiable que 24h.`,
   references: [
     {type:`pubmed`,title:`KDIGO. Kidney Int 2013`,pmid:`---`}

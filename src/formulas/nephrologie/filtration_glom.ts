@@ -4,7 +4,7 @@ const filtration_glom: FormulaDefinition = {
   id: `filtration_glom`, slug: `filtration_glom`,
   name: `Filtration glomerulaire (Tableau)`,
   specialty: `nephrologie`, category: `Filtration`,
-  description: `Valeurs normales de filtration glomerulaire selon l'age`,
+  description: `Valeurs normales de filtration glomerulaire selon l\'age`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `C`,
   inputs: [
     {id:`age`,type:`number`,label:`Age`,unit:`ans`},
@@ -25,8 +25,8 @@ const filtration_glom: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `Le DFG diminue physiologiquement avec l'age. Seuils KDIGO des stades d'IRC.`,
-  clinicalCommentary: `Le DFG estime par CKD-EPI est preferable. Un DFG < 60 pendant > 3 mois definit l'IRC.`,
+  interpretation: `Le DFG diminue physiologiquement avec l\'age. Seuils KDIGO des stades d\'IRC.`,
+  clinicalCommentary: `Le DFG estime par CKD-EPI est preferable. Un DFG < 60 pendant > 3 mois definit l\'IRC.`,
   references: [
     {type:`pubmed`,title:`KDIGO 2012. Kidney Int 2013`,pmid:`---`}
   ],

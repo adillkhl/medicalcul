@@ -118,8 +118,8 @@ const bref: FormulaDefinition = {
 5. **Go-No-Go** (contrôle inhibiteur) — 0–3
 6. **Préhension** (autonomie environnementale) — 0–3
 
-**Total : 0–18.** Pathologique si < 16. La BREF est sensible au dysfonctionnement frontal mais pas spécifique d'une étiologie particulière.`,
-  clinicalCommentary: `La BREF est un outil de repérage qui ne remplace pas un bilan neuropsychologique complet. Très utile au lit du patient pour suspecter une atteinte frontale. Pathologique si < 16/18, mais les normes dépendent de l'âge et du niveau socioculturel. Attention aux faux négatifs : un patient avec syndrome frontal massif peut réussir quelques items. La BREF est utile dans le diagnostic différentiel : démence fronto-temporale (DFT) vs maladie d’Alzheimer — la DFT donne de moins bons scores à la BREF. L'item de préhension est très spécifique d'atteinte frontale.`,
+**Total : 0–18.** Pathologique si < 16. La BREF est sensible au dysfonctionnement frontal mais pas spécifique d\'une étiologie particulière.`,
+  clinicalCommentary: `La BREF est un outil de repérage qui ne remplace pas un bilan neuropsychologique complet. Très utile au lit du patient pour suspecter une atteinte frontale. Pathologique si < 16/18, mais les normes dépendent de l\'âge et du niveau socioculturel. Attention aux faux négatifs : un patient avec syndrome frontal massif peut réussir quelques items. La BREF est utile dans le diagnostic différentiel : démence fronto-temporale (DFT) vs maladie d’Alzheimer — la DFT donne de moins bons scores à la BREF. L\'item de préhension est très spécifique d\'atteinte frontale.`,
   references: [
     {
       type: 'pubmed',

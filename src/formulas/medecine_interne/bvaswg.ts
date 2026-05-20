@@ -106,8 +106,8 @@ const bvaswg: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `Le **BVAS/WG** (Birmingham Vasculitis Activity Score for Wegener Granulomatosis) évalue l'activité de la granulomatose avec polyangéite (GPA, ex-maladie de Wegener). Un score ≥ 15 indique une maladie sévère justifiant un traitement d'attaque (cyclophosphamide ou rituximab + corticoïdes).`,
-  clinicalCommentary: `Le BVAS original comporte plus d'items. Cette version simplifiée pour la GPA cible les atteintes d'organe principales. En pratique, l'évaluation combine le BVAS/WG, la CRP, le dosage des ANCA (anti-PR3), et la fonction rénale.`,
+  interpretation: `Le **BVAS/WG** (Birmingham Vasculitis Activity Score for Wegener Granulomatosis) évalue l\'activité de la granulomatose avec polyangéite (GPA, ex-maladie de Wegener). Un score ≥ 15 indique une maladie sévère justifiant un traitement d\'attaque (cyclophosphamide ou rituximab + corticoïdes).`,
+  clinicalCommentary: `Le BVAS original comporte plus d\'items. Cette version simplifiée pour la GPA cible les atteintes d\'organe principales. En pratique, l\'évaluation combine le BVAS/WG, la CRP, le dosage des ANCA (anti-PR3), et la fonction rénale.`,
   references: [
     {
       type: 'pubmed',

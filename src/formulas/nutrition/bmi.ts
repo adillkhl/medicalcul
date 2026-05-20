@@ -4,7 +4,7 @@ const bmi: FormulaDefinition = {
   id: `bmi`, slug: `bmi`,
   name: `IMC (Indice de Masse Corporelle)`,
   specialty: `nutrition`, category: `Anthropometrie`,
-  description: `Calcul de l'Indice de Masse Corporelle (poids / taille^2) avec classification OMS`,
+  description: `Calcul de l\'Indice de Masse Corporelle (poids / taille^2) avec classification OMS`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`poids`,type:`number`,label:`Poids (kg)`,unit:`kg`,min:0,max:500,step:0.1,placeholder:`Ex: 70`},
@@ -34,8 +34,8 @@ const bmi: FormulaDefinition = {
         {min:40,max:500,label:'Obesite classe III (morbide)',severity:'high'},
       ]}
   },
-  interpretation: `L'Indice de Masse Corporelle (IMC) = poids (kg) / taille² (m). Classification OMS 2000:<br/>• < 16.5: Denutrition severe<br/>• 16.5-18.4: Insuffisance ponderale<br/>• 18.5-24.9: Corpulence normale<br/>• 25-29.9: Surpoids<br/>• 30-34.9: Obesite classe I (moderee)<br/>• 35-39.9: Obesite classe II (severe)<br/>• ≥ 40: Obesite classe III (morbide)`,
-  clinicalCommentary: `L'IMC est un indicateur simple mais imparfait: ne tient pas compte de la composition corporelle (masse musculaire vs masse grasse). Chez le sujet age (> 65 ans), le seuil de denutrition est IMC < 21. Chez l'asiatique, les seuils de surpoids (23) et obesite (27.5) sont plus bas. L'IMC ne remplace pas une evaluation nutritionnelle complete.`,
+  interpretation: `L\'Indice de Masse Corporelle (IMC) = poids (kg) / taille² (m). Classification OMS 2000:<br/>• < 16.5: Denutrition severe<br/>• 16.5-18.4: Insuffisance ponderale<br/>• 18.5-24.9: Corpulence normale<br/>• 25-29.9: Surpoids<br/>• 30-34.9: Obesite classe I (moderee)<br/>• 35-39.9: Obesite classe II (severe)<br/>• ≥ 40: Obesite classe III (morbide)`,
+  clinicalCommentary: `L\'IMC est un indicateur simple mais imparfait: ne tient pas compte de la composition corporelle (masse musculaire vs masse grasse). Chez le sujet age (> 65 ans), le seuil de denutrition est IMC < 21. Chez l\'asiatique, les seuils de surpoids (23) et obesite (27.5) sont plus bas. L\'IMC ne remplace pas une evaluation nutritionnelle complete.`,
   references: [
     {type:`pubmed`,title:`OMS. World Health Organ Tech Rep Ser 2000`,pmid:`11234459`},
     {type:`pubmed`,title:`Keys A et al. J Chronic Dis 1972`,pmid:`4650929`},

@@ -107,10 +107,10 @@ const paradise: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `Les **critères de Paradise** (1984) sont la référence pour poser l’indication d’amygdalectomie chez l'enfant pour angines récurrentes.
+  interpretation: `Les **critères de Paradise** (1984) sont la référence pour poser l’indication d’amygdalectomie chez l\'enfant pour angines récurrentes.
 
 **Critères stricts (Paradise) :**
-- ≥ 7 épisodes d'angine dans l’année écoulée
+- ≥ 7 épisodes d\'angine dans l’année écoulée
 - OU ≥ 5 épisodes/an pendant 2 ans
 - OU ≥ 3 épisodes/an pendant 3 ans
 - Chaque épisode doit être documenté (fièvre ≥ 38,3°C, exsudats, TDR+)
@@ -121,8 +121,8 @@ const paradise: FormulaDefinition = {
 - Retentissement sur la qualité de vie
 - Échec du traitement médical
 
-L'amygdalectomie n’est pas une procédure banale : hémorragie post-op (1-5%), douleur (7-10 jours), déshydratation.`,
-  clinicalCommentary: `En pratique ORL, les critères de Paradise sont le standard légal et médical pour l’indication d’amygdalectomie chez l'enfant. La HAS et la SFORL recommandent de documenter chaque épisode (carnet de santé, ordo). Attention : ne pas opérer pour des "angines à répétition" non documentées. L'amygdalectomie réduit effectivement le nombre d’angines (NNT ~4), mais le bénéfice décroît avec l'âge. Chez l’adulte, les critères sont moins stricts (≥ 3 épisodes/an documentés). Alternative : amygdalectomie partielle (intracapsulaire) pour le syndrome d’apnée obstructif du sommeil.`,
+L\'amygdalectomie n’est pas une procédure banale : hémorragie post-op (1-5%), douleur (7-10 jours), déshydratation.`,
+  clinicalCommentary: `En pratique ORL, les critères de Paradise sont le standard légal et médical pour l’indication d’amygdalectomie chez l\'enfant. La HAS et la SFORL recommandent de documenter chaque épisode (carnet de santé, ordo). Attention : ne pas opérer pour des "angines à répétition" non documentées. L\'amygdalectomie réduit effectivement le nombre d’angines (NNT ~4), mais le bénéfice décroît avec l\'âge. Chez l’adulte, les critères sont moins stricts (≥ 3 épisodes/an documentés). Alternative : amygdalectomie partielle (intracapsulaire) pour le syndrome d’apnée obstructif du sommeil.`,
   references: [
     {
       type: 'pubmed',

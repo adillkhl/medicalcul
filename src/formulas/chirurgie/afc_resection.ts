@@ -4,7 +4,7 @@ const afc_resection: FormulaDefinition = {
   id: `afc_resection`, slug: `afc_resection`,
   name: `AFC, resection colorectale (Score)`,
   specialty: `chirurgie`, category: `Resection`,
-  description: `Risque operatoire de resection colorectale selon l'Association Francaise de Chirurgie`,
+  description: `Risque operatoire de resection colorectale selon l\'Association Francaise de Chirurgie`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `C`,
   inputs: [
     {id:`denutrition`,type:`boolean`,label:`Denutrition (albumine < 30, perte poids > 10%)`,weight:1},
@@ -26,8 +26,8 @@ const afc_resection: FormulaDefinition = {
         {min:4,max:999,label:'Risque eleve - Discuter rapport benefice/risque',severity:'high'},
       ]}
   },
-  interpretation: `Score AFC pour le risque operatoire de resection colorectale combine les comorbidites et l'urgence.`,
-  clinicalCommentary: `Developpe par l'Association Francaise de Chirurgie. Une optimisation pre-operatoire (nutritionnelle, cardiologique) peut reduire le risque.`,
+  interpretation: `Score AFC pour le risque operatoire de resection colorectale combine les comorbidites et l\'urgence.`,
+  clinicalCommentary: `Developpe par l\'Association Francaise de Chirurgie. Une optimisation pre-operatoire (nutritionnelle, cardiologique) peut reduire le risque.`,
   references: [
     {type:`pubmed`,title:`Alves A et al. Ann Surg 2007`,pmid:`17291951`}
   ],

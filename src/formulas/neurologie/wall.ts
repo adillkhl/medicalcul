@@ -107,7 +107,7 @@ const wall: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `Le **score WALL** évalue la sévérité du syndrome de Wallenberg, également appelé syndrome latéral du bulbe ou syndrome de l’artère cérébelleuse postéro-inférieure (PICA). C'est un AVC du tronc cérébral.
+  interpretation: `Le **score WALL** évalue la sévérité du syndrome de Wallenberg, également appelé syndrome latéral du bulbe ou syndrome de l’artère cérébelleuse postéro-inférieure (PICA). C\'est un AVC du tronc cérébral.
 
 **7 items cliniques (score 0–14) :**
 1. Vertige (0–2)
@@ -118,8 +118,8 @@ const wall: FormulaDefinition = {
 6. Nystagmus / signes oculomoteurs (0–2)
 7. Syndrome de Claude-Bernard-Horner ipsilatéral (0–2)
 
-Les trois signes cardinaux sont : syndrome alterne thermo-algique, ataxie cérébelleuse, et syndrome de Horner. L'IRM cérébrale avec séquence DWI est l’examen clé pour le diagnostic.`,
-  clinicalCommentary: `Le syndrome de Wallenberg est l'un des syndromes AVC les plus trompeurs. Il peut mimer un vertige périphérique, un AIT, ou une migraine. L'IRM DWI du tronc cérébral peut être faussement négative dans les premières 24h. Les complications à surveiller : arrêt respiratoire central, fausses routes, hypotension orthostatique. Le pronostic est généralement favorable si la prise en charge initiale est adaptée (survie > 85%). La rééducation orthophonique de la déglutition est essentielle. Le syndrome de Horner est souvent le signe le plus discret mais le plus spécifique.`,
+Les trois signes cardinaux sont : syndrome alterne thermo-algique, ataxie cérébelleuse, et syndrome de Horner. L\'IRM cérébrale avec séquence DWI est l’examen clé pour le diagnostic.`,
+  clinicalCommentary: `Le syndrome de Wallenberg est l\'un des syndromes AVC les plus trompeurs. Il peut mimer un vertige périphérique, un AIT, ou une migraine. L\'IRM DWI du tronc cérébral peut être faussement négative dans les premières 24h. Les complications à surveiller : arrêt respiratoire central, fausses routes, hypotension orthostatique. Le pronostic est généralement favorable si la prise en charge initiale est adaptée (survie > 85%). La rééducation orthophonique de la déglutition est essentielle. Le syndrome de Horner est souvent le signe le plus discret mais le plus spécifique.`,
   references: [
     {
       type: 'pubmed',

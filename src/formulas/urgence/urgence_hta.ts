@@ -28,8 +28,8 @@ const urgence_hta: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `Urgence hypertensive: PAS > 180 ou PAD > 120 sans atteinte d'organe. Urgence hypertensive: meme PA avec atteinte d'organe cible.`,
-  clinicalCommentary: `L'urgence hypertensive necessite une baisse PA progressive (25% en 2h). En cas d'AVC ischemique, ne pas baisser la PA sauf si > 220/120. Agir vite mais progressivement.`,
+  interpretation: `Urgence hypertensive: PAS > 180 ou PAD > 120 sans atteinte d\'organe. Urgence hypertensive: meme PA avec atteinte d\'organe cible.`,
+  clinicalCommentary: `L\'urgence hypertensive necessite une baisse PA progressive (25% en 2h). En cas d\'AVC ischemique, ne pas baisser la PA sauf si > 220/120. Agir vite mais progressivement.`,
   references: [
     {type:`pubmed`,title:`Williams B et al. Eur Heart J 2018`,pmid:`30165516`}
   ],

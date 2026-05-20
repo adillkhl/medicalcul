@@ -36,8 +36,8 @@ const creatinine_hauteur: FormulaDefinition = {
         {min:0,max:59,label:'Denutrition severe (< 60%)',severity:'high'},
       ]}
   },
-  interpretation: `L'Index Creatinine-Taille (ICT) estime la masse musculaire. La creatinine urinaire des 24h est proportionnelle a la masse musculaire. L'ICT = (creatinine mesuree / creatinine ideale pour la taille) × 100.<br/><br/>• ≥ 90%: Normal<br/>• 60-89%: Denutrition moderee (fonte musculaire)<br/>• < 60%: Denutrition severe`,
-  clinicalCommentary: `L'ICT est un bon marqueur de la masse maigre mais est peu utilise en pratique courante. Necessite un recueil urinaire de 24h fiable, souvent difficile chez le sujet age. Influence par l'insuffisance renale (baisse de l'excretion de creatinine) et par la consommation de viande.`,
+  interpretation: `L\'Index Creatinine-Taille (ICT) estime la masse musculaire. La creatinine urinaire des 24h est proportionnelle a la masse musculaire. L\'ICT = (creatinine mesuree / creatinine ideale pour la taille) × 100.<br/><br/>• ≥ 90%: Normal<br/>• 60-89%: Denutrition moderee (fonte musculaire)<br/>• < 60%: Denutrition severe`,
+  clinicalCommentary: `L\'ICT est un bon marqueur de la masse maigre mais est peu utilise en pratique courante. Necessite un recueil urinaire de 24h fiable, souvent difficile chez le sujet age. Influence par l\'insuffisance renale (baisse de l\'excretion de creatinine) et par la consommation de viande.`,
   references: [
     {type:`pubmed`,title:`Bistrian BR et al. JPEN J Parenter Enteral Nutr 1977`,pmid:`pubmed-link`},
     {type:`pubmed`,title:`Forse RA, Shizgal HM. JPEN 1980`,pmid:`7392162`},

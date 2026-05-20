@@ -4,7 +4,7 @@ const braden: FormulaDefinition = {
   id: `braden`, slug: `braden`,
   name: `Braden (Echelle)`,
   specialty: `dermatologie`, category: `Escarre`,
-  description: `Echelle de risque d'escarre (6 sous-echelles, totale 6-23)`,
+  description: `Echelle de risque d\'escarre (6 sous-echelles, totale 6-23)`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`perception`,type:`radio`,label:`Perception sensorielle`,options:[{value:1,label:`Totalement limite`},{value:2,label:`Tres limite`},{value:3,label:`Legerement limite`},{value:4,label:`Normale`}]},
@@ -26,7 +26,7 @@ const braden: FormulaDefinition = {
         {min:16,max:23,label:'Faible - Prevention standard',severity:'low'},
       ]}
   },
-  interpretation: `L'echelle de Braden evalue le risque d'escarre. Plus le score est bas, plus le risque est eleve. Prevention adaptee au niveau de risque.`,
+  interpretation: `L\'echelle de Braden evalue le risque d\'escarre. Plus le score est bas, plus le risque est eleve. Prevention adaptee au niveau de risque.`,
   clinicalCommentary: `Echelle la plus utilisee en soins infirmiers. Un score <= 12 est associe a un risque eleve justifiant un matelas anti-escarre et des changements de position toutes les 2h.`,
   references: [
     {type:`pubmed`,title:`Bergstrom N et al. Nurs Res 1987`,pmid:`3632864`}

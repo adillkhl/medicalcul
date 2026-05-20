@@ -81,7 +81,7 @@ Alternativement (en mg/dL et g/dL) : Ca_corrigée = Ca_totale + 0,8 × (4 − Al
 - **Normale** : 2,20–2,60 mmol/L
 - **Hypocalcémie** : < 2,20 mmol/L
 - **Hypercalcémie** : > 2,60 mmol/L`,
-  clinicalCommentary: `La calcémie corrigée reste une estimation. En cas d'anomalie de la protidémie ou si le patient est en acidose/alcalose, préférer le dosage du calcium ionisé (Ca2+ libre). En réanimation, le calcium ionisé est plus fiable.`,
+  clinicalCommentary: `La calcémie corrigée reste une estimation. En cas d\'anomalie de la protidémie ou si le patient est en acidose/alcalose, préférer le dosage du calcium ionisé (Ca2+ libre). En réanimation, le calcium ionisé est plus fiable.`,
   references: [
     {
       type: 'pubmed',

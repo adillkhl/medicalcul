@@ -176,7 +176,7 @@ const edssech: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `L'**EDSS** (Expanded Disability Status Scale) de Kurtzke est l'échelle de référence pour quantifier le handicap dans la sclérose en plaques (SEP). Score de 0 (normal) à 10 (décès par SEP).
+  interpretation: `L'**EDSS** (Expanded Disability Status Scale) de Kurtzke est l\'échelle de référence pour quantifier le handicap dans la sclérose en plaques (SEP). Score de 0 (normal) à 10 (décès par SEP).
 
 Il combine :
 - **7 scores fonctionnels (FS)** : pyramidal, cérébelleux, tronc cérébral, sensoriel, sphinctérien, visuel, cérébral (0–5 chacun)
@@ -188,8 +188,8 @@ Il combine :
 - EDSS ≥ 6,0 : aide à la marche nécessaire
 - EDSS ≥ 7,0 : fauteuil roulant
 
-L'EDSS est utilisé pour le suivi évolutif, les décisions thérapeutiques, et comme critère dans les essais cliniques.`,
-  clinicalCommentary: `L'EDSS est l'échelle de référence pour la SEP mais a des limites : pondération importante de la marche, sous-estimation des troubles cognitifs et de la fatigue. Un score EDSS stable ne signifie pas forcément absence d’activité (poussées, IRM). En pratique clinique, on utilise l’EDSS conjointement à l'IRM et à l'évaluation des poussées. La cotation nécessite une formation et environ 20–30 minutes. Le score EDSS 6.0 (canne unilatérale 100 m) est un seuil important pour le pronostic.`,
+L\'EDSS est utilisé pour le suivi évolutif, les décisions thérapeutiques, et comme critère dans les essais cliniques.`,
+  clinicalCommentary: `L\'EDSS est l\'échelle de référence pour la SEP mais a des limites : pondération importante de la marche, sous-estimation des troubles cognitifs et de la fatigue. Un score EDSS stable ne signifie pas forcément absence d’activité (poussées, IRM). En pratique clinique, on utilise l’EDSS conjointement à l\'IRM et à l\'évaluation des poussées. La cotation nécessite une formation et environ 20–30 minutes. Le score EDSS 6.0 (canne unilatérale 100 m) est un seuil important pour le pronostic.`,
   references: [
     {
       type: 'pubmed',

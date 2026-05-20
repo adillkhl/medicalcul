@@ -27,8 +27,8 @@ const rass: FormulaDefinition = {
       {min:4,max:4,label:`+4 Combatif`,severity:`high`},
       ]}
   },
-  interpretation: `Le RASS est l'echelle de sedation-agitation de reference en reanimation (-5 a +4). Objectif: 0 a -2.`,
-  clinicalCommentary: `Remplace Ramsay. L'arret quotidien de la sedation reduit la duree de ventilation mecanique.`,
+  interpretation: `Le RASS est l\'echelle de sedation-agitation de reference en reanimation (-5 a +4). Objectif: 0 a -2.`,
+  clinicalCommentary: `Remplace Ramsay. L\'arret quotidien de la sedation reduit la duree de ventilation mecanique.`,
   references: [
     {type:`pubmed`,title:`Sessler CN et al. Am J Respir Crit Care Med 2002`,pmid:`12421743`}
   ],

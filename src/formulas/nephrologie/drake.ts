@@ -4,7 +4,7 @@ const drake: FormulaDefinition = {
   id: `drake`, slug: `drake`,
   name: `Drake (Index)`,
   specialty: `nephrologie`, category: `Indice`,
-  description: `Index de Drake pour le diagnostic de l'IRA fonctionnelle vs organique`,
+  description: `Index de Drake pour le diagnostic de l\'IRA fonctionnelle vs organique`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `C`,
   inputs: [
     {id:`na_u`,type:`number`,label:`Sodium urinaire`,unit:`mmol/L`},
@@ -24,7 +24,7 @@ const drake: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `La FENa distingue IRA fonctionnelle (< 1%) d'organique (> 2%).`,
+  interpretation: `La FENa distingue IRA fonctionnelle (< 1%) d\'organique (> 2%).`,
   clinicalCommentary: `Faussement basse si cirrhose, ICC ou contraste IV. Utiliser FEUree si diuretiques.`,
   references: [
     {type:`pubmed`,title:`Miller TR et al. Am J Med 1978`,pmid:`757214`}

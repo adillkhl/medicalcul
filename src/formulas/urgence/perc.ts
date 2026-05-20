@@ -58,7 +58,7 @@ const perc: FormulaDefinition = {
 **Si un critère PERC est positif (score ≥ 1)** : ne peut pas exclure l’EP → réaliser un dosage des D-dimères.
 
 La PERC rule ne s’applique QU'aux patients avec une probabilité clinique faible (Wells ≤ 4). Ne pas utiliser si Wells > 4.`,
-  clinicalCommentary: `Excellent outil pour les urgences : évite des D-dimères inutiles chez ~20 % des patients suspects d’EP. Gain de temps et d'argent. Mais piège fréquent : l’utiliser chez des patients à probabilité clinique élevée — c'est formellement contre-indiqué (taux de faux négatifs &gt; 5 %). Toujours évaluer le Wells en premier.`,
+  clinicalCommentary: `Excellent outil pour les urgences : évite des D-dimères inutiles chez ~20 % des patients suspects d’EP. Gain de temps et d\'argent. Mais piège fréquent : l’utiliser chez des patients à probabilité clinique élevée — c\'est formellement contre-indiqué (taux de faux négatifs &gt; 5 %). Toujours évaluer le Wells en premier.`,
   references: [
     {
       type: 'pubmed',

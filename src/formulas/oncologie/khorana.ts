@@ -111,7 +111,7 @@ const khorana: FormulaDefinition = {
     }
   },
   interpretation: "Le **score de Khorana** (2008) stratifie le risque thromboembolique veineux chez les patients cancéreux sous chimiothérapie ambulatoire.\n\n**5 items :**\n- Type de cancer : très haut risque (estomac, pancréas, cerveau) = 2 pts ; haut risque (poumon, gynéco, lymphome, etc.) = 1 pt\n- Plaquettes ≥ 350 G/L : 1 pt\n- Hb < 10 g/dL (ou EPO) : 1 pt\n- Leucocytes > 11 000/mm³ : 1 pt\n- IMC ≥ 35 kg/m² : 1 pt\n\n**Score :** 0 = faible ; 1-2 = intermédiaire ; ≥ 3 = élevé.",
-  clinicalCommentary: "Le score de Khorana a été validé dans plusieurs cohortes. Il est recommandé par l'ASCO (American Society of Clinical Oncology) et l'ESMO pour la décision de prophylaxie antithrombotique primaire ambulatoire. Depuis 2019, les inhibiteurs du facteur Xa (apixaban, rivaroxaban) sont une alternative aux HBPM validée dans les essais cliniques (AVERT, CASSINI). Attention au risque hémorragique, notamment dans les cancers digestifs et urologiques.",
+  clinicalCommentary: "Le score de Khorana a été validé dans plusieurs cohortes. Il est recommandé par l\'ASCO (American Society of Clinical Oncology) et l\'ESMO pour la décision de prophylaxie antithrombotique primaire ambulatoire. Depuis 2019, les inhibiteurs du facteur Xa (apixaban, rivaroxaban) sont une alternative aux HBPM validée dans les essais cliniques (AVERT, CASSINI). Attention au risque hémorragique, notamment dans les cancers digestifs et urologiques.",
   references: [
     {
       type: 'pubmed',

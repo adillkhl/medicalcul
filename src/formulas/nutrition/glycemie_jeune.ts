@@ -36,7 +36,7 @@ const glycemie_jeune: FormulaDefinition = {
       ]}
   },
   interpretation: `Classification OMS des valeurs de glycemie a jeun (8h de jeune):<br/>• < 6.1 mmol/L (< 1.10 g/L): Normale<br/>• 6.1-6.9 mmol/L (1.10-1.25 g/L): Glycemie a jeun anormale (prediabete)<br/>• ≥ 7.0 mmol/L (≥ 1.26 g/L): Diabete<br/><br/>Un diabete est confirme si 2 glycemies a jeun ≥ 7.0 mmol/L ou une HbA1c ≥ 6.5% (48 mmol/mol).`,
-  clinicalCommentary: `Le prediabete (glycemie a jeun 6.1-6.9 mmol/L) est un facteur de risque de progression vers le diabete (5-10%/an). La glycation (HbA1c) est plus fiable pour le suivi mais moins sensible pour le diagnostic. L'HbA1c peut etre faussement basse en cas d'anemie, d'hemoglobinopathie ou d'insuffisance renale.`,
+  clinicalCommentary: `Le prediabete (glycemie a jeun 6.1-6.9 mmol/L) est un facteur de risque de progression vers le diabete (5-10%/an). La glycation (HbA1c) est plus fiable pour le suivi mais moins sensible pour le diagnostic. L\'HbA1c peut etre faussement basse en cas d\'anemie, d\'hemoglobinopathie ou d\'insuffisance renale.`,
   references: [
     {type:`url`,title:`OMS - Definition et diagnostic du diabete 2006`,url:`https://www.who.int/publications/i/item/9241594934`},
     {type:`pubmed`,title:`American Diabetes Association. Diabetes Care 2024`,pmid:`38078555`},

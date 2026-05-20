@@ -93,7 +93,7 @@ const lila: FormulaDefinition = {
     }
   },
   interpretation: `Le **score LILA** est un score clinico-biologique simple pour estimer le risque de fibrose/cirrhose chez les patients consommateurs d’alcool.\n\n**Composantes** :\n- Age > 50 ans (1 pt)\n- GGT > 100 UI/L (1 pt)\n- Ferritine > 300 µg/L (1 pt)\n- Ratio ASAT/ALAT >= 1.5 (2 pts)\n- Plaquettes < 150 x 10^9/L (2 pts)\n\nUn score >= 5 est fortement predictif de cirrhose alcoolique (VPP > 80 %).`,
-  clinicalCommentary: `Le score LILA est utile pour le depistage de la cirrhose alcoolique en medecine generale et en alcoologie. Le ratio De Ritis (ASAT/ALAT > 1.5) est un marqueur classique d'hepatopathie alcoolique. La thrombopenie traduit l’hypertension portale. En cas de score >= 3, un FibroScan est recommande pour confirmer le diagnostic.`,
+  clinicalCommentary: `Le score LILA est utile pour le depistage de la cirrhose alcoolique en medecine generale et en alcoologie. Le ratio De Ritis (ASAT/ALAT > 1.5) est un marqueur classique d\'hepatopathie alcoolique. La thrombopenie traduit l’hypertension portale. En cas de score >= 3, un FibroScan est recommande pour confirmer le diagnostic.`,
   references: [
     {
       type: 'pubmed',

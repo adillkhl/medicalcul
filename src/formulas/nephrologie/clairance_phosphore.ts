@@ -20,7 +20,7 @@ const clairance_phosphore: FormulaDefinition = {
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
   interpretation: `Clairance du phosphore = (PU x CrS) / (PS x CrU). Normale: 10-20 mL/min.`,
-  clinicalCommentary: `La clairance du phosphore diminue avec l'age.`,
+  clinicalCommentary: `La clairance du phosphore diminue avec l\'age.`,
   references: [
     {type:`pubmed`,title:`Bingham SA et al. Br J Nutr 1990`,pmid:`---`}
   ],

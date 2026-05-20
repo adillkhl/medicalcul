@@ -129,8 +129,8 @@ const sdai: FormulaDefinition = {
 | 11 – ≤ 26 | Modérée |
 | > 26 | Élevée |
 
-**Avantage :** pas de formule complexe (contrairement au DAS28). Inclut l'évaluation du médecin.`,
-  clinicalCommentary: `Le SDAI est un score simple et reproductible. La rémission définie par le SDAI ≤ 3,3 est plus stricte que le DAS28 ≤ 2,6. Recommandé par l'EULAR comme critère de rémission dans les essais cliniques.`,
+**Avantage :** pas de formule complexe (contrairement au DAS28). Inclut l\'évaluation du médecin.`,
+  clinicalCommentary: `Le SDAI est un score simple et reproductible. La rémission définie par le SDAI ≤ 3,3 est plus stricte que le DAS28 ≤ 2,6. Recommandé par l\'EULAR comme critère de rémission dans les essais cliniques.`,
   references: [
     {
       type: 'pubmed',

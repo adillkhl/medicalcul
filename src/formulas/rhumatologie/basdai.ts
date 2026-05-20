@@ -122,7 +122,7 @@ const basdai: FormulaDefinition = {
 - Douleur rachidienne nocturne
 - Douleur/gonflement articulaire
 - Douleur enthésitique
-- Moyenne de l'intensité et durée de la raideur matinale
+- Moyenne de l\'intensité et durée de la raideur matinale
 
 **Interprétation :**
 - < 4/10 : maladie inactive ou faible activité
@@ -130,7 +130,7 @@ const basdai: FormulaDefinition = {
 - ≥ 7/10 : activité élevée
 
 **Seuil de décision thérapeutique :** BASDAI ≥ 4 (associé à une échec des AINS) justifie la mise sous biothérapie.`,
-  clinicalCommentary: `Le BASDAI est le score historique mais tend à être remplacé par l'ASDAS (plus discriminant). Utile pour le suivi longitudinal et la décision d'introduction des anti-TNF. Il ne tient pas compte des manifestations extra-articulaires ou de la CRP.`,
+  clinicalCommentary: `Le BASDAI est le score historique mais tend à être remplacé par l\'ASDAS (plus discriminant). Utile pour le suivi longitudinal et la décision d\'introduction des anti-TNF. Il ne tient pas compte des manifestations extra-articulaires ou de la CRP.`,
   references: [
     {
       type: 'pubmed',

@@ -134,7 +134,7 @@ const mwd6: FormulaDefinition = {
 **Interprétation :**
 - < 80% de la théorique : altération significative de la capacité fonctionnelle
 - < 60% : handicap sévère`,
-  clinicalCommentary: `Très utilisé en médecine interne pour évaluer la réserve fonctionnelle (BPCO, IC, fibrose pulmonaire, HTP, myopathies). La distance minimale cliniquement importante (MCID) est d'environ 30 m. Toujours réaliser 2 tests à 30 min d'intervalle (effet apprentissage). Contre-indications : IDM récent (< 1 mois), angor instable.`,
+  clinicalCommentary: `Très utilisé en médecine interne pour évaluer la réserve fonctionnelle (BPCO, IC, fibrose pulmonaire, HTP, myopathies). La distance minimale cliniquement importante (MCID) est d\'environ 30 m. Toujours réaliser 2 tests à 30 min d\'intervalle (effet apprentissage). Contre-indications : IDM récent (< 1 mois), angor instable.`,
   references: [
     {
       type: 'pubmed',

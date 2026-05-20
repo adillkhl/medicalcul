@@ -162,7 +162,7 @@ const basfi: FormulaDefinition = {
 - < 4 : retentissement fonctionnel faible
 - 4–7 : retentissement modéré
 - ≥ 7 : retentissement sévère`,
-  clinicalCommentary: `Le BASFI est utilisé conjointement avec le BASDAI pour évaluer l'impact de la spondylarthrite. Une amélioration ≥ 2 points est considérée comme cliniquement significative. Le BASFI est sensible au changement après biothérapie.`,
+  clinicalCommentary: `Le BASFI est utilisé conjointement avec le BASDAI pour évaluer l\'impact de la spondylarthrite. Une amélioration ≥ 2 points est considérée comme cliniquement significative. Le BASFI est sensible au changement après biothérapie.`,
   references: [
     {
       type: 'pubmed',

@@ -4,7 +4,7 @@ const hypothermie: FormulaDefinition = {
   id: `hypothermie`, slug: `hypothermie`,
   name: `Hypothermie (Gravite)`,
   specialty: `urgence`, category: `Temperature`,
-  description: `Classification de la severite de l'hypothermie accidentelle`,
+  description: `Classification de la severite de l\'hypothermie accidentelle`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `B`,
   inputs: [
     {id:`temperature`,type:`number`,label:`Temperature centrale`,unit:`°C`},
@@ -30,8 +30,8 @@ const hypothermie: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `L'hypothermie accidentelle se definit par une temperature centrale < 35°C. Le stade severite guide le rechauffement.`,
-  clinicalCommentary: `L'arret cardiaque hypothermique est reversible si on rechauffe. La RCP peut etre prolongee. Pas de limites d'age pour la RCP. ECMO si disponible.`,
+  interpretation: `L\'hypothermie accidentelle se definit par une temperature centrale < 35°C. Le stade severite guide le rechauffement.`,
+  clinicalCommentary: `L\'arret cardiaque hypothermique est reversible si on rechauffe. La RCP peut etre prolongee. Pas de limites d\'age pour la RCP. ECMO si disponible.`,
   references: [
     {type:`pubmed`,title:`Brown DJ et al. N Engl J Med 2012`,pmid:`23117979`}
   ],

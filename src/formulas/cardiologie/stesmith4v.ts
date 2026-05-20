@@ -49,8 +49,8 @@ Les 4 variables sont :
 3. Sous-decalage ST a 60 ms apres J point en V4
 4. Produit de Cornell (R aVL + S V3) x duree QRS
 
-L'ajout du produit de Cornell permet de mieux distinguer les sus-ST lies a l'HVG de ceux lies au SCA.`,
-  clinicalCommentary: `L'equation 4 variables est plus specifique que la version 3 variables grace a l’ajout du produit de Cornell qui corrige pour l'HVG. Utile chez les patients hypertendus avec HVG connue. Meme remarque : ne remplace pas le jugement clinique. Si le patient a une douleur typique + sus-ST, la decision de coronarographie est clinique avant tout.`,
+L\'ajout du produit de Cornell permet de mieux distinguer les sus-ST lies a l\'HVG de ceux lies au SCA.`,
+  clinicalCommentary: `L\'equation 4 variables est plus specifique que la version 3 variables grace a l’ajout du produit de Cornell qui corrige pour l\'HVG. Utile chez les patients hypertendus avec HVG connue. Meme remarque : ne remplace pas le jugement clinique. Si le patient a une douleur typique + sus-ST, la decision de coronarographie est clinique avant tout.`,
   references: [
     {
       type: 'pubmed',

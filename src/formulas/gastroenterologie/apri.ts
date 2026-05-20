@@ -97,7 +97,7 @@ const apri: FormulaDefinition = {
 | ≥ 2.0 | Cirrhose (F4) — Spécificité > 95 % |
 
 Validé initialement dans l’hépatite C, utilisable dans les hépatopathies virales, NAFLD, et alcooliques.`,
-  clinicalCommentary: `L'APRI est un excellent test de première intention, gratuit et toujours disponible. Limite : moins performant que le FIB-4 ou le FibroScan® pour les stades intermédiaires. En cas de score ≥ 1.0, adresser systématiquement en hépatologie. L'APRI est moins fiable en cas de cytolyse aiguë (AST très élevée). Ne pas utiliser seul pour décider d’un traitement.`,
+  clinicalCommentary: `L\'APRI est un excellent test de première intention, gratuit et toujours disponible. Limite : moins performant que le FIB-4 ou le FibroScan® pour les stades intermédiaires. En cas de score ≥ 1.0, adresser systématiquement en hépatologie. L\'APRI est moins fiable en cas de cytolyse aiguë (AST très élevée). Ne pas utiliser seul pour décider d’un traitement.`,
   references: [
     {
       type: 'pubmed',

@@ -73,8 +73,8 @@ const defSodium: FormulaDefinition = {
 - Eau corporelle totale = Poids × 0,6 (homme) ou 0,5 (femme)
 - Na_cible recommandée : 130 mmol/L (ne pas dépasser 135 pour éviter surcorrection)
 
-**Règle de sécurité :** Correction maximale de 8–10 mmol/L en 24 h. Utiliser la formule d'Adrogué pour déterminer le soluté et le débit.`,
-  clinicalCommentary: `L'hyponatrémie est la première anomalie ionique en médecine interne. Distinguer hypotonique (vraie) vs hypertonique (hyperglycémie) vs isotonique (pseudohyponatrémie). La correction en NaCl 3% (513 mmol/L) est réservée aux formes sévères symptomatiques.`,
+**Règle de sécurité :** Correction maximale de 8–10 mmol/L en 24 h. Utiliser la formule d\'Adrogué pour déterminer le soluté et le débit.`,
+  clinicalCommentary: `L\'hyponatrémie est la première anomalie ionique en médecine interne. Distinguer hypotonique (vraie) vs hypertonique (hyperglycémie) vs isotonique (pseudohyponatrémie). La correction en NaCl 3% (513 mmol/L) est réservée aux formes sévères symptomatiques.`,
   references: [
     {
       type: 'pubmed',

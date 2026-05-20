@@ -105,11 +105,11 @@ const depistbpco: FormulaDefinition = {
 - IMC < 25,5 (0–1)
 - Toux matinale (0–1)
 - Expectorations (0–1)
-- Dyspnée d'effort (0–2)
-- Absence d'allergies (0–1)
+- Dyspnée d\'effort (0–2)
+- Absence d\'allergies (0–1)
 
 **Score : 0–10.** Un score ≥ 6 justifie des EFR. Le diagnostic de BPCO repose sur le rapport VEMS/CVF < 0,70 post-bronchodilatateur.`,
-  clinicalCommentary: `Ce questionnaire est utile en médecine générale pour le dépistage ciblé des fumeurs de > 40 ans. L'absence d’allergies augmente la probabilité de BPCO (vs asthme). L'IMC < 25,5 peut refléter l’emphysème (morphotype). Le dépistage précoce permet d’intervenir sur le sevrage tabagique qui est le seul traitement modifiant l'évolution. Le diagnostic définitif repose sur les EFR avec test de réversibilité.`,
+  clinicalCommentary: `Ce questionnaire est utile en médecine générale pour le dépistage ciblé des fumeurs de > 40 ans. L\'absence d’allergies augmente la probabilité de BPCO (vs asthme). L\'IMC < 25,5 peut refléter l’emphysème (morphotype). Le dépistage précoce permet d’intervenir sur le sevrage tabagique qui est le seul traitement modifiant l\'évolution. Le diagnostic définitif repose sur les EFR avec test de réversibilité.`,
   references: [
     {
       type: 'pubmed',

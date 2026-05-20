@@ -28,7 +28,7 @@ const mdrd: FormulaDefinition = {
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
   interpretation: `MDRD: 175 x (creat/88.4)^-1.154 x age^-0.203 x (0.742 si femme) x (1.212 si noir).`,
-  clinicalCommentary: `Moins precise que CKD-EPI pour les DFG > 60. Ne pas utiliser chez l'enfant, la femme enceinte.`,
+  clinicalCommentary: `Moins precise que CKD-EPI pour les DFG > 60. Ne pas utiliser chez l\'enfant, la femme enceinte.`,
   references: [
     {type:`pubmed`,title:`Levey AS et al. Ann Intern Med 1999`,pmid:`10493846`}
   ],

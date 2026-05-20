@@ -2,9 +2,9 @@ import type { FormulaDefinition } from '../types'
 
 const waterlow: FormulaDefinition = {
   id: `waterlow`, slug: `waterlow`,
-  name: `Waterlow (Echelle de risque d'escarre)`,
+  name: `Waterlow (Echelle de risque d\'escarre)`,
   specialty: `geriatrie`, category: `Evaluation du Risque`,
-  description: `Evaluation du risque d'escarre (7 items: IMC, mobilite, incontinence, etc.)`,
+  description: `Evaluation du risque d\'escarre (7 items: IMC, mobilite, incontinence, etc.)`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `B`,
   inputs: [
     {id:`imc`,type:`radio`,label:`Indice de Masse Corporelle`,options:[
@@ -34,7 +34,7 @@ const waterlow: FormulaDefinition = {
     {id:`poids_peau`,type:`radio`,label:`Poids / Aspect de la peau`,options:[
       {value:0,label:`Saine / Normale`},
       {value:1,label:`Fine / Seche / Oedeme`},
-      {value:2,label:`L'etait du papier a cigarette / Cyanose`},
+      {value:2,label:`L\'etait du papier a cigarette / Cyanose`},
       {value:3,label:`Fissuree / Escarre stade 1`},
     ]},
     {id:`sexe_age`,type:`radio`,label:`Sexe et age`,options:[
@@ -61,7 +61,7 @@ const waterlow: FormulaDefinition = {
         {min:20,max:99,label:'Risque tres eleve - Prevention intensive',severity:'high'},
       ]}
   },
-  interpretation: `L'echelle de Waterlow evalue le risque d'escarre. Plus le score est eleve, plus le risque est important. Un score ≥ 15 justifie des mesures de prevention specifiques (matelas adapte, mobilisation systematique, surveillance cutanee). Reevaluation hebdomadaire recommandee.`,
+  interpretation: `L\'echelle de Waterlow evalue le risque d\'escarre. Plus le score est eleve, plus le risque est important. Un score ≥ 15 justifie des mesures de prevention specifiques (matelas adapte, mobilisation systematique, surveillance cutanee). Reevaluation hebdomadaire recommandee.`,
   clinicalCommentary: `Echelle plus complete que Braden, integre davantage de facteurs de risque (IMC, age, facteurs specifiques). Utilisee principalement au Royaume-Uni et en Europe. Attention: la ponderation elevee des facteurs de risque peut surestimer le risque chez les patients polypathologiques.`,
   references: [
     {type:`pubmed`,title:`Waterlow J. Care Sci Pract 1988`,pmid:`pubmed-link`},

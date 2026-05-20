@@ -8,7 +8,7 @@ const dlqi: FormulaDefinition = {
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`prurit`,type:`radio`,label:`Prurit / douleur / brulure cutanee`,options:[{value:0,label:`Pas du tout`},{value:1,label:`Un peu`},{value:2,label:`Beaucoup`},{value:3,label:`Tres fortement`}]},
-    {id:`gene`,type:`radio`,label:`Gene / sentiment d'embarras`,options:[{value:0,label:`Non`},{value:1,label:`Un peu`},{value:2,label:`Beaucoup`},{value:3,label:`Tres`}]},
+    {id:`gene`,type:`radio`,label:`Gene / sentiment d\'embarras`,options:[{value:0,label:`Non`},{value:1,label:`Un peu`},{value:2,label:`Beaucoup`},{value:3,label:`Tres`}]},
     {id:`courses`,type:`radio`,label:`Courses / travail / ecole`,options:[{value:0,label:`Pas du tout`},{value:1,label:`Un peu`},{value:2,label:`Beaucoup`},{value:3,label:`Beaucoup`}]},
     {id:`vetements`,type:`radio`,label:`Choix des vetements`,options:[{value:0,label:`Pas du tout`},{value:1,label:`Un peu`},{value:2,label:`Beaucoup`},{value:3,label:`Tres fortement`}]},
     {id:`social`,type:`radio`,label:`Vie sociale / loisirs`,options:[{value:0,label:`Pas du tout`},{value:1,label:`Un peu`},{value:2,label:`Beaucoup`},{value:3,label:`Tres fortement`}]},
@@ -32,7 +32,7 @@ const dlqi: FormulaDefinition = {
       ]}
   },
   interpretation: `Le DLQI est le questionnaire de qualite de vie le plus utilise en dermatologie (10 items, score 0-30). Un score > 10 indique un impact significatif.`,
-  clinicalCommentary: `Valide dans de nombreuses langues et dermatoses. Utilise pour evaluer l'efficacite des traitements. Un changement de 4 points est cliniquement significatif.`,
+  clinicalCommentary: `Valide dans de nombreuses langues et dermatoses. Utilise pour evaluer l\'efficacite des traitements. Un changement de 4 points est cliniquement significatif.`,
   references: [
     {type:`pubmed`,title:`Finlay AY, Khan GK. Clin Exp Dermatol 1994`,pmid:`8033381`}
   ],

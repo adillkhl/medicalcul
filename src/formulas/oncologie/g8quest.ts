@@ -132,7 +132,7 @@ const g8quest: FormulaDefinition = {
     }
   },
   interpretation: "Le **G8** (Onco-Geriatric Screening Tool) est un questionnaire de dépistage de la fragilité gériatrique chez le patient âgé (> 70 ans) atteint de cancer.\n\n**8 items — score total de 0 à 17 :**\n- Alimentation (0-2)\n- Perte de poids (0-3)\n- Mobilité (0-2)\n- Troubles neuropsychologiques (0-1)\n- IMC (0-3)\n- Médicaments (0-2)\n- Auto-évaluation santé (0-1)\n- Âge (0-1)\n\n**Seuil :** ≤ 14 → patient fragilisé nécessitant une évaluation gériatrique complète.",
-  clinicalCommentary: "Le G8 est l'outil de dépistage gériatrique le plus utilisé en oncogériatrie. Sa sensibilité est > 85% pour détecter la fragilité. Un score G8 normal (≥ 15) permet d'éviter une évaluation gériatrique complète dans environ 40% des cas. En cas de G8 ≤ 14, une évaluation gériatrique standardisée (EGS) est nécessaire avant d'initier ou de poursuivre un traitement oncologique. Le G8 est recommandé par l'International Society of Geriatric Oncology (SIOG) et la HAS.",
+  clinicalCommentary: "Le G8 est l\'outil de dépistage gériatrique le plus utilisé en oncogériatrie. Sa sensibilité est > 85% pour détecter la fragilité. Un score G8 normal (≥ 15) permet d\'éviter une évaluation gériatrique complète dans environ 40% des cas. En cas de G8 ≤ 14, une évaluation gériatrique standardisée (EGS) est nécessaire avant d\'initier ou de poursuivre un traitement oncologique. Le G8 est recommandé par l\'International Society of Geriatric Oncology (SIOG) et la HAS.",
   references: [
     {
       type: 'pubmed',

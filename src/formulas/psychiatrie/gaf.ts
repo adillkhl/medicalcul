@@ -4,7 +4,7 @@ const gaf: FormulaDefinition = {
   id: `gaf`, slug: `gaf`,
   name: `Global Assessment of Functioning (GAF)`,
   specialty: `psychiatrie`, category: `Echelles Globales`,
-  description: `Echelle d'evaluation globale du fonctionnement psychologique, social et professionnel (0-100)`,
+  description: `Echelle d\'evaluation globale du fonctionnement psychologique, social et professionnel (0-100)`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`score`,type:`radio`,label:`Niveau de fonctionnement global`,options:[
@@ -39,7 +39,7 @@ const gaf: FormulaDefinition = {
       ]}
   },
   interpretation: `Le GAF (axe V du DSM-IV) evalue le fonctionnement global du patient : psychologique, social et professionnel, sur un continuum allant de la sante (100) a la maladie (1). Ne pas inclure les limitations physiques.`,
-  clinicalCommentary: `Outil simple et largement utilise. Limites : subjectivite, manque de fiabilite inter-juges. Dans le DSM-5, la GAF a ete remplacee par le WHODAS. Neanmoins, reste utilise en pratique clinique. Coter le score le plus bas entre la severite des symptomes et l'alteration du fonctionnement.`,
+  clinicalCommentary: `Outil simple et largement utilise. Limites : subjectivite, manque de fiabilite inter-juges. Dans le DSM-5, la GAF a ete remplacee par le WHODAS. Neanmoins, reste utilise en pratique clinique. Coter le score le plus bas entre la severite des symptomes et l\'alteration du fonctionnement.`,
   references: [
     {type:`pubmed`,title:`Endicott J et al. The Global Assessment Scale. Arch Gen Psychiatry 1976`,pmid:`942250`},
     {type:`guideline`,title:`DSM-IV-TR. Axis V - Global Assessment of Functioning`},

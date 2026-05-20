@@ -90,8 +90,8 @@ const osmoplasma: FormulaDefinition = {
 - **Hyposmolarité** : < 275 mOsm/L
 - **Hyperosmolarité** : > 300 mOsm/L
 
-**Trou osmolaire** : Si l'osmolarité mesurée diffère de la calculée de > 10 mOsm/L, suspecter la présence d'alcools (éthanol, méthanol, éthylène glycol, isopropanol).`,
-  clinicalCommentary: `Formulaire classique en médecine interne et en réanimation. Le trou osmolaire (osmolarité mesurée − osmolarité calculée) est un outil diagnostique clé pour les intoxications aux alcools. Attention : l'osmolarité calculée n'inclut pas l'alcool éthylique.`,
+**Trou osmolaire** : Si l\'osmolarité mesurée diffère de la calculée de > 10 mOsm/L, suspecter la présence d\'alcools (éthanol, méthanol, éthylène glycol, isopropanol).`,
+  clinicalCommentary: `Formulaire classique en médecine interne et en réanimation. Le trou osmolaire (osmolarité mesurée − osmolarité calculée) est un outil diagnostique clé pour les intoxications aux alcools. Attention : l\'osmolarité calculée n\'inclut pas l\'alcool éthylique.`,
   references: [
     {
       type: 'pubmed',

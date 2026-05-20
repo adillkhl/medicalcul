@@ -4,7 +4,7 @@ const rempbruleenfant: FormulaDefinition = {
   id: `rempbruleenfant`, slug: `rempbruleenfant`,
   name: `Brules graves enfants: Remplissage`,
   specialty: `brules`, category: `Remplissage`,
-  description: `Volume de remplissage chez l'enfant brule (3 mL/kg/%SCB + maintenance Holliday-Segar)`,
+  description: `Volume de remplissage chez l\'enfant brule (3 mL/kg/%SCB + maintenance Holliday-Segar)`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `B`,
   inputs: [
     {id:`poids`,type:`number`,label:`Poids`,unit:`kg`},
@@ -25,8 +25,8 @@ const rempbruleenfant: FormulaDefinition = {
       ]}
     
   },
-  interpretation: `Chez l'enfant brule: Parkland a 3 mL/kg/%SCB + maintenance Holliday-Segar. Objectif diurese: 1-2 mL/kg/h.`,
-  clinicalCommentary: `L'enfant a un ratio surface/poids plus eleve, justifiant la formule modifiee a 3 mL/kg. Ne pas oublier les pertes insensibles majorees.`,
+  interpretation: `Chez l\'enfant brule: Parkland a 3 mL/kg/%SCB + maintenance Holliday-Segar. Objectif diurese: 1-2 mL/kg/h.`,
+  clinicalCommentary: `L\'enfant a un ratio surface/poids plus eleve, justifiant la formule modifiee a 3 mL/kg. Ne pas oublier les pertes insensibles majorees.`,
   references: [
     {type:`pubmed`,title:`Jeschke MG et al. Lancet 2018`,pmid:`29631388`}
   ],

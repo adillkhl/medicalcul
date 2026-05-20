@@ -4,7 +4,7 @@ const hematurie: FormulaDefinition = {
   id: `hematurie`, slug: `hematurie`,
   name: `Hematurie (Diagnostic)`,
   specialty: `nephrologie`, category: `Diagnostic`,
-  description: `Classification et prise en charge de l'hematurie`,
+  description: `Classification et prise en charge de l\'hematurie`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `C`,
   inputs: [
     {id:`franche`,type:`radio`,label:`Hematurie`,options:[{value:0,label:`Microscopique (>= 3 GR/champ)`},{value:1,label:`Macroscopique visible`}]},
@@ -24,7 +24,7 @@ const hematurie: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `L'hematurie microscopique (>= 3 GR/champ) ou macroscopique necessite un bilan urologique systematique si > 40 ans ou tabagique.`,
+  interpretation: `L\'hematurie microscopique (>= 3 GR/champ) ou macroscopique necessite un bilan urologique systematique si > 40 ans ou tabagique.`,
   clinicalCommentary: `5% des hematuries microscopiques asymptomatiques revelent un cancer urologique.`,
   references: [
     {type:`pubmed`,title:`Grossfeld GD et al. J Urol 2001`,pmid:`11293735`}

@@ -2,7 +2,7 @@ import type { FormulaDefinition } from '../types'
 
 const iga_nephro: FormulaDefinition = {
   id: `iga_nephro`, slug: `iga_nephro`,
-  name: `Classification de l'Iga Nephropathie (MEST-C / Oxford)`,
+  name: `Classification de l\'Iga Nephropathie (MEST-C / Oxford)`,
   specialty: `pediatrie`, category: `Nephrologie`,
   description: `Classification histopathologique de la nephropathie a IgA selon le score de Oxford MEST-C pour le pronostic renal`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `B`,
@@ -24,13 +24,13 @@ const iga_nephro: FormulaDefinition = {
     return {value:score_global, label:`MEST-C: M${m} E${e} S${s} T${t} C${c}`, severity: sev,
       details:{M:m,E:e,S:s,T:t,C:c},
       ranges:[
-        {min:0,max:1,label:`Risque faible de progression`,severity:`low`,recommendation:`Surveillance annuelle (creatinine, proteinurie, PA). Pas d'immunosuppression systematique.`},
+        {min:0,max:1,label:`Risque faible de progression`,severity:`low`,recommendation:`Surveillance annuelle (creatinine, proteinurie, PA). Pas d\'immunosuppression systematique.`},
         {min:2,max:3,label:`Risque intermediaire de progression`,severity:`moderate`,recommendation:`IEC/ARA2 si proteinurie. Discuter corticotherapie selon proteinurie persistante > 1g/j et fonction renale.`},
         {min:4,max:7,label:`Risque eleve de progression renale`,severity:`high`,recommendation:`Corticotherapie prolongee +/- immunosuppresseurs. Surveillance rapprochee de la fonction renale. Avis nephrologique specialise.`},
       ]}
   },
   interpretation: `La classification MEST-C de Oxford (2017) est le gold standard histopathologique pour la nephropathie a IgA. 5 items : M (hypercellularite mesangiale), E (endocapillaire), S (sclerose), T (atrophie tubulaire/fibrose), C (croissants). Le score T est le plus predictif du pronostic renal a long terme.`,
-  clinicalCommentary: `Utilisee pour la stratification du risque de progression de la maladie renale. Recommandee par KDIGO 2021. Les patients avec T2 ont un risque eleve d'insuffisance renale terminale. La biopsie renale reste indispensable pour le diagnostic et la classification. Ne pas utiliser seule pour la decision therapeutique.`,
+  clinicalCommentary: `Utilisee pour la stratification du risque de progression de la maladie renale. Recommandee par KDIGO 2021. Les patients avec T2 ont un risque eleve d\'insuffisance renale terminale. La biopsie renale reste indispensable pour le diagnostic et la classification. Ne pas utiliser seule pour la decision therapeutique.`,
   references: [
     {type:`pubmed`,title:`Trimarchi H et al. Oxford Classification of IgA nephropathy 2016. Kidney Int 2017`,pmid:`28554733`},
     {type:`guideline`,title:`KDIGO 2021 - Glomerular Diseases`,url:`https://kdigo.org/guidelines/`},

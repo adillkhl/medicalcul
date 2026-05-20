@@ -2,9 +2,9 @@ import type { FormulaDefinition } from '../types'
 
 const francois_berard: FormulaDefinition = {
   id: `francois_berard`, slug: `francois_berard`,
-  name: `Francois-Berard - Classification de l'Anemie Ferriprive`,
+  name: `Francois-Berard - Classification de l\'Anemie Ferriprive`,
   specialty: `hematologie`, category: `Anemie`,
-  description: `Classification de l'anemie par carence martiale selon les valeurs d'hemoglobine, ferritine, coefficient de saturation de la transferrine`,
+  description: `Classification de l\'anemie par carence martiale selon les valeurs d\'hemoglobine, ferritine, coefficient de saturation de la transferrine`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `B`,
   inputs: [
     {id:`hb`,type:`number`,label:`Hemoglobine (g/dL)`,unit:`g/dL`,min:0,max:20,step:0.1,placeholder:`Ex: 10.5`},
@@ -30,7 +30,7 @@ const francois_berard: FormulaDefinition = {
     // Stade de severite
     if (hb < 7) stade = `Anemie severe`
     else if (hb < seuil) stade = `Anemie`
-    else stade = `Pas d'anemie`
+    else stade = `Pas d\'anemie`
     
     // Type de carence
     if (crp > 10) {
@@ -56,8 +56,8 @@ const francois_berard: FormulaDefinition = {
         {min:0,max:seuil-3,label:'Anemie severe',severity:'high'},
       ]}
   },
-  interpretation: `Le diagnostic de carence martiale repose sur:<br/>• Ferritine < 15 ng/mL: carence martiale certaine (inflammation absente)<br/>• Ferritine < 30 ng/mL: carerence martiale probable (meme avec inflammation)<br/>• CST < 16%: carence fonctionnelle<br/>• CRP > 10 mg/L: syndrome inflammatoire compliquant l'interpretation<br/><br/>L'anemie inflammatoire se caracterise par ferritine normale/elevee avec CRP elevee et CST basse.`,
-  clinicalCommentary: `La ferritine est un reactif de phase aigue: elle peut etre faussement normale en cas d'inflammation associee. En cas d'inflammation (CRP > 10), un seuil de ferritine < 100 ng/mL peut encore evoquer une carence martiale. Le coefficient de saturation de la transferrine (CST) est moins sensible a l'inflammation.`,
+  interpretation: `Le diagnostic de carence martiale repose sur:<br/>• Ferritine < 15 ng/mL: carence martiale certaine (inflammation absente)<br/>• Ferritine < 30 ng/mL: carerence martiale probable (meme avec inflammation)<br/>• CST < 16%: carence fonctionnelle<br/>• CRP > 10 mg/L: syndrome inflammatoire compliquant l\'interpretation<br/><br/>L\'anemie inflammatoire se caracterise par ferritine normale/elevee avec CRP elevee et CST basse.`,
+  clinicalCommentary: `La ferritine est un reactif de phase aigue: elle peut etre faussement normale en cas d\'inflammation associee. En cas d\'inflammation (CRP > 10), un seuil de ferritine < 100 ng/mL peut encore evoquer une carence martiale. Le coefficient de saturation de la transferrine (CST) est moins sensible a l\'inflammation.`,
   references: [
     {type:`pubmed`,title:`Guyatt GH et al. CMAJ 1992`,pmid:`1735111`},
     {type:`pubmed`,title:`Weiss G, Goodnough LT. N Engl J Med 2005`,pmid:`15829538`},

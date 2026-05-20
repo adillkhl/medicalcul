@@ -4,7 +4,7 @@ const hyponatremie_diag: FormulaDefinition = {
   id: `hyponatremie_diag`, slug: `hyponatremie_diag`,
   name: `Hyponatremie (Diagnostic)`,
   specialty: `nephrologie`, category: `Sodium`,
-  description: `Approche diagnostique de l'hyponatremie selon l'osmolalite et la volemie`,
+  description: `Approche diagnostique de l\'hyponatremie selon l\'osmolalite et la volemie`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `B`,
   inputs: [
     {id:`osmolalite`,type:`radio`,label:`Osmolalite plasmatique`,options:[{value:0,label:`Hypo-osmolaire (< 280)`},{value:1,label:`Iso-osmolaire (280-295)`},{value:2,label:`Hyper-osmolaire (> 295)`}]},
@@ -28,8 +28,8 @@ const hyponatremie_diag: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `L'hyponatremie est le desordre electrolytique le plus frequent. Classification par osmolalite et volemie.`,
-  clinicalCommentary: `Correction de l'hyponatremie severe (< 125) ne doit pas depasser 8-10 mmol/L/24h pour eviter la myelinolyse.`,
+  interpretation: `L\'hyponatremie est le desordre electrolytique le plus frequent. Classification par osmolalite et volemie.`,
+  clinicalCommentary: `Correction de l\'hyponatremie severe (< 125) ne doit pas depasser 8-10 mmol/L/24h pour eviter la myelinolyse.`,
   references: [
     {type:`pubmed`,title:`Spasovski G et al. Eur J Endocrinol 2014`,pmid:`24569128`}
   ],

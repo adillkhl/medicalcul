@@ -73,7 +73,7 @@ const rankin: FormulaDefinition = {
 - **6** : décès
 
 Le mRS est simple, rapide (5 minutes) et très largement utilisé avec une bonne reproductibilité inter-observateur. Il est l’outil de référence pour évaluer le pronostic fonctionnel des AVC et des maladies neurodégénératives.`,
-  clinicalCommentary: `Le mRS est l'échelle de référence dans les essais cliniques sur l'AVC (critère de jugement principal à 3 mois en général). Le seuil « bon pronostic » est habituellement mRS 0–2 (autonomie). Attention à l’interprétation des scores 2 vs 3 : la différence est souvent subtile (marche seul vs besoin d’aide pour les AVQ). Le score 4 est un seuil important puisqu’il marque la perte de la marche autonome. Le mRS est parfois critiqué pour sa subjectivité — une version structurée (smRSq) améliore la reproductibilité.`,
+  clinicalCommentary: `Le mRS est l\'échelle de référence dans les essais cliniques sur l\'AVC (critère de jugement principal à 3 mois en général). Le seuil « bon pronostic » est habituellement mRS 0–2 (autonomie). Attention à l’interprétation des scores 2 vs 3 : la différence est souvent subtile (marche seul vs besoin d’aide pour les AVQ). Le score 4 est un seuil important puisqu’il marque la perte de la marche autonome. Le mRS est parfois critiqué pour sa subjectivité — une version structurée (smRSq) améliore la reproductibilité.`,
   references: [
     {
       type: 'pubmed',

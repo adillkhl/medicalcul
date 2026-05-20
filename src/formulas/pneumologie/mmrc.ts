@@ -49,17 +49,17 @@ const mmrc: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `L'**échelle mMRC** (modified Medical Research Council) est l'échelle la plus utilisée pour évaluer le retentissement de la dyspnée dans la BPCO et les pathologies respiratoires chroniques.
+  interpretation: `L'**échelle mMRC** (modified Medical Research Council) est l\'échelle la plus utilisée pour évaluer le retentissement de la dyspnée dans la BPCO et les pathologies respiratoires chroniques.
 
 **Grades :**
 - **Grade 0** : pas d’essoufflement sauf effort important
 - **Grade 1** : essoufflement en montant une côte ou en marchant vite
 - **Grade 2** : marche plus lente que les gens du même âge ou doit s’arrêter en marchant à son rythme
-- **Grade 3** : s'arrête après 100 m ou quelques minutes sur le plat
-- **Grade 4** : trop essoufflé pour quitter la maison ou s'habiller
+- **Grade 3** : s\'arrête après 100 m ou quelques minutes sur le plat
+- **Grade 4** : trop essoufflé pour quitter la maison ou s\'habiller
 
 Le mMRC est un des critères de la classification GOLD ABCD (mMRC ≥ 2 = symptomatique). Il est simple, rapide et reproductible.`,
-  clinicalCommentary: `Le mMRC est systématique dans l'évaluation initiale et le suivi de la BPCO. Grade ≥ 2 = seuil de symptômes significatifs (groupe B/D dans GOLD). Le mMRC ne mesure pas la dyspnée instantanée (utiliser Borg pour ça). Simple et rapide (30 secondes), mais moins sensible que le questionnaire CAT (COPD Assessment Test) pour détecter les changements.`,
+  clinicalCommentary: `Le mMRC est systématique dans l\'évaluation initiale et le suivi de la BPCO. Grade ≥ 2 = seuil de symptômes significatifs (groupe B/D dans GOLD). Le mMRC ne mesure pas la dyspnée instantanée (utiliser Borg pour ça). Simple et rapide (30 secondes), mais moins sensible que le questionnaire CAT (COPD Assessment Test) pour détecter les changements.`,
   references: [
     {
       type: 'pubmed',

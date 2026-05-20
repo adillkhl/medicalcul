@@ -7,7 +7,7 @@ const murray: FormulaDefinition = {
   description: `Evaluation de la severite de la lesion pulmonaire aigue (ALI/SDRA) — 4 items : radiographie, hypoxemie, PEEP, compliance`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
-    {id:`radio`,type:`radio`,label:`Radiographie thoracique (nombre de quadrants atteints)`,options:[{value:0,label:`0 quadrant - Pas d'alveolite`},{value:1,label:`1 quadrant - Alveolite unilaterale`},{value:2,label:`2 quadrants`},{value:3,label:`3 quadrants`},{value:4,label:`4 quadrants - Alveolite bilaterale diffuse`}]},
+    {id:`radio`,type:`radio`,label:`Radiographie thoracique (nombre de quadrants atteints)`,options:[{value:0,label:`0 quadrant - Pas d\'alveolite`},{value:1,label:`1 quadrant - Alveolite unilaterale`},{value:2,label:`2 quadrants`},{value:3,label:`3 quadrants`},{value:4,label:`4 quadrants - Alveolite bilaterale diffuse`}]},
     {id:`hypoxemie`,type:`radio`,label:`Hypoxemie - PaO2/FiO2 (mmHg)`,options:[{value:0,label:`>= 300`},{value:1,label:`225-299`},{value:2,label:`175-224`},{value:3,label:`100-174`},{value:4,label:`< 100`}]},
     {id:`peep`,type:`radio`,label:`PEEP (cmH2O) sous ventilation`,options:[{value:0,label:`<= 5`},{value:1,label:`6-8`},{value:2,label:`9-11`},{value:3,label:`12-14`},{value:4,label:`>= 15`}]},
     {id:`compliance`,type:`radio`,label:`Compliance respiratoire statique (mL/cmH2O)`,options:[{value:0,label:`>= 80`},{value:1,label:`60-79`},{value:2,label:`40-59`},{value:3,label:`20-39`},{value:4,label:`< 20`}]},
@@ -36,7 +36,7 @@ const murray: FormulaDefinition = {
       ]}
   },
   interpretation: `Le Murray Lung Injury Score (LIS) evalue la severite de la lesion pulmonaire aigue. 4 items cotes 0-4 : radiographie thoracique (quadrants), hypoxemie (PaO2/FiO2), PEEP, compliance statique. Le LIS est la moyenne des 4 items.`,
-  clinicalCommentary: `Utilise dans la definition de l'ALI et du SDRA avant la definition de Berlin. Encore tres utilise dans la litterature pour quantifier la severite de l'atteinte pulmonaire. Un LIS >= 2.5 definit un SDRA severe. La compliance est mesuree en ventilation controlee (VT / (Pplat - PEEP)). Attention : ne pas utiliser seul pour diagnostiquer le SDRA (definition de Berlin requiert criteres temporels, cardiaques, etc.).`,
+  clinicalCommentary: `Utilise dans la definition de l\'ALI et du SDRA avant la definition de Berlin. Encore tres utilise dans la litterature pour quantifier la severite de l\'atteinte pulmonaire. Un LIS >= 2.5 definit un SDRA severe. La compliance est mesuree en ventilation controlee (VT / (Pplat - PEEP)). Attention : ne pas utiliser seul pour diagnostiquer le SDRA (definition de Berlin requiert criteres temporels, cardiaques, etc.).`,
   references: [
     {type:`pubmed`,title:`Murray JF et al. An expanded definition of the adult respiratory distress syndrome. Am Rev Respir Dis 1988`,pmid:`3279925`},
     {type:`pubmed`,title:`Ranieri VM et al. The Berlin Definition of ARDS. JAMA 2012`,pmid:`22797452`},

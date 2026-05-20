@@ -50,7 +50,7 @@ Le modele utilise une regression logistique integrant 3 variables ECG :
 **Probabilite < 50 %** : repolarisation precoce probable -> surveillance
 
 Cette equation est particulierement utile chez les hommes jeunes avec sus-ST anterieur.`,
-  clinicalCommentary: `L'equation de Smith est surtout utile chez les hommes < 50 ans avec sus-ST antero-septal et suspicion de repolarisation precoce. Elle a ete validee dans des populations avec sus-ST et troponine negative initiale. Attention : elle ne remplace pas l'evaluation clinique, la troponine et les algorithmes standards. Utilisez-la comme outil d’aide a la decision aux urgences devant un ECG suspect.`,
+  clinicalCommentary: `L\'equation de Smith est surtout utile chez les hommes < 50 ans avec sus-ST antero-septal et suspicion de repolarisation precoce. Elle a ete validee dans des populations avec sus-ST et troponine negative initiale. Attention : elle ne remplace pas l\'evaluation clinique, la troponine et les algorithmes standards. Utilisez-la comme outil d’aide a la decision aux urgences devant un ECG suspect.`,
   references: [
     {
       type: 'pubmed',

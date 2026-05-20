@@ -78,7 +78,7 @@ const firstquest: FormulaDefinition = {
 - **0–4/6** : Fibromyalgie peu probable
 
 Le FiRST est un outil de dépistage, pas de diagnostic. En cas de score ≥ 5, une évaluation rhumatologique est recommandée pour confirmer le diagnostic selon les critères ACR 2010/2016.`,
-  clinicalCommentary: `Le FiRST simple et rapide (moins de 2 minutes) est utile en consultation de rhumatologie pour ne pas méconnaître une fibromyalgie devant des douleurs diffuses. Il ne remplace pas l'évaluation clinique complète qui doit éliminer les diagnostics différentiels (PR, spondylarthrite, connectivite, hypothyroïdie).`,
+  clinicalCommentary: `Le FiRST simple et rapide (moins de 2 minutes) est utile en consultation de rhumatologie pour ne pas méconnaître une fibromyalgie devant des douleurs diffuses. Il ne remplace pas l\'évaluation clinique complète qui doit éliminer les diagnostics différentiels (PR, spondylarthrite, connectivite, hypothyroïdie).`,
   references: [
     {
       type: 'pubmed',

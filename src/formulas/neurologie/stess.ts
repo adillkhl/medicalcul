@@ -79,7 +79,7 @@ const stess: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `Le **STESS** (Status Epilepticus Severity Score) est un score clinique simple pour évaluer le pronostic de mortalité dans l'état de mal épileptique (EME).
+  interpretation: `Le **STESS** (Status Epilepticus Severity Score) est un score clinique simple pour évaluer le pronostic de mortalité dans l\'état de mal épileptique (EME).
 
 **4 items :**
 1. Altération préexistante de la conscience (sommeil, confusion, coma) : 1 pt
@@ -93,8 +93,8 @@ const stess: FormulaDefinition = {
 - 4 : risque élevé (mortalité 11%)
 - 5–6 : risque très élevé (mortalité 24%)
 
-Le STESS est validé pour prédire la mortalité hospitalière. Un score ≥ 3 est un facteur de risque d'évolution vers un EME réfractaire.`,
-  clinicalCommentary: `Le STESS est utile aux urgences et en réanimation pour évaluer rapidement le pronostic d'un état de mal épileptique. Attention : le STESS ne prédit pas la réponse au traitement. Les facteurs de risque d’EME réfractaire sont : STESS ≥ 3, étiologie aiguë sévère (encéphalite, AVC, tumeur), âge avancé, et délai de traitement > 1h. Ne pas retarder la prise en charge thérapeutique en attendant le score. L'EEG est indispensable si le patient ne récupère pas rapidement la conscience.`,
+Le STESS est validé pour prédire la mortalité hospitalière. Un score ≥ 3 est un facteur de risque d\'évolution vers un EME réfractaire.`,
+  clinicalCommentary: `Le STESS est utile aux urgences et en réanimation pour évaluer rapidement le pronostic d\'un état de mal épileptique. Attention : le STESS ne prédit pas la réponse au traitement. Les facteurs de risque d’EME réfractaire sont : STESS ≥ 3, étiologie aiguë sévère (encéphalite, AVC, tumeur), âge avancé, et délai de traitement > 1h. Ne pas retarder la prise en charge thérapeutique en attendant le score. L\'EEG est indispensable si le patient ne récupère pas rapidement la conscience.`,
   references: [
     {
       type: 'pubmed',

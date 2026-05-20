@@ -132,7 +132,7 @@ const epworth: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `L'**Échelle de Somnolence d’Epworth** (Epworth Sleepiness Scale, ESS) est le questionnaire d'auto-évaluation le plus utilisé pour mesurer la somnolence diurne excessive.
+  interpretation: `L'**Échelle de Somnolence d’Epworth** (Epworth Sleepiness Scale, ESS) est le questionnaire d\'auto-évaluation le plus utilisé pour mesurer la somnolence diurne excessive.
 
 Le patient évalue son risque de s’endormir (0–3) dans 8 situations de la vie quotidienne. **Total : 0–24.**
 
@@ -143,7 +143,7 @@ Le patient évalue son risque de s’endormir (0–3) dans 8 situations de la vi
 - 13–24 : somnolence sévère (pathologique)
 
 Un score ≥ 11 est évocateur de somnolence diurne excessive et justifie une exploration du sommeil.`,
-  clinicalCommentary: `L'Epworth est le premier outil de dépistage de la somnolence en neurologie. Très utile devant une suspicion de SAHOS, narcolepsie, hypersomnie idiopathique, ou pour évaluer l’impact d’un traitement. Un score > 10 est pathologique. Attention : l'Epworth mesure la somnolence perçue, pas la somnolence réelle objectivée par le TILE (Test Itératif de Latence d'Endormissement). Certains patients minimisent ou n’ont pas conscience de leur somnolence (conduite automobile dangereuse).`,
+  clinicalCommentary: `L\'Epworth est le premier outil de dépistage de la somnolence en neurologie. Très utile devant une suspicion de SAHOS, narcolepsie, hypersomnie idiopathique, ou pour évaluer l’impact d’un traitement. Un score > 10 est pathologique. Attention : l\'Epworth mesure la somnolence perçue, pas la somnolence réelle objectivée par le TILE (Test Itératif de Latence d\'Endormissement). Certains patients minimisent ou n’ont pas conscience de leur somnolence (conduite automobile dangereuse).`,
   references: [
     {
       type: 'pubmed',

@@ -119,8 +119,8 @@ const westley: FormulaDefinition = {
 - 7–11 : Sévère (hospitalisation + adrénaline)
 - ≥ 12 : Très sévère (intubation probable)
 
-Le croup est habituellement viral (parainfluenza type 1). L'adrénaline nébulisée est réservée aux formes sévères avec stridor au repos ; son effet dure 2h.`,
-  clinicalCommentary: `Le croup (laryngite sous-glottique) est une urgence ORL pédiatrique fréquente. Le score de Westley est l'outil de référence pour grader la sévérité et décider de la prise en charge. Piège : ne pas confondre avec une épiglottite (plus rare, plus grave, fièvre élevée + dysphagie + hypersialorrhée + enfant toxique). L'épiglottite ne répond PAS aux corticoïdes ni à l’adrénaline nébulisée — elle nécessite une intubation en environnement sécurisé. Le croup répond bien à la dexaméthasone (dose unique 0,15–0,6 mg/kg). L'adrénaline nébulisée ne se fait qu’en milieu hospitalier avec surveillance scopée.`,
+Le croup est habituellement viral (parainfluenza type 1). L\'adrénaline nébulisée est réservée aux formes sévères avec stridor au repos ; son effet dure 2h.`,
+  clinicalCommentary: `Le croup (laryngite sous-glottique) est une urgence ORL pédiatrique fréquente. Le score de Westley est l\'outil de référence pour grader la sévérité et décider de la prise en charge. Piège : ne pas confondre avec une épiglottite (plus rare, plus grave, fièvre élevée + dysphagie + hypersialorrhée + enfant toxique). L\'épiglottite ne répond PAS aux corticoïdes ni à l’adrénaline nébulisée — elle nécessite une intubation en environnement sécurisé. Le croup répond bien à la dexaméthasone (dose unique 0,15–0,6 mg/kg). L\'adrénaline nébulisée ne se fait qu’en milieu hospitalier avec surveillance scopée.`,
   references: [
     {
       type: 'pubmed',

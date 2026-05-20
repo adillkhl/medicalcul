@@ -82,11 +82,11 @@ const trouanioniqueu: FormulaDefinition = {
   },
   interpretation: `**Trou anionique urinaire :** TA_U = (Na_U + K_U) − Cl_U
 
-- **TA_U < 0** (négatif) : Réponse tubulaire adaptée à l'acidose → **diarrhées** (excrétion urinaire de NH4+ conservée)
-- **TA_U > 10** (positif) : Anomalie de l'excrétion d'ammonium → **acidose tubulaire rénale (ATR)**
+- **TA_U < 0** (négatif) : Réponse tubulaire adaptée à l\'acidose → **diarrhées** (excrétion urinaire de NH4+ conservée)
+- **TA_U > 10** (positif) : Anomalie de l\'excrétion d\'ammonium → **acidose tubulaire rénale (ATR)**
 
-**Limites :** Le TA urinaire n'est pas fiable en cas d'alcalose métabolique, d'hypovolémie sévère, ou de prise de diurétiques.`,
-  clinicalCommentary: `Le TA urinaire aide à distinguer entre acidose métabolique d'origine digestive (diarrhée) et rénale (ATR). Un TA urinaire négatif oriente vers une perte digestive de bicarbonates, un TA urinaire positif vers une ATR (distale ou proximale).`,
+**Limites :** Le TA urinaire n\'est pas fiable en cas d\'alcalose métabolique, d\'hypovolémie sévère, ou de prise de diurétiques.`,
+  clinicalCommentary: `Le TA urinaire aide à distinguer entre acidose métabolique d\'origine digestive (diarrhée) et rénale (ATR). Un TA urinaire négatif oriente vers une perte digestive de bicarbonates, un TA urinaire positif vers une ATR (distale ou proximale).`,
   references: [
     {
       type: 'pubmed',

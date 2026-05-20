@@ -92,13 +92,13 @@ const nacorrigee: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `**Natrémie corrigée pour l'hyperglycémie :**
+  interpretation: `**Natrémie corrigée pour l\'hyperglycémie :**
 - Na_corrigé = Na_mesuré + (Glycémie − 5,5) × 1,6 / 5,5
 - Règle simplifiée : Na_corrigé ≈ Na + (Glycémie − 5,5) × 0,3
 
-**Pseudohyponatrémie :** En cas d'hypertriglycéridémie ou d'hyperprotéinémie, le sodium mesuré est abaissé artificiellement. Le dosage par électrode ionique sélective (potentiométrie directe) corrige ce biais.
+**Pseudohyponatrémie :** En cas d\'hypertriglycéridémie ou d\'hyperprotéinémie, le sodium mesuré est abaissé artificiellement. Le dosage par électrode ionique sélective (potentiométrie directe) corrige ce biais.
 
-**Conduite :** Ne pas traiter une pseudohyponatrémie. Traiter la cause sous-jacente de l'hyperglycémie.`,
+**Conduite :** Ne pas traiter une pseudohyponatrémie. Traiter la cause sous-jacente de l\'hyperglycémie.`,
   clinicalCommentary: `Distinction essentielle en médecine interne : hyponatrémie hypotonique (vraie) vs hypertonique (hyperglycémie) vs isotonique (pseudohyponatrémie). La natrémie corrigée est calculée par le laboratoire si le dosage est fait par potentiométrie indirecte.`,
   references: [
     {

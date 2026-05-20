@@ -7,7 +7,7 @@ const short_physical: FormulaDefinition = {
   description: `Batterie de tests physiques: equilibre, vitesse de marche, lever de chaise (score 0-12)`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
-    {id:`equilibre`,type:`radio`,label:`Test d'equilibre (pieds joints, semi-tandem, tandem 10s)`,options:[
+    {id:`equilibre`,type:`radio`,label:`Test d\'equilibre (pieds joints, semi-tandem, tandem 10s)`,options:[
       {value:0,label:`Impossible`},
       {value:1,label:`Tandem < 10s`},
       {value:2,label:`Tandem 10s, semi-tandem < 10s`},
@@ -39,7 +39,7 @@ const short_physical: FormulaDefinition = {
         {min:0,max:6,label:'Faible performance - Fragilite elevee',severity:'high'},
       ]}
   },
-  interpretation: `Le SPPB evalue la fonction physique des personnes agees a travers 3 tests: equilibre statique, vitesse de marche (4m) et lever de chaise. Chaque test est note de 0 a 4, score total 0-12. Un score ≤ 6 est associe a un risque eleve de chute, d'hospitalisation et de perte d'autonomie.`,
+  interpretation: `Le SPPB evalue la fonction physique des personnes agees a travers 3 tests: equilibre statique, vitesse de marche (4m) et lever de chaise. Chaque test est note de 0 a 4, score total 0-12. Un score ≤ 6 est associe a un risque eleve de chute, d\'hospitalisation et de perte d\'autonomie.`,
   clinicalCommentary: `Le SPPB est un excellent marqueur de fragilite et un predicteur de morbi-mortalite chez le sujet age. Un score ≤ 6 definit la fragilite motrice. Utile pour le suivi de la rehabilitation. Test standardise et reproductible, utilisable en routine clinique (environ 10 min).`,
   references: [
     {type:`pubmed`,title:`Guralnik JM et al. N Engl J Med 1995`,pmid:`7565954`},

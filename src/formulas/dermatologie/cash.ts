@@ -21,10 +21,10 @@ const cash: FormulaDefinition = {
       ranges:[
         {min:0,max:1,label:'Risque faible de melanome',severity:'low'},
         {min:2,max:2,label:'Risque intermediaire - Dermatoscopie + surveillance',severity:'moderate'},
-        {min:3,max:5,label:`Risque eleve - Biopsie excision d'emblee`,severity:'high'},
+        {min:3,max:5,label:`Risque eleve - Biopsie excision d\'emblee`,severity:'high'},
       ]}
   },
-  interpretation: `L'algorithme CASH aide au diagnostic des melanomes. 3 items ou plus = biopsie excision recommandee.`,
+  interpretation: `L\'algorithme CASH aide au diagnostic des melanomes. 3 items ou plus = biopsie excision recommandee.`,
   clinicalCommentary: `Utilise en premiere intention par les dermatologues. La dermatoscopie ameliore la specificite. Toute lesion suspecte doit etre biopsiee (exerese totale).`,
   references: [
     {type:`pubmed`,title:`Argenziano G et al. J Am Acad Dermatol 1998`,pmid:`9525466`}

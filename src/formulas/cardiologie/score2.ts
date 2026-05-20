@@ -30,8 +30,8 @@ const score2: FormulaDefinition = {
         ]
     return {value:retval, label:retlabel, severity:retsev, ranges}
   },
-  interpretation: `SCORE2 est la version 2021 du risque cardiovasculaire, estimant le risque d'infarctus et d'AVC fatals et non fatals. Le calculateur exact est disponible via l'ESC.`,
-  clinicalCommentary: `SCORE2 remplace SCORE et est calibre pour les populations europeennes modernes. L'estimation simplifiee ci-dessus est approximative; utiliser le calculateur officiel ESC pour une evaluation precise.`,
+  interpretation: `SCORE2 est la version 2021 du risque cardiovasculaire, estimant le risque d\'infarctus et d\'AVC fatals et non fatals. Le calculateur exact est disponible via l\'ESC.`,
+  clinicalCommentary: `SCORE2 remplace SCORE et est calibre pour les populations europeennes modernes. L\'estimation simplifiee ci-dessus est approximative; utiliser le calculateur officiel ESC pour une evaluation precise.`,
   references: [
     {type:`pubmed`,title:`SCORE2 Working Group. Eur Heart J 2021`,pmid:`34120177`}
   ],

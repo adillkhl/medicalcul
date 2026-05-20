@@ -20,7 +20,7 @@ const apache2: FormulaDefinition = {
     {id:`gb`,type:`radio`,label:`Leucocytes (x1000/mm3)`,options:[{value:0,label:`3-14.9`},{value:1,label:`15-19.9`},{value:2,label:`20-39.9`},{value:3,label:`1-2.9 ou >= 40`},{value:4,label:`< 1`}]},
     {id:`bicarbonates`,type:`radio`,label:`Bicarbonates venoveux (mmol/L) si pH non dispo`,options:[{value:0,label:`22-31.9`},{value:1,label:`32-40.9`},{value:2,label:`18-21.9`},{value:3,label:`15-17.9 ou 41-51.9`},{value:4,label:`< 15 ou >= 52`}]},
     {id:`age`,type:`radio`,label:`Age du patient`,options:[{value:0,label:`< 44 ans`},{value:2,label:`45-54 ans`},{value:3,label:`55-64 ans`},{value:5,label:`65-74 ans`},{value:6,label:`>= 75 ans`}]},
-    {id:`maladie_chronique`,type:`radio`,label:`Antecedent de maladie chronique severe`,options:[{value:0,label:`Pas d'antecedent`},{value:2,label:`Maladie chronique (si non chirurgical)`},{value:5,label:`Maladie chronique (si post-chirurgie urgente)`}]},
+    {id:`maladie_chronique`,type:`radio`,label:`Antecedent de maladie chronique severe`,options:[{value:0,label:`Pas d\'antecedent`},{value:2,label:`Maladie chronique (si non chirurgical)`},{value:5,label:`Maladie chronique (si post-chirurgie urgente)`}]},
   ],
   calculate: (values) => {
     const physio_items = ['temperature','pam','fc','fr','oxygenation','ph_arteriel','sodium','potassium','creatinine','hematocrite','gb','bicarbonates']
@@ -42,8 +42,8 @@ const apache2: FormulaDefinition = {
         {min:35,max:71,label:`Gravite extreme`,severity:'high'},
       ]}
   },
-  interpretation: `L'APACHE II est le score de gravite le plus utilise en reanimation. 12 variables physiologiques (0-4 points), age (0-6), maladie chronique (0-5). Score total 0-71. Correlle a la mortalite hospitaliere. A calculer dans les 24h suivant l'admission en reanimation.`,
-  clinicalCommentary: `Reference internationale pour la stratification de la gravite en reanimation. A utiliser a l'admission (pires valeurs des 24 premieres heures). Ne donne pas de probabilite individuelle de survie. Les maladies chroniques comprennent : insuffisance hepatique, cardiaque (NYHA IV), respiratoire severe, immunodepression, insuffisance renale chronique dialysee. Apres mise a jour, utilisez l'APACHE IV plus recent.`,
+  interpretation: `L\'APACHE II est le score de gravite le plus utilise en reanimation. 12 variables physiologiques (0-4 points), age (0-6), maladie chronique (0-5). Score total 0-71. Correlle a la mortalite hospitaliere. A calculer dans les 24h suivant l\'admission en reanimation.`,
+  clinicalCommentary: `Reference internationale pour la stratification de la gravite en reanimation. A utiliser a l\'admission (pires valeurs des 24 premieres heures). Ne donne pas de probabilite individuelle de survie. Les maladies chroniques comprennent : insuffisance hepatique, cardiaque (NYHA IV), respiratoire severe, immunodepression, insuffisance renale chronique dialysee. Apres mise a jour, utilisez l\'APACHE IV plus recent.`,
   references: [
     {type:`pubmed`,title:`Knaus WA et al. APACHE II: a severity of disease classification system. Crit Care Med 1985`,pmid:`3928249`},
     {type:`pubmed`,title:`Knaus WA et al. The APACHE III prognostic system. Chest 1991`,pmid:`1959106`},

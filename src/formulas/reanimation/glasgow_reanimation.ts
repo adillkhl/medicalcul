@@ -47,8 +47,8 @@ const glasgow_reanimation: FormulaDefinition = {
         {min:3,max:8,label:`GCS 3-8 - Coma`,severity:'high',recommendation:`Patient comateux. Protection des voies aeriennes si non intube. Bilan etiologique (TDM, IRM, EEG). Monitorage de la PIC si HTIC.`},
       ]}
   },
-  interpretation: `L'echelle de Glasgow (GCS) est l'outil universel d'evaluation de la conscience. En reanimation, attention particuliere au patient intube (V = 1T) et a la sedation qui peut masquer le score. Le score moteur est l'element le plus predictif du pronostic.`,
-  clinicalCommentary: `Indispensable en reanimation. Un GCS <= 8 = coma = indication d'intubation pour protection des VA. Chez le patient sedate, noter le meilleur score avant sedation ou la raison pour laquelle il ne peut pas etre evalue. L'item verbal est inutilisable chez l'intube (coter 1T). Ne pas confondre avec le RASS pour la sedation. Le score moteur est le plus fiable pour le pronostic a long terme. Attention aux myorelaxants qui abolissent la reponse motrice.`,
+  interpretation: `L\'echelle de Glasgow (GCS) est l\'outil universel d\'evaluation de la conscience. En reanimation, attention particuliere au patient intube (V = 1T) et a la sedation qui peut masquer le score. Le score moteur est l\'element le plus predictif du pronostic.`,
+  clinicalCommentary: `Indispensable en reanimation. Un GCS <= 8 = coma = indication d\'intubation pour protection des VA. Chez le patient sedate, noter le meilleur score avant sedation ou la raison pour laquelle il ne peut pas etre evalue. L\'item verbal est inutilisable chez l\'intube (coter 1T). Ne pas confondre avec le RASS pour la sedation. Le score moteur est le plus fiable pour le pronostic a long terme. Attention aux myorelaxants qui abolissent la reponse motrice.`,
   references: [
     {type:`pubmed`,title:`Teasdale G, Jennett B. Assessment of coma and impaired consciousness. Lancet 1974`,pmid:`4136544`},
     {type:`pubmed`,title:`Teasdale G et al. The Glasgow Coma Scale at 40. J Neurosurg 2014`,pmid:`24978640`},

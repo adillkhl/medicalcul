@@ -35,7 +35,7 @@ const ybocs: FormulaDefinition = {
       ]}
   },
   interpretation: `La Y-BOCS evalue la severite des TOC sur 10 items : 5 pour les obsessions (O1-O5) et 5 pour les compulsions (C1-C5). Chaque item cote 0-4. Score total 0-40. Sous-scores : obsessions 0-20, compulsions 0-20.`,
-  clinicalCommentary: `Gold standard pour l'evaluation de la severite des TOC dans les essais cliniques. L'entretien semi-structure (Y-BOCS Interview) est recommandee. Distingue obsessions et compulsions. Attention a ne pas confondre avec d'autres comportements repetitifs (tics, addictions). Un score < 8 apres traitement est considere comme remission.`,
+  clinicalCommentary: `Gold standard pour l\'evaluation de la severite des TOC dans les essais cliniques. L\'entretien semi-structure (Y-BOCS Interview) est recommandee. Distingue obsessions et compulsions. Attention a ne pas confondre avec d\'autres comportements repetitifs (tics, addictions). Un score < 8 apres traitement est considere comme remission.`,
   references: [
     {type:`pubmed`,title:`Goodman WK et al. The Yale-Brown Obsessive Compulsive Scale. Arch Gen Psychiatry 1989`,pmid:`2928476`},
     {type:`pubmed`,title:`Goodman WK et al. The Y-BOCS II. Arch Gen Psychiatry 1989`,pmid:`2928477`},

@@ -4,10 +4,10 @@ const cormack: FormulaDefinition = {
   id: `cormack`, slug: `cormack`,
   name: `Cormack et Lehane (Classification)`,
   specialty: `anesthesie`, category: `Intubation`,
-  description: `Classification de la difficulte d'intubation selon la vision de la glotte`,
+  description: `Classification de la difficulte d\'intubation selon la vision de la glotte`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `B`,
   inputs: [
-    {id:`grade`,type:`radio`,label:`Grade`,options:[{value:1,label:`Grade I - Vue complete de la glotte`},{value:2,label:`Grade II - Vue partielle`},{value:3,label:`Grade III - Vue de l'epiglotte seulement`},{value:4,label:`Grade IV - Aucune vue`}]},
+    {id:`grade`,type:`radio`,label:`Grade`,options:[{value:1,label:`Grade I - Vue complete de la glotte`},{value:2,label:`Grade II - Vue partielle`},{value:3,label:`Grade III - Vue de l\'epiglotte seulement`},{value:4,label:`Grade IV - Aucune vue`}]},
   ],
   calculate: (values) => {
     const g = values.grade??1

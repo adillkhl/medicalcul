@@ -65,7 +65,7 @@ const fructoHba1c: FormulaDefinition = {
 - Non diabétique : fructosamine < 285 µmol/L (HbA1c < 5,7 %)
 - Diabète équilibré : fructosamine 285–350 µmol/L
 - Diabète déséquilibré : fructosamine > 350 µmol/L`,
-  clinicalCommentary: `La fructosamine reflète le contrôle glycémique des 2–3 dernières semaines (vs 2–3 mois pour l'HbA1c). Utile dans les situations où l'HbA1c n'est pas fiable (hémoglobinopathies, dialyse, grossesse, anémies hémolytiques).`,
+  clinicalCommentary: `La fructosamine reflète le contrôle glycémique des 2–3 dernières semaines (vs 2–3 mois pour l\'HbA1c). Utile dans les situations où l\'HbA1c n\'est pas fiable (hémoglobinopathies, dialyse, grossesse, anémies hémolytiques).`,
   references: [
     {
       type: 'pubmed',

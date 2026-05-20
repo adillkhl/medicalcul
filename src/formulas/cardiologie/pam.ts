@@ -20,14 +20,14 @@ const pam: FormulaDefinition = {
         const retlabel = label
         const retsev = sev
         const ranges = [
-          {min:0,max:64,label:`PAM basse (< 65 mmHg) - Risque d'hypoperfusion`,severity:'high' as const},
+          {min:0,max:64,label:`PAM basse (< 65 mmHg) - Risque d\'hypoperfusion`,severity:'high' as const},
           {min:65,max:69,label:'PAM limite (65-69 mmHg)',severity:'moderate' as const},
           {min:70,max:110,label:'PAM normale (70-110 mmHg)',severity:'low' as const},
           {min:111,max:999,label:'PAM elevee (> 110 mmHg)',severity:'moderate' as const},
         ]
         return {value:retval, label:retlabel, severity:retsev, ranges}
   },
-  interpretation: `La PAM = PAD + (PAS - PAD)/3. Une PAM < 65 mmHg est associee a un risque d'hypoperfusion d'organe et justifie un remplissage ou des vasopresseurs.`,
+  interpretation: `La PAM = PAD + (PAS - PAD)/3. Une PAM < 65 mmHg est associee a un risque d\'hypoperfusion d\'organe et justifie un remplissage ou des vasopresseurs.`,
   clinicalCommentary: `Objectif de PAM en reanimation: 65 mmHg (≥ 75 si HTA chronique ou atherosclerose). La PAM est un meilleur reflet de la perfusion tissulaire que la PAS isolee.`,
   references: [
     {type:`pubmed`,title:`Vincent JL et al. Intensive Care Med 2016`,pmid:`27084314`}

@@ -26,8 +26,8 @@ const broca: FormulaDefinition = {
         {min:0,max:999,label:'Reference: Poids ideal',severity:'low'},
       ]}
   },
-  interpretation: `Formule de Broca (1871): Poids ideal = Taille (cm) - 100<br/>• Homme: Taille - 100<br/>• Femme: (Taille - 100) × 0.9<br/><br/>Simple mais peu precise. Ne tient pas compte de l'age, de la morphologie ou de la composition corporelle. Valable surtout pour les tailles moyennes (160-180 cm).`,
-  clinicalCommentary: `La formule de Broca est obsolete et a ete largement remplacee par l'IMC et les formules de Devine, Robinson ou Lorentz. Son interet est surtout historique et pedagogique. Elle tend a surestimer le poids ideal chez les personnes de grande taille et a le sous-estimer chez les personnes de petite taille.`,
+  interpretation: `Formule de Broca (1871): Poids ideal = Taille (cm) - 100<br/>• Homme: Taille - 100<br/>• Femme: (Taille - 100) × 0.9<br/><br/>Simple mais peu precise. Ne tient pas compte de l\'age, de la morphologie ou de la composition corporelle. Valable surtout pour les tailles moyennes (160-180 cm).`,
+  clinicalCommentary: `La formule de Broca est obsolete et a ete largement remplacee par l\'IMC et les formules de Devine, Robinson ou Lorentz. Son interet est surtout historique et pedagogique. Elle tend a surestimer le poids ideal chez les personnes de grande taille et a le sous-estimer chez les personnes de petite taille.`,
   references: [
     {type:`url`,title:`Formule de Broca - Histoire et limites`,url:`https://fr.wikipedia.org/wiki/Poids_id%C3%A9al`},
   ],

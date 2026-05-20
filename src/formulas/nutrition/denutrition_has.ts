@@ -4,7 +4,7 @@ const denutrition_has: FormulaDefinition = {
   id: `denutrition_has`, slug: `denutrition_has`,
   name: `Criteres HAS de Denutrition`,
   specialty: `nutrition`, category: `Denutrition`,
-  description: `Criteres de la Haute Autorite de Sante (HAS) pour le diagnostic de denutrition chez l'adulte et le sujet age`,
+  description: `Criteres de la Haute Autorite de Sante (HAS) pour le diagnostic de denutrition chez l\'adulte et le sujet age`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`imc`,type:`radio`,label:`IMC (kg/m²)`,options:[
@@ -68,8 +68,8 @@ const denutrition_has: FormulaDefinition = {
         {min:3,max:99,label:'Denutrition confirmee/severe',severity:'high'},
       ]}
   },
-  interpretation: `Selon la HAS (2021), le diagnostic de denutrition repose sur la presence d'au moins 2 criteres (dont au moins 1 phenotypique):<br/><br/>Criteres phenotypiques:<br/>• Perte de poids ≥ 5% en 1 mois ou ≥ 10% en 6 mois<br/>• IMC < 21 (≥ 70 ans) ou < 18.5 (< 70 ans)<br/>• Albuminemie < 35 g/L (ou < 30 g/L pour denutrition severe)<br/><br/>Criteres etiologiques:<br/>• Reduction des apports alimentaires<br/>• Hypermetabolisme (maladie, inflammation)<br/><br/>Denutrition severe: 1 critere severe (IMC < 18, perte ≥ 15%, albumine < 30)`,
-  clinicalCommentary: `Les criteres HAS 2021 sont la reference en France pour le diagnostic de denutrition. L'albuminemie est un critere majeur mais doit etre interpretee avec la CRP (inflammation). En cas d'inflammation, une albumine basse ne reflete pas forcement la denutrition mais l'activite inflammatoire. Reevaluation a distance de l'episode aigu.`,
+  interpretation: `Selon la HAS (2021), le diagnostic de denutrition repose sur la presence d\'au moins 2 criteres (dont au moins 1 phenotypique):<br/><br/>Criteres phenotypiques:<br/>• Perte de poids ≥ 5% en 1 mois ou ≥ 10% en 6 mois<br/>• IMC < 21 (≥ 70 ans) ou < 18.5 (< 70 ans)<br/>• Albuminemie < 35 g/L (ou < 30 g/L pour denutrition severe)<br/><br/>Criteres etiologiques:<br/>• Reduction des apports alimentaires<br/>• Hypermetabolisme (maladie, inflammation)<br/><br/>Denutrition severe: 1 critere severe (IMC < 18, perte ≥ 15%, albumine < 30)`,
+  clinicalCommentary: `Les criteres HAS 2021 sont la reference en France pour le diagnostic de denutrition. L\'albuminemie est un critere majeur mais doit etre interpretee avec la CRP (inflammation). En cas d\'inflammation, une albumine basse ne reflete pas forcement la denutrition mais l\'activite inflammatoire. Reevaluation a distance de l\'episode aigu.`,
   references: [
     {type:`url`,title:`HAS - Diagnostic de la denutrition 2021`,url:`https://www.has-sante.fr/jcms/c_2837599/fr/diagnostic-de-la-denutrition`},
   ],

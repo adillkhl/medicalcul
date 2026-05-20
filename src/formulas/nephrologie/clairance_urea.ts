@@ -2,9 +2,9 @@ import type { FormulaDefinition } from '../types'
 
 const clairance_urea: FormulaDefinition = {
   id: `clairance_urea`, slug: `clairance_urea`,
-  name: `Clairance de l'uree`,
+  name: `Clairance de l\'uree`,
   specialty: `nephrologie`, category: `Dialyse`,
-  description: `Calcul de la clairance de l'uree pour evaluation de la dose de dialyse`,
+  description: `Calcul de la clairance de l\'uree pour evaluation de la dose de dialyse`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `B`,
   inputs: [
     {id:`uree_pre`,type:`number`,label:`Uree pre-dialyse`,unit:`mmol/L`},

@@ -88,7 +88,7 @@ const defEaulibre: FormulaDefinition = {
 - Correction par eau libre (VO, eau stérile IV, ou soluté hypotonique)
 
 **Correction recommandée :** réduire la natrémie de 0,5 mmol/L/h maximum (ne pas dépasser 8–10 mmol/L en 24 h).`,
-  clinicalCommentary: `Ne pas corriger trop rapidement l'hypernatrémie (risque d'œdème cérébral). La moitié du déficit est corrigée sur 24 h, le reste sur 48–72 h. Surveiller la natrémie toutes les 4–6 h initialement.`,
+  clinicalCommentary: `Ne pas corriger trop rapidement l\'hypernatrémie (risque d\'œdème cérébral). La moitié du déficit est corrigée sur 24 h, le reste sur 48–72 h. Surveiller la natrémie toutes les 4–6 h initialement.`,
   references: [
     {
       type: 'pubmed',

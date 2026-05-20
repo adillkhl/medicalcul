@@ -2,9 +2,9 @@ import type { FormulaDefinition } from '../types'
 
 const oxypnoe: FormulaDefinition = {
   id: `oxypnoe`, slug: `oxypnoe`,
-  name: `Debit d'oxygene (Calcul)`,
+  name: `Debit d\'oxygene (Calcul)`,
   specialty: `pneumologie`, category: `Oxygenotherapie`,
-  description: `Calcul du debit d'oxygene necessaire selon la FiO2 visee`,
+  description: `Calcul du debit d\'oxygene necessaire selon la FiO2 visee`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `B`,
   inputs: [
     {id:`fio2_visee`,type:`number`,label:`FiO2 visee`,unit:`%`},
@@ -20,8 +20,8 @@ const oxypnoe: FormulaDefinition = {
         const ranges = [{min:0,max:999,label:'Debit calcule selon dispositif',severity:'low' as const}]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `Calcul du debit d'oxygene: lunettes 1L/min = +4% FiO2. Masque simple: 5L=40%, 8L=60%. Masque reservoir: 80-90%.`,
-  clinicalCommentary: `Les lunettes nasales peuvent debiter jusqu'a 6L/min (44% FiO2 max). L'humidification est necessaire > 4L/min.`,
+  interpretation: `Calcul du debit d\'oxygene: lunettes 1L/min = +4% FiO2. Masque simple: 5L=40%, 8L=60%. Masque reservoir: 80-90%.`,
+  clinicalCommentary: `Les lunettes nasales peuvent debiter jusqu'a 6L/min (44% FiO2 max). L\'humidification est necessaire > 4L/min.`,
   references: [
     {type:`pubmed`,title:`O Driscoll BR, Howard LS. Thorax 2011`,pmid:`21555715`}
   ],

@@ -80,7 +80,7 @@ const agegestHu: FormulaDefinition = {
 - 40 SA : 32–40 cm
 
 Un écart de plus de 3 cm par rapport à la valeur attendue justifie une échographie.`,
-  clinicalCommentary: `La mesure de la HU est un examen simple, reproductible et sans danger. Elle est peu fiable avant 20 SA (utiliser la LCC) et après 38 SA (engagement). Elle reste un excellent outil de dépistage des anomalies de croissance (RCIU, macrosomie) et des troubles du liquide amniotique. En cas d'obésité ou d'utérus fibromateux, la fiabilité diminue.`,
+  clinicalCommentary: `La mesure de la HU est un examen simple, reproductible et sans danger. Elle est peu fiable avant 20 SA (utiliser la LCC) et après 38 SA (engagement). Elle reste un excellent outil de dépistage des anomalies de croissance (RCIU, macrosomie) et des troubles du liquide amniotique. En cas d\'obésité ou d\'utérus fibromateux, la fiabilité diminue.`,
   references: [
     {
       type: 'guideline',

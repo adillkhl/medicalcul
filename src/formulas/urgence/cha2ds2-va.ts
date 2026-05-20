@@ -84,14 +84,14 @@ const cha2ds2va: FormulaDefinition = {
   },
   interpretation: `Le score CHA₂DS₂-VA est la version 2024 des recommandations ESC (European Society of Cardiology). Il remplace progressivement le CHA₂DS₂-VASc.
 
-**Changement clé :** le sexe féminin n’est plus considéré comme un facteur de risque indépendant d’AVC dans la FA. Le sexe n'est plus un item du score.
+**Changement clé :** le sexe féminin n’est plus considéré comme un facteur de risque indépendant d’AVC dans la FA. Le sexe n\'est plus un item du score.
 
-- **Score = 0** : FA isolée → pas d'anticoagulation
+- **Score = 0** : FA isolée → pas d\'anticoagulation
 - **Score = 1** : anticoagulation à discuter
 - **Score ≥ 2** : anticoagulation orale formelle
 
 Le risque hémorragique (HAS-BLED) doit être systématiquement associé.`,
-  clinicalCommentary: `Nouveau score ESC 2024. Simplifie l’ancien CHA₂DS₂-VASc en retirant le sexe féminin (qui compliquait sans améliorer la prédiction). En pratique, pour les femmes de moins de 65 ans sans autre facteur de risque, le score passe de 1 à 0 → pas d’anticoagulation. C'est un changement important. Certaines sociétés savantes, notamment américaines (ACC/AHA), n’ont pas encore adopté ce changement — l’ancien CHA₂DS₂-VASc reste valide aux États-Unis.`,
+  clinicalCommentary: `Nouveau score ESC 2024. Simplifie l’ancien CHA₂DS₂-VASc en retirant le sexe féminin (qui compliquait sans améliorer la prédiction). En pratique, pour les femmes de moins de 65 ans sans autre facteur de risque, le score passe de 1 à 0 → pas d’anticoagulation. C\'est un changement important. Certaines sociétés savantes, notamment américaines (ACC/AHA), n’ont pas encore adopté ce changement — l’ancien CHA₂DS₂-VASc reste valide aux États-Unis.`,
   references: [
     {
       type: 'guideline',

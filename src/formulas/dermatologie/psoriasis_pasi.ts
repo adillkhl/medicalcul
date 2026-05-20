@@ -44,7 +44,7 @@ const psoriasis_pasi: FormulaDefinition = {
       ]}
   },
   interpretation: `Le PASI (Psoriasis Area and Severity Index) est le score de reference pour evaluer la severite du psoriasis et la reponse au traitement.`,
-  clinicalCommentary: `Le PASI combine 4 regions (tete 10%, tronc 30%, MS 20%, MI 40%). Une reduction de 75% (PASI75) est l'objectif therapeutique standard.`,
+  clinicalCommentary: `Le PASI combine 4 regions (tete 10%, tronc 30%, MS 20%, MI 40%). Une reduction de 75% (PASI75) est l\'objectif therapeutique standard.`,
   references: [
     {type:`pubmed`,title:`Fredriksson T, Pettersson U. Dermatologica 1978`,pmid:`781267`}
   ],

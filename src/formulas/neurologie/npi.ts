@@ -165,9 +165,9 @@ const npi: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `Le **NPI** (Neuropsychiatric Inventory) de Cummings est l’outil de référence pour l'évaluation des troubles neuropsychiatriques dans les démences et les pathologies neurologiques.
+  interpretation: `Le **NPI** (Neuropsychiatric Inventory) de Cummings est l’outil de référence pour l\'évaluation des troubles neuropsychiatriques dans les démences et les pathologies neurologiques.
 
-**12 domaines évalués auprès de l'aidant :**
+**12 domaines évalués auprès de l\'aidant :**
 1. Idées délirantes
 2. Hallucinations
 3. Agitation/Agressivité
@@ -183,8 +183,8 @@ const npi: FormulaDefinition = {
 
 Chaque domaine est scoré en fréquence (1–4) × sévérité (1–3) = score (1–12).
 
-**Score total :** 0–144. Plus le score est élevé, plus les troubles neuropsychiatriques sont sévères. L'apathie est le symptôme le plus fréquent dans les démences.`,
-  clinicalCommentary: `Le NPI est essentiel en consultation mémoire et dans le suivi des démences. Il est administré à l’aidant (pas au patient). Le NPI permet de différencier les profils : Alzheimer (surtout apathie), DFT (désinhibition, euphorie, apathie), DCL (hallucinations visuelles). L'apathie est le symptôme le plus fréquent mais aussi le plus sous-diagnostiqué. Les troubles neuropsychiatriques sont plus prédictifs du fardeau de l'aidant que les troubles cognitifs eux-mêmes. Version courte (NPI-Q) disponible.`,
+**Score total :** 0–144. Plus le score est élevé, plus les troubles neuropsychiatriques sont sévères. L\'apathie est le symptôme le plus fréquent dans les démences.`,
+  clinicalCommentary: `Le NPI est essentiel en consultation mémoire et dans le suivi des démences. Il est administré à l’aidant (pas au patient). Le NPI permet de différencier les profils : Alzheimer (surtout apathie), DFT (désinhibition, euphorie, apathie), DCL (hallucinations visuelles). L\'apathie est le symptôme le plus fréquent mais aussi le plus sous-diagnostiqué. Les troubles neuropsychiatriques sont plus prédictifs du fardeau de l\'aidant que les troubles cognitifs eux-mêmes. Version courte (NPI-Q) disponible.`,
   references: [
     {
       type: 'pubmed',

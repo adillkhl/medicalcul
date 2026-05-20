@@ -120,7 +120,7 @@ const nijmegenGoutte: FormulaDefinition = {
 | 4–7,5 | Goutte probable |
 | ≥ 8 | Goutte très probable (spécificité > 95%) |
 
-**Confirmation :** Ponction articulaire et cristallisation d'urate monosodique (gold standard).`,
+**Confirmation :** Ponction articulaire et cristallisation d\'urate monosodique (gold standard).`,
   clinicalCommentary: `Le score de Nijmegën est utile en première ligne pour orienter le diagnostic de goutte. En cas de score ≥ 8, la spécificité est excellente (> 95%). Rappel : la confirmation par ponction est recommandée avant un traitement au long cours par hypo-uricémiant.`,
   references: [
     {

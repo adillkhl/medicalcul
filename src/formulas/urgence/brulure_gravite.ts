@@ -4,7 +4,7 @@ const brulure_gravite: FormulaDefinition = {
   id: `brulure_gravite`, slug: `brulure_gravite`,
   name: `Brulure (Gravite)`,
   specialty: `urgence`, category: `Brulure`,
-  description: `Evaluation de la gravite d'une brulure (profondeur, surface, circonstances)`,
+  description: `Evaluation de la gravite d\'une brulure (profondeur, surface, circonstances)`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `C`,
   inputs: [
     {id:`profondeur`,type:`radio`,label:`Profondeur`,options:[{value:0,label:`1er degre (erytheme)`},{value:1,label:`2e degre superficiel`},{value:2,label:`2e degre profond`},{value:3,label:`3e degre (carbonisation)`}]},
@@ -25,7 +25,7 @@ const brulure_gravite: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `La gravite d'une brulure combine profondeur, surface SCB, age, inhalation et localisation. Les brulures du 3e degre > 10% SCB sont graves.`,
+  interpretation: `La gravite d\'une brulure combine profondeur, surface SCB, age, inhalation et localisation. Les brulures du 3e degre > 10% SCB sont graves.`,
   clinicalCommentary: `Les brulures de la face peuvent entrainer un oedeme des VAS. Les brulures circulaires des membres necessitent une escarrotomie.`,
   references: [
     {type:`pubmed`,title:`Hettiaratchy S, Dziewulski P. BMJ 2004`,pmid:`15087358`}

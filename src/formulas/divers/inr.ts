@@ -4,7 +4,7 @@ const inr: FormulaDefinition = {
   id: `inr`, slug: `inr`,
   name: `INR (Interpretation)`,
   specialty: `divers`, category: `Coagulation`,
-  description: `Interpretation de l'INR`,
+  description: `Interpretation de l\'INR`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`inr`,type:`number`,label:`INR`},

@@ -81,7 +81,7 @@ const selle: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `L'**échelle de Selle** (Saddle Area Scale) évalue la fonction sacrale dans le syndrome de la queue-de-cheval (cauda equina syndrome). C'est une urgence neurochirurgicale.
+  interpretation: `L'**échelle de Selle** (Saddle Area Scale) évalue la fonction sacrale dans le syndrome de la queue-de-cheval (cauda equina syndrome). C\'est une urgence neurochirurgicale.
 
 **4 items (score 0–8) :**
 1. Sensibilité au toucher de la région péri-anale (0–2)
@@ -95,8 +95,8 @@ const selle: FormulaDefinition = {
 - 2–3 : atteinte modérée
 - 0–1 : atteinte sévère (anesthésie en selle)
 
-L'anesthésie en selle est un signe d’alarme majeur de compression de la queue-de-cheval, associée à des douleurs radiculaires, des troubles sphinctériens et un déficit moteur des membres inférieurs.`,
-  clinicalCommentary: `L'anesthésie en selle est un signe d'URGENCE NEUROCHIRURGICALE qui doit faire pratiquer une IRM lombo-sacrée en urgence. Les causes principales : hernie discale lombaire massive, tumeur, hématome, traumatisme. Le réflexe bulbo-caverneux est très spécifique de l’atteinte sacrale (S2–S4). La chirurgie décompressive avant 24–48h améliore le pronostic. Ne pas oublier l'évaluation des fonctions vésico-sphinctériennes (globe vésical, incontinence urinaire/fécale).`,
+L\'anesthésie en selle est un signe d’alarme majeur de compression de la queue-de-cheval, associée à des douleurs radiculaires, des troubles sphinctériens et un déficit moteur des membres inférieurs.`,
+  clinicalCommentary: `L\'anesthésie en selle est un signe d\'URGENCE NEUROCHIRURGICALE qui doit faire pratiquer une IRM lombo-sacrée en urgence. Les causes principales : hernie discale lombaire massive, tumeur, hématome, traumatisme. Le réflexe bulbo-caverneux est très spécifique de l’atteinte sacrale (S2–S4). La chirurgie décompressive avant 24–48h améliore le pronostic. Ne pas oublier l\'évaluation des fonctions vésico-sphinctériennes (globe vésical, incontinence urinaire/fécale).`,
   references: [
     {
       type: 'pubmed',

@@ -118,7 +118,7 @@ const gerdq: FormulaDefinition = {
     }
   },
   interpretation: `Le **GerdQ** est un questionnaire auto-administre de 6 items validé pour le diagnostic du reflux gastro-oesophagien (RGO) et l’evaluation de la reponse au traitement.\n\n**Items** : brulures retrosternales, regurgitations, douleurs epigastriques, nausees, troubles du sommeil, et prise de medicaments supplementaires.\n\nLes items 1-2-5-6 sont codes positivement (frequence elevee = RGO probable). Les items 3-4 sont codes inversement (frequence elevee = autre diagnostic).\n\n**Seuils** :\n- < 8 : RGO peu probable\n- 8-10 : RGO probable (sensibilite 65 %, specificite 71 %)\n- > 10 : RGO tres probable (sensibilite 80 %, specificite 86 %)`,
-  clinicalCommentary: `Le GerdQ est utile en medecine generale pour eviter les endoscopies inutiles. Un score >= 8 avec reponse aux IPP confirme le diagnostic. Ne remplace pas l'endoscopie en cas de signes d’alarme (dysphagie, anemie, perte de poids, hemmorragie, age > 50 ans). L'echelle de Likert en 4 points par item (0, 1, 2, 3) permet un score total de 0 a 18.`,
+  clinicalCommentary: `Le GerdQ est utile en medecine generale pour eviter les endoscopies inutiles. Un score >= 8 avec reponse aux IPP confirme le diagnostic. Ne remplace pas l\'endoscopie en cas de signes d’alarme (dysphagie, anemie, perte de poids, hemmorragie, age > 50 ans). L\'echelle de Likert en 4 points par item (0, 1, 2, 3) permet un score total de 0 a 18.`,
   references: [
     {
       type: 'pubmed',

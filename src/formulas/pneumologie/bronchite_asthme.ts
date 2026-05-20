@@ -4,7 +4,7 @@ const bronchite_asthme: FormulaDefinition = {
   id: `bronchite_asthme`, slug: `bronchite_asthme`,
   name: `Classification asthme GINA`,
   specialty: `pneumologie`, category: `Asthme`,
-  description: `Classification GINA de la severite et du controle de l'asthme`,
+  description: `Classification GINA de la severite et du controle de l\'asthme`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`freq_sympt`,type:`radio`,label:`Symptomes`,options:[{value:0,label:`< 2x/sem`},{value:1,label:`> 2x/sem`},{value:2,label:`Quotidiens`}]},
@@ -24,8 +24,8 @@ const bronchite_asthme: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `GINA classe le controle de l'asthme en 3 categories: controle, partiellement controle, non controle.`,
-  clinicalCommentary: `Le traitement de l'asthme suit un schema par pallier GINA 1-5. Objectif: controle optimal le plus bas pallier possible.`,
+  interpretation: `GINA classe le controle de l\'asthme en 3 categories: controle, partiellement controle, non controle.`,
+  clinicalCommentary: `Le traitement de l\'asthme suit un schema par pallier GINA 1-5. Objectif: controle optimal le plus bas pallier possible.`,
   references: [
     {type:`pubmed`,title:`GINA 2024 Report. https://ginasthma.org`,pmid:`---`}
   ],

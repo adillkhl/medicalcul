@@ -97,15 +97,15 @@ const ohwidmark: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `La **formule de Widmark** estime l'alcoolémie (concentration d'alcool dans le sang) : 
+  interpretation: `La **formule de Widmark** estime l\'alcoolémie (concentration d\'alcool dans le sang) : 
 **Alcoolémie (g/L) = (Alcool ingéré en g) / (Poids × coefficient de diffusion) - (0,15 × heures)**
 
-- Coefficient de diffusion : **0,68** pour la femme, **0,78** pour l'homme
+- Coefficient de diffusion : **0,68** pour la femme, **0,78** pour l\'homme
 - Élimination : environ **0,15 g/L par heure**
 - En France, la limite légale pour la conduite est de **0,5 g/L** (0,2 g/L pour les jeunes conducteurs)
 
-Rappel : les verres standard contiennent environ 10 g d'alcool pur (un verre de vin, une bière 25 cl, un digestif).`,
-  clinicalCommentary: `La formule de Widmark donne une estimation théorique. De nombreux facteurs influencent l'alcoolémie réelle : prise alimentaire concomitante, métabolisme hépatique individuel, médicaments, etc. En pratique clinique, le dosage direct par éthylomètre ou prise de sang reste la référence. En cas de coma éthylique : surveillance en réanimation, vitamine B1 pour prévenir la neuropathie alcoolique, et recherche de traumatisme associé.`,
+Rappel : les verres standard contiennent environ 10 g d\'alcool pur (un verre de vin, une bière 25 cl, un digestif).`,
+  clinicalCommentary: `La formule de Widmark donne une estimation théorique. De nombreux facteurs influencent l\'alcoolémie réelle : prise alimentaire concomitante, métabolisme hépatique individuel, médicaments, etc. En pratique clinique, le dosage direct par éthylomètre ou prise de sang reste la référence. En cas de coma éthylique : surveillance en réanimation, vitamine B1 pour prévenir la neuropathie alcoolique, et recherche de traumatisme associé.`,
   references: [
     {
       type: 'pubmed',

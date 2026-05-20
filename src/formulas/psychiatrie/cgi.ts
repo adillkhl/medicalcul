@@ -4,7 +4,7 @@ const cgi: FormulaDefinition = {
   id: `cgi`, slug: `cgi`,
   name: `Clinical Global Impression (CGI)`,
   specialty: `psychiatrie`, category: `Echelles Globales`,
-  description: `Evaluation globale de la severite (CGI-S), de l'amelioration (CGI-I) et de l'efficacite/tolerance (CGI-E) en psychiatrie`,
+  description: `Evaluation globale de la severite (CGI-S), de l\'amelioration (CGI-I) et de l\'efficacite/tolerance (CGI-E) en psychiatrie`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`severite`,type:`radio`,label:`CGI-S - Severite de la maladie`,options:[
@@ -36,8 +36,8 @@ const cgi: FormulaDefinition = {
         {min:5,max:7,label:`Grave a extremement malade`,severity:'high'},
       ]}
   },
-  interpretation: `Le CGI comporte 3 sous-echelles : CGI-S (severite de la maladie, 1-7), CGI-I (amelioration globale, 1-7) et CGI-E (efficacite therapeutique et tolerance). Utilise comme mesure globale de l'etat clinique et de la reponse au traitement.`,
-  clinicalCommentary: `Largement utilise dans les essais therapeutiques en psychiatrie. Le CGI-S est evalue a l'inclusion, le CGI-I en cours de traitement. Le CGI-E combine efficacite et tolerance. Simple et rapide, mais dependant du clinicien.`,
+  interpretation: `Le CGI comporte 3 sous-echelles : CGI-S (severite de la maladie, 1-7), CGI-I (amelioration globale, 1-7) et CGI-E (efficacite therapeutique et tolerance). Utilise comme mesure globale de l\'etat clinique et de la reponse au traitement.`,
+  clinicalCommentary: `Largement utilise dans les essais therapeutiques en psychiatrie. Le CGI-S est evalue a l\'inclusion, le CGI-I en cours de traitement. Le CGI-E combine efficacite et tolerance. Simple et rapide, mais dependant du clinicien.`,
   references: [
     {type:`pubmed`,title:`Guy W. ECDEU Assessment Manual for Psychopharmacology. US DHEW 1976`,pmid:`None`},
     {type:`pubmed`,title:`Busner J, Targum SD. The CGI Scale. Psychiatry (Edgmont) 2007`,pmid:`20526405`},

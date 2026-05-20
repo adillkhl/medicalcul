@@ -141,7 +141,7 @@ const spondyloEssg: FormulaDefinition = {
 9. Sacro-iliite (RX ou IRM)
 
 **Sensibilité** ~86%, **Spécificité** ~87% dans les études de validation.`,
-  clinicalCommentary: `Les critères ESSG ont été largement utilisés avant les critères ASAS. Ils restent valides et simples d'utilisation. Leur sensibilité est bonne pour les formes périphériques.`,
+  clinicalCommentary: `Les critères ESSG ont été largement utilisés avant les critères ASAS. Ils restent valides et simples d\'utilisation. Leur sensibilité est bonne pour les formes périphériques.`,
   references: [
     {
       type: 'pubmed',

@@ -73,12 +73,12 @@ const homaIr: FormulaDefinition = {
   },
   interpretation: `**HOMA-IR** = (Glycémie à jeun en mmol/L × Insulinémie à jeun en µU/mL) / 22,5
 
-- **< 2,5** : Pas d'insulinorésistance significative
+- **< 2,5** : Pas d\'insulinorésistance significative
 - **2,5–5** : Insulinorésistance modérée (prédiabète, syndrome métabolique)
 - **> 5** : Insulinorésistance sévère (diabète type 2, obésité sévère)
 
-**Précautions :** Nécessite un dosage de l'insulinémie à jeun (réalisable à NFS). L'HOMA-IR n'est pas validé chez le diabétique traité (insuline exogène).`,
-  clinicalCommentary: `L'HOMA-IR est utile en médecine interne pour quantifier l'insulinorésistance dans le syndrome métabolique, le SOPK, la stéatose hépatique non alcoolique (NAFLD/MASH). Une valeur > 2,5 est généralement considérée comme pathologique.`,
+**Précautions :** Nécessite un dosage de l\'insulinémie à jeun (réalisable à NFS). L\'HOMA-IR n\'est pas validé chez le diabétique traité (insuline exogène).`,
+  clinicalCommentary: `L\'HOMA-IR est utile en médecine interne pour quantifier l\'insulinorésistance dans le syndrome métabolique, le SOPK, la stéatose hépatique non alcoolique (NAFLD/MASH). Une valeur > 2,5 est généralement considérée comme pathologique.`,
   references: [
     {
       type: 'pubmed',

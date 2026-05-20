@@ -74,8 +74,8 @@ Où T = taille en cm. Applicable de 2 à 18 ans.
 - 60–79 % : diminution modérée
 - < 60 % : diminution sévère
 
-Le DEP en pédiatrie est utile pour le suivi de l'asthme, la détection des exacerbations et l'évaluation de la réponse au traitement. La variabilité diurne > 20 % évoque un asthme non contrôlé.`,
-  clinicalCommentary: `Chez l’enfant, le DEP dépend essentiellement de la taille et moins de l'âge et du sexe. La coopération de l'enfant est essentielle : expliquer en s’amusant (souffler comme pour éteindre des bougies). Le DEP chez l’enfant a une plus grande variabilité que chez l'adulte. Ne pas utiliser avant 5–6 ans (non reproductible). Le suivi du DEP est utile dans l'asthme de l’enfant pour objectiver la réponse au traitement.`,
+Le DEP en pédiatrie est utile pour le suivi de l\'asthme, la détection des exacerbations et l\'évaluation de la réponse au traitement. La variabilité diurne > 20 % évoque un asthme non contrôlé.`,
+  clinicalCommentary: `Chez l’enfant, le DEP dépend essentiellement de la taille et moins de l\'âge et du sexe. La coopération de l\'enfant est essentielle : expliquer en s’amusant (souffler comme pour éteindre des bougies). Le DEP chez l’enfant a une plus grande variabilité que chez l\'adulte. Ne pas utiliser avant 5–6 ans (non reproductible). Le suivi du DEP est utile dans l\'asthme de l’enfant pour objectiver la réponse au traitement.`,
   references: [
     {
       type: 'pubmed',

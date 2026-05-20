@@ -23,8 +23,8 @@ const ipi: FormulaDefinition = {
         {min:4,max:5,label:'Risque eleve (4-5)',severity:'high'},
       ]}
   },
-  interpretation: `L'IPI est un score pronostique pour les lymphomes non hodgkiniens agressifs (notamment LBDGC). 5 facteurs de risque: age > 60, LDH > N, stade III/IV, ECOG ≥ 2, atteintes extraganglionnaires > 1. Score 0-5. Prediction de la survie globale a 5 ans: 73% (0-1), 51% (2), 43% (3), 26% (4-5).`,
-  clinicalCommentary: `L'IPI reste valide meme apres l'introduction du rituximab. Le R-IPI est une adaptation pour les patients traites par R-CHOP. Le NCCN-IPI est plus recent et affine le score en utilisant les valeurs continues de LDH et l'age precise.`,
+  interpretation: `L\'IPI est un score pronostique pour les lymphomes non hodgkiniens agressifs (notamment LBDGC). 5 facteurs de risque: age > 60, LDH > N, stade III/IV, ECOG ≥ 2, atteintes extraganglionnaires > 1. Score 0-5. Prediction de la survie globale a 5 ans: 73% (0-1), 51% (2), 43% (3), 26% (4-5).`,
+  clinicalCommentary: `L\'IPI reste valide meme apres l\'introduction du rituximab. Le R-IPI est une adaptation pour les patients traites par R-CHOP. Le NCCN-IPI est plus recent et affine le score en utilisant les valeurs continues de LDH et l\'age precise.`,
   references: [
     {type:`pubmed`,title:`A predictive model for aggressive NHL. N Engl J Med 1993`,pmid:`8415284`},
   ],

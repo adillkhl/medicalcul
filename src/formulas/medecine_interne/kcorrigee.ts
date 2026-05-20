@@ -74,10 +74,10 @@ const kcorrigee: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `**Règle d'ajustement :** La kaliémie varie de 0,6 mmol/L par 0,1 unité de pH en sens inverse :
+  interpretation: `**Règle d\'ajustement :** La kaliémie varie de 0,6 mmol/L par 0,1 unité de pH en sens inverse :
 - **Acidose** (pH < 7,40) → le K+ sort de la cellule → hyperkaliémie faussée → K_corrigé = K_mesuré − (7,40 − pH) × 0,6
-- **Alcalose** (pH > 7,40) → le K+ entre dans la cellule → l'hypokaliémie est sous-estimée → K_corrigé = K_mesuré + (pH − 7,40) × 0,6`,
-  clinicalCommentary: `Attention : cette correction est une estimation. Valable pour les variations du pH extracellulaire aiguës. Dans l'insuffisance rénale, l'acidose métabolique et l'hyperkaliémie sont souvent intriquées.`,
+- **Alcalose** (pH > 7,40) → le K+ entre dans la cellule → l\'hypokaliémie est sous-estimée → K_corrigé = K_mesuré + (pH − 7,40) × 0,6`,
+  clinicalCommentary: `Attention : cette correction est une estimation. Valable pour les variations du pH extracellulaire aiguës. Dans l\'insuffisance rénale, l\'acidose métabolique et l\'hyperkaliémie sont souvent intriquées.`,
   references: [
     {
       type: 'pubmed',

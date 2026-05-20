@@ -130,8 +130,8 @@ const lequesne_genou: FormulaDefinition = {
       ],
     }
   },
-  interpretation: "L'**indice de Lequesne** pour le genou est un score fonctionnel validé pour l'évaluation de la gonarthrose.\n\n**6 items — score total 0 à 18 :**\n- Douleur nocturne (0-3)\n- Douleur à la marche (0-3)\n- Douleur au changement de position (0-3)\n- Périmètre de marche (0-3)\n- Difficulté aux escaliers (0-3)\n- Difficulté à s'accroupir (0-3)\n\n**Seuils :** ≤ 4 = handicap faible/nul ; 5-8 = modéré ; 9-11 = sévère ; ≥ 12 = très sévère.",
-  clinicalCommentary: "L'indice de Lequesne est un outil simple et reproductible pour le suivi de la gonarthrose. Il est sensible au changement et permet d'évaluer l'efficacité des traitements (médicaux, infiltrations, chirurgie). Il est recommandé par la HAS pour l'évaluation de la sévérité de l'arthrose du genou. La perte de poids (≥ 5%) est le traitement le plus efficace pour réduire les symptômes chez les patients en surpoids.",
+  interpretation: "L'**indice de Lequesne** pour le genou est un score fonctionnel validé pour l\'évaluation de la gonarthrose.\n\n**6 items — score total 0 à 18 :**\n- Douleur nocturne (0-3)\n- Douleur à la marche (0-3)\n- Douleur au changement de position (0-3)\n- Périmètre de marche (0-3)\n- Difficulté aux escaliers (0-3)\n- Difficulté à s\'accroupir (0-3)\n\n**Seuils :** ≤ 4 = handicap faible/nul ; 5-8 = modéré ; 9-11 = sévère ; ≥ 12 = très sévère.",
+  clinicalCommentary: "L\'indice de Lequesne est un outil simple et reproductible pour le suivi de la gonarthrose. Il est sensible au changement et permet d\'évaluer l\'efficacité des traitements (médicaux, infiltrations, chirurgie). Il est recommandé par la HAS pour l\'évaluation de la sévérité de l\'arthrose du genou. La perte de poids (≥ 5%) est le traitement le plus efficace pour réduire les symptômes chez les patients en surpoids.",
   references: [
     {
       type: 'pubmed',

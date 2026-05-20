@@ -4,7 +4,7 @@ const child_growth: FormulaDefinition = {
   id: `child_growth`, slug: `child_growth`,
   name: `Courbes de Croissance OMS (Poids / Taille / Age)`,
   specialty: `pediatrie`, category: `Croissance`,
-  description: `Evaluation de la croissance staturo-ponderale selon les references OMS - Z-scores du poids, taille et IMC pour l'age`,
+  description: `Evaluation de la croissance staturo-ponderale selon les references OMS - Z-scores du poids, taille et IMC pour l\'age`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`age_mois`,type:`number`,label:`Age (en mois)`,min:0,max:240,step:1},
@@ -34,10 +34,10 @@ const child_growth: FormulaDefinition = {
         {min:25,max:99,label:`Obesite - IMC >= 25`,severity:`high`,recommendation:`Prise en charge pluridisciplinaire.`},
       ]}
   },
-  interpretation: `Les courbes OMS sont les references internationales pour la croissance de l'enfant de 0 a 18 ans. Le poids, la taille et l'IMC sont evalues en Z-scores ou percentiles par rapport a la population de reference. L'IMC est le meilleur indicateur de la corpulence.`,
+  interpretation: `Les courbes OMS sont les references internationales pour la croissance de l\'enfant de 0 a 18 ans. Le poids, la taille et l\'IMC sont evalues en Z-scores ou percentiles par rapport a la population de reference. L\'IMC est le meilleur indicateur de la corpulence.`,
   clinicalCommentary: `Utiliser les courbes OMS (0-5 ans) puis les courbes HAS (5-18 ans). Un enfant < -2 DS ou > +2 DS sur le poids ou la taille justifie une exploration.`,
   references: [
-    {type:`guideline`,title:`OMS - Standards de croissance de l'enfant (2006)`,url:`https://www.who.int/childgrowth/standards/en/`},
+    {type:`guideline`,title:`OMS - Standards de croissance de l\'enfant (2006)`,url:`https://www.who.int/childgrowth/standards/en/`},
     {type:`pubmed`,title:`de Onis M et al. WHO Child Growth Standards. Acta Paediatr 2006`,pmid:`16893488`},
   ],
 }

@@ -2,9 +2,9 @@ import type { FormulaDefinition } from '../types'
 
 const maigreur_enfant: FormulaDefinition = {
   id: `maigreur_enfant`, slug: `maigreur_enfant`,
-  name: `Classification de la Maigreur chez l'Enfant`,
+  name: `Classification de la Maigreur chez l\'Enfant`,
   specialty: `nutrition`, category: `Pediatrie`,
-  description: `Classification OMS de la maigreur et de l'emaciation chez l'enfant (poids/taille, IMC-age, PB)`,
+  description: `Classification OMS de la maigreur et de l\'emaciation chez l\'enfant (poids/taille, IMC-age, PB)`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`age_mois`,type:`number`,label:`Age (mois)`,unit:`mois`,min:0,max:216,step:1,placeholder:`Ex: 24`},
@@ -58,8 +58,8 @@ const maigreur_enfant: FormulaDefinition = {
         {min:15.1,max:99,label:'Normal',severity:'low'},
       ]}
   },
-  interpretation: `Classification OMS de la malnutrition aigue chez l'enfant (6-60 mois):<br/>• Emaciation severe: IMC-age < -3 SD OU PB < 115 mm<br/>• Emaciation moderee: IMC-age < -2 SD OU PB 115-124 mm<br/>• Kwashiorkor: oedemes bilateraux (forme oedemateuse)<br/><br/>Le perimetre brachial (PB) est un outil de depistage communautaire simple. Le PB < 115 mm est un critere de malnutrition aigue severe.`,
-  clinicalCommentary: `La malnutrition aigue est une urgence pediatrique. Le PB est un outil de depistage simple utilisable en communaute. L'IMC-pour-age est la reference pour le diagnostic. La prise en charge repose sur les aliments therapeutiques prets a l'emploi (ATPE). L'hospitalisation est necessaire si complications (anorexie, infections).`,
+  interpretation: `Classification OMS de la malnutrition aigue chez l\'enfant (6-60 mois):<br/>• Emaciation severe: IMC-age < -3 SD OU PB < 115 mm<br/>• Emaciation moderee: IMC-age < -2 SD OU PB 115-124 mm<br/>• Kwashiorkor: oedemes bilateraux (forme oedemateuse)<br/><br/>Le perimetre brachial (PB) est un outil de depistage communautaire simple. Le PB < 115 mm est un critere de malnutrition aigue severe.`,
+  clinicalCommentary: `La malnutrition aigue est une urgence pediatrique. Le PB est un outil de depistage simple utilisable en communaute. L\'IMC-pour-age est la reference pour le diagnostic. La prise en charge repose sur les aliments therapeutiques prets a l\'emploi (ATPE). L\'hospitalisation est necessaire si complications (anorexie, infections).`,
   references: [
     {type:`pubmed`,title:`WHO Child Growth Standards 2006`,pmid:`16817681`},
     {type:`url`,title:`WHO - Severe Acute Malnutrition`,url:`https://www.who.int/health-topics/severe-acute-malnutrition`},

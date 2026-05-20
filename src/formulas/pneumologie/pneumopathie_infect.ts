@@ -24,7 +24,7 @@ const pneumopathie_infect: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `Les pneumopathies classifient selon le lieu d'acquisition et la gravite (CURB-65). Les PAVM sont les plus graves.`,
+  interpretation: `Les pneumopathies classifient selon le lieu d\'acquisition et la gravite (CURB-65). Les PAVM sont les plus graves.`,
   clinicalCommentary: `Les recommandations antibiotherapie different selon le type. La PAVM est une nosocomiale > 48h de VM.`,
   references: [
     {type:`pubmed`,title:`Mandell LA et al. Clin Infect Dis 2007`,pmid:`17879992`}

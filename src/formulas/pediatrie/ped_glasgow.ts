@@ -2,9 +2,9 @@ import type { FormulaDefinition } from '../types'
 
 const ped_glasgow: FormulaDefinition = {
   id: `ped_glasgow`, slug: `ped_glasgow`,
-  name: `Echelle de Glasgow Pediatrique (GCS adapte a l'age)`,
+  name: `Echelle de Glasgow Pediatrique (GCS adapte a l\'age)`,
   specialty: `pediatrie`, category: `Neurologie`,
-  description: `Evaluation du niveau de conscience chez l'enfant et le nourrisson avec adaptation verbale selon l'age (score 3-15)`,
+  description: `Evaluation du niveau de conscience chez l\'enfant et le nourrisson avec adaptation verbale selon l\'age (score 3-15)`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`oeil`,type:`radio`,label:`Ouverture des yeux`,options:[
@@ -13,7 +13,7 @@ const ped_glasgow: FormulaDefinition = {
       {value:2,label:`A la douleur`},
       {value:1,label:`Aucune`},
     ]},
-    {id:`verbal`,type:`radio`,label:`Reponse verbale (adaptee a l'age)`,options:[
+    {id:`verbal`,type:`radio`,label:`Reponse verbale (adaptee a l\'age)`,options:[
       {value:5,label:`< 2 ans : Cris normaux / > 2 ans : Orientee`},
       {value:4,label:`< 2 ans : Pleure / > 2 ans : Confuse`},
       {value:3,label:`< 2 ans : Cris inappropries / > 2 ans : Inapproprie`},
@@ -44,8 +44,8 @@ const ped_glasgow: FormulaDefinition = {
         {min:3,max:8,label:`GCS 3-8 - Coma (TC severe)`,severity:`high`,recommendation:`Intubation et ventilation. Reanimation. Scanner. Avis neurochirurgical urgent.`},
       ]}
   },
-  interpretation: `Le Glasgow pediatric adapte l'item verbal selon l'age de l'enfant (< 2 ans : cris, pleurs, geignements ; >= 2 ans : langage oriente, confus, inapproprie). Memes items oculaire et moteur que le GCS adulte. Score total 3-15.`,
-  clinicalCommentary: `Reference pour la neurologie pediatrique aux urgences. Chez le nourrisson, l'item verbal est difficile : se baser sur les vocalisations appropriees. L'item moteur est le meme quel que soit l'age. Un enfant avec GCS <= 8 doit etre intube. Attention aux sedations et aux barrières linguistiques. La regle PECARN aide a decider du scanner chez l'enfant.`,
+  interpretation: `Le Glasgow pediatric adapte l\'item verbal selon l\'age de l\'enfant (< 2 ans : cris, pleurs, geignements ; >= 2 ans : langage oriente, confus, inapproprie). Memes items oculaire et moteur que le GCS adulte. Score total 3-15.`,
+  clinicalCommentary: `Reference pour la neurologie pediatrique aux urgences. Chez le nourrisson, l\'item verbal est difficile : se baser sur les vocalisations appropriees. L\'item moteur est le meme quel que soit l\'age. Un enfant avec GCS <= 8 doit etre intube. Attention aux sedations et aux barrières linguistiques. La regle PECARN aide a decider du scanner chez l\'enfant.`,
   references: [
     {type:`pubmed`,title:`James HE, Anas NG. The Glasgow Coma Scale in infants and children. Crit Care Med 1982`,pmid:`7083868`},
     {type:`guideline`,title:`PECARN - Pediatric Emergency Care Applied Research Network (2021)`,url:`https://pecarn.org/`},

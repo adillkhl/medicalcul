@@ -123,7 +123,7 @@ const spondperiphAsas: FormulaDefinition = {
   },
   interpretation: `**Critères ASAS 2011 pour la spondylarthrite périphérique**
 
-**Signe d'entrée (au moins 1) :**
+**Signe d\'entrée (au moins 1) :**
 - Arthrite périphérique (synovite)
 - Enthésite
 - Dactylite

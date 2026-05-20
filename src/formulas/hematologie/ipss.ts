@@ -29,8 +29,8 @@ const ipss: FormulaDefinition = {
         {min:2.5,max:99,label:'High (risque eleve)',severity:'high'},
       ]}
   },
-  interpretation: `L'IPPS classe les SMD en 4 categories pronostiques:<br/>• Low (0-1): Survie mediane 5.7 ans, risque de transformation AML 5% a 5ans<br/>• Int-1 (1.5): Survie mediane 3.5 ans, risque AML 25%<br/>• Int-2 (2-2.5): Survie mediane 1.2 ans, risque AML 33%<br/>• High (≥3): Survie mediane 0.4 ans, risque AML > 50%`,
-  clinicalCommentary: `L'IPSS a ete largement remplace par l'IPSS-R (revise) qui offre une meilleure stratification. Cependant, l'IPSS historique reste reference dans de nombreuses etudes et guidelines. Ne s'applique pas aux SMD de l'enfant. Necessite un caryotype medullaire de bonne qualite.`,
+  interpretation: `L\'IPPS classe les SMD en 4 categories pronostiques:<br/>• Low (0-1): Survie mediane 5.7 ans, risque de transformation AML 5% a 5ans<br/>• Int-1 (1.5): Survie mediane 3.5 ans, risque AML 25%<br/>• Int-2 (2-2.5): Survie mediane 1.2 ans, risque AML 33%<br/>• High (≥3): Survie mediane 0.4 ans, risque AML > 50%`,
+  clinicalCommentary: `L\'IPSS a ete largement remplace par l\'IPSS-R (revise) qui offre une meilleure stratification. Cependant, l\'IPSS historique reste reference dans de nombreuses etudes et guidelines. Ne s\'applique pas aux SMD de l\'enfant. Necessite un caryotype medullaire de bonne qualite.`,
   references: [
     {type:`pubmed`,title:`Greenberg P et al. Blood 1997`,pmid:`9028325`},
   ],

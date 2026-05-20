@@ -25,8 +25,8 @@ const aldrete: FormulaDefinition = {
       {min:0,max:6,label:`Reveil incomplet, intubation?`,severity:`high`},
       ]}
   },
-  interpretation: `Le score d'Aldrete evalue le reveil post-anesthesie. Un score >= 9/10 autorise la sortie de SSPI.`,
-  clinicalCommentary: `Outil valide mais tendance a l'abandon au profit d'echelles plus modernes.`,
+  interpretation: `Le score d\'Aldrete evalue le reveil post-anesthesie. Un score >= 9/10 autorise la sortie de SSPI.`,
+  clinicalCommentary: `Outil valide mais tendance a l\'abandon au profit d\'echelles plus modernes.`,
   references: [
     {type:`pubmed`,title:`Aldrete JA, Kroulik D. Anesth Analg 1970`,pmid:`5534692`}
   ],

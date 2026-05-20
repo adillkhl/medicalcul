@@ -82,8 +82,8 @@ const landry: FormulaDefinition = {
       ],
     }
   },
-  interpretation: "L'**échelle de Landry** est une adaptation de l'échelle de Karnofsky pour l'enfant atteint de cancer.\n\n**Scores :**\n- **80-100** : Jeu normal, interactions sociales normales\n- **60-79** : Jeu limité, fatigue\n- **30-59** : Somnolence, activité minimale\n- **10-29** : Grabataire, interaction difficile\n\nElle permet d'évaluer la tolérance aux traitements et le pronostic.",
-  clinicalCommentary: "L'échelle de Landry reste peu standardisée en oncologie pédiatrique. Elle est utilisée principalement dans les études et pour le suivi longitudinal. Chez l'enfant, l'ECOG n'est pas adapté car il ne prend pas en compte le jeu et les interactions sociales. D'autres échelles existent (Lansky play-performance scale).",
+  interpretation: "L'**échelle de Landry** est une adaptation de l\'échelle de Karnofsky pour l\'enfant atteint de cancer.\n\n**Scores :**\n- **80-100** : Jeu normal, interactions sociales normales\n- **60-79** : Jeu limité, fatigue\n- **30-59** : Somnolence, activité minimale\n- **10-29** : Grabataire, interaction difficile\n\nElle permet d\'évaluer la tolérance aux traitements et le pronostic.",
+  clinicalCommentary: "L\'échelle de Landry reste peu standardisée en oncologie pédiatrique. Elle est utilisée principalement dans les études et pour le suivi longitudinal. Chez l\'enfant, l\'ECOG n\'est pas adapté car il ne prend pas en compte le jeu et les interactions sociales. D\'autres échelles existent (Lansky play-performance scale).",
   references: [
     {
       type: 'pubmed',

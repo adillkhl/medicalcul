@@ -45,8 +45,8 @@ const ipss_r: FormulaDefinition = {
         {min:6.5,max:99,label:'Very High',severity:'high'},
       ]}
   },
-  interpretation: `L'IPSS-R est le score de reference pour le pronostic des SMD. 5 categories:<br/>• Very Low: Survie mediane 8.8 ans, risque AML 0.8% a 5 ans<br/>• Low: Survie 5.3 ans, risque AML 3%<br/>• Intermediate: Survie 3.0 ans, risque AML 10%<br/>• High: Survie 1.6 ans, risque AML 27%<br/>• Very High: Survie 0.8 ans, risque AML 50%`,
-  clinicalCommentary: `L'IPSS-R est la version amelioree de l'IPSS, integrant des seuils plus precis pour l'hemoglobine, les plaquettes et les PNN, ainsi qu'une classification cytogenetique plus detaillee en 5 groupes. Recommande par les guidelines NCCN et ELN pour la prise en charge des SMD.`,
+  interpretation: `L\'IPSS-R est le score de reference pour le pronostic des SMD. 5 categories:<br/>• Very Low: Survie mediane 8.8 ans, risque AML 0.8% a 5 ans<br/>• Low: Survie 5.3 ans, risque AML 3%<br/>• Intermediate: Survie 3.0 ans, risque AML 10%<br/>• High: Survie 1.6 ans, risque AML 27%<br/>• Very High: Survie 0.8 ans, risque AML 50%`,
+  clinicalCommentary: `L\'IPSS-R est la version amelioree de l\'IPSS, integrant des seuils plus precis pour l\'hemoglobine, les plaquettes et les PNN, ainsi qu'une classification cytogenetique plus detaillee en 5 groupes. Recommande par les guidelines NCCN et ELN pour la prise en charge des SMD.`,
   references: [
     {type:`pubmed`,title:`Greenberg PL et al. Blood 2012`,pmid:`22740453`},
   ],

@@ -203,7 +203,7 @@ const nihss: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `Le **NIHSS** (National Institutes of Health Stroke Scale) est l’outil standardisé d'évaluation de la sévérité de l'AVC ischémique en phase aiguë.
+  interpretation: `Le **NIHSS** (National Institutes of Health Stroke Scale) est l’outil standardisé d\'évaluation de la sévérité de l\'AVC ischémique en phase aiguë.
 
 **15 items scorés 0–2, 0–3 ou 0–4 :**
 1a. Vigilance (0–3)
@@ -223,7 +223,7 @@ const nihss: FormulaDefinition = {
 11. Négligence (0–2)
 
 **Score : 0–42.** Un NIHSS ≥ 10 prédit un risque hémorragique post-thrombolyse. Un NIHSS ≥ 22 prédit une mortalité élevée.`,
-  clinicalCommentary: `Le NIHSS est l'échelle de référence pour l'évaluation initiale et le suivi de l’AVC ischémique. Formez-vous (certification en ligne). Le score influence la décision de thrombolyse et de thrombectomie. Attention : le NIHSS a été conçu pour l'AVC ischémique, pas pour l'hémorragie méningée ou intracérébrale. Le score est pondéré sur l’hémisphère gauche (langage) — un AVC de l'hémisphère droit peut avoir un NIHSS bas malgré un handicap significatif (négligence sous-estimée). Le NIHSS à l'admission prédit la mortalité et le devenir fonctionnel à 3 mois.`,
+  clinicalCommentary: `Le NIHSS est l\'échelle de référence pour l\'évaluation initiale et le suivi de l’AVC ischémique. Formez-vous (certification en ligne). Le score influence la décision de thrombolyse et de thrombectomie. Attention : le NIHSS a été conçu pour l\'AVC ischémique, pas pour l\'hémorragie méningée ou intracérébrale. Le score est pondéré sur l’hémisphère gauche (langage) — un AVC de l\'hémisphère droit peut avoir un NIHSS bas malgré un handicap significatif (négligence sous-estimée). Le NIHSS à l\'admission prédit la mortalité et le devenir fonctionnel à 3 mois.`,
   references: [
     {
       type: 'pubmed',

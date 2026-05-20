@@ -81,7 +81,7 @@ const euroscore1log: FormulaDefinition = {
 - **> 10 %** : risque tres eleve (prohibitif)
 
 Developpe a partir d’une base europeenne de 19 030 patients (1995), il a ete largement valide. Attention : il a tendance a surestimer le risque chez les patients a haut risque par rapport a EuroSCORE II (2008).`,
-  clinicalCommentary: `L'EuroSCORE logistique surestime la mortalite chez les patients a haut risque. La version EuroSCORE II (2008) est plus precise et recommandee actuellement. Ce calculateur implemente la version logistique originale. Utilisez EuroSCORE II pour la pratique clinique courante. L'EuroSCORE est un outil d’aide a la decision, pas un substitut au jugement clinique. Il ne predit pas les complications non fatales.`,
+  clinicalCommentary: `L\'EuroSCORE logistique surestime la mortalite chez les patients a haut risque. La version EuroSCORE II (2008) est plus precise et recommandee actuellement. Ce calculateur implemente la version logistique originale. Utilisez EuroSCORE II pour la pratique clinique courante. L\'EuroSCORE est un outil d’aide a la decision, pas un substitut au jugement clinique. Il ne predit pas les complications non fatales.`,
   references: [
     {
       type: 'pubmed',

@@ -31,7 +31,7 @@ const pneumothorax: FormulaDefinition = {
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
   interpretation: `Le pneumothorax spontane primaire (sujet sain) peut etre surveille si petit (< 2 cm). Spontane secondaire (BPCO, fibrose) necessite souvent un drainage.`,
-  clinicalCommentary: `Le pneumothorax sous tension est une urgence vitale (exsufflation a l'aiguille en 2e espace intercostal ligne M-C). Le drainage est indique si taille > 2 cm, secondaire, ou symptomatique.`,
+  clinicalCommentary: `Le pneumothorax sous tension est une urgence vitale (exsufflation a l\'aiguille en 2e espace intercostal ligne M-C). Le drainage est indique si taille > 2 cm, secondaire, ou symptomatique.`,
   references: [
     {type:`pubmed`,title:`MacDuff A et al. Thorax 2010`,pmid:`20696681`}
   ],

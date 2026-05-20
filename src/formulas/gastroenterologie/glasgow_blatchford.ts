@@ -141,7 +141,7 @@ const glasgowBlatchford: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `Le **score de Glasgow-Blatchford** (GBS) est un score pre-endoscopique validé pour predire la necessite d’intervention (transfusion, endoscopie, chirurgie) en cas d'hemorragie digestive haute.\n\n**Score 0** : VPN > 99 % pour absence d'intervention necessaire -> sortie possible du SAU.\n\nIl est superieur au Rockall pour identifier les patients a faible risque pouvant etre pris en charge en ambulatoire.\n\n**Composantes** : uree, hemoglobine, PAS, pouls, melena, syncope, hepatopathie, insuffisance cardiaque.`,
+  interpretation: `Le **score de Glasgow-Blatchford** (GBS) est un score pre-endoscopique validé pour predire la necessite d’intervention (transfusion, endoscopie, chirurgie) en cas d\'hemorragie digestive haute.\n\n**Score 0** : VPN > 99 % pour absence d\'intervention necessaire -> sortie possible du SAU.\n\nIl est superieur au Rockall pour identifier les patients a faible risque pouvant etre pris en charge en ambulatoire.\n\n**Composantes** : uree, hemoglobine, PAS, pouls, melena, syncope, hepatopathie, insuffisance cardiaque.`,
   clinicalCommentary: `Le Blatchford est le meilleur score pour le triage aux urgences. Un score de 0 permet de sortir le patient en toute securite (VPN > 99 %). Le Rockall (qui necessite l’endoscopie) est complementaire pour le pronostic. Attention : le Blatchford a ete valide pour les hemorragies digestives hautes non variceuses. En cas de cirrhose connue, le risque est plus eleve et le score peut sous-estimer la gravite.`,
   references: [
     {

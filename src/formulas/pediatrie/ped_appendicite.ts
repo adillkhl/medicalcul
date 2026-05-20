@@ -4,7 +4,7 @@ const ped_appendicite: FormulaDefinition = {
   id: `ped_appendicite`, slug: `ped_appendicite`,
   name: `Pediatric Appendicitis Score (PAS)`,
   specialty: `pediatrie`, category: `Chirurgie Pediatrique`,
-  description: `Score clinique pour le diagnostic d'appendicite aigue chez l'enfant (7 items, 0-10)`,
+  description: `Score clinique pour le diagnostic d\'appendicite aigue chez l\'enfant (7 items, 0-10)`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`migration_douleur`,type:`boolean`,label:`Migration de la douleur vers la FID`,weight:1},
@@ -20,16 +20,16 @@ const ped_appendicite: FormulaDefinition = {
     const sev = s >= 7 ? `high` : s >= 5 ? `moderate` : `low`
     return {value:s, label:`Score PAS ${s}/10`, severity: sev,
       ranges:[
-        {min:0,max:4,label:`Faible probabilite d'appendicite`,severity:`low`,recommendation:`Surveillance clinique. Sortie possible si pas d'autre signe. Pas d'imagerie systematique.`},
+        {min:0,max:4,label:`Faible probabilite d\'appendicite`,severity:`low`,recommendation:`Surveillance clinique. Sortie possible si pas d\'autre signe. Pas d\'imagerie systematique.`},
         {min:5,max:6,label:`Probabilite intermediaire`,severity:`moderate`,recommendation:`Echographie abdominale. Si non contributive : TDM avec injection. Surveillance hospitaliere courte.`},
-        {min:7,max:10,label:`Haute probabilite d'appendicite`,severity:`high`,recommendation:`Consultation chirurgicale. Appendicectomie probable. Bilan pre-operatoire.`},
+        {min:7,max:10,label:`Haute probabilite d\'appendicite`,severity:`high`,recommendation:`Consultation chirurgicale. Appendicectomie probable. Bilan pre-operatoire.`},
       ]}
   },
-  interpretation: `Le Pediatric Appendicitis Score (PAS) est le score pediatrique de reference pour le diagnostic d'appendicite aigue. 7 items (migration de la douleur, anorexie, nausees/vomissements, douleur FID, rebond, fievre, leucocytose) sur 10 points.`,
-  clinicalCommentary: `Valide chez l'enfant de 2 a 18 ans. Meilleure specificite que l'Alvarado en population pediatrique. Un score PAS < 5 a une forte valeur predictive negative (VPP > 95%). L'echographie abdominale est l'imagerie de premiere intention chez l'enfant pour eviter l'irradiation.`,
+  interpretation: `Le Pediatric Appendicitis Score (PAS) est le score pediatrique de reference pour le diagnostic d\'appendicite aigue. 7 items (migration de la douleur, anorexie, nausees/vomissements, douleur FID, rebond, fievre, leucocytose) sur 10 points.`,
+  clinicalCommentary: `Valide chez l\'enfant de 2 a 18 ans. Meilleure specificite que l\'Alvarado en population pediatrique. Un score PAS < 5 a une forte valeur predictive negative (VPP > 95%). L\'echographie abdominale est l\'imagerie de premiere intention chez l\'enfant pour eviter l\'irradiation.`,
   references: [
     {type:`pubmed`,title:`Samuel M. Pediatric Appendicitis Score. J Pediatr Surg 2002`,pmid:`12077760`},
-    {type:`guideline`,title:`HAS - Appendicite de l'enfant (2021)`,url:`https://www.has-sante.fr/`},
+    {type:`guideline`,title:`HAS - Appendicite de l\'enfant (2021)`,url:`https://www.has-sante.fr/`},
   ],
 }
 export default ped_appendicite

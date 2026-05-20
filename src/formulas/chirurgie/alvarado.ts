@@ -4,7 +4,7 @@ const alvarado: FormulaDefinition = {
   id: `alvarado`, slug: `alvarado`,
   name: `Alvarado, MANTRELS (Score)`,
   specialty: `chirurgie`, category: `Appendicite`,
-  description: `Probabilite d'appendicite aigue selon le score d'Alvarado (MANTRELS)`,
+  description: `Probabilite d\'appendicite aigue selon le score d\'Alvarado (MANTRELS)`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`migration`,type:`boolean`,label:`Migration de la douleur vers FID`,weight:1},
@@ -27,8 +27,8 @@ const alvarado: FormulaDefinition = {
         {min:7,max:10,label:'Eleve - Appendicectomie probable',severity:'high'},
       ]}
   },
-  interpretation: `Score d'Alvarado (MANTRELS) pour l'appendicite aigue. Chaque lettre correspond a un item (8 items, 10 points max).`,
-  clinicalCommentary: `Score bien valide, meilleure sensibilite que la clinique seule. Un score >= 7 a une forte valeur predictive positive. L'imagerie (TDM abdo ou echo) reste utile pour les scores intermediaires.`,
+  interpretation: `Score d\'Alvarado (MANTRELS) pour l\'appendicite aigue. Chaque lettre correspond a un item (8 items, 10 points max).`,
+  clinicalCommentary: `Score bien valide, meilleure sensibilite que la clinique seule. Un score >= 7 a une forte valeur predictive positive. L\'imagerie (TDM abdo ou echo) reste utile pour les scores intermediaires.`,
   references: [
     {type:`pubmed`,title:`Alvarado A. Ann Emerg Med 1986`,pmid:`3729132`}
   ],

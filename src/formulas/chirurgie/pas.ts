@@ -4,7 +4,7 @@ const pas: FormulaDefinition = {
   id: `pas`, slug: `pas`,
   name: `PAS, Pediatric Appendicitis Score`,
   specialty: `chirurgie`, category: `Appendicite`,
-  description: `Score d'appendicite pediatrique de Samuel (5 facteurs)`,
+  description: `Score d\'appendicite pediatrique de Samuel (5 facteurs)`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`migration`,type:`boolean`,label:`Migration douleur FID`,weight:1},
@@ -24,8 +24,8 @@ const pas: FormulaDefinition = {
         {min:7,max:10,label:'Eleve - Appendicectomie',severity:'high'},
       ]}
   },
-  interpretation: `Le PAS de Samuel est un score pediatrique pour l'appendicite aigue. Score >= 7 de forte valeur predictive positive.`,
-  clinicalCommentary: `Valide chez l'enfant de 4-15 ans. Les items leucocytes et neutrophiles doivent etre ajoutes (manuels).`,
+  interpretation: `Le PAS de Samuel est un score pediatrique pour l\'appendicite aigue. Score >= 7 de forte valeur predictive positive.`,
+  clinicalCommentary: `Valide chez l\'enfant de 4-15 ans. Les items leucocytes et neutrophiles doivent etre ajoutes (manuels).`,
   references: [
     {type:`pubmed`,title:`Samuel M. J Pediatr Surg 2002`,pmid:`12395342`}
   ],

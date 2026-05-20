@@ -57,8 +57,8 @@ const hasbled: FormulaDefinition = {
 - **Score 2** : risque modere (2.0-3.7 %/an)
 - **Score >= 3** : risque eleve (3.7-8.7 %/an)
 
-Un score >= 3 indique une vigilance maximale mais n’est pas une contre-indication absolue a l’anticoagulation. L'objectif est d’identifier les patients necessitant une surveillance renforcee.`,
-  clinicalCommentary: `A utiliser systematiquement avec le CHA2DS2-VA pour guider la decision d'anticoagulation. Un HAS-BLED eleve ne doit pas conduire a priver un patient d'anticoagulation quand le CHA2DS2-VA l’indique - il invite a la vigilance. Les AODs ont un meilleur profil de securite que les AVK. Le critere INR labile ne concerne que les AVK ; si le patient est sous AOD, ce point est a 0.`,
+Un score >= 3 indique une vigilance maximale mais n’est pas une contre-indication absolue a l’anticoagulation. L\'objectif est d’identifier les patients necessitant une surveillance renforcee.`,
+  clinicalCommentary: `A utiliser systematiquement avec le CHA2DS2-VA pour guider la decision d\'anticoagulation. Un HAS-BLED eleve ne doit pas conduire a priver un patient d\'anticoagulation quand le CHA2DS2-VA l’indique - il invite a la vigilance. Les AODs ont un meilleur profil de securite que les AVK. Le critere INR labile ne concerne que les AVK ; si le patient est sous AOD, ce point est a 0.`,
   references: [
     {
       type: 'pubmed',

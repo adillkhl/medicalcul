@@ -4,7 +4,7 @@ const asa: FormulaDefinition = {
   id: `asa`, slug: `asa`,
   name: `A.S.A. (Score)`,
   specialty: `anesthesie`, category: `Classification pre-op`,
-  description: `Classification ASA de l'etat general avant anesthesie`,
+  description: `Classification ASA de l\'etat general avant anesthesie`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `B`,
   inputs: [
     {id:`classe`,type:`radio`,label:`Classe ASA`,options:[{value:1,label:`ASA I - Patient sain`},{value:2,label:`ASA II - Maladie legere`},{value:3,label:`ASA III - Maladie severe`},{value:4,label:`ASA IV - Menace vitale`},{value:5,label:`ASA V - Moribond`},{value:6,label:`ASA VI - Mort cerebrale`}]},

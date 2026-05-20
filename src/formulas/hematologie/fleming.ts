@@ -12,7 +12,7 @@ const fleming: FormulaDefinition = {
       {value:1,label:`Blastes de taille moyenne, nucleoles (LAL L2)`},
       {value:2,label:`Blastes de grande taille, cytoplasme granuleux (LAM)`},
       {value:3,label:`Blastes monocytoides (LAM5)`},
-      {value:4,label:`Blastes avec bâtonnets d'Auer (LAM)`},
+      {value:4,label:`Blastes avec bâtonnets d\'Auer (LAM)`},
       {value:5,label:`Erythroblastes anormaux (LAM6)`},
     ]},
     {id:`mpoperoxidase`,type:`radio`,label:`Myeloperoxydase (MPO) / Soudan black`,options:[
@@ -48,8 +48,8 @@ const fleming: FormulaDefinition = {
         {min:2,max:5,label:'LAM probable',severity:'high'},
       ]}
   },
-  interpretation: `La classification de Fleming distingue les leucemies aigues lymphoblastiques (LAL) et myeloblastiques (LAM) sur des criteres morphologiques, cytologiques et immunophenotypiques. La presence de bâtonnets d'Auer et la positivite de la myeloperoxydase orientent vers une LAM.`,
-  clinicalCommentary: `La classification precise necessite un immunophenotypage complet (cytofluorometrie) et des analyses cytogenetiques/moleculaires. La classification OMS 2022 est la reference actuelle, remplacant la classification FAB. Le traitement d'urgence ne depend pas de la classification precise mais de l'urgence therapeutique.`,
+  interpretation: `La classification de Fleming distingue les leucemies aigues lymphoblastiques (LAL) et myeloblastiques (LAM) sur des criteres morphologiques, cytologiques et immunophenotypiques. La presence de bâtonnets d\'Auer et la positivite de la myeloperoxydase orientent vers une LAM.`,
+  clinicalCommentary: `La classification precise necessite un immunophenotypage complet (cytofluorometrie) et des analyses cytogenetiques/moleculaires. La classification OMS 2022 est la reference actuelle, remplacant la classification FAB. Le traitement d\'urgence ne depend pas de la classification precise mais de l\'urgence therapeutique.`,
   references: [
     {type:`pubmed`,title:`Bennett JM et al. Br J Haematol 1976`,pmid:`188440`},
     {type:`pubmed`,title:`Arber DA et al. Blood 2022`,pmid:`34942123`},

@@ -48,7 +48,7 @@ const score4peps: FormulaDefinition = {
 
 **Items :** âge ≥ 65 (2), chirurgie (2), ATCD TVP/EP (2), dyspnée brutale (1), hémoptysie (2), tachycardie (1), signes TVP (3), diagnostic alternatif moins probable (1).
 **Seuils :** 0-2 faible, 3-5 modéré, ≥ 6 élevé.`,
-  clinicalCommentary: `Le 4PEPS a été publié en 2022. Il surpasse le score de Genève et le Wells PE en sensibilité. Utilisez-le aux urgences devant toute suspicion d’EP. N'oubliez pas de demander les D-Dimères pour les scores faibles et modérés. L'angioscanner thoracique est l’examen de référence.`,
+  clinicalCommentary: `Le 4PEPS a été publié en 2022. Il surpasse le score de Genève et le Wells PE en sensibilité. Utilisez-le aux urgences devant toute suspicion d’EP. N\'oubliez pas de demander les D-Dimères pour les scores faibles et modérés. L\'angioscanner thoracique est l’examen de référence.`,
   references: [
     { type: 'pubmed', title: 'Roy PM et al. J Am Coll Cardiol 2022', pmid: '35618346' },
   ],

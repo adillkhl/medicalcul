@@ -53,7 +53,7 @@ const poids_ideal: FormulaDefinition = {
       ]}
   },
   interpretation: `Plusieurs formules de poids ideal existent:<br/>• Devine (1974): 50 kg + 2.3 kg/pouce > 5 pieds (H), 45.5 + 2.3 (F)<br/>• Robinson (1983): 52 + 1.9 kg/pouce (H), 49 + 1.7 (F)<br/>• Miller (1983): 56.2 + 1.41 kg/pouce (H), 53.1 + 1.36 (F)<br/><br/>La formule de Devine est la plus utilisee, notamment pour le dosage des medicaments (anesthesie). Robinson et Miller donnent des valeurs plus basses.`,
-  clinicalCommentary: `Ces formules sont derivees de tables actuarielles et estiment un poids ideal theorique. Elles ne tiennent pas compte de la composition corporelle, de l'age, de l'origine ethnique, ou de la morphologie. Utilisees principalement pour le dosage des medicaments (heparine, propofol) ou l'estimation des besoins caloriques.`,
+  clinicalCommentary: `Ces formules sont derivees de tables actuarielles et estiment un poids ideal theorique. Elles ne tiennent pas compte de la composition corporelle, de l\'age, de l\'origine ethnique, ou de la morphologie. Utilisees principalement pour le dosage des medicaments (heparine, propofol) ou l\'estimation des besoins caloriques.`,
   references: [
     {type:`pubmed`,title:`Devine BJ. Drug Intell Clin Pharm 1974`,pmid:`pubmed-link`},
     {type:`pubmed`,title:`Robinson JD et al. J Am Pharm Assoc 1983`,pmid:`6833730`},

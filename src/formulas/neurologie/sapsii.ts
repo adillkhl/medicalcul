@@ -228,7 +228,7 @@ const sapsii: FormulaDefinition = {
   },
   interpretation: `Le **SAPS II** (Simplified Acute Physiology Score II) est un score pronostique de mortalité en réanimation, calculé sur les 24 premières heures d’admission. Il utilise 17 variables physiologiques et pathologiques.
 
-**Variables :** âge, FC, PAS, température, PaO2/FiO2, diurèse, urée, leucocytes, kaliémie, natrémie, bicarbonates, bilirubine, GCS, type d'admission, SIDA, cancer métastatique, hémopathie.
+**Variables :** âge, FC, PAS, température, PaO2/FiO2, diurèse, urée, leucocytes, kaliémie, natrémie, bicarbonates, bilirubine, GCS, type d\'admission, SIDA, cancer métastatique, hémopathie.
 
 **Score : 0–163.** La mortalité hospitalière estimée est dérivée du score total par une équation logistique.
 

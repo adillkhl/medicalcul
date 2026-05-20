@@ -4,7 +4,7 @@ const hypercalcemie_diag: FormulaDefinition = {
   id: `hypercalcemie_diag`, slug: `hypercalcemie_diag`,
   name: `Hypercalcemie (Diagnostic)`,
   specialty: `nephrologie`, category: `Calcium`,
-  description: `Approche diagnostique de l'hypercalcemie`,
+  description: `Approche diagnostique de l\'hypercalcemie`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `C`,
   inputs: [
     {id:`pth`,type:`radio`,label:`PTH`,options:[{value:0,label:`Basse`},{value:1,label:`Adaptee`},{value:2,label:`Elevee inadaptee`}]},
@@ -28,7 +28,7 @@ const hypercalcemie_diag: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `L'hypercalcemie est le signe biologique le plus frequent en pathologie tumorale. La PTH est le premier examen a demander.`,
+  interpretation: `L\'hypercalcemie est le signe biologique le plus frequent en pathologie tumorale. La PTH est le premier examen a demander.`,
   clinicalCommentary: `Hyperparathyroidie primaire et hypercalcemie maligne representent > 90% des causes.`,
   references: [
     {type:`pubmed`,title:`Shane E et al. J Bone Miner Res 2014`,pmid:`24443374`}

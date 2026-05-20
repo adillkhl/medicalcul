@@ -28,7 +28,7 @@ const lee: FormulaDefinition = {
       {min:3,max:6,label:`> 11% risque, avis cardio obligatoire`,severity:`high`},
       ]}
   },
-  interpretation: `Le RCRI de Lee predit le risque d'evenements cardiaques majeurs en chirurgie non-cardiaque.`,
+  interpretation: `Le RCRI de Lee predit le risque d\'evenements cardiaques majeurs en chirurgie non-cardiaque.`,
   clinicalCommentary: `Outil le plus valide pour le risque cardiaque perioperatoire. Si >= 2 facteurs, bilan cardio pre-op recommande.`,
   references: [
     {type:`pubmed`,title:`Lee TH et al. Circulation 1999`,pmid:`10436159`}

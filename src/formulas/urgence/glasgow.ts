@@ -77,7 +77,7 @@ const glasgow: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `L'échelle de Glasgow (Glasgow Coma Scale) est la référence internationale pour quantifier le niveau de conscience. Elle comporte 3 items :
+  interpretation: `L\'échelle de Glasgow (Glasgow Coma Scale) est la référence internationale pour quantifier le niveau de conscience. Elle comporte 3 items :
 
 • **Y (ouverture des yeux)** : 1-4
 • **V (réponse verbale)** : 1-5

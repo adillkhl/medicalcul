@@ -30,7 +30,7 @@ const pft: FormulaDefinition = {
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
   interpretation: `VEMS/CVF < 70% = syndrome obstructif (BPCO, asthme). CVF < 80% avec ratio normal = syndrome restrictif.`,
-  clinicalCommentary: `Interpreter les EFR apres bronchodilatateur. Le VEMS classe la severite de l'obstruction GOLD.`,
+  clinicalCommentary: `Interpreter les EFR apres bronchodilatateur. Le VEMS classe la severite de l\'obstruction GOLD.`,
   references: [
     {type:`pubmed`,title:`Pellegrino R et al. Eur Respir J 2005`,pmid:`16385558`}
   ],

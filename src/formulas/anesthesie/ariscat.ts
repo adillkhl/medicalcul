@@ -27,8 +27,8 @@ const ariscat: FormulaDefinition = {
       {min:45,max:999,label:`Risque eleve`,severity:`high`},
       ]}
   },
-  interpretation: `L'ARISCAT predit les complications respiratoires post-operatoires (CPR). Score >= 45 = risque eleve.`,
-  clinicalCommentary: `Valide en chirurgie non-cardiaque. Optimiser l'Hb, traiter les infections respiratoires, kinesitherapie pre-op.`,
+  interpretation: `L\'ARISCAT predit les complications respiratoires post-operatoires (CPR). Score >= 45 = risque eleve.`,
+  clinicalCommentary: `Valide en chirurgie non-cardiaque. Optimiser l\'Hb, traiter les infections respiratoires, kinesitherapie pre-op.`,
   references: [
     {type:`pubmed`,title:`Canet J et al. Eur Respir J 2010`,pmid:`20525716`}
   ],

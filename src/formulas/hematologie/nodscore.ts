@@ -22,8 +22,8 @@ const nodscore: FormulaDefinition = {
         {min:3,max:5,label:'Mauvais pronostic (3-5) - Survie 4ans: 53%',severity:'high'},
       ]}
   },
-  interpretation: `Le R-IPI (Revised IPI) a ete developpe pour les patients traites par R-CHOP. Il utilise les memes 5 facteurs que l'IPI mais regroupe les scores en 3 categories:<br/>• 0: Tres bon pronostic (survie sans progression a 4 ans: 94%)<br/>• 1-2: Bon pronostic (80%)<br/>• 3-5: Mauvais pronostic (53%)<br/><br/>Contrairement a l'IPI original qui distinguait 4 categories.`,
-  clinicalCommentary: `Le R-IPI est plus simple que l'IPI original (3 vs 4 categories) et mieux adapte a l'ere du rituximab. Le NCCN-IPI (2014) offre une stratification encore plus precise utilisant l'age comme variable continue et le rapport LDH/N.`,
+  interpretation: `Le R-IPI (Revised IPI) a ete developpe pour les patients traites par R-CHOP. Il utilise les memes 5 facteurs que l\'IPI mais regroupe les scores en 3 categories:<br/>• 0: Tres bon pronostic (survie sans progression a 4 ans: 94%)<br/>• 1-2: Bon pronostic (80%)<br/>• 3-5: Mauvais pronostic (53%)<br/><br/>Contrairement a l\'IPI original qui distinguait 4 categories.`,
+  clinicalCommentary: `Le R-IPI est plus simple que l\'IPI original (3 vs 4 categories) et mieux adapte a l\'ere du rituximab. Le NCCN-IPI (2014) offre une stratification encore plus precise utilisant l\'age comme variable continue et le rapport LDH/N.`,
   references: [
     {type:`pubmed`,title:`Sehn LH et al. J Clin Oncol 2007`,pmid:`17369568`},
   ],

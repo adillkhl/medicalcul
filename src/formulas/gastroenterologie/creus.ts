@@ -116,7 +116,7 @@ const creus: FormulaDefinition = {
 **Items** : selles liquides (x2), douleur (x3), bien-être (x2), masse abdominale (+5), fièvre (+3), perte de poids (+2), manifestations extra-intestinales (+3).
 
 Le seuil < 5 définit la rémission, 5-9 une activité légère, 10-14 modérée, et ≥ 15 sévère.`,
-  clinicalCommentary: `Le score de Creus est moins utilisé que le CDAI ou l’Harvey-Bradshaw en pratique clinique, mais reste pertinent pour une évaluation rapide. En pratique, le CDAI (ou sa version simplifiée Harvey-Bradshaw) est préféré dans les essais cliniques et le suivi. La calprotectine fécale et les biomarqueurs (CRP) complètent l'évaluation clinique.`,
+  clinicalCommentary: `Le score de Creus est moins utilisé que le CDAI ou l’Harvey-Bradshaw en pratique clinique, mais reste pertinent pour une évaluation rapide. En pratique, le CDAI (ou sa version simplifiée Harvey-Bradshaw) est préféré dans les essais cliniques et le suivi. La calprotectine fécale et les biomarqueurs (CRP) complètent l\'évaluation clinique.`,
   references: [
     {
       type: 'pubmed',

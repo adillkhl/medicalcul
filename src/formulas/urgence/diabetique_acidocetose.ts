@@ -4,7 +4,7 @@ const diabetique_acidocetose: FormulaDefinition = {
   id: `diabetique_acidocetose`, slug: `diabetique_acidocetose`,
   name: `Acidocetose diabetique (Gravite)`,
   specialty: `urgence`, category: `Diabete`,
-  description: `Evaluation de la severite de l'acidocetose diabetique`,
+  description: `Evaluation de la severite de l\'acidocetose diabetique`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`glycemie`,type:`number`,label:`Glycemie`,unit:`mmol/L`},
@@ -26,8 +26,8 @@ const diabetique_acidocetose: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `L'acidocetose diabetique est une urgence metabolique. L'insulinotherapie IV est le traitement de base avec rehydratation et correction de la kaliemie.`,
-  clinicalCommentary: `Bicarbonate discute (pH > 6.9). Surveiller K+ toutes les 2h. Ne pas arreter l'insuline si glycemie > 15, passer au glucose 10%. L'oedeme cerebral est la complication la plus redoutee chez l'enfant.`,
+  interpretation: `L\'acidocetose diabetique est une urgence metabolique. L\'insulinotherapie IV est le traitement de base avec rehydratation et correction de la kaliemie.`,
+  clinicalCommentary: `Bicarbonate discute (pH > 6.9). Surveiller K+ toutes les 2h. Ne pas arreter l\'insuline si glycemie > 15, passer au glucose 10%. L\'oedeme cerebral est la complication la plus redoutee chez l\'enfant.`,
   references: [
     {type:`pubmed`,title:`Kitabchi AE et al. Diabetes Care 2009`,pmid:`19109133`}
   ],

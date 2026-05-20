@@ -86,7 +86,7 @@ Où T = taille en cm, A = âge en années.
 - < 60% : diminution sévère
 
 Le DEP est utile pour le suivi de l’asthme (variabilité diurne > 20% = mauvais contrôle).`,
-  clinicalCommentary: `Le DEP est un outil simple et reproductible pour le suivi de l'asthme. Il ne remplace pas les EFR complètes (VEMS, CVF). En pratique, chaque patient a sa propre « meilleure valeur » personnelle qui peut différer de la théorique. La variabilité diurne (matin vs soir) > 20% est un signe de mauvais contrôle de l'asthme. Le DEP est aussi utile en médecine du travail pour le dépistage des asthmes professionnels. Attention : le DEP dépend de l’effort du patient (ne pas utiliser chez les patients confus ou fatigués).`,
+  clinicalCommentary: `Le DEP est un outil simple et reproductible pour le suivi de l\'asthme. Il ne remplace pas les EFR complètes (VEMS, CVF). En pratique, chaque patient a sa propre « meilleure valeur » personnelle qui peut différer de la théorique. La variabilité diurne (matin vs soir) > 20% est un signe de mauvais contrôle de l\'asthme. Le DEP est aussi utile en médecine du travail pour le dépistage des asthmes professionnels. Attention : le DEP dépend de l’effort du patient (ne pas utiliser chez les patients confus ou fatigués).`,
   references: [
     {
       type: 'pubmed',

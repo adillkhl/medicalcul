@@ -373,6 +373,68 @@ import westley from './orl/westley'
 import wfns from './neurologie/wfns'
 import wpi_sss from './rhumatologie/wpi_sss'
 import ybocs from './psychiatrie/ybocs'
+import afc_colo from './chirurgie/afc_colo'
+import skene from './dermatologie/skene'
+import wifi from './dermatologie/wifi'
+import conversions from './divers/conversions'
+import corticoides from './divers/corticoides'
+import duree from './divers/duree'
+import fr_ald30 from './divers/fr_ald30'
+import hoehn_yahr from './divers/hoehn_yahr'
+import ich_neuro from './divers/ich_neuro'
+import irls from './divers/irls'
+import liege from './divers/liege'
+import macnairsimpl from './divers/macnairsimpl'
+import pdq39 from './divers/pdq39'
+import schwab_england from './divers/schwab_england'
+import updrs from './divers/updrs'
+import mrcmuscforce from './neurologie/mrcmuscforce'
+import tcmasters from './neurologie/tcmasters'
+import albcrp from './nutrition/albcrp'
+import calcium_grio from './nutrition/calcium_grio'
+import ebs from './nutrition/ebs'
+import masse_maigre from './nutrition/masse_maigre'
+import mgpliscut_durnin from './nutrition/mgpliscut_durnin'
+import nicerenut from './nutrition/nicerenut'
+import p_xbw from './nutrition/p_xbw'
+import mascc from './oncologie/mascc'
+import surfacecorpoped from './oncologie/surfacecorpoped'
+import abaq_ped from './pediatrie/abaq_ped'
+import agecorrige from './pediatrie/agecorrige'
+import blantyre from './pediatrie/blantyre'
+import guarino from './pediatrie/guarino'
+import percpoids from './pediatrie/percpoids'
+import pram from './pediatrie/pram'
+import rbilialb from './pediatrie/rbilialb'
+import taille_cible from './pediatrie/taille_cible'
+import wang from './pediatrie/wang'
+import wood from './pediatrie/wood'
+import fine from './pneumologie/fine'
+import genevemodifie from './pneumologie/genevemodifie'
+import gradaao2 from './pneumologie/gradaao2'
+import hestia from './pneumologie/hestia'
+import idsaats07 from './pneumologie/idsaats07'
+import nijmegen_hyperventil from './pneumologie/nijmegen_hyperventil'
+import pesi from './pneumologie/pesi'
+import smartcop from './pneumologie/smartcop'
+import winter from './pneumologie/winter'
+import bits from './psychiatrie/bits'
+import fr_procpsy from './psychiatrie/fr_procpsy'
+import pss from './psychiatrie/pss'
+import scoff from './psychiatrie/scoff'
+import sisbeck from './psychiatrie/sisbeck'
+import hope from './reanimation/hope'
+import roxindex from './reanimation/roxindex'
+import adiva from './soins_infirmiers/adiva'
+import debdrog from './soins_infirmiers/debdrog'
+import debdrogpt from './soins_infirmiers/debdrogpt'
+import debperf from './soins_infirmiers/debperf'
+import debpse from './soins_infirmiers/debpse'
+import debtransfu from './soins_infirmiers/debtransfu'
+import diva from './soins_infirmiers/diva'
+import schemdent from './stomatologie/schemdent'
+import fract_rein from './urologie/fract_rein'
+import iief5 from './urologie/iief5'
 
 const registry = new Map<string, FormulaDefinition>()
 
@@ -750,6 +812,68 @@ const formulas: FormulaDefinition[] = [
   wfns,
   wpi_sss,
   ybocs,
+  afc_colo,
+  skene,
+  wifi,
+  conversions,
+  corticoides,
+  duree,
+  fr_ald30,
+  hoehn_yahr,
+  ich_neuro,
+  irls,
+  liege,
+  macnairsimpl,
+  pdq39,
+  schwab_england,
+  updrs,
+  mrcmuscforce,
+  tcmasters,
+  albcrp,
+  calcium_grio,
+  ebs,
+  masse_maigre,
+  mgpliscut_durnin,
+  nicerenut,
+  p_xbw,
+  mascc,
+  surfacecorpoped,
+  abaq_ped,
+  agecorrige,
+  blantyre,
+  guarino,
+  percpoids,
+  pram,
+  rbilialb,
+  taille_cible,
+  wang,
+  wood,
+  fine,
+  genevemodifie,
+  gradaao2,
+  hestia,
+  idsaats07,
+  nijmegen_hyperventil,
+  pesi,
+  smartcop,
+  winter,
+  bits,
+  fr_procpsy,
+  pss,
+  scoff,
+  sisbeck,
+  hope,
+  roxindex,
+  adiva,
+  debdrog,
+  debdrogpt,
+  debperf,
+  debpse,
+  debtransfu,
+  diva,
+  schemdent,
+  fract_rein,
+  iief5,
 ]
 
 formulas.forEach((f) => registry.set(f.slug, f))

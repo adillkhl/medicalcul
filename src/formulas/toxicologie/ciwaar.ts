@@ -181,7 +181,7 @@ const ciwaar: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `Le **CIWA-Ar** (Clinical Institute Withdrawal Assessment for Alcohol — revised) est l'échelle de référence pour quantifier la sévérité du syndrome de sevrage alcoolique.
+  interpretation: `Le **CIWA-Ar** (Clinical Institute Withdrawal Assessment for Alcohol — revised) est l\'échelle de référence pour quantifier la sévérité du syndrome de sevrage alcoolique.
 
 **Score total : 0 à 67**
 
@@ -191,8 +191,8 @@ Conduite à tenir selon le score :
 - **16-20** : Sevrage sévère — risque de delirium tremens, BZD IV titration
 - **≥ 21** : Delirium tremens probable — réanimation
 
-**Traitement symptomatique :** vitamine B1 (thiamine) 250 mg IV/24h pour prévenir l'encéphalopathie de Gayet-Wernicke.`,
-  clinicalCommentary: `Répéter le CIWA-Ar toutes les 1 à 4 heures selon la sévérité initiale. L'objectif est de maintenir le score ≤ 8 tout en évitant la sédation excessive. Le protocole « symptôme-titré » (CIWA-Ar guidé) est supérieur aux doses fixes pour réduire la durée de traitement et les complications. Toujours associer la thiamine (vitamine B1) pour prévenir l'encéphalopathie de Wernicke.`,
+**Traitement symptomatique :** vitamine B1 (thiamine) 250 mg IV/24h pour prévenir l\'encéphalopathie de Gayet-Wernicke.`,
+  clinicalCommentary: `Répéter le CIWA-Ar toutes les 1 à 4 heures selon la sévérité initiale. L\'objectif est de maintenir le score ≤ 8 tout en évitant la sédation excessive. Le protocole « symptôme-titré » (CIWA-Ar guidé) est supérieur aux doses fixes pour réduire la durée de traitement et les complications. Toujours associer la thiamine (vitamine B1) pour prévenir l\'encéphalopathie de Wernicke.`,
   references: [
     {
       type: 'pubmed',

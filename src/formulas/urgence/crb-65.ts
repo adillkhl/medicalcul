@@ -45,7 +45,7 @@ const crb65: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `Le CRB-65 est la version simplifiée du CURB-65, sans dosage de l’urée sanguine. Il permet d'évaluer la mortalité à 30 jours chez un patient avec pneumonie acquise en communauté (PAC) et d’orienter la décision d'hospitalisation.
+  interpretation: `Le CRB-65 est la version simplifiée du CURB-65, sans dosage de l’urée sanguine. Il permet d\'évaluer la mortalité à 30 jours chez un patient avec pneumonie acquise en communauté (PAC) et d’orienter la décision d\'hospitalisation.
 
 • **Score 0–1** : mortalité ≤ 1,5 % → ambulatoire
 • **Score 2** : mortalité ≈ 9,2 % → hospitalisation (court séjour)

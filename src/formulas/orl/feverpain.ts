@@ -99,9 +99,9 @@ const feverpain: FormulaDefinition = {
 
 **Conduite NICE :**
 - 0–1 : pas d’ATB (13% risque SGA)
-- 2–3 : ATB différée (prescription à prendre si pas d'amélioration à 48h)
+- 2–3 : ATB différée (prescription à prendre si pas d\'amélioration à 48h)
 - 4–5 : ATB immédiate (62% risque SGA)`,
-  clinicalCommentary: `Le NICE recommande désormais le FeverPAIN plutôt que le Centor pour sa meilleure valeur prédictive. L'approche "prescription différée" (donner l’ordonnance mais demander d’attendre 48h avant de l'utiliser si l'état ne s’améliore pas) réduit significativement la consommation d’ATB. En France, la HAS recommande encore le Centor/Mac Isaac + TDR — dans le doute, utiliser FeverPAIN pour l’angine de l'adulte. Les 2 scores sont complémentaires.`,
+  clinicalCommentary: `Le NICE recommande désormais le FeverPAIN plutôt que le Centor pour sa meilleure valeur prédictive. L\'approche "prescription différée" (donner l’ordonnance mais demander d’attendre 48h avant de l\'utiliser si l\'état ne s’améliore pas) réduit significativement la consommation d’ATB. En France, la HAS recommande encore le Centor/Mac Isaac + TDR — dans le doute, utiliser FeverPAIN pour l’angine de l\'adulte. Les 2 scores sont complémentaires.`,
   references: [
     {
       type: 'pubmed',

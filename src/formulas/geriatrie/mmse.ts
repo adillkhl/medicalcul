@@ -44,8 +44,8 @@ const mmse: FormulaDefinition = {
         {min:0,max:17,label:'Troubles cognitifs severes',severity:'high'},
       ]}
   },
-  interpretation: `Le MMSE est le test de reference pour l'evaluation cognitive globale. Le score maximal est de 30 points. Un score ≤ 24 suggere des troubles cognitifs. La sensibilite et la specificite dependent du niveau d'education et de l'age. Ne remplace pas un bilan neuropsychologique complet.`,
-  clinicalCommentary: `Le MMSE est influence par le niveau socio-culturel et l'age. Un score normal n'exclut pas un declin cognitif (sujets tres cultivés). Le MOCA est parfois preferable pour les stades precoces. Utiliser les courbes de correction selon l'age et le niveau d'etudes.`,
+  interpretation: `Le MMSE est le test de reference pour l\'evaluation cognitive globale. Le score maximal est de 30 points. Un score ≤ 24 suggere des troubles cognitifs. La sensibilite et la specificite dependent du niveau d\'education et de l\'age. Ne remplace pas un bilan neuropsychologique complet.`,
+  clinicalCommentary: `Le MMSE est influence par le niveau socio-culturel et l\'age. Un score normal n\'exclut pas un declin cognitif (sujets tres cultivés). Le MOCA est parfois preferable pour les stades precoces. Utiliser les courbes de correction selon l\'age et le niveau d\'etudes.`,
   references: [
     {type:`pubmed`,title:`Folstein MF et al. J Psychiatr Res 1975`,pmid:`1202204`},
     {type:`pubmed`,title:`Crum RM et al. JAMA 1993`,pmid:`8418486`},

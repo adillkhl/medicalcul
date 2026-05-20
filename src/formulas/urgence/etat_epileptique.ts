@@ -4,7 +4,7 @@ const etat_epileptique: FormulaDefinition = {
   id: `etat_epileptique`, slug: `etat_epileptique`,
   name: `Etat de mal epileptique (Classification)`,
   specialty: `urgence`, category: `Epilepsie`,
-  description: `Classification et prise en charge de l'etat de mal epileptique`,
+  description: `Classification et prise en charge de l\'etat de mal epileptique`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `B`,
   inputs: [
     {id:`type`,type:`radio`,label:`Type`,options:[{value:0,label:`Convulsif generalise`},{value:1,label:`Partiel simple`},{value:2,label:`Absence / partiel complexe`}]},
@@ -29,7 +29,7 @@ const etat_epileptique: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `L'etat de mal epileptique est defini par une crise prolongee > 5 min ou des crises repetees sans reprise de conscience. Urgence therapeutique.`,
+  interpretation: `L\'etat de mal epileptique est defini par une crise prolongee > 5 min ou des crises repetees sans reprise de conscience. Urgence therapeutique.`,
   clinicalCommentary: `Protocole: 1) Benzodiazepine IV (diazepam 10 mg ou clonazepam 1 mg). 2) Phenytoine 15-20 mg/kg ou phenobarbital. 3) Anesthesie generale (propofol, midazolam) si refractaire. EEG continu si persistant.`,
   references: [
     {type:`pubmed`,title:`Brophy GM et al. Neurocrit Care 2012`,pmid:`22585041`}

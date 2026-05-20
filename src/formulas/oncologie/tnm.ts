@@ -8,7 +8,7 @@ const tnm: FormulaDefinition = {
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `C`,
   inputs: [
     {id:`t`,type:`radio`,label:`T - Tumeur primitive`,options:[{value:0,label:`T0 - Pas de tumeur`},{value:1,label:`T1 - Petite tumeur`},{value:2,label:`T2 - Taille/ganglionnaire`},{value:3,label:`T3 - Extension locale`},{value:4,label:`T4 - Invasion organes voisins`}]},
-    {id:`n`,type:`radio`,label:`N - Ganglions`,options:[{value:0,label:`N0 - Pas d'adenopathie`},{value:1,label:`N1 - Ganglions régionaux`},{value:2,label:`N2 - Multiples/bilateral`},{value:3,label:`N3 - Ganglions a distance`}]},
+    {id:`n`,type:`radio`,label:`N - Ganglions`,options:[{value:0,label:`N0 - Pas d\'adenopathie`},{value:1,label:`N1 - Ganglions régionaux`},{value:2,label:`N2 - Multiples/bilateral`},{value:3,label:`N3 - Ganglions a distance`}]},
     {id:`m`,type:`radio`,label:`M - Metastases`,options:[{value:0,label:`M0 - Pas de metastases`},{value:1,label:`M1 - Metastases a distance`}]},
   ],
   calculate: (values) => {

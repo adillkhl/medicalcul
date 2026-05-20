@@ -4,7 +4,7 @@ const anemiedef: FormulaDefinition = {
   id: `anemiedef`, slug: `anemiedef`,
   name: `Classification des Anemies`,
   specialty: `hematologie`, category: `Anemie`,
-  description: `Classification des anemies selon le VGM, la reticulocytose et l'hemoglobine`,
+  description: `Classification des anemies selon le VGM, la reticulocytose et l\'hemoglobine`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`hb`,type:`number`,label:`Hemoglobine (g/dL)`,unit:`g/dL`,min:0,max:20,step:0.1,placeholder:`Ex: 10.5`},
@@ -42,8 +42,8 @@ const anemiedef: FormulaDefinition = {
         {min:0,max:seuil-3,label:'Anemie severe',severity:'high'},
       ]}
   },
-  interpretation: `L'anemie est definie par un taux d'hemoglobine < 13 g/dL chez l'homme et < 12 g/dL chez la femme. Le VGM oriente le diagnostic:<br/>• Microcytaire (< 80 fL): carence martiale, thalassemie, inflammation<br/>• Normocytaire (80-100 fL): hemorragie, hemolyse, IRC, carence mixte<br/>• Macrocytaire (> 100 fL): carence B12/folates, alcohol, MDS, hypothyroidie`,
-  clinicalCommentary: `L'interpretation doit tenir compte du contexte clinique. Le taux de reticulocytes (< 120 G/L = aregeneratif) permet de distinguer anemie centrale (moelle) vs peripherique (hemorragie/hemolyse). Un index de reticulocytes (IR = reticulocytes% × Hb/45) < 2% = aregeneratif.`,
+  interpretation: `L\'anemie est definie par un taux d\'hemoglobine < 13 g/dL chez l\'homme et < 12 g/dL chez la femme. Le VGM oriente le diagnostic:<br/>• Microcytaire (< 80 fL): carence martiale, thalassemie, inflammation<br/>• Normocytaire (80-100 fL): hemorragie, hemolyse, IRC, carence mixte<br/>• Macrocytaire (> 100 fL): carence B12/folates, alcohol, MDS, hypothyroidie`,
+  clinicalCommentary: `L\'interpretation doit tenir compte du contexte clinique. Le taux de reticulocytes (< 120 G/L = aregeneratif) permet de distinguer anemie centrale (moelle) vs peripherique (hemorragie/hemolyse). Un index de reticulocytes (IR = reticulocytes% × Hb/45) < 2% = aregeneratif.`,
   references: [
     {type:`pubmed`,title:`World Health Organization. Nutritional anaemias 1968`,pmid:`pubmed-link`},
     {type:`guideline`,title:`OMS Classification des anemies`,url:`https://www.who.int/nutrition/publications/micronutrients/anaemias/en/`},

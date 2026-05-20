@@ -4,7 +4,7 @@ const embolie_pulm_wells: FormulaDefinition = {
   id: `embolie_pulm_wells`, slug: `embolie_pulm_wells`,
   name: `Wells PE (Score)`,
   specialty: `pneumologie`, category: `Embolie pulmonaire`,
-  description: `Probabilite clinique d'embolie pulmonaire (score de Wells)`,
+  description: `Probabilite clinique d\'embolie pulmonaire (score de Wells)`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`signes_tvp`,type:`boolean`,label:`Signes cliniques de TVP (3 points)`,weight:1},
@@ -27,7 +27,7 @@ const embolie_pulm_wells: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `Le score de Wells stratifie la probabilite d'EP. Combine signes cliniques, facteurs de risque et diagnostic alternatif.`,
+  interpretation: `Le score de Wells stratifie la probabilite d\'EP. Combine signes cliniques, facteurs de risque et diagnostic alternatif.`,
   clinicalCommentary: `Si probabilite faible ou moderee et D-Dimeres negatifs: EP exclue. Si forte probabilite: angioTDM direct.`,
   references: [
     {type:`pubmed`,title:`Wells PS et al. Thromb Haemost 2000`,pmid:`11257330`}

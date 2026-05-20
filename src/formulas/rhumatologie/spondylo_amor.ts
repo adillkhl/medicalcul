@@ -89,7 +89,7 @@ const spondyloAmor: FormulaDefinition = {
     if (score >= 6) {
       return {
         value: score,
-        label: `Score d'Amor = ${score} — Spondylarthrite certaine (≥ 6)`,
+        label: `Score d\'Amor = ${score} — Spondylarthrite certaine (≥ 6)`,
         severity: 'high',
         ranges: [
           { min: 6, max: 99, label: '≥ 6 : Spondylarthrite certaine (SpA)', severity: 'high' },
@@ -101,7 +101,7 @@ const spondyloAmor: FormulaDefinition = {
     if (score === 5) {
       return {
         value: score,
-        label: `Score d'Amor = ${score} — Spondylarthrite probable`,
+        label: `Score d\'Amor = ${score} — Spondylarthrite probable`,
         severity: 'moderate',
         ranges: [
           { min: 0, max: 4, label: '0–4 : Peu probable', severity: 'low' },
@@ -112,7 +112,7 @@ const spondyloAmor: FormulaDefinition = {
     }
     return {
       value: score,
-      label: `Score d'Amor = ${score} — Spondylarthrite peu probable`,
+      label: `Score d\'Amor = ${score} — Spondylarthrite peu probable`,
       severity: 'low',
       ranges: [
         { min: 0, max: 4, label: '0–4 : Peu probable', severity: 'low' },
@@ -121,7 +121,7 @@ const spondyloAmor: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `**Critères d'Amor** pour la classification des spondylarthropathies.
+  interpretation: `**Critères d\'Amor** pour la classification des spondylarthropathies.
 
 | Item | Points |
 |---|---|
@@ -141,7 +141,7 @@ const spondyloAmor: FormulaDefinition = {
 - ≥ 6 : Spondylarthropathie certaine
 - 5 : Probable
 - ≤ 4 : Peu probable`,
-  clinicalCommentary: `Les critères d'Amor (1990) ont précédé les critères ASAS. Bien qu'historiques, ils restent utiles en clinique pour leur simplicité. Les critères ASAS (2009) sont désormais la référence pour la spondylarthrite axiale.`,
+  clinicalCommentary: `Les critères d\'Amor (1990) ont précédé les critères ASAS. Bien qu'historiques, ils restent utiles en clinique pour leur simplicité. Les critères ASAS (2009) sont désormais la référence pour la spondylarthrite axiale.`,
   references: [
     {
       type: 'pubmed',

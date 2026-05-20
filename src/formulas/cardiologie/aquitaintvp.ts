@@ -59,7 +59,7 @@ const aquitaintvp: FormulaDefinition = {
 - **≥ 5** : forte probabilité
 
 Comme le score de Wells TVP, il permet de guider la stratégie diagnostique : D-dimères en première intention si probabilité faible/modérée, écho-doppler direct si probabilité forte.`,
-  clinicalCommentary: `Ce score est moins utilisé que le score de Wells TVP, mais reste une alternative française utile. Comme tout score clinique, il ne remplace pas le jugement clinique. En cas de forte suspicion clinique malgré un score faible, ne pas hésiter à demander l'écho-doppler. Le signe le plus prédictif de TVP est le cordon veineux palpable.`,
+  clinicalCommentary: `Ce score est moins utilisé que le score de Wells TVP, mais reste une alternative française utile. Comme tout score clinique, il ne remplace pas le jugement clinique. En cas de forte suspicion clinique malgré un score faible, ne pas hésiter à demander l\'écho-doppler. Le signe le plus prédictif de TVP est le cordon veineux palpable.`,
   references: [
     {
       type: 'pubmed',

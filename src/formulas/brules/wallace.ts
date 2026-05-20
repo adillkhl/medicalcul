@@ -30,7 +30,7 @@ const wallace: FormulaDefinition = {
     
   },
   interpretation: `La regle des 9 de Wallace permet une estimation rapide de la surface brulee. A utiliser au lit du patient pour le tri initial.`,
-  clinicalCommentary: `Valable chez l'adulte. Chez l'enfant, les proportions different: tete 18%, membre inferieur 14%. Reference pour le tri prehospitalier.`,
+  clinicalCommentary: `Valable chez l\'adulte. Chez l\'enfant, les proportions different: tete 18%, membre inferieur 14%. Reference pour le tri prehospitalier.`,
   references: [
     {type:`pubmed`,title:`Wallace AB. Lancet 1951`,pmid:`14852119`}
   ],

@@ -49,7 +49,7 @@ const altemeier: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `La **classification d'Altemeier** (ou classification de la contamination des plaies chirurgicales) est utilisée dans le cadre de la surveillance épidémiologique des infections du site opératoire (ISO).
+  interpretation: `La **classification d\'Altemeier** (ou classification de la contamination des plaies chirurgicales) est utilisée dans le cadre de la surveillance épidémiologique des infections du site opératoire (ISO).
 
 **Quatre classes :**
 - **Classe I — Propre** : Risque ISO ≤ 2 %.

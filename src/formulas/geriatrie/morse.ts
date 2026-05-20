@@ -18,7 +18,7 @@ const morse: FormulaDefinition = {
     {id:`aide_marche`,type:`radio`,label:`Aide a la marche`,options:[
       {value:0,label:`Aucune / Infirmiere / Fauteuil roulant`},
       {value:15,label:`Canne / Deambulateur`},
-      {value:30,label:`S'accroche aux meubles`},
+      {value:30,label:`S\'accroche aux meubles`},
     ]},
     {id:`perfusion`,type:`radio`,label:`Perfusion IV ou catheter`,options:[
       {value:0,label:`Non`},
@@ -43,8 +43,8 @@ const morse: FormulaDefinition = {
         {min:76,max:125,label:'Risque eleve',severity:'high'},
       ]}
   },
-  interpretation: `L'echelle de Morse evalue le risque de chute chez le patient hospitalise. Score sur 125 points. Un score ≥ 45 indique un risque de chute significatif justifiant des mesures de prevention (alarme, surveillance, chaussures adaptees, environnement securise).`,
-  clinicalCommentary: `Echelle largement utilisee en soins infirmiers. A reevaluer regulierement (au moins toutes les 48h) car le risque de chute evolue avec l'etat clinique. Ne dispense pas d'une evaluation individualisee du risque de chute.`,
+  interpretation: `L\'echelle de Morse evalue le risque de chute chez le patient hospitalise. Score sur 125 points. Un score ≥ 45 indique un risque de chute significatif justifiant des mesures de prevention (alarme, surveillance, chaussures adaptees, environnement securise).`,
+  clinicalCommentary: `Echelle largement utilisee en soins infirmiers. A reevaluer regulierement (au moins toutes les 48h) car le risque de chute evolue avec l\'etat clinique. Ne dispense pas d\'une evaluation individualisee du risque de chute.`,
   references: [
     {type:`pubmed`,title:`Morse JM et al. Nurs Res 1989`,pmid:`2780060`},
     {type:`pubmed`,title:`Morse JM. J Patient Saf 2006`,pmid:`17957199`},

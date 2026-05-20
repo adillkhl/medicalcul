@@ -8,7 +8,7 @@ const mini_gds: FormulaDefinition = {
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `B`,
   inputs: [
     {id:`q1`,type:`boolean`,label:`Etes-vous satisfait(e) de votre vie ? (NON = point)`,weight:1},
-    {id:`q2`,type:`boolean`,label:`Avez-vous souvent le sentiment d'etre decourage(e) et triste ? (OUI = point)`,weight:1},
+    {id:`q2`,type:`boolean`,label:`Avez-vous souvent le sentiment d\'etre decourage(e) et triste ? (OUI = point)`,weight:1},
     {id:`q3`,type:`boolean`,label:`Avez-vous le sentiment que votre vie est vide ? (OUI = point)`,weight:1},
     {id:`q4`,type:`boolean`,label:`Etes-vous heureux(se) la plupart du temps ? (NON = point)`,weight:1},
   ],

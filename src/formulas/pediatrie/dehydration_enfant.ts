@@ -2,9 +2,9 @@ import type { FormulaDefinition } from '../types'
 
 const dehydration_enfant: FormulaDefinition = {
   id: `dehydration_enfant`, slug: `dehydration_enfant`,
-  name: `Score de Déshydratation de l'Enfant`,
+  name: `Score de Déshydratation de l\'Enfant`,
   specialty: `pediatrie`, category: `Urgences Pédiatriques`,
-  description: `Évaluation clinique du degré de déshydratation aiguë du nourrisson et de l'enfant (5 items) — perte de poids estimée`,
+  description: `Évaluation clinique du degré de déshydratation aiguë du nourrisson et de l\'enfant (5 items) — perte de poids estimée`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `B`,
   inputs: [
     {id:`etat_general`,type:`radio`,label:`État général`,options:[{value:0,label:`Normal / éveillé`},{value:1,label:`Agité / irritable`},{value:2,label:`Abattu / lethargique`}]},
@@ -24,7 +24,7 @@ const dehydration_enfant: FormulaDefinition = {
         {min:6,max:10,label:`Déshydratation > 10% — Sévère`,severity:'high',recommendation:`Urgence : perfusion IV (soluté isotonique) en hospitalisation. Réhydratation en 2-4h selon protocole OMS.`},
       ]}
   },
-  interpretation: `Score clinique de déshydratation aiguë chez l'enfant. 5 items (état général, yeux, larmes, pli cutané, muqueuses) cotés 0-2. Total /10. Déshydratation < 5% (0-2) : minime. 5-10% (3-5) : modérée. > 10% (6-10) : sévère avec signes de choc.`,
+  interpretation: `Score clinique de déshydratation aiguë chez l\'enfant. 5 items (état général, yeux, larmes, pli cutané, muqueuses) cotés 0-2. Total /10. Déshydratation < 5% (0-2) : minime. 5-10% (3-5) : modérée. > 10% (6-10) : sévère avec signes de choc.`,
   clinicalCommentary: `Indispensable aux urgences pédiatriques. Ne pas se fier uniquement au poids de base si inconnu. Associé aux signes hémodynamiques (pouls, temps de recoloration, FC, PA). La meilleure approche : perte de poids = référence, mais rarement disponible. Les SRO sont sous-utilisés en France. Attention au pli cutané : peu fiable en cas de dénutrition.`,
   references: [
     {type:`pubmed`,title:`WHO — Clinical dehydration scale. Arch Dis Child 2007`,pmid:`17428829`},

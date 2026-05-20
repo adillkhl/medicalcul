@@ -4,7 +4,7 @@ const hyperkaliemie_diag: FormulaDefinition = {
   id: `hyperkaliemie_diag`, slug: `hyperkaliemie_diag`,
   name: `Hyperkaliemie (Diagnostic)`,
   specialty: `nephrologie`, category: `Potassium`,
-  description: `Approche diagnostique et urgente de l'hyperkaliemie`,
+  description: `Approche diagnostique et urgente de l\'hyperkaliemie`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`k`,type:`radio`,label:`Kaliemie`,options:[{value:0,label:`5.5-5.9 mmol/L legere`},{value:1,label:`6.0-6.4 mmol/L moderee`},{value:2,label:`>= 6.5 mmol/L severe`}]},
@@ -24,7 +24,7 @@ const hyperkaliemie_diag: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `L'hyperkaliemie est une urgence vitale. ECG immediat si K+ > 6.0.`,
+  interpretation: `L\'hyperkaliemie est une urgence vitale. ECG immediat si K+ > 6.0.`,
   clinicalCommentary: `Traitement urgent: Gluconate Ca (protection cardiaque), Insuline+Glucose, B2-agonistes, Kayexalate.`,
   references: [
     {type:`pubmed`,title:`Palmer BF. N Engl J Med 2021`,pmid:`33657290`}

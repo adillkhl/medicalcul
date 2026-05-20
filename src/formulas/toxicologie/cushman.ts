@@ -112,7 +112,7 @@ const cushman: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `Le **score de Cushman** est un outil simple d'évaluation du sevrage alcoolique, basé sur 7 items cliniques et paracliniques.
+  interpretation: `Le **score de Cushman** est un outil simple d\'évaluation du sevrage alcoolique, basé sur 7 items cliniques et paracliniques.
 
 **Items et scores :**
 - FC > 100 bpm : 1 point
@@ -126,7 +126,7 @@ const cushman: FormulaDefinition = {
 **Score maximum : 9**
 
 Un score ≥ 5 prédit un risque élevé de delirium tremens et justifie une prise en charge intensive.`,
-  clinicalCommentary: `Le score de Cushman est moins utilisé que le CIWA-Ar mais reste pertinent pour une évaluation rapide sans questionnaire détaillé. Combiné au CIWA-Ar, il permet une stratification plus fine du risque de delirium. Ne pas oublier la prévention systématique de l'encéphalopathie de Gayet-Wernicke par thiamine (vitamine B1) 250 mg IV/24h pendant toute la durée du sevrage hospitalisé.`,
+  clinicalCommentary: `Le score de Cushman est moins utilisé que le CIWA-Ar mais reste pertinent pour une évaluation rapide sans questionnaire détaillé. Combiné au CIWA-Ar, il permet une stratification plus fine du risque de delirium. Ne pas oublier la prévention systématique de l\'encéphalopathie de Gayet-Wernicke par thiamine (vitamine B1) 250 mg IV/24h pendant toute la durée du sevrage hospitalisé.`,
   references: [
     {
       type: 'pubmed',

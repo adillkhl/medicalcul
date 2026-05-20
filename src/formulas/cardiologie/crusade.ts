@@ -80,7 +80,7 @@ const crusade: FormulaDefinition = {
 - **> 50** : très élevé (15,3 %)
 
 Le score aide à guider le choix de la voie d’abord (radial vs fémoral), le type et la durée de l’anticoagulation.`,
-  clinicalCommentary: `Le CRUSADE est validé pour les SCA non ST+, pas pour les ST+. L'abord radial est associé à une réduction significative des complications hémorragiques par rapport au fémoral, surtout chez les patients à haut risque CRUSADE. Le score a été développé à partir de données américaines (2001–2003) ; les pratiques ont évolué (AOD, abord radial), mais il reste utile pour stratifier le risque. Attention : ne pas utiliser ce score pour décider de ne pas anticoaguler — il guide les précautions.`,
+  clinicalCommentary: `Le CRUSADE est validé pour les SCA non ST+, pas pour les ST+. L\'abord radial est associé à une réduction significative des complications hémorragiques par rapport au fémoral, surtout chez les patients à haut risque CRUSADE. Le score a été développé à partir de données américaines (2001–2003) ; les pratiques ont évolué (AOD, abord radial), mais il reste utile pour stratifier le risque. Attention : ne pas utiliser ce score pour décider de ne pas anticoaguler — il guide les précautions.`,
   references: [
     {
       type: 'pubmed',

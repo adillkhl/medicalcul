@@ -34,7 +34,7 @@ const villalta: FormulaDefinition = {
     return {value:retval, label:retlabel, severity:retsev, ranges}
   },
   interpretation: `Le score de Villalta diagnostique et gradue le syndrome post-thrombotique (SPT) apres une TVP, combinant 5 symptomes et 5 signes cliniques.`,
-  clinicalCommentary: `Le SPT est une complication frequente de la TVP (20-50% a 2 ans). Le port de bas de contention pendant au moins 2 ans apres une TVP proximale reduit le risque de SPT. L'evaluation se fait ≥ 6 mois apres la TVP index.`,
+  clinicalCommentary: `Le SPT est une complication frequente de la TVP (20-50% a 2 ans). Le port de bas de contention pendant au moins 2 ans apres une TVP proximale reduit le risque de SPT. L\'evaluation se fait ≥ 6 mois apres la TVP index.`,
   references: [
     {type:`pubmed`,title:`Villalta S et al. Haemostasis 1994`,pmid:`—`}
   ],

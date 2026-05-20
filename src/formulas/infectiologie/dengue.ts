@@ -22,7 +22,7 @@ const dengue: FormulaDefinition = {
       return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
   interpretation: `Classification OMS de la dengue: sans signes alerte, avec signes alerte, severe.`,
-  clinicalCommentary: `L'extravasation plasmatique (hematocrite, albumine, echographie) definit la dengue severe. Pas d'aspirine/AINS.`,
+  clinicalCommentary: `L\'extravasation plasmatique (hematocrite, albumine, echographie) definit la dengue severe. Pas d\'aspirine/AINS.`,
   references: [
     {type:`pubmed`,title:`WHO. Dengue Guidelines 2009`,pmid:`---`}
   ],

@@ -91,8 +91,8 @@ const wfns: FormulaDefinition = {
 
 La classification WFNS est un facteur prédictif majeur de la mortalité et du devenir fonctionnel après HSA. Elle guide la décision thérapeutique (traitement précoce vs différé) et la stratification dans les essais cliniques.
 
-**Autres classifications complémentaires :** Fisher (épaisseur du sang au TDM), l'échelle de Hunt et Hess.`,
-  clinicalCommentary: `Le grade WFNS est le premier facteur pronostique de l'HSA. Les grades I–II sont opérés/coilés précocement. Les grades IV–V posent la question du pronostic et du niveau de soins. Attention : le WFNS classe les patients selon le GCS au moment de l'évaluation, avant toute sédation. Un patient grade V peut récupérer et être traité secondairement. Les complications principales de l’HSA sont : le vasospasme (pic J7–J10), la reprise hémorragique, l'hydrocéphalie aiguë, et les complications médicales (pneumopathie, TVP).`,
+**Autres classifications complémentaires :** Fisher (épaisseur du sang au TDM), l\'échelle de Hunt et Hess.`,
+  clinicalCommentary: `Le grade WFNS est le premier facteur pronostique de l\'HSA. Les grades I–II sont opérés/coilés précocement. Les grades IV–V posent la question du pronostic et du niveau de soins. Attention : le WFNS classe les patients selon le GCS au moment de l\'évaluation, avant toute sédation. Un patient grade V peut récupérer et être traité secondairement. Les complications principales de l’HSA sont : le vasospasme (pic J7–J10), la reprise hémorragique, l\'hydrocéphalie aiguë, et les complications médicales (pneumopathie, TVP).`,
   references: [
     {
       type: 'pubmed',

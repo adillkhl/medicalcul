@@ -31,8 +31,8 @@ const pan_ss: FormulaDefinition = {
     {id:`cooperation`,type:`radio`,label:`G8 - Manque de cooperation`,options:[{value:1,label:`Absent`},{value:2,label:`Minime`},{value:3,label:`Leger`},{value:4,label:`Modere`},{value:5,label:`Moyen`},{value:6,label:`Severe`},{value:7,label:`Extreme`}]},
     {id:`pensees_inhabituelles`,type:`radio`,label:`G9 - Contenu de la pensee inhabituel`,options:[{value:1,label:`Absent`},{value:2,label:`Minime`},{value:3,label:`Leger`},{value:4,label:`Modere`},{value:5,label:`Moyen`},{value:6,label:`Severe`},{value:7,label:`Extreme`}]},
     {id:`desorientation`,type:`radio`,label:`G10 - Desorientation`,options:[{value:1,label:`Absent`},{value:2,label:`Minime`},{value:3,label:`Leger`},{value:4,label:`Modere`},{value:5,label:`Moyen`},{value:6,label:`Severe`},{value:7,label:`Extreme`}]},
-    {id:`attention`,type:`radio`,label:`G11 - Deficit d'attention`,options:[{value:1,label:`Absent`},{value:2,label:`Minime`},{value:3,label:`Leger`},{value:4,label:`Modere`},{value:5,label:`Moyen`},{value:6,label:`Severe`},{value:7,label:`Extreme`}]},
-    {id:`jugement`,type:`radio`,label:`G12 - Manque de jugement et d'insight`,options:[{value:1,label:`Absent`},{value:2,label:`Minime`},{value:3,label:`Leger`},{value:4,label:`Modere`},{value:5,label:`Moyen`},{value:6,label:`Severe`},{value:7,label:`Extreme`}]},
+    {id:`attention`,type:`radio`,label:`G11 - Deficit d\'attention`,options:[{value:1,label:`Absent`},{value:2,label:`Minime`},{value:3,label:`Leger`},{value:4,label:`Modere`},{value:5,label:`Moyen`},{value:6,label:`Severe`},{value:7,label:`Extreme`}]},
+    {id:`jugement`,type:`radio`,label:`G12 - Manque de jugement et d\'insight`,options:[{value:1,label:`Absent`},{value:2,label:`Minime`},{value:3,label:`Leger`},{value:4,label:`Modere`},{value:5,label:`Moyen`},{value:6,label:`Severe`},{value:7,label:`Extreme`}]},
     {id:`volition`,type:`radio`,label:`G13 - Trouble de la volition`,options:[{value:1,label:`Absent`},{value:2,label:`Minime`},{value:3,label:`Leger`},{value:4,label:`Modere`},{value:5,label:`Moyen`},{value:6,label:`Severe`},{value:7,label:`Extreme`}]},
     {id:`contenance`,type:`radio`,label:`G14 - Mauvaise maitrise des impulsions`,options:[{value:1,label:`Absent`},{value:2,label:`Minime`},{value:3,label:`Leger`},{value:4,label:`Modere`},{value:5,label:`Moyen`},{value:6,label:`Severe`},{value:7,label:`Extreme`}]},
     {id:`autisme`,type:`radio`,label:`G15 - Preoccupation autistique`,options:[{value:1,label:`Absent`},{value:2,label:`Minime`},{value:3,label:`Leger`},{value:4,label:`Modere`},{value:5,label:`Moyen`},{value:6,label:`Severe`},{value:7,label:`Extreme`}]},
@@ -57,7 +57,7 @@ const pan_ss: FormulaDefinition = {
       ]}
   },
   interpretation: `La PANSS evalue les symptomes de la schizophrenie sur 30 items (7 positifs P1-P7, 7 negatifs N1-N7, 16 generaux G1-G16). Chaque item cote de 1 (absent) a 7 (extreme). Score total de 30 a 210. Les sous-scores P, N, G sont calculables separement.`,
-  clinicalCommentary: `Reference internationale pour la schizophrenie dans les essais therapeutiques. Necessite un entretien semi-structure d'environ 30-45 min. Les 30 items cotent la semaine ecoulee. Distinction fondamentale entre les symptomes positifs (productifs) et negatifs (deficitaires). L'item insight (G12) est important pour le pronostic.`,
+  clinicalCommentary: `Reference internationale pour la schizophrenie dans les essais therapeutiques. Necessite un entretien semi-structure d\'environ 30-45 min. Les 30 items cotent la semaine ecoulee. Distinction fondamentale entre les symptomes positifs (productifs) et negatifs (deficitaires). L\'item insight (G12) est important pour le pronostic.`,
   references: [
     {type:`pubmed`,title:`Kay SR et al. The PANSS: rationale and standardization. Schizophr Bull 1987`,pmid:`3626516`},
     {type:`pubmed`,title:`Kay SR et al. Reliability and validity of the PANSS. Schizophr Res 1988`},

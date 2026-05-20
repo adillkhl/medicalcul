@@ -4,7 +4,7 @@ const urea_interpretation: FormulaDefinition = {
   id: `urea_interpretation`, slug: `urea_interpretation`,
   name: `Uree (Interpretation)`,
   specialty: `nephrologie`, category: `Metabolisme`,
-  description: `Interpretation de l'uree plasmatique et rapport uree/creatinine`,
+  description: `Interpretation de l\'uree plasmatique et rapport uree/creatinine`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `C`,
   inputs: [
     {id:`uree`,type:`number`,label:`Uree`,unit:`mmol/L`},
@@ -27,7 +27,7 @@ const urea_interpretation: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `L'uree est moins specifique que la creatinine pour la fonction renale mais le rapport Uree/Creatinine aide au diagnostic differentiel de l'IRA.`,
+  interpretation: `L\'uree est moins specifique que la creatinine pour la fonction renale mais le rapport Uree/Creatinine aide au diagnostic differentiel de l\'IRA.`,
   clinicalCommentary: `Rapport U/Cre: > 80-100 = IRA pre-renale ou saignement digestif. Ratio bas (< 40) = hepatopathie ou reduction de masse musculaire.`,
   references: [
     {type:`pubmed`,title:`Morgan DB et al. Br Med J 1977`,pmid:`589285`}

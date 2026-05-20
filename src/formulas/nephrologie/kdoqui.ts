@@ -4,7 +4,7 @@ const kdoqui: FormulaDefinition = {
   id: `kdoqui`, slug: `kdoqui`,
   name: `KDOQI (Classification IRC)`,
   specialty: `nephrologie`, category: `IRC`,
-  description: `Classification KDOQI/KDIGO des stades d'insuffisance renale chronique`,
+  description: `Classification KDOQI/KDIGO des stades d\'insuffisance renale chronique`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`dfg`,type:`number`,label:`DFG`,unit:`mL/min/1.73m2`},

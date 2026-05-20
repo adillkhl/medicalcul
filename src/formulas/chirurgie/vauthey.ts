@@ -23,7 +23,7 @@ const vauthey: FormulaDefinition = {
       ]}
   },
   interpretation: `Volume hepatique total selon Vauthey = -794 + 1267 x BSA. BSA calculee par formule de Mosteller.`,
-  clinicalCommentary: `Utilise en chirurgie hepatique pour evaluer le volume du futur foie restant avant hepatectomie. Un futur foie restant < 20-25% est un risque d'insuffisance hepatique post-op.`,
+  clinicalCommentary: `Utilise en chirurgie hepatique pour evaluer le volume du futur foie restant avant hepatectomie. Un futur foie restant < 20-25% est un risque d\'insuffisance hepatique post-op.`,
   references: [
     {type:`pubmed`,title:`Vauthey JN et al. Ann Surg 2002`,pmid:`12154341`}
   ],

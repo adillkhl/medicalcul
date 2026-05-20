@@ -214,7 +214,7 @@ const wpiSss: FormulaDefinition = {
 - WPI ≥ 7 ET SSS ≥ 5
 - OU WPI = 4–6 ET SSS ≥ 9
 
-**Conditions requises :** Douleurs diffuses depuis ≥ 3 mois ET absence d'autre pathologie expliquant les symptômes.
+**Conditions requises :** Douleurs diffuses depuis ≥ 3 mois ET absence d\'autre pathologie expliquant les symptômes.
 
 | WPI | SSS | Résultat |
 |---|---|---|
@@ -222,7 +222,7 @@ const wpiSss: FormulaDefinition = {
 | 4–6 | ≥ 9 | Fibromyalgie |
 | < 4 | — | Non classifiable |
 | — | < 5 | Non classifiable |`,
-  clinicalCommentary: `Les critères ACR 2016 sont les critères diagnostiques actuels de la fibromyalgie. Le WPI remplace la notion de points sensibles (tender points). Attention : ces critères sont destinés à la classification, pas au suivi de l'évolution.`,
+  clinicalCommentary: `Les critères ACR 2016 sont les critères diagnostiques actuels de la fibromyalgie. Le WPI remplace la notion de points sensibles (tender points). Attention : ces critères sont destinés à la classification, pas au suivi de l\'évolution.`,
   references: [
     {
       type: 'pubmed',

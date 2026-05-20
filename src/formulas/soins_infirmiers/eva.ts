@@ -17,7 +17,7 @@ const eva: FormulaDefinition = {
       return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
   interpretation: `EVA: reference pour evaluer la douleur (0-10). EVA > 4 = traitement. EVA > 7 = palier 3.`,
-  clinicalCommentary: `Chez la personne agee, l'EVS est souvent plus facile.`,
+  clinicalCommentary: `Chez la personne agee, l\'EVS est souvent plus facile.`,
   references: [
     {type:`pubmed`,title:`Breivik H. Eur J Pain 2008`,pmid:`18234756`}
   ],

@@ -4,7 +4,7 @@ const parc: FormulaDefinition = {
   id: `parc`, slug: `parc`,
   name: `pARC, Appendicite (Score)`,
   specialty: `chirurgie`, category: `Appendicite`,
-  description: `Probabilite d'appendicite aigue chez l'enfant selon le score pARC (francais)`,
+  description: `Probabilite d\'appendicite aigue chez l\'enfant selon le score pARC (francais)`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `B`,
   inputs: [
     {id:`douleur_fid`,type:`boolean`,label:`Douleur FID < 48h`,weight:1},
@@ -24,8 +24,8 @@ const parc: FormulaDefinition = {
         {min:3,max:5,label:'Eleve - Appendicectomie probable',severity:'high'},
       ]}
   },
-  interpretation: `Le score pARC (Pediatric Appendicitis Risk Calculator) est un score francais pour l'appendicite de l'enfant (2-17 ans).`,
-  clinicalCommentary: `Developpe par l'association de chirurgie pediatrique. Plus simple que le PAS. L'echographie est recommandee en premiere intention chez l'enfant.`,
+  interpretation: `Le score pARC (Pediatric Appendicitis Risk Calculator) est un score francais pour l\'appendicite de l\'enfant (2-17 ans).`,
+  clinicalCommentary: `Developpe par l\'association de chirurgie pediatrique. Plus simple que le PAS. L\'echographie est recommandee en premiere intention chez l\'enfant.`,
   references: [
     {type:`pubmed`,title:`Leport V et al. J Pediatr Surg 2022`,pmid:`34743964`}
   ],

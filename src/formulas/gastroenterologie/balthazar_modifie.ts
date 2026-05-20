@@ -84,8 +84,8 @@ const balthazarModifie: FormulaDefinition = {
 
 Score maximum : 10 points. Un score ≥ 6 est associé à une morbidité élevée et un score de 10 à une mortalité significative.
 
-L'ajout des complications extrapancréatiques (épanchements pleuraux, ascite, atteinte vasculaire, infarctus splénique ou rénal) améliore la valeur pronostique.`,
-  clinicalCommentary: `Préférer la version modifiée (Mortele) à la version originale car elle intègre mieux le pronostic des complications extrapancréatiques. Les épanchements pleuraux sont un marqueur pronostique important. Le score doit être calculé sur un scanner injecté réalisé après 48h d'évolution. Attention : le scanner précoce sous-estime la nécrose.`,
+L\'ajout des complications extrapancréatiques (épanchements pleuraux, ascite, atteinte vasculaire, infarctus splénique ou rénal) améliore la valeur pronostique.`,
+  clinicalCommentary: `Préférer la version modifiée (Mortele) à la version originale car elle intègre mieux le pronostic des complications extrapancréatiques. Les épanchements pleuraux sont un marqueur pronostique important. Le score doit être calculé sur un scanner injecté réalisé après 48h d\'évolution. Attention : le scanner précoce sous-estime la nécrose.`,
   references: [
     {
       type: 'pubmed',

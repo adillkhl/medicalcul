@@ -4,7 +4,7 @@ const pao2_fio2: FormulaDefinition = {
   id: `pao2_fio2`, slug: `pao2_fio2`,
   name: `Rapport PaO2/FiO2`,
   specialty: `pneumologie`, category: `Oxygenation`,
-  description: `Calcul du rapport de PaO2 sur FiO2 pour l'evaluation de l'hypoxemie`,
+  description: `Calcul du rapport de PaO2 sur FiO2 pour l\'evaluation de l\'hypoxemie`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`pao2`,type:`number`,label:`PaO2`,unit:`mmHg`},
@@ -22,7 +22,7 @@ const pao2_fio2: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `Le rapport PaO2/FiO2 est le marqueur de reference de l'hypoxemie. < 300 = lesion pulmonaire aigue. < 200 = SDRA.`,
+  interpretation: `Le rapport PaO2/FiO2 est le marqueur de reference de l\'hypoxemie. < 300 = lesion pulmonaire aigue. < 200 = SDRA.`,
   clinicalCommentary: `Critere de Berlin pour le SDRA: PaO2/FiO2 < 200 avec PEEP >= 5 cmH2O. Le SpO2/FiO2 est une alternative non invasive.`,
   references: [
     {type:`pubmed`,title:`ARDS Definition Task Force. JAMA 2012`,pmid:`22797452`}

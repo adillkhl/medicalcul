@@ -97,7 +97,7 @@ const fistuleAnaleParks: FormulaDefinition = {
 - **Type IV — Extra-sphinctérien** : en dehors total de l’appareil sphinctérien
 
 Une fistule est dite **complexe** si : Parks III/IV, multiple orifices externes, abcès associé, maladie de Crohn, antécédent d’incontinence, ou irradiation pelvienne.`,
-  clinicalCommentary: `Dans la maladie de Crohn, les fistules anales sont presque toujours complexes et nécessitent une prise en charge médico-chirurgicale combinée (biothérapie + seton). L'IRM pelvienne est l'examen d’imagerie de référence avant toute chirurgie de fistule complexe. L'écho-endoscopie anale peut compléter le bilan. Le risque principal de la chirurgie est l’incontinence fécale.`,
+  clinicalCommentary: `Dans la maladie de Crohn, les fistules anales sont presque toujours complexes et nécessitent une prise en charge médico-chirurgicale combinée (biothérapie + seton). L\'IRM pelvienne est l\'examen d’imagerie de référence avant toute chirurgie de fistule complexe. L\'écho-endoscopie anale peut compléter le bilan. Le risque principal de la chirurgie est l’incontinence fécale.`,
   references: [
     {
       type: 'pubmed',

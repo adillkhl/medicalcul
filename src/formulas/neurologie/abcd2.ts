@@ -90,14 +90,14 @@ const abcd2: FormulaDefinition = {
 - **D** — Durée : ≥ 60 min 2 pt, 10–59 min 1 pt
 - **D** — Diabète : 1 pt
 
-**Risque d'AVC à 2 jours :**
+**Risque d\'AVC à 2 jours :**
 - 0–3 : 1,0 %
 - 4 : 2,1 %
 - 5 : 3,2 %
 - 6–7 : 5,9 %
 
-Ce score ne remplace pas l’IRM cérébrale qui reste l'examen clé après un AIT.`,
-  clinicalCommentary: `L'ABCD² est utile au triage mais ne doit JAMAIS retarder la prise en charge si le score est bas mais la clinique évocatrice. Un AIT est une URGENCE même si les symptômes ont régressé. L'IRM de diffusion (DWI) est positive dans 30-50% des AIT. En pratique : tout AIT doit être adressé aux urgences pour avis neurovasculaire, quel que soit le score ABCD². L'échographie-Doppler des TSA et le bilan cardiovasculaire sont systématiques.`,
+Ce score ne remplace pas l’IRM cérébrale qui reste l\'examen clé après un AIT.`,
+  clinicalCommentary: `L\'ABCD² est utile au triage mais ne doit JAMAIS retarder la prise en charge si le score est bas mais la clinique évocatrice. Un AIT est une URGENCE même si les symptômes ont régressé. L\'IRM de diffusion (DWI) est positive dans 30-50% des AIT. En pratique : tout AIT doit être adressé aux urgences pour avis neurovasculaire, quel que soit le score ABCD². L\'échographie-Doppler des TSA et le bilan cardiovasculaire sont systématiques.`,
   references: [
     {
       type: 'pubmed',

@@ -37,8 +37,8 @@ const lund_browder: FormulaDefinition = {
       ]}
     
   },
-  interpretation: `Le diagramme de Lund et Browder est plus precis que la regle des 9 car il tient compte des variations selon l'age.`,
-  clinicalCommentary: `Reference pour l'evaluation de la surface brulee en milieu specialise. A utiliser de preference a la regle de Wallace.`,
+  interpretation: `Le diagramme de Lund et Browder est plus precis que la regle des 9 car il tient compte des variations selon l\'age.`,
+  clinicalCommentary: `Reference pour l\'evaluation de la surface brulee en milieu specialise. A utiliser de preference a la regle de Wallace.`,
   references: [
     {type:`pubmed`,title:`Lund CC, Browder NC. Surg Gynecol Obstet 1944`,pmid:`—`}
   ],

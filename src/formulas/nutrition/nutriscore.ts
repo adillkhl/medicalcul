@@ -13,7 +13,7 @@ const nutriscore: FormulaDefinition = {
     {id:`sodium`,type:`number`,label:`Sodium (mg/100g)`,unit:`mg`,min:0,max:10000,step:1,placeholder:`Ex: 400`},
     {id:`fibres`,type:`number`,label:`Fibres alimentaires (g/100g)`,unit:`g`,min:0,max:100,step:0.1,placeholder:`Ex: 3`},
     {id:`proteines`,type:`number`,label:`Proteines (g/100g)`,unit:`g`,min:0,max:100,step:0.1,placeholder:`Ex: 6`},
-    {id:`fruits_legumes`,type:`number`,label:`Fruits, legumes, noix, colza, noix (% de l'aliment)`,unit:`%`,min:0,max:100,step:1,placeholder:`Ex: 40`},
+    {id:`fruits_legumes`,type:`number`,label:`Fruits, legumes, noix, colza, noix (% de l\'aliment)`,unit:`%`,min:0,max:100,step:1,placeholder:`Ex: 40`},
   ],
   calculate: (values) => {
     const energie = parseFloat(values.energie||0)
@@ -131,7 +131,7 @@ const nutriscore: FormulaDefinition = {
       ]}
   },
   interpretation: `Le Nutri-Score est un logo nutritionnel appose sur les aliments transformes, allant de A (meilleure qualite nutritionnelle) a E (moins bonne qualite).<br/><br/>Calcul:<br/>• N = points energie + sucres + AGS + sodium (0-40)<br/>• P = points fibres + fruits/legumes (+ proteines si N ≥ 11) (0-15)<br/>• Score final = N - P (de -15 a +40)<br/><br/>Mise a jour 2024: les proteines ne comptent que si N ≥ 11, evitant que des aliments tres sucres/gras soient classes favorablement grace aux proteines.`,
-  clinicalCommentary: `Le Nutri-Score est un outil de sante publique visant a informer les consommateurs. Il ne concerne que les aliments transformes et ne s'applique pas aux produits frais non transformes. Le score est base sur 100g (pas par portion), ce qui peut penaliser certains aliments (huiles vegetales riches en bons gras). Il ne remplace pas une alimentation equilibree et variee.`,
+  clinicalCommentary: `Le Nutri-Score est un outil de sante publique visant a informer les consommateurs. Il ne concerne que les aliments transformes et ne s\'applique pas aux produits frais non transformes. Le score est base sur 100g (pas par portion), ce qui peut penaliser certains aliments (huiles vegetales riches en bons gras). Il ne remplace pas une alimentation equilibree et variee.`,
   references: [
     {type:`pubmed`,title:`Julia C et al. Am J Clin Nutr 2014`,pmid:`24760967`},
     {type:`url`,title:`Santepublique France - Nutri-Score`,url:`https://www.santepubliquefrance.fr/determinants-de-sante/nutrition-et-activite-physique/articles/nutri-score`},

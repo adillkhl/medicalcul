@@ -301,7 +301,7 @@ const iesr: FormulaDefinition = {
 
 **Trois sous-échelles :**
 - **Intrusion** : souvenirs, rêves, flashbacks
-- **Évitement** : efforts pour ne pas penser à l'événement
+- **Évitement** : efforts pour ne pas penser à l\'événement
 - **Hyperactivation** : irritabilité, hypervigilance, sursaut
 
 **Score total :** 0–88. Chaque item est côté de 0 (pas du tout) à 4 (très souvent).
@@ -312,8 +312,8 @@ const iesr: FormulaDefinition = {
 - 24–32 : PTSD partiel
 - ≥ 33 : PTSD probable
 
-L'IES-R est utile pour le dépistage du trouble de stress post-traumatique (PTSD). Un score ≥ 33 a une bonne spécificité pour le diagnostic de PTSD.`,
-  clinicalCommentary: `L'IES-R est fréquemment utilisé en neurologie chez les patients ayant vécu un AVC, un traumatisme crânien, une épilepsie sévère, ou une pathologie neurologique brutale et engageant le pronostic vital. Attention : les patients avec aphasie ou troubles cognitifs peuvent avoir des difficultés à remplir le questionnaire. L'IES-R ne remplace pas un entretien clinique structuré (CAPS-5) pour le diagnostic de PTSD. Version française validée par Brunet et al. (2003).`,
+L\'IES-R est utile pour le dépistage du trouble de stress post-traumatique (PTSD). Un score ≥ 33 a une bonne spécificité pour le diagnostic de PTSD.`,
+  clinicalCommentary: `L\'IES-R est fréquemment utilisé en neurologie chez les patients ayant vécu un AVC, un traumatisme crânien, une épilepsie sévère, ou une pathologie neurologique brutale et engageant le pronostic vital. Attention : les patients avec aphasie ou troubles cognitifs peuvent avoir des difficultés à remplir le questionnaire. L\'IES-R ne remplace pas un entretien clinique structuré (CAPS-5) pour le diagnostic de PTSD. Version française validée par Brunet et al. (2003).`,
   references: [
     {
       type: 'pubmed',

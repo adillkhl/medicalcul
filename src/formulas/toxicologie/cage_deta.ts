@@ -73,7 +73,7 @@ const cage_deta: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `Le questionnaire **CAGE-DETA** (Cut-down, Annoyed, Guilt, Eye-opener) est un test de dépistage rapide de la dépendance à l'alcool.
+  interpretation: `Le questionnaire **CAGE-DETA** (Cut-down, Annoyed, Guilt, Eye-opener) est un test de dépistage rapide de la dépendance à l\'alcool.
 
 **Interprétation :**
 - **0** : Négatif
@@ -81,8 +81,8 @@ const cage_deta: FormulaDefinition = {
 - **≥ 2** : Anormal — suspicion de dépendance (sensibilité ~90%, spécificité ~80%)
 - **≥ 3** : Très anormal — forte probabilité de dépendance
 
-⚠️ Le CAGE-DETA explore la **dépendance**, pas le mésusage ni les conséquences. Un test négatif n'exclut pas une consommation à risque.`,
-  clinicalCommentary: `Le CAGE-DETA est validé dans de nombreuses langues et populations. Il est recommandé par la HAS pour le dépistage en soins primaires. Les 4 questions peuvent être intégrées dans un entretien systématique. En cas de score ≥ 2, compléter par une évaluation de la consommation quantitative (DETA quantitatif : nombre de verres/semaine, nombre de jours d'ivresse/mois).`,
+⚠️ Le CAGE-DETA explore la **dépendance**, pas le mésusage ni les conséquences. Un test négatif n\'exclut pas une consommation à risque.`,
+  clinicalCommentary: `Le CAGE-DETA est validé dans de nombreuses langues et populations. Il est recommandé par la HAS pour le dépistage en soins primaires. Les 4 questions peuvent être intégrées dans un entretien systématique. En cas de score ≥ 2, compléter par une évaluation de la consommation quantitative (DETA quantitatif : nombre de verres/semaine, nombre de jours d\'ivresse/mois).`,
   references: [
     {
       type: 'pubmed',

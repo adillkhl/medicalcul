@@ -207,7 +207,7 @@ const ranson: FormulaDefinition = {
     }
   },
   interpretation: `Le **score de Ranson** est un score pronostique historique de la pancréatite aiguë. Il comporte 11 critères : 5 à l’admission et 6 à 48h.\n\n**Critères d’admission** : âge > 55 ans, GB > 16 000/mm³, glycémie > 11 mmol/L, LDH > 350 UI/L, ASAT > 250 UI/L.\n\n**Critères à 48h** : baisse Hte > 10 %, calcémie < 2 mmol/L, PaO₂ < 60 mmHg, déficit en bases > -4 mmol/L, urée > 1 mmol/L, séquestration liquidienne > 6 L.\n\n| Score | Mortalité |\n|-------|-----------|\n| 0-2 | < 1 % |\n| 3-4 | ~5-10 % |\n| 5-6 | ~20-30 % |\n| > 6 | > 50 % |`,
-  clinicalCommentary: `Le Ranson reste un score valide mais son inconvénient est qu’il nécessite 48h d'évolution. Le BISAP (évaluable dès l’admission) est une alternative plus pratique aux urgences. Il existe des seuils différents selon l'étiologie (biliaire vs alcoolique). En pratique, le Ranson est surtout utilisé à des fins de recherche et d'évaluation pronostique précoce. Les scores plus modernes (BISAP, CT severity index) tendent à le remplacer au quotidien.`,
+  clinicalCommentary: `Le Ranson reste un score valide mais son inconvénient est qu’il nécessite 48h d\'évolution. Le BISAP (évaluable dès l’admission) est une alternative plus pratique aux urgences. Il existe des seuils différents selon l\'étiologie (biliaire vs alcoolique). En pratique, le Ranson est surtout utilisé à des fins de recherche et d\'évaluation pronostique précoce. Les scores plus modernes (BISAP, CT severity index) tendent à le remplacer au quotidien.`,
   references: [
     {
       type: 'pubmed',

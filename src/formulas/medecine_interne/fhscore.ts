@@ -124,7 +124,7 @@ const fhscore: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `**Dutch Lipid Clinic Network (DLCN) Score** pour le dépistage de l'hypercholestérolémie familiale (FH) :
+  interpretation: `**Dutch Lipid Clinic Network (DLCN) Score** pour le dépistage de l\'hypercholestérolémie familiale (FH) :
 
 - **≥ 8** : FH certaine (diagnostic confirmé)
 - **6–7** : FH probable
@@ -132,7 +132,7 @@ const fhscore: FormulaDefinition = {
 - **0–2** : FH peu probable
 
 **Conduite :** Si FH certaine ou probable : confirmation génétique et enquête familiale en cascade. Traitement par statine à haute dose ± ézétimibe. Objectif LDL < 2,5 mmol/L (ou < 1,8 mmol/L si coronaropathie).`,
-  clinicalCommentary: `La FH touche 1/250 personnes. Elle est sous-diagnostiquée. Penservant aux xanthomes tendineux (pathognomoniques) et à l'arc cornéen précoce. Le dépistage en cascade familial est recommandé par les sociétés savantes (ESC/EAS).`,
+  clinicalCommentary: `La FH touche 1/250 personnes. Elle est sous-diagnostiquée. Penservant aux xanthomes tendineux (pathognomoniques) et à l\'arc cornéen précoce. Le dépistage en cascade familial est recommandé par les sociétés savantes (ESC/EAS).`,
   references: [
     {
       type: 'pubmed',

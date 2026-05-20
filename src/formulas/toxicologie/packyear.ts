@@ -96,16 +96,16 @@ const packyear: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `Le **paquet-année (PA)** est l'unité de mesure de l'exposition tabagique cumulée.
+  interpretation: `Le **paquet-année (PA)** est l\'unité de mesure de l\'exposition tabagique cumulée.
 
-**Calcul :** PA = (Nombre de cigarettes par jour / 20) × Nombre d'années de tabagisme
+**Calcul :** PA = (Nombre de cigarettes par jour / 20) × Nombre d\'années de tabagisme
 
 **Seuils cliniques importants :**
 - **Sevrage tabagique** : conseillé quel que soit le nombre de PA
 - **Dépistage BPCO** : EFR si ≥ 10 PA avec symptômes respiratoires
 - **Dépistage cancer bronchique** : scanner thoracique faible dose si ≥ 30 PA (ou ≥ 20 PA si autre facteur de risque), âge 50-74 ans
 - **Risque cardiovasculaire** : multiplié par 2-4 pour les fumeurs, quel que soit le PA`,
-  clinicalCommentary: `Le PA est un indicateur indispensable en pneumologie, oncologie et médecine générale. Il sous-estime parfois l'exposition réelle (tabac roulé, narguilé, cannabis). Un fumeur de 30 PA et plus doit bénéficier d'un dépistage du cancer bronchique par scanner thoracique faible dose (recommandation HAS). L'arrêt du tabac avant 40 ans réduit de 90% le risque de décès lié au tabac.`,
+  clinicalCommentary: `Le PA est un indicateur indispensable en pneumologie, oncologie et médecine générale. Il sous-estime parfois l\'exposition réelle (tabac roulé, narguilé, cannabis). Un fumeur de 30 PA et plus doit bénéficier d\'un dépistage du cancer bronchique par scanner thoracique faible dose (recommandation HAS). L\'arrêt du tabac avant 40 ans réduit de 90% le risque de décès lié au tabac.`,
   references: [
     {
       type: 'pubmed',

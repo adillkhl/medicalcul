@@ -56,19 +56,19 @@ const adroguemadias: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `La **formule d'Adrogué et Madias** estime la variation de la natrémie après perfusion d'1 L de soluté :
+  interpretation: `La **formule d\'Adrogué et Madias** estime la variation de la natrémie après perfusion d\'1 L de soluté :
 
 **ΔNa = (Na_soluté − Na_actuel) / (Eau corporelle totale + 1)**
 
 - Eau corporelle totale = poids (kg) × coefficient (0,6 homme, 0,5 femme, 0,4 sujet âgé)
 - **Règle de sécurité** : ne pas dépasser 8–10 mmol/L de correction par 24 h
-- En cas d'hyponatrémie sévère (< 120 mmol/L) : correction initiale limitée à 4–6 mmol/L
+- En cas d\'hyponatrémie sévère (< 120 mmol/L) : correction initiale limitée à 4–6 mmol/L
 
 **Solutés courants :**
 - NaCl 0,9 % = 154 mmol/L
 - NaCl 3 % = 513 mmol/L (hypertonique)
 - Ringer Lactate = 130 mmol/L`,
-  clinicalCommentary: `Toujours utiliser la formule d'Adrogué pour planifier la correction d'une hyponatrémie. Ne jamais dépasser 8-10 mmol/24h. En cas d'hyponatrémie sévère avec symptômes neurologiques, une correction rapide initiale de 4-6 mmol/L avec du NaCl 3% est acceptable, puis relais par NaCl 0,9%.`,
+  clinicalCommentary: `Toujours utiliser la formule d\'Adrogué pour planifier la correction d\'une hyponatrémie. Ne jamais dépasser 8-10 mmol/24h. En cas d\'hyponatrémie sévère avec symptômes neurologiques, une correction rapide initiale de 4-6 mmol/L avec du NaCl 3% est acceptable, puis relais par NaCl 0,9%.`,
   references: [
     {
       type: 'pubmed',

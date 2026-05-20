@@ -4,7 +4,7 @@ const gleason: FormulaDefinition = {
   id: `gleason`, slug: `gleason`,
   name: `Score de Gleason pour le Cancer de la Prostate`,
   specialty: `urologie`, category: `Prostate`,
-  description: `Classification histopathologique du cancer de la prostate basee sur l'architecture glandulaire (2 grades dominants, score 2-10)`,
+  description: `Classification histopathologique du cancer de la prostate basee sur l\'architecture glandulaire (2 grades dominants, score 2-10)`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`grade1`,type:`radio`,label:`Grade primaire (le plus frequent)`,options:[
@@ -41,7 +41,7 @@ const gleason: FormulaDefinition = {
         {min:8,max:10,label:`Gleason 8-10 - Haut risque`,severity:'high',recommendation:`Pronostic defavorable. Traitement multimodal (radiotherapie + hormonotherapie longue).`},
       ]}
   },
-  interpretation: `Le score de Gleason est le systeme de gradation histologique du cancer de la prostate. Le grade primaire represente l'architecture predominante (la plus frequente), le grade secondaire est la seconde plus frequente. Score total = grade1 + grade2 (de 2 a 10). Le pronostic est correle au score.`,
+  interpretation: `Le score de Gleason est le systeme de gradation histologique du cancer de la prostate. Le grade primaire represente l\'architecture predominante (la plus frequente), le grade secondaire est la seconde plus frequente. Score total = grade1 + grade2 (de 2 a 10). Le pronostic est correle au score.`,
   clinicalCommentary: `Pièce fondamentale : biopsie prostatique (trocart) ou piece de prostatectomie. Le Gleason 3+3=6 (grade groupe 1) est le moins agressif. Le Gleason 4+3=7 (grade groupe 3) est plus agressif que 3+4=7 (grade groupe 2). Le Gleason 8 (grade groupe 4) et 9-10 (grade groupe 5) sont de haut risque. La classification ISUP 2014 (5 groupes) remplace progressivement le score simple. Ne pas additionner les grades a partir de biopsies multiples - chaque carotte a son propre score.`,
   references: [
     {type:`pubmed`,title:`Gleason DF, Mellinger GT. Prediction of prognosis for prostatic adenocarcinoma. J Urol 1974`,pmid:`4133650`},

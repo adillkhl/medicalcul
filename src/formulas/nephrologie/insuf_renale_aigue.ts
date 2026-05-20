@@ -4,7 +4,7 @@ const insuf_renale_aigue: FormulaDefinition = {
   id: `insuf_renale_aigue`, slug: `insuf_renale_aigue`,
   name: `IRA (Classification RIFLE)`,
   specialty: `nephrologie`, category: `Insuffisance renale`,
-  description: `Classification RIFLE de l'insuffisance renale aigue`,
+  description: `Classification RIFLE de l\'insuffisance renale aigue`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`creat`,type:`radio`,label:`Creatinine`,options:[{value:0,label:`Normale`},{value:1,label:`x 1.5 basale`},{value:2,label:`x 2 basale`},{value:3,label:`x 3 basale ou >= 354`}]},
@@ -24,7 +24,7 @@ const insuf_renale_aigue: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `RIFLE gradue l'IRA en 5 stades: Risk, Injury, Failure, Loss, End-stage.`,
+  interpretation: `RIFLE gradue l\'IRA en 5 stades: Risk, Injury, Failure, Loss, End-stage.`,
   clinicalCommentary: `Remplacee par KDIGO (3 stades). Creatinine et diurese sont complementaires.`,
   references: [
     {type:`pubmed`,title:`Bellomo R et al. Crit Care 2004`,pmid:`15312219`}

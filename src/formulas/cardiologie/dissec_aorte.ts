@@ -72,15 +72,15 @@ const dissecAorte: FormulaDefinition = {
 
 **Classification de DeBakey :**
 - **Type I** : nait dans l’aorte ascendante et s’etend distalement (crosse, descendante)
-- **Type II** : limitee a l'aorte ascendante
-- **Type III** : nait dans l’aorte descendante (apres l'artere sous-claviere gauche)
+- **Type II** : limitee a l\'aorte ascendante
+- **Type III** : nait dans l’aorte descendante (apres l\'artere sous-claviere gauche)
 
 **Classification de Stanford :**
-- **Type A** : toute dissection touchant l'aorte ascendante (DeBakey I + II) -> **chirurgie urgente**
+- **Type A** : toute dissection touchant l\'aorte ascendante (DeBakey I + II) -> **chirurgie urgente**
 - **Type B** : dissection limitee a l’aorte descendante -> **traitement medical** +/- TEVAR
 
 **Classification TEM** : ajoute la notion de phase (aigue < 14 j, subaigue 15-90 j, chronique > 90 j).`,
-  clinicalCommentary: `Toute dissection de l'aorte ascendante (Stanford A) est une urgence chirurgicale absolue. Le traitement medical initial (betabloquant +/- nicardipine IV, objectif PAS 100-120 mmHg) est a debuter immediatement, en attendant le bloc. Ne pas oublier l'angio-TDM thoraco-abdominal pour evaluer l’extension. La TEVAR a revoltionne le traitement des dissections de type B.`,
+  clinicalCommentary: `Toute dissection de l\'aorte ascendante (Stanford A) est une urgence chirurgicale absolue. Le traitement medical initial (betabloquant +/- nicardipine IV, objectif PAS 100-120 mmHg) est a debuter immediatement, en attendant le bloc. Ne pas oublier l\'angio-TDM thoraco-abdominal pour evaluer l’extension. La TEVAR a revoltionne le traitement des dissections de type B.`,
   references: [
     {
       type: 'pubmed',

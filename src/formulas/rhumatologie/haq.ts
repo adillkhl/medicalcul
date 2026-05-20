@@ -159,7 +159,7 @@ const haq: FormulaDefinition = {
 - ≥ 2 : Handicap sévère (dépendance partielle ou totale)
 
 **Seuil de significativité clinique :** ΔHAQ ≥ 0,22 est la différence minimale cliniquement importante (MCID).`,
-  clinicalCommentary: `Le HAQ est l'échelle fonctionnelle de référence dans la PR. Il est sensible au changement. L'objectif thérapeutique moderne (treat-to-target) vise le HAQ < 0,5. Attention : le score dépend aussi des comorbidités (arthrose, fibromyalgie).`,
+  clinicalCommentary: `Le HAQ est l\'échelle fonctionnelle de référence dans la PR. Il est sensible au changement. L\'objectif thérapeutique moderne (treat-to-target) vise le HAQ < 0,5. Attention : le score dépend aussi des comorbidités (arthrose, fibromyalgie).`,
   references: [
     {
       type: 'pubmed',

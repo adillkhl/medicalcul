@@ -4,7 +4,7 @@ const etat_confusion: FormulaDefinition = {
   id: `etat_confusion`, slug: `etat_confusion`,
   name: `Etat confusionnel aigu (Diagnostic)`,
   specialty: `urgence`, category: `Confusion`,
-  description: `Diagnostic differentiel de l'etat confusionnel aigu: causes infectieuses, metaboliques, toxiques`,
+  description: `Diagnostic differentiel de l\'etat confusionnel aigu: causes infectieuses, metaboliques, toxiques`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `C`,
   inputs: [
     {id:`fievre`,type:`boolean`,label:`Fievre / signes infectieux`,weight:1},
@@ -32,7 +32,7 @@ const etat_confusion: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `L'etat confusionnel aigu (delirium) est une urgence medicale dont la cause doit etre identifiee rapidement.`,
+  interpretation: `L\'etat confusionnel aigu (delirium) est une urgence medicale dont la cause doit etre identifiee rapidement.`,
   clinicalCommentary: `CAM-ICU est l outil de reference en reanimation. Traiter la cause sous-jacente. Haloperidol en 2e intention si agitation severe.`,
   references: [
     {type:`pubmed`,title:`Inouye SK et al. N Engl J Med 2014`,pmid:`24988296`}

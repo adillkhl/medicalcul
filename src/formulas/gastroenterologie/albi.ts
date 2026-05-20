@@ -90,7 +90,7 @@ const albi: FormulaDefinition = {
 | Grade 3 | ≥ -1.39 | Altération sévère |
 
 Développé comme alternative objective au Child-Pugh, l’ALBI élimine la subjectivité des critères cliniques (ascite, encéphalopathie). Il est validé dans le carcinome hépatocellulaire et la cirrhose.`,
-  clinicalCommentary: `L'ALBI est particulièrement utile dans l'évaluation pronostique du carcinome hépatocellulaire. Il est plus objectif que le Child-Pugh car il repose uniquement sur des biomarqueurs. Utilisé en complément du Child-Pugh, pas nécessairement en remplacement. L'ALBI-2 (avec score modifié) existe également pour une stratification plus fine. Attention : l’ALBI ne prédit pas la décompensation comme le MELD.`,
+  clinicalCommentary: `L\'ALBI est particulièrement utile dans l\'évaluation pronostique du carcinome hépatocellulaire. Il est plus objectif que le Child-Pugh car il repose uniquement sur des biomarqueurs. Utilisé en complément du Child-Pugh, pas nécessairement en remplacement. L\'ALBI-2 (avec score modifié) existe également pour une stratification plus fine. Attention : l’ALBI ne prédit pas la décompensation comme le MELD.`,
   references: [
     {
       type: 'pubmed',

@@ -120,7 +120,7 @@ DAS28 = 0,56 × √(NAD) + 0,28 × √(NAG) + 0,36 × ln(CRP+1) + 0,014 × EVA +
 - 2,6–3,2 : Faible activité
 - 3,2–5,1 : Activité modérée
 - > 5,1 : Activité élevée`,
-  clinicalCommentary: `Le DAS28 est le score d'activité le plus utilisé en rhumatologie pour la PR. La cible thérapeutique recommandée par l'EULAR est la rémission (ou à défaut la faible activité). Une diminution ≥ 1,2 est une bonne réponse EULAR.`,
+  clinicalCommentary: `Le DAS28 est le score d\'activité le plus utilisé en rhumatologie pour la PR. La cible thérapeutique recommandée par l\'EULAR est la rémission (ou à défaut la faible activité). Une diminution ≥ 1,2 est une bonne réponse EULAR.`,
   references: [
     {
       type: 'pubmed',

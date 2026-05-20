@@ -30,7 +30,7 @@ const riete: FormulaDefinition = {
     return {value:retval, label:retlabel, severity:retsev, ranges}
   },
   interpretation: `Le score RIETE estime le risque de saignement majeur sous anticoagulant pour MTEV sur les 3 premiers mois de traitement.`,
-  clinicalCommentary: `Score developpe a partir du registre RIETE. Un score eleve ne contre-indique pas l'anticoagulation mais justifie une surveillance rapprochee. La duree minimale de traitement est de 3 mois pour une TVP proximale.`,
+  clinicalCommentary: `Score developpe a partir du registre RIETE. Un score eleve ne contre-indique pas l\'anticoagulation mais justifie une surveillance rapprochee. La duree minimale de traitement est de 3 mois pour une TVP proximale.`,
   references: [
     {type:`pubmed`,title:`Ruiz-Gimenez N et al. J Thromb Haemost 2008`,pmid:`18433427`}
   ],

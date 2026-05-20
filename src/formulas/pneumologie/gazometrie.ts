@@ -4,7 +4,7 @@ const gazometrie: FormulaDefinition = {
   id: `gazometrie`, slug: `gazometrie`,
   name: `Gazometrie arterielle (Interpretation)`,
   specialty: `pneumologie`, category: `Gaz du sang`,
-  description: `Interpretation d'une gazometrie arterielle: equilibre acido-basique et oxygenation`,
+  description: `Interpretation d\'une gazometrie arterielle: equilibre acido-basique et oxygenation`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `B`,
   inputs: [
     {id:`ph`,type:`number`,label:`pH`},
@@ -32,7 +32,7 @@ const gazometrie: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `Interpretation de la gazometrie: pH < 7.35 = acidose, pH > 7.45 = alcalose. Le PaCO2 et HCO3 determinent l'origine.`,
+  interpretation: `Interpretation de la gazometrie: pH < 7.35 = acidose, pH > 7.45 = alcalose. Le PaCO2 et HCO3 determinent l\'origine.`,
   clinicalCommentary: `Regle de compensation: Acidose metabolique attendue PaCO2 = 1.5 x HCO3 + 8 (±2). Alcalose metabolique PaCO2 = 0.7 x HCO3 + 20. Un trou anionique eleve indique une acidose a TA eleve (lactate, cetones, toxiques).`,
   references: [
     {type:`pubmed`,title:`Seifter JL. N Engl J Med 2014`,pmid:`25409313`}

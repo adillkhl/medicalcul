@@ -4,7 +4,7 @@ const sofa: FormulaDefinition = {
   id: `sofa`, slug: `sofa`,
   name: `SOFA Score (Sepsis-related Organ Failure Assessment)`,
   specialty: `reanimation`, category: `Sepsis`,
-  description: `Evaluation de la defaillance d'organe dans le sepsis — 6 organes (respiratoire, coagulation, hepatique, cardiovasculaire, neurologique, renal) — score 0-24`,
+  description: `Evaluation de la defaillance d\'organe dans le sepsis — 6 organes (respiratoire, coagulation, hepatique, cardiovasculaire, neurologique, renal) — score 0-24`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`pao2_fio2`,type:`radio`,label:`Respiratoire - PaO2/FiO2 (mmHg)`,options:[{value:0,label:`>= 400`},{value:1,label:`300-399`},{value:2,label:`200-299`},{value:3,label:`100-199`},{value:4,label:`< 100`}]},
@@ -20,14 +20,14 @@ const sofa: FormulaDefinition = {
     return {value:s, label:`SOFA ${s}/24`, severity: sev,
       details:{respiratoire:values.pao2_fio2??0,coagulation:values.plaquettes??0,hepatique:values.bilirubine??0,cardiovasculaire:values.cardiovasculaire??0,neurologique:values.glasgow??0,renal:values.creatinine??0},
       ranges:[
-        {min:0,max:4,label:`Defaillance absente ou minime`,severity:'low',recommendation:`Surveillance. Pas de defaillance d'organe significative.`},
-        {min:5,max:9,label:`Defaillance moderee`,severity:'moderate',recommendation:`Surveillance renforcee. Traitement etiologique du sepsis. Support d'organe discute.`},
+        {min:0,max:4,label:`Defaillance absente ou minime`,severity:'low',recommendation:`Surveillance. Pas de defaillance d\'organe significative.`},
+        {min:5,max:9,label:`Defaillance moderee`,severity:'moderate',recommendation:`Surveillance renforcee. Traitement etiologique du sepsis. Support d\'organe discute.`},
         {min:10,max:14,label:`Defaillance severe`,severity:'high',recommendation:`Reanimation agressive. Ventilation mecanique, amines, epuration extra-renale. Pronostic reserve.`},
         {min:15,max:24,label:`Defaillance multi-viscérale severe`,severity:'high',recommendation:`Pronostic sombre. Support multi-viscéral maximal. Reunion de concertation pluridisciplinaire.`},
       ]}
   },
-  interpretation: `Le SOFA score (Sepsis-related Organ Failure Assessment) evalue les defaillances d'organe dans le sepsis. 6 organes côté de 0 a 4. Score total 0-24. Le delta SOFA (changement du score dans le temps) est predictif de la mortalite.`,
-  clinicalCommentary: `Utilise dans la definition Sepsis-3 pour identifier le sepsis (augmentation >= 2 du SOFA). Le qSOFA est l'equivalent rapide aux urgences. Le SOFA n'est pas un outil de tri mais un score pronostique. La tendance (SOFA quotidien) est plus predictive que la valeur isolee. Un SOFA >= 15 est de tres mauvais pronostic.`,
+  interpretation: `Le SOFA score (Sepsis-related Organ Failure Assessment) evalue les defaillances d\'organe dans le sepsis. 6 organes côté de 0 a 4. Score total 0-24. Le delta SOFA (changement du score dans le temps) est predictif de la mortalite.`,
+  clinicalCommentary: `Utilise dans la definition Sepsis-3 pour identifier le sepsis (augmentation >= 2 du SOFA). Le qSOFA est l\'equivalent rapide aux urgences. Le SOFA n\'est pas un outil de tri mais un score pronostique. La tendance (SOFA quotidien) est plus predictive que la valeur isolee. Un SOFA >= 15 est de tres mauvais pronostic.`,
   references: [
     {type:`pubmed`,title:`Vincent JL et al. The SOFA score to describe organ dysfunction. Intensive Care Med 1996`,pmid:`8844239`},
     {type:`pubmed`,title:`Singer M et al. The Third International Consensus Definitions for Sepsis. JAMA 2016`,pmid:`26903338`},

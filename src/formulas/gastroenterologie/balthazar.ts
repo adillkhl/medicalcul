@@ -82,7 +82,7 @@ const balthazar: FormulaDefinition = {
 - Absente (0 pt) / < 30 % (2 pts) / 30-50 % (4 pts) / > 50 % (6 pts)
 
 Le score total (grade + nécrose) ≤ 3 est associé à un faible risque de complications, ≥ 7 à une mortalité élevée.`,
-  clinicalCommentary: `Le score de Balthazar original n’inclut pas les complications extrapancréatiques (épanchements pleuraux, ascite). La version modifiée (score de Mortele) ajoute ces critères. Idéalement, le scanner avec injection doit être réalisé 48-72h après l’admission, car la nécrose n'est pas visible avant. Le scanner précoce (< 24h) sous-estime la sévérité.`,
+  clinicalCommentary: `Le score de Balthazar original n’inclut pas les complications extrapancréatiques (épanchements pleuraux, ascite). La version modifiée (score de Mortele) ajoute ces critères. Idéalement, le scanner avec injection doit être réalisé 48-72h après l’admission, car la nécrose n\'est pas visible avant. Le scanner précoce (< 24h) sous-estime la sévérité.`,
   references: [
     {
       type: 'pubmed',

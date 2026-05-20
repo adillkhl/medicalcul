@@ -66,7 +66,7 @@ const pomi: FormulaDefinition = {
     } else {
       label = 'POMI positif — mésusage probable'
       severity = 'high'
-      recommendation = "ARRÊT OU ROTATION DU TRAITEMENT OPIOÏDE. Orientation vers une consultation spécialisée de la douleur et/ou d'addictologie. Prescription sécurisée (ordonnance sécurisée, dispensation fractionnée). Évaluation psychologique et sociale."
+      recommendation = "ARRÊT OU ROTATION DU TRAITEMENT OPIOÏDE. Orientation vers une consultation spécialisée de la douleur et/ou d\'addictologie. Prescription sécurisée (ordonnance sécurisée, dispensation fractionnée). Évaluation psychologique et sociale."
     }
 
     return {
@@ -81,7 +81,7 @@ const pomi: FormulaDefinition = {
     }
   },
   interpretation: 'Le **POMI** (Prescription Opioid Misuse Index) est un questionnaire de dépistage rapide du mésusage des opioïdes prescrits.\n\n**6 questions — score total 0 à 6 :**\n- **0** : Négatif — pas de signe de mésusage\n- **1-2** : Douteux — surveillance renforcée nécessaire\n- **≥ 3** : Positif — mésusage probable, intervention requise\n\nLe POMI explore plusieurs dimensions du mésusage : automédication, comportement addictif, recherche d\'effet euphorique, consommation parallèle.',
-  clinicalCommentary: "L'utilisation du POMI est recommandée avant toute prescription d'opioïdes au long cours (douleurs chroniques non cancéreuses). En association avec le suivi du score de douleur (EVA) et du score de qualité de vie, il permet une approche globale du risque. En cas de POMI positif, ne pas arrêter brutalement le traitement (risque de syndrome de sevrage) : rotation progressive ou sevrage programmé sous couverture médicale.",
+  clinicalCommentary: "L\'utilisation du POMI est recommandée avant toute prescription d\'opioïdes au long cours (douleurs chroniques non cancéreuses). En association avec le suivi du score de douleur (EVA) et du score de qualité de vie, il permet une approche globale du risque. En cas de POMI positif, ne pas arrêter brutalement le traitement (risque de syndrome de sevrage) : rotation progressive ou sevrage programmé sous couverture médicale.",
   references: [
     {
       type: 'pubmed',

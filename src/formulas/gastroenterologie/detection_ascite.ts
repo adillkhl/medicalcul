@@ -81,7 +81,7 @@ const detectionAscite: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `**Détection clinique de l’ascite** : l'examen clinique permet d’estimer la presence d'ascite avec une bonne sensibilité pour les quantités >= 1 500 mL.
+  interpretation: `**Détection clinique de l’ascite** : l\'examen clinique permet d’estimer la presence d\'ascite avec une bonne sensibilité pour les quantités >= 1 500 mL.
 
 **Signes cliniques** :
 - Matité des flancs : le signe le plus sensible
@@ -89,8 +89,8 @@ const detectionAscite: FormulaDefinition = {
 - Signe de l’onde de choc (liquid thrill) : present si ascite tendue
 - Augmentation récente du périmètre abdominal
 
-L'echographie abdominale reste l'examen de référence pour confirmer et quantifier l’ascite.`,
-  clinicalCommentary: `L'ascite de grande abondance (>= 1 500 mL) est détectable cliniquement. En deçà, l'echographie est indispensable. L'ascite de novo chez un patient cirrhotique est une complication grave (1ère décompensation). Toujours faire une ponction diagnostique (Gradient Albumine Séro-Ascitique = GASA). GASA >= 11 g/L = hypertension portale.`,
+L\'echographie abdominale reste l\'examen de référence pour confirmer et quantifier l’ascite.`,
+  clinicalCommentary: `L\'ascite de grande abondance (>= 1 500 mL) est détectable cliniquement. En deçà, l\'echographie est indispensable. L\'ascite de novo chez un patient cirrhotique est une complication grave (1ère décompensation). Toujours faire une ponction diagnostique (Gradient Albumine Séro-Ascitique = GASA). GASA >= 11 g/L = hypertension portale.`,
   references: [
     {
       type: 'pubmed',

@@ -76,8 +76,8 @@ La VO2max estimée est : MET × 3.5 mL/kg/min
 - **DASI 15-29** (5-8 METs) : capacité modérée
 - **DASI ≥ 30** (> 8 METs) : bonne capacité
 
-Le DASI est utilisé pour l'évaluation du risque cardiovasculaire péri-opératoire (chirurgie non cardiaque) et pour le suivi des patients cardiaques.`,
-  clinicalCommentary: `Un DASI < 15 (< 5 METs) est associé à un risque péri-opératoire élevé. Le DASI est plus fiable que l’interrogatoire simple ("Combien d'étages montez-vous ?"). Utile pour suivre l'évolution après réadaptation cardiaque ou traitement médical. Attention : les coefficients sont ceux de l'étude originale de 1989 ; des versions simplifiées existent.`,
+Le DASI est utilisé pour l\'évaluation du risque cardiovasculaire péri-opératoire (chirurgie non cardiaque) et pour le suivi des patients cardiaques.`,
+  clinicalCommentary: `Un DASI < 15 (< 5 METs) est associé à un risque péri-opératoire élevé. Le DASI est plus fiable que l’interrogatoire simple ("Combien d\'étages montez-vous ?"). Utile pour suivre l\'évolution après réadaptation cardiaque ou traitement médical. Attention : les coefficients sont ceux de l\'étude originale de 1989 ; des versions simplifiées existent.`,
   references: [
     {
       type: 'pubmed',

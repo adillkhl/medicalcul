@@ -32,7 +32,7 @@ const must: FormulaDefinition = {
       ]}
   },
   interpretation: `Le MUST est un outil de depistage de la denutrition valide en soins aigus et communautaires:<br/>• Score 0: Risque faible. Soins de routine. Refaire le screening 1x/sem (hopital) ou 1x/mois (domicile)<br/>• Score 1: Risque modere. Surveiller les apports alimentaires 3 jours. Si apports insuffisants -> score eleve<br/>• Score ≥ 2: Risque eleve. Referer au dieteticien ou equipe nutritionnelle. Implementer un plan de soins nutritionnels`,
-  clinicalCommentary: `Le MUST est largement utilise au Royaume-Uni et recommande par la BAPEN. Il ne necessite pas de mesure de l'albumine. Simple et rapide (3-5 min). Valide pour tous les adultes (pas de limite d'age). Le MUST a une bonne valeur predictive: un score ≥ 2 est associe a une duree de sejour prolongee et a une mortalite accrue.`,
+  clinicalCommentary: `Le MUST est largement utilise au Royaume-Uni et recommande par la BAPEN. Il ne necessite pas de mesure de l\'albumine. Simple et rapide (3-5 min). Valide pour tous les adultes (pas de limite d\'age). Le MUST a une bonne valeur predictive: un score ≥ 2 est associe a une duree de sejour prolongee et a une mortalite accrue.`,
   references: [
     {type:`pubmed`,title:`Elia M. BAPEN 2003`,pmid:`pubmed-link`},
     {type:`pubmed`,title:`Stratton RJ et al. Clin Nutr 2004`,pmid:`15380902`},

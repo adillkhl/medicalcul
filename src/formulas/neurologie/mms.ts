@@ -181,7 +181,7 @@ const mms: FormulaDefinition = {
 - Démence sévère : < 10
 
 Le MMS est sensible au déclin cognitif surtout dans la maladie d’Alzheimer, mais peu sensible aux démences fronto-temporales et sous-cortico-frontales.`,
-  clinicalCommentary: `Le MMS est soumis à des droits d'auteur (© PAR) et doit être utilisé avec la version officielle. Il est très influencé par l'âge et le niveau socioculturel. Un MMS normal n'élimine pas un trouble cognitif débutant chez un sujet de haut niveau (effet plafond). Chez les patients avec atteinte vasculaire cérébrale, le MMS sous-estime les séquelles cognitives. Alternative libre : le MoCA (Montreal Cognitive Assessment) est plus sensible pour les troubles légers. En France, le MMS est remplacé progressivement par le MoCA dans les consultations mémoire.`,
+  clinicalCommentary: `Le MMS est soumis à des droits d\'auteur (© PAR) et doit être utilisé avec la version officielle. Il est très influencé par l\'âge et le niveau socioculturel. Un MMS normal n\'élimine pas un trouble cognitif débutant chez un sujet de haut niveau (effet plafond). Chez les patients avec atteinte vasculaire cérébrale, le MMS sous-estime les séquelles cognitives. Alternative libre : le MoCA (Montreal Cognitive Assessment) est plus sensible pour les troubles légers. En France, le MMS est remplacé progressivement par le MoCA dans les consultations mémoire.`,
   references: [
     {
       type: 'pubmed',

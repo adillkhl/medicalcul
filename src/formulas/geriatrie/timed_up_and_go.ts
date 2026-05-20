@@ -8,7 +8,7 @@ const timed_up_and_go: FormulaDefinition = {
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`temps`,type:`number`,label:`Temps total (secondes)`,unit:`s`,min:0,step:0.1,placeholder:`Entrez le temps en secondes`},
-    {id:`aide_technique`,type:`boolean`,label:`Utilisation d'une aide technique (canne, deambulateur)`},
+    {id:`aide_technique`,type:`boolean`,label:`Utilisation d\'une aide technique (canne, deambulateur)`},
     {id:`ralentissement`,type:`boolean`,label:`Ralentissement observe ou apprehention a la marche`},
   ],
   calculate: (values) => {
@@ -34,8 +34,8 @@ const timed_up_and_go: FormulaDefinition = {
         {min:20,max:999,label:`Risque eleve de chute - Dependance motrice`,severity:`high`},
       ]}
   },
-  interpretation: `Le TUG evalue la mobilite fonctionnelle. Le patient doit se lever d'une chaise (hauteur 46cm), marcher 3 metres, faire demi-tour, revenir et se rasseoir.<br/><br/>Interpretation:<br/>• < 10s: Normal, mobilite libre<br/>• 10-13.9s: Risque faible (personne agee autonome)<br/>• 14-19.9s: Risque modere (fragilite)<br/>• ≥ 20s: Risque eleve de chute et de perte d'autonomie<br/><br/>Le seuil de 13.5s est le plus utilise pour identifier les patients a risque de chute.`,
-  clinicalCommentary: `Test valide et reproductible. Le seuil de 13.5 secondes est le plus utilise dans la litterature. Un TUG > 30 secondes est associe a une dependance pour les activites de la vie quotidienne. Influence par l'age, le sexe et la taille. A effectuer avec les chaussures habituelles du patient.`,
+  interpretation: `Le TUG evalue la mobilite fonctionnelle. Le patient doit se lever d\'une chaise (hauteur 46cm), marcher 3 metres, faire demi-tour, revenir et se rasseoir.<br/><br/>Interpretation:<br/>• < 10s: Normal, mobilite libre<br/>• 10-13.9s: Risque faible (personne agee autonome)<br/>• 14-19.9s: Risque modere (fragilite)<br/>• ≥ 20s: Risque eleve de chute et de perte d\'autonomie<br/><br/>Le seuil de 13.5s est le plus utilise pour identifier les patients a risque de chute.`,
+  clinicalCommentary: `Test valide et reproductible. Le seuil de 13.5 secondes est le plus utilise dans la litterature. Un TUG > 30 secondes est associe a une dependance pour les activites de la vie quotidienne. Influence par l\'age, le sexe et la taille. A effectuer avec les chaussures habituelles du patient.`,
   references: [
     {type:`pubmed`,title:`Podsiadlo D, Richardson S. J Am Geriatr Soc 1991`,pmid:`1991946`},
     {type:`pubmed`,title:`Bohannon RW. Phys Ther 2006`,pmid:`16571512`},

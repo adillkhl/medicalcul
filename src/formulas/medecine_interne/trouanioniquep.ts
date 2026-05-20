@@ -100,12 +100,12 @@ const trouanioniquep: FormulaDefinition = {
   interpretation: `**Trou anionique plasmatique (anion gap) :**
 - Standard : TA = Na − (Cl + HCO3) → N = 8–12 mmol/L
 - Avec K : TA = (Na + K) − (Cl + HCO3) → N = 10–14 mmol/L
-- Corrigé pour l'albumine : TA_corr = TA + 0,25 × (40 − Albumine)
+- Corrigé pour l\'albumine : TA_corr = TA + 0,25 × (40 − Albumine)
 
 **Causes de TA élevé** (acidose métabolique à TA élevé, MUD PILES) : Méthanol, Urémie, Diabétique/DAO, Propylène glycol/Paraldéhyde, Isoniazide/Isocyanate, Lactique, Éthylène glycol, Salicylés.
 
 **Causes de TA normal** (acidose métabolique hyperchlorémique) : diarrhées, acidose tubulaire rénale (ATR), SRC, hyperparathyroïdie.`,
-  clinicalCommentary: `Le trou anionique plasmatique est un outil diagnostique fondamental pour différencier les acidoses métaboliques. Toujours corriger pour l'albumine (l'hypoalbuminémie masque un TA élevé).`,
+  clinicalCommentary: `Le trou anionique plasmatique est un outil diagnostique fondamental pour différencier les acidoses métaboliques. Toujours corriger pour l\'albumine (l\'hypoalbuminémie masque un TA élevé).`,
   references: [
     {
       type: 'pubmed',

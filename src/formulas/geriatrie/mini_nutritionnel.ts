@@ -49,7 +49,7 @@ const mini_nutritionnel: FormulaDefinition = {
       ]}
   },
   interpretation: `Le MNA Short Form est un outil de depistage de la denutrition chez le sujet age. Score sur 14 points. Un score ≥ 12 est normal, 8-11 indique un risque de denutrition, ≤ 7 confirme la denutrition. Un score ≤ 11 justifie la réalisation du MNA complet (18 items).`,
-  clinicalCommentary: `Le MNA est l'outil de reference pour le depistage nutritionnel en geriatrie. Il est valide chez les patients de plus de 65 ans. En cas de score ≤ 11, completer par le MNA complet et evaluer les apports alimentaires. La denutrition est un facteur de risque independant de mortalite chez le sujet age.`,
+  clinicalCommentary: `Le MNA est l\'outil de reference pour le depistage nutritionnel en geriatrie. Il est valide chez les patients de plus de 65 ans. En cas de score ≤ 11, completer par le MNA complet et evaluer les apports alimentaires. La denutrition est un facteur de risque independant de mortalite chez le sujet age.`,
   references: [
     {type:`pubmed`,title:`Vellas B et al. Nutrition 1999`,pmid:`10418105`},
     {type:`pubmed`,title:`Rubenstein LZ et al. J Am Geriatr Soc 2001`,pmid:`11280716`},

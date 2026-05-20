@@ -25,8 +25,8 @@ const iadl: FormulaDefinition = {
         {min:0,max:4,label:'Dependance importante',severity:'high'},
       ]}
   },
-  interpretation: `L'echelle IADL de Lawton evalue 8 activites instrumentales necessaires a la vie autonome. Chaque item est cote 1 si le patient est autonome, 0 sinon. Un score < 5 suggere une perte d'autonomie significative necessitant des aides a domicile.`,
-  clinicalCommentary: `L'IADL complete l'ADL pour une evaluation globale de l'autonomie. Les femmes sont traditionnellement evaluees sur les 8 items, les hommes sur 5 (telephone, transport, medicaments, finances, courses). L'adaptation au genre est controversee; on utilise de plus en plus les 8 items pour tous.`,
+  interpretation: `L\'echelle IADL de Lawton evalue 8 activites instrumentales necessaires a la vie autonome. Chaque item est cote 1 si le patient est autonome, 0 sinon. Un score < 5 suggere une perte d\'autonomie significative necessitant des aides a domicile.`,
+  clinicalCommentary: `L\'IADL complete l\'ADL pour une evaluation globale de l\'autonomie. Les femmes sont traditionnellement evaluees sur les 8 items, les hommes sur 5 (telephone, transport, medicaments, finances, courses). L\'adaptation au genre est controversee; on utilise de plus en plus les 8 items pour tous.`,
   references: [
     {type:`pubmed`,title:`Lawton MP, Brody EM. Gerontologist 1969`,pmid:`5309366`},
   ],

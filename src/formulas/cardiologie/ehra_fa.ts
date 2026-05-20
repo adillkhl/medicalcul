@@ -62,7 +62,7 @@ const ehra: FormulaDefinition = {
 - **EHRA IV** : symptomes invalidants, arret de toute activite
 
 Le score EHRA guide la decision therapeutique : controle de la frequence vs controle du rythme (antiarythmiques, ablation).`,
-  clinicalCommentary: `L'EHRA est subjectif et depend de la perception du patient. Un patient sedentaire peut avoir une FA asymptomatique mais un risque thromboembolique eleve. L'EHRA ne remplace pas l’evaluation du risque thromboembolique (CHA2DS2-VA) et hemorragique (HAS-BLED). Depuis 2020, l'EHRA a ajoute le grade IIa et IIb pour affiner la stratification. Les patients EHRA III-IV symptomatiques sous traitement medical optimal ont une indication d’ablation.`,
+  clinicalCommentary: `L\'EHRA est subjectif et depend de la perception du patient. Un patient sedentaire peut avoir une FA asymptomatique mais un risque thromboembolique eleve. L\'EHRA ne remplace pas l’evaluation du risque thromboembolique (CHA2DS2-VA) et hemorragique (HAS-BLED). Depuis 2020, l\'EHRA a ajoute le grade IIa et IIb pour affiner la stratification. Les patients EHRA III-IV symptomatiques sous traitement medical optimal ont une indication d’ablation.`,
   references: [
     {
       type: 'pubmed',

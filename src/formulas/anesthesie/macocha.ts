@@ -4,7 +4,7 @@ const macocha: FormulaDefinition = {
   id: `macocha`, slug: `macocha`,
   name: `MACOCHA (Score)`,
   specialty: `anesthesie`, category: `Intubation`,
-  description: `Prediction d'intubation difficile en reanimation`,
+  description: `Prediction d\'intubation difficile en reanimation`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `B`,
   inputs: [
     {id:`mallampati`,type:`radio`,label:`Mallampati modifie`,options:[{value:0,label:`I-II`},{value:5,label:`III-IV`}]},
@@ -25,8 +25,8 @@ const macocha: FormulaDefinition = {
       {min:12,max:999,label:`Voie difficile anticipee - Masque larynge`,severity:`high`},
       ]}
   },
-  interpretation: `Le MACOCHA est le seul score valide pour predire l'intubation difficile en reanimation. >= 12 = tres difficile.`,
-  clinicalCommentary: `Developpe pour la reanimation. Integre l'urgence vitale comme facteur de risque.`,
+  interpretation: `Le MACOCHA est le seul score valide pour predire l\'intubation difficile en reanimation. >= 12 = tres difficile.`,
+  clinicalCommentary: `Developpe pour la reanimation. Integre l\'urgence vitale comme facteur de risque.`,
   references: [
     {type:`pubmed`,title:`De Jong A et al. Intensive Care Med 2013`,pmid:`23765248`}
   ],

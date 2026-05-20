@@ -111,8 +111,8 @@ const fib4: FormulaDefinition = {
 | 1.30-2.67 | Zone grise — tests complémentaires |
 | > 2.67 | Fibrose significative (≥ F3) — VPP ~ 80 % |
 
-Validé initialement dans l’hépatite C et VIH-VHC, utilisable dans la NAFLD et les hépatopathies alcooliques. Supérieur à l'APRI pour la NAFLD.`,
-  clinicalCommentary: `Le FIB-4 est le meilleur score non invasif de première intention (coût nul, toujours disponible). Attention : le seuil de 1.30 est abaissé à 2.0 chez les > 65 ans pour la NAFLD. Le FIB-4 peut être faussement élevé en cas de cytolyse aiguë (AST très élevée). À répéter à distance d’un épisode aigu. Le FibroScan® reste l'examen de référence pour confirmer le diagnostic de fibrose.`,
+Validé initialement dans l’hépatite C et VIH-VHC, utilisable dans la NAFLD et les hépatopathies alcooliques. Supérieur à l\'APRI pour la NAFLD.`,
+  clinicalCommentary: `Le FIB-4 est le meilleur score non invasif de première intention (coût nul, toujours disponible). Attention : le seuil de 1.30 est abaissé à 2.0 chez les > 65 ans pour la NAFLD. Le FIB-4 peut être faussement élevé en cas de cytolyse aiguë (AST très élevée). À répéter à distance d’un épisode aigu. Le FibroScan® reste l\'examen de référence pour confirmer le diagnostic de fibrose.`,
   references: [
     {
       type: 'pubmed',

@@ -53,7 +53,7 @@ const leukemia_lal: FormulaDefinition = {
       ]}
   },
   interpretation: `La classification FAB des LAL repose sur la morphologie:<br/>• L1 (75% des LAL pediatriques): petits blastes homogenes, chromatine condensee, peu de cytoplasme<br/>• L2 (50% des LAL adultes): blastes plus grands, nucleoles visibles, cytoplasme modere<br/>• L3 (< 5%): cellules de Burkitt, cytoplasme basophile vacuolise, granules lipidiques`,
-  clinicalCommentary: `La classification morphologique L1/L2 a peu d'impact pronostique independant. Elle est supplantee par l'immunophenotype (B/T) et les anomalies cytogenetiques/moleculaires (t(9;22), t(4;11), t(12;21)). La LAL L3 correspond au lymphome de Burkitt (myc rearrangement). La MPO est toujours negative dans les LAL vraies.`,
+  clinicalCommentary: `La classification morphologique L1/L2 a peu d\'impact pronostique independant. Elle est supplantee par l\'immunophenotype (B/T) et les anomalies cytogenetiques/moleculaires (t(9;22), t(4;11), t(12;21)). La LAL L3 correspond au lymphome de Burkitt (myc rearrangement). La MPO est toujours negative dans les LAL vraies.`,
   references: [
     {type:`pubmed`,title:`Bennett JM et al. Br J Haematol 1976`,pmid:`188440`},
     {type:`pubmed`,title:`Bennett JM et al. Ann Intern Med 1985`,pmid:`3861118`},

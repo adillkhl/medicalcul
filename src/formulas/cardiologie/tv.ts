@@ -28,7 +28,7 @@ const tv: FormulaDefinition = {
     return {value:retval, label:retlabel, severity:retsev, ranges}
   },
   interpretation: `Score diagnostique pour differencier TV et TSV + BB. La dissociation AV et la concordance negative sont les signes les plus specifiques de TV.`,
-  clinicalCommentary: `Toute tachycardie a QRS large non documentee doit etre traitee comme une TV jusqu'a preuve du contraire. La manoeuvre vagale et l'adenosine sont a eviter si criteres de TV. La cardioversion electrique est le traitement de choix si instabilite hemodynamique.`,
+  clinicalCommentary: `Toute tachycardie a QRS large non documentee doit etre traitee comme une TV jusqu'a preuve du contraire. La manoeuvre vagale et l\'adenosine sont a eviter si criteres de TV. La cardioversion electrique est le traitement de choix si instabilite hemodynamique.`,
   references: [
     {type:`pubmed`,title:`Brugada P et al. Circulation 1991`,pmid:`1863988`}
   ],

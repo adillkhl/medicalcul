@@ -203,8 +203,8 @@ const had: FormulaDefinition = {
 - 8–10 : borderline (douteux)
 - ≥ 11 : pathologique
 
-L'HAD exclut les symptômes somatiques (fatigue, insomnie) pour éviter les biais chez les patients hospitalisés.`,
-  clinicalCommentary: `L'HAD est très utilisé en neurologie car il évite les symptômes somatiques confondants (fatigue, douleur, troubles du sommeil) fréquents dans les pathologies neurologiques. Particulièrement utile dans l'épilepsie, la SEP, les céphalées chroniques, les AVC et les maladies neurodégénératives. Ne pas oublier que l’HAD est un outil de DÉPISTAGE, pas un diagnostic. Un score ≥ 11 justifie un avis spécialisé. Les sous-échelles A et D sont validées séparément.`,
+L\'HAD exclut les symptômes somatiques (fatigue, insomnie) pour éviter les biais chez les patients hospitalisés.`,
+  clinicalCommentary: `L\'HAD est très utilisé en neurologie car il évite les symptômes somatiques confondants (fatigue, douleur, troubles du sommeil) fréquents dans les pathologies neurologiques. Particulièrement utile dans l\'épilepsie, la SEP, les céphalées chroniques, les AVC et les maladies neurodégénératives. Ne pas oublier que l’HAD est un outil de DÉPISTAGE, pas un diagnostic. Un score ≥ 11 justifie un avis spécialisé. Les sous-échelles A et D sont validées séparément.`,
   references: [
     {
       type: 'pubmed',

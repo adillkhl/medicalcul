@@ -41,7 +41,7 @@ const indcornell: FormulaDefinition = {
 - Femme : > 20 mm (selon les versions)
 
 **Sokolow-Lyon** (complémentaire) : S V1 + R V5/V6 > 35 mm`,
-  clinicalCommentary: `L'indice de Cornell est plus spécifique que Sokolow-Lyon pour l’HVG. Toujours confirmer par échocardiographie. L'HVG électrique est un marqueur de risque cardiovasculaire indépendant (MACE). Causes principales : HTA (la plus fréquente), sténose aortique, cardiomyopathie hypertrophique.`,
+  clinicalCommentary: `L\'indice de Cornell est plus spécifique que Sokolow-Lyon pour l’HVG. Toujours confirmer par échocardiographie. L\'HVG électrique est un marqueur de risque cardiovasculaire indépendant (MACE). Causes principales : HTA (la plus fréquente), sténose aortique, cardiomyopathie hypertrophique.`,
   references: [{ type: 'pubmed', title: 'Casale PN et al. Improved accuracy of ECG for LVH. Circulation 1987', pmid: '2949885' }],
 }
 export default indcornell

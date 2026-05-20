@@ -15,12 +15,12 @@ const gastvol_perlas: FormulaDefinition = {
     const sev = g === 0 ? 'low' : g === 1 ? 'moderate' : 'high'
     return {value:g, label:labels[g], severity: sev,
       ranges:[
-      {min:0,max:0,label:`Risque d'inhalation faible`,severity:`low`},
+      {min:0,max:0,label:`Risque d\'inhalation faible`,severity:`low`},
       {min:1,max:1,label:`Jeune insuffisant? Envisager retard`,severity:`moderate`},
-      {min:2,max:2,label:`Risque d'inhalation eleve, surseoir si possible`,severity:`high`},
+      {min:2,max:2,label:`Risque d\'inhalation eleve, surseoir si possible`,severity:`high`},
       ]}
   },
-  interpretation: `Le grade de Perlas evalue le volume gastrique par echographie. Grade 2 = risque d'inhalation eleve.`,
+  interpretation: `Le grade de Perlas evalue le volume gastrique par echographie. Grade 2 = risque d\'inhalation eleve.`,
   clinicalCommentary: `Outil emergant. Grade 2 a une specificite > 90% pour un volume gastrique > 1.5 mL/kg.`,
   references: [
     {type:`pubmed`,title:`Perlas A et al. Anesthesiology 2009`,pmid:`19277803`}

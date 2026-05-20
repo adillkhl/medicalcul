@@ -61,7 +61,7 @@ const hba1c2gpm: FormulaDefinition = {
 | 12 | 16,5 mmol/L (298 mg/dL) |
 
 Utile pour expliquer la correspondance au patient.`,
-  clinicalCommentary: `L'eAG est surtout utile pour l'éducation thérapeutique : elle permet au patient de visualiser sa glycémie moyenne sur 3 mois. Attention : la formule ADAG est validée pour l'HbA1c standardisée NGSP. Interpréter avec prudence en cas d'anomalies de l'hémoglobine.`,
+  clinicalCommentary: `L\'eAG est surtout utile pour l\'éducation thérapeutique : elle permet au patient de visualiser sa glycémie moyenne sur 3 mois. Attention : la formule ADAG est validée pour l\'HbA1c standardisée NGSP. Interpréter avec prudence en cas d\'anomalies de l\'hémoglobine.`,
   references: [
     {
       type: 'pubmed',

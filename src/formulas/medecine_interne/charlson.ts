@@ -197,7 +197,7 @@ const charlson: FormulaDefinition = {
 **Âge** : +1 point par décennie au-delà de 50 ans.
 
 **Mortalité à 1 an :** Score 0–1 : 2%, Score 2 : 5%, Score 3 : 10%, Score 4 : 15%, Score 5 : 24%, Score 6 : 30%, Score 7 : 43%, Score 8 : 59%, Score ≥ 9 : > 85%.`,
-  clinicalCommentary: `L'index de Charlson est largement utilisé en médecine interne et en épidémiologie pour ajuster le risque de mortalité. Utile avant une chirurgie lourde ou une chimiothérapie. Version simplifiée utile en clinique quotidienne.`,
+  clinicalCommentary: `L\'index de Charlson est largement utilisé en médecine interne et en épidémiologie pour ajuster le risque de mortalité. Utile avant une chirurgie lourde ou une chimiothérapie. Version simplifiée utile en clinique quotidienne.`,
   references: [
     {
       type: 'pubmed',

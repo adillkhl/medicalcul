@@ -26,7 +26,7 @@ const apfel: FormulaDefinition = {
       {min:4,max:4,label:`4 facteurs - 79%`,severity:`high`},
       ]}
   },
-  interpretation: `Le score d'Apfel predit le risque de NVPO. Chaque facteur = 1 point. Prophylaxie antiemetique adaptee.`,
+  interpretation: `Le score d\'Apfel predit le risque de NVPO. Chaque facteur = 1 point. Prophylaxie antiemetique adaptee.`,
   clinicalCommentary: `Score le plus utilise en SSPI. Une prophylaxie a 2 ou 3 agents est recommandee si >= 3 facteurs.`,
   references: [
     {type:`pubmed`,title:`Apfel CC et al. Anesthesiology 1999`,pmid:`10485781`}

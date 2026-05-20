@@ -104,7 +104,7 @@ const meld: FormulaDefinition = {
     }
   },
   interpretation: `Le **score MELD** (Model for End-Stage Liver Disease) est le score de reference pour la priorisation des patients en liste d’attente de transplantation hepatique.\n\n**Formule** (MELD original) :\nMELD = 9.57 × ln(Cr) + 3.78 × ln(Bili) + 11.2 × ln(INR) + 6.43\n\nAvec :\n- Cr = creatinine en mg/dL (min 1, max 4)\n- Bili = bilirubine en mg/dL (min 1)\n- INR (min 1)\n\nSi le patient est dialyse, la creatinine est fixee a 4 mg/dL.\n\n**Mortalite a 3 mois** :\n- MELD < 10 : < 5 %\n- MELD 10-19 : 6-20 %\n- MELD 20-29 : 20-50 %\n- MELD >= 30 : > 50 %`,
-  clinicalCommentary: `Le MELD a remplacé le Child-Pugh pour l’attribution des greffons depuis 2002 (UNOS). Le MELD-Na (qui intègre la natrémie) améliore la prédiction de mortalité dans la cirrhose ascitique. Le score peut fluctuer rapidement : il doit être recalculé régulièrement (toutes les semaines si MELD > 20). Attention : le MELD a été initialement validé pour la cirrhose ; il peut sous-estimer le risque dans d'autres pathologies (hépatite fulminante, CHC).`,
+  clinicalCommentary: `Le MELD a remplacé le Child-Pugh pour l’attribution des greffons depuis 2002 (UNOS). Le MELD-Na (qui intègre la natrémie) améliore la prédiction de mortalité dans la cirrhose ascitique. Le score peut fluctuer rapidement : il doit être recalculé régulièrement (toutes les semaines si MELD > 20). Attention : le MELD a été initialement validé pour la cirrhose ; il peut sous-estimer le risque dans d\'autres pathologies (hépatite fulminante, CHC).`,
   references: [
     {
       type: 'pubmed',

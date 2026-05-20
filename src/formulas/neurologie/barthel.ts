@@ -163,8 +163,8 @@ const barthel: FormulaDefinition = {
 
 **Interprétation :** 0–19 = dépendance totale, 20–39 = très sévère, 40–59 = sévère, 60–79 = modérée, 80–100 = légère.
 
-L'index de Barthel est largement utilisé en gériatrie, neurologie et réadaptation pour évaluer le handicap et suivre l'évolution fonctionnelle.`,
-  clinicalCommentary: `Le Barthel est un standard international, fiable et reproductible. Utilisé en routine dans les unités neurovasculaires (UNV) pour évaluer les séquelles d’AVC. Le score à la sortie d'hospitalisation prédit le devenir à long terme. Attention : il ne mesure pas les activités instrumentales (courses, téléphone, gestion financière) — pour cela, utiliser l’IADL de Lawton. Le temps de passation est d’environ 5 minutes en auto-questionnaire ou 10 minutes par entretien.`,
+L\'index de Barthel est largement utilisé en gériatrie, neurologie et réadaptation pour évaluer le handicap et suivre l\'évolution fonctionnelle.`,
+  clinicalCommentary: `Le Barthel est un standard international, fiable et reproductible. Utilisé en routine dans les unités neurovasculaires (UNV) pour évaluer les séquelles d’AVC. Le score à la sortie d\'hospitalisation prédit le devenir à long terme. Attention : il ne mesure pas les activités instrumentales (courses, téléphone, gestion financière) — pour cela, utiliser l’IADL de Lawton. Le temps de passation est d’environ 5 minutes en auto-questionnaire ou 10 minutes par entretien.`,
   references: [
     {
       type: 'pubmed',

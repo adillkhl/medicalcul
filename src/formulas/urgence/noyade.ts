@@ -25,8 +25,8 @@ const noyade: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `La noyade est un processus de detresse respiratoire par submersion. L'hypoxie est le mecanisme principal de morbi-mortalite.`,
-  clinicalCommentary: `Toute noyade symptomatique necessite une hospitalisation pour surveillance. L'O2 et la VNI sont les traitements de premiere ligne. L'instabilite hemodynamique peut etre liee a une hypothermie associee.`,
+  interpretation: `La noyade est un processus de detresse respiratoire par submersion. L\'hypoxie est le mecanisme principal de morbi-mortalite.`,
+  clinicalCommentary: `Toute noyade symptomatique necessite une hospitalisation pour surveillance. L\'O2 et la VNI sont les traitements de premiere ligne. L\'instabilite hemodynamique peut etre liee a une hypothermie associee.`,
   references: [
     {type:`pubmed`,title:`Szpilman D et al. BMJ 2012`,pmid:`23107601`}
   ],

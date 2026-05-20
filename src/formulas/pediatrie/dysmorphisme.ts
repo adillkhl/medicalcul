@@ -19,13 +19,13 @@ const dysmorphisme: FormulaDefinition = {
     const sev = s >= 6 ? 'high' : s >= 3 ? 'moderate' : 'low'
     return {value:s, label:`Score de dysmorphisme ${s}/12`, severity: sev,
       ranges:[
-        {min:0,max:2,label:`Faible probabilité de syndrome génétique`,severity:'low',recommendation:`Surveillance clinique. Pas d'examen complémentaire systématique.`},
+        {min:0,max:2,label:`Faible probabilité de syndrome génétique`,severity:'low',recommendation:`Surveillance clinique. Pas d\'examen complémentaire systématique.`},
         {min:3,max:5,label:`Probabilité intermédiaire — Avis spécialisé conseillé`,severity:'moderate',recommendation:`Consultation de génétique clinique. Selon contexte : caryotype, analyse chromosomique sur puce (ACPA/SNP-array).`},
         {min:6,max:12,label:`Forte probabilité — Syndrome génétique probable`,severity:'high',recommendation:`Avis génétique urgent. Examens de première intention : caryotype + ACPA. Recherche de syndrome spécifique selon la dysmorphie. Bilan malformatif associé (échographie cardiaque, rénale, cérébrale).`},
       ]}
   },
-  interpretation: `Score clinique d'orientation pour le diagnostic de dysmorphie néonatale. 6 items : face, yeux, oreilles, membres, thorax/rachis, signes neurologiques. Chaque item côté 0-2. Un score ≥ 3 justifie un avis génétique. Un score ≥ 6 justifie un bilan malformatif complet et une analyse génétique.`,
-  clinicalCommentary: `Outil d'orientation clinique simple. Ne remplace pas l'examen par un généticien. Les dysmorphies mineures isolées (ex : pli palmaire unique uni) sans autre anomalie n'ont pas de valeur pathologique. Associations de 3 dysmorphies mineures ou plus = risque de syndrome. Toujours examiner les parents (variante familiale possible).`,
+  interpretation: `Score clinique d\'orientation pour le diagnostic de dysmorphie néonatale. 6 items : face, yeux, oreilles, membres, thorax/rachis, signes neurologiques. Chaque item côté 0-2. Un score ≥ 3 justifie un avis génétique. Un score ≥ 6 justifie un bilan malformatif complet et une analyse génétique.`,
+  clinicalCommentary: `Outil d\'orientation clinique simple. Ne remplace pas l\'examen par un généticien. Les dysmorphies mineures isolées (ex : pli palmaire unique uni) sans autre anomalie n\'ont pas de valeur pathologique. Associations de 3 dysmorphies mineures ou plus = risque de syndrome. Toujours examiner les parents (variante familiale possible).`,
   references: [
     {type:`guideline`,title:`HAS — Diagnostic de dysmorphie néonatale (2022)`,url:`https://www.has-sante.fr/`},
     {type:`pubmed`,title:`Aase JM. Diagnostic dysmorphology. Pediatrics 1992`,pmid:`1738519`},

@@ -27,8 +27,8 @@ const fibrose_pulm: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `Les PID classifient selon le mode d'installation, le scanner et le contexte. La fibrose pulmonaire idiopathique est la plus severe.`,
-  clinicalCommentary: `Le scanner HR coupe fine est l'examen cle. Les crepitants velcro sont tres evocateur de fibrose. La biopsie chirurgicale est parfois necessaire.`,
+  interpretation: `Les PID classifient selon le mode d\'installation, le scanner et le contexte. La fibrose pulmonaire idiopathique est la plus severe.`,
+  clinicalCommentary: `Le scanner HR coupe fine est l\'examen cle. Les crepitants velcro sont tres evocateur de fibrose. La biopsie chirurgicale est parfois necessaire.`,
   references: [
     {type:`pubmed`,title:`Travis WD et al. Am J Respir Crit Care Med 2013`,pmid:`23549056`}
   ],

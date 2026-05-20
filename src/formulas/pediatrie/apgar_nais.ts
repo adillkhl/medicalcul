@@ -4,7 +4,7 @@ const apgar_nais: FormulaDefinition = {
   id: `apgar_nais`, slug: `apgar_nais`,
   name: `Apgar du Nouveau-né`,
   specialty: `pediatrie`, category: `Neonatalogie`,
-  description: `Score d'évaluation de l'adaptation à la vie extra-utérine à 1, 5 et 10 minutes de vie (5 items, 0-10)`,
+  description: `Score d\'évaluation de l\'adaptation à la vie extra-utérine à 1, 5 et 10 minutes de vie (5 items, 0-10)`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`coeur`,type:`radio`,label:`Fréquence cardiaque`,options:[{value:0,label:`Absente`},{value:1,label:`< 100/min`},{value:2,label:`≥ 100/min`}]},
@@ -23,8 +23,8 @@ const apgar_nais: FormulaDefinition = {
         {min:7,max:10,label:`Score 7-10 — Bonne adaptation`,severity:'low',recommendation:`Soins de routine. Séchage, peau-à-peau, clampage différé du cordon si possible. Surveillance clinique simple.`},
       ]}
   },
-  interpretation: `Le score d'Apgar évalue l'état clinique du nouveau-né à 1, 5 et 10 minutes de vie. Chaque item (cœur, respiration, tonus, réflexes, couleur) côté 0, 1 ou 2. Total sur 10. Un score < 7 à 5 min justifie une réévaluation à 10 min.`,
-  clinicalCommentary: `L'Apgar reste l'outil de référence universel malgré sa subjectivité. Toujours coter au mieux des capacités du nouveau-né. Le score à 5 min est le plus prédictif du pronostic. Un score bas à 1 min peut simplement refléter une adaptation transitoire — ne pas paniquer, réanimer et réévaluer.`,
+  interpretation: `Le score d\'Apgar évalue l\'état clinique du nouveau-né à 1, 5 et 10 minutes de vie. Chaque item (cœur, respiration, tonus, réflexes, couleur) côté 0, 1 ou 2. Total sur 10. Un score < 7 à 5 min justifie une réévaluation à 10 min.`,
+  clinicalCommentary: `L\'Apgar reste l\'outil de référence universel malgré sa subjectivité. Toujours coter au mieux des capacités du nouveau-né. Le score à 5 min est le plus prédictif du pronostic. Un score bas à 1 min peut simplement refléter une adaptation transitoire — ne pas paniquer, réanimer et réévaluer.`,
   references: [
     {type:`pubmed`,title:`Apgar V. A proposal for a new method of evaluation of the newborn infant. Curr Res Anesth Analg 1953`,pmid:`13083014`},
     {type:`guideline`,title:`HAS — Soins et surveillance du nouveau-né (2023)`,url:`https://www.has-sante.fr/`},

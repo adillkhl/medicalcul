@@ -19,7 +19,7 @@ const ni_coma_scale: FormulaDefinition = {
       return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
   interpretation: `Echelle pour patients intubes non communicants (alternative GCS partielle).`,
-  clinicalCommentary: `Alternative au GCS standard quand le score verbal n'est pas evaluable.`,
+  clinicalCommentary: `Alternative au GCS standard quand le score verbal n\'est pas evaluable.`,
   references: [
     {type:`pubmed`,title:`Wijdicks EF. Neurology 2005`,pmid:`16207759`}
   ],

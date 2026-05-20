@@ -32,7 +32,7 @@ const toronto: FormulaDefinition = {
       ]}
     
   },
-  interpretation: `La formule de Toronto estime les besoins energetiques du brule, qui sont fortement augmentes par l'hypermetabolisme post-brulure.`,
+  interpretation: `La formule de Toronto estime les besoins energetiques du brule, qui sont fortement augmentes par l\'hypermetabolisme post-brulure.`,
   clinicalCommentary: `Formule de reference pour la nutrition du brule. A ajuster selon la tolerance clinique. Le support nutritionnel precoce (dans les 24h) reduit les complications.`,
   references: [
     {type:`pubmed`,title:`Allard JP et al. Nutr Clin Pract 1990`,pmid:`2122167`}

@@ -4,7 +4,7 @@ const hemoptysie_gravite: FormulaDefinition = {
   id: `hemoptysie_gravite`, slug: `hemoptysie_gravite`,
   name: `Hemoptysie (Gravite)`,
   specialty: `pneumologie`, category: `Hemoptysie`,
-  description: `Evaluation de la gravite de l'hemoptysie`,
+  description: `Evaluation de la gravite de l\'hemoptysie`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `C`,
   inputs: [
     {id:`volume`,type:`radio`,label:`Volume`,options:[{value:0,label:`Stries / crachats hemoptoiques`},{value:1,label:`< 50 mL/24h`},{value:2,label:`50-200 mL/24h`},{value:3,label:`> 200 mL/24h`}]},
@@ -25,8 +25,8 @@ const hemoptysie_gravite: FormulaDefinition = {
         ]
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
-  interpretation: `L'hemoptysie est une urgence. Le volume et la presence de detresse respiratoire sont les elements cles de la gravite.`,
-  clinicalCommentary: `L'embolisation des arteres bronchiques est le traitement de premiere intention pour les hemoptysies graves (> 200 mL/24h). La fibroscopie bronchique localise le saignement.`,
+  interpretation: `L\'hemoptysie est une urgence. Le volume et la presence de detresse respiratoire sont les elements cles de la gravite.`,
+  clinicalCommentary: `L\'embolisation des arteres bronchiques est le traitement de premiere intention pour les hemoptysies graves (> 200 mL/24h). La fibroscopie bronchique localise le saignement.`,
   references: [
     {type:`pubmed`,title:`Sakr L, Dutau H. Chest 2010`,pmid:`20696760`}
   ],

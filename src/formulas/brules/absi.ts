@@ -28,7 +28,7 @@ const absi: FormulaDefinition = {
       ]}
     
   },
-  interpretation: `L'ABSI (Abbreviated Burn Severity Index) est un score pronostique chez le brule. Chaque item augmente le risque de mortalite.`,
+  interpretation: `L\'ABSI (Abbreviated Burn Severity Index) est un score pronostique chez le brule. Chaque item augmente le risque de mortalite.`,
   clinicalCommentary: `Score simple et rapide. Ne remplace pas le jugement clinique. Ideal pour le tri initial.`,
   references: [
     {type:`pubmed`,title:`Tobiasen J et al. J Trauma 1982`,pmid:`7108969`}

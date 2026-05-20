@@ -26,7 +26,7 @@ const syndrome_nephrotique: FormulaDefinition = {
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
   interpretation: `Syndrome nephrotique: classification selon age, reponse aux corticoïdes, signes associes.`,
-  clinicalCommentary: `SN cortico-sensible (LGM) le plus frequent chez l'enfant. Biopsie souvent necessaire chez l'adulte.`,
+  clinicalCommentary: `SN cortico-sensible (LGM) le plus frequent chez l\'enfant. Biopsie souvent necessaire chez l\'adulte.`,
   references: [
     {type:`pubmed`,title:`Vivarelli M et al. Nat Rev Nephrol 2023`,pmid:`36510014`}
   ],

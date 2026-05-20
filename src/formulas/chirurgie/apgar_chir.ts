@@ -22,7 +22,7 @@ const apgar_chir: FormulaDefinition = {
         {min:8,max:10,label:'Apgar 8-10 - Faible risque',severity:'low'},
       ]}
   },
-  interpretation: `L'Apgar Chirurgical evalue le pronostic post-operatoire immediat (pertes sanguines, PAM, FC). Score < 5 = risque eleve de complications majeures.`,
+  interpretation: `L\'Apgar Chirurgical evalue le pronostic post-operatoire immediat (pertes sanguines, PAM, FC). Score < 5 = risque eleve de complications majeures.`,
   clinicalCommentary: `Simple, rapide, utilisable en SSPI. Correlle a la mortalite a 30 jours. Un score bas doit alerter pour une surveillance renforcee.`,
   references: [
     {type:`pubmed`,title:`Gawande AA et al. BMJ 2007`,pmid:`17412784`}

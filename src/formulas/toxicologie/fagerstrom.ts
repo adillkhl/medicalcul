@@ -114,7 +114,7 @@ const fagerstrom: FormulaDefinition = {
 - **7-10** : Dépendance forte
 
 Un score ≥ 7 indique une dépendance sévère justifiant une substitution nicotinique intensive (patch 21-35 mg + formes orales) ou un traitement pharmacologique de seconde ligne (varénicline).`,
-  clinicalCommentary: `Le test de Fagerström est un prérequis à toute consultation de sevrage tabagique. Il permet de déterminer l'intensité du traitement de substitution nicotinique. La règle générale est de prescrire 1 mg de nicotine par cigarette fumée, soit un patch de 21 mg pour 20 cig/j. Attention aux interactions : la nicotine est un substrat du CYP1A2 — le sevrage tabagique peut augmenter les taux des médicaments métabolisés par cette enzyme (clozapine, caféine, théophylline).`,
+  clinicalCommentary: `Le test de Fagerström est un prérequis à toute consultation de sevrage tabagique. Il permet de déterminer l\'intensité du traitement de substitution nicotinique. La règle générale est de prescrire 1 mg de nicotine par cigarette fumée, soit un patch de 21 mg pour 20 cig/j. Attention aux interactions : la nicotine est un substrat du CYP1A2 — le sevrage tabagique peut augmenter les taux des médicaments métabolisés par cette enzyme (clozapine, caféine, théophylline).`,
   references: [
     {
       type: 'pubmed',

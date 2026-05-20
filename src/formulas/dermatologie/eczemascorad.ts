@@ -31,8 +31,8 @@ const eczemascorad: FormulaDefinition = {
         {min:50,max:103,label:'SCORAD severe - Prise en charge specialisee',severity:'high'},
       ]}
   },
-  interpretation: `Le SCORAD combine l'extension (A), l'intensite (B: 6 items) et le retentissement subjectif (C: prurit + sommeil).`,
-  clinicalCommentary: `Score de reference pour l'eczema atopique. Un changement de 10 points est cliniquement significatif. Objectif therapeutique: scorad < 25.`,
+  interpretation: `Le SCORAD combine l\'extension (A), l\'intensite (B: 6 items) et le retentissement subjectif (C: prurit + sommeil).`,
+  clinicalCommentary: `Score de reference pour l\'eczema atopique. Un changement de 10 points est cliniquement significatif. Objectif therapeutique: scorad < 25.`,
   references: [
     {type:`pubmed`,title:`European Task Force on Atopic Dermatitis. Dermatology 1993`,pmid:`8338808`}
   ],
