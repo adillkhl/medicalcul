@@ -91,7 +91,7 @@ export interface FormulaResult {
   riskUnit?: string
   severity?: 'low' | 'moderate' | 'high' | 'critical'
   ranges?: ResultRange[]
-  details?: Record<string, string | number>
+  details?: Record<string, string | number | undefined>
 }
 
 export interface Reference {
