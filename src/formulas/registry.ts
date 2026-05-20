@@ -1,385 +1,443 @@
 import type { FormulaDefinition, FormulaMeta, Specialty } from './types'
 
-import aquitaintvp from './cardiologie/aquitaintvp'
-import cardiac_souffle from './cardiologie/cardiac_souffle'
-import ccsangina from './cardiologie/ccsangina'
-import chevillebrasidx from './cardiologie/chevillebrasidx'
-import crusade from './cardiologie/crusade'
-import dapt from './cardiologie/dapt'
-import dasi from './cardiologie/dasi'
-import dissec_aorte from './cardiologie/dissec_aorte'
-import ehra_fa from './cardiologie/ehra_fa'
-import euroscore1log from './cardiologie/euroscore1log'
-import framingham from './cardiologie/framingham'
-import grace from './cardiologie/grace'
-import hasbled from './cardiologie/hasbled'
-import heart from './cardiologie/heart'
-import hemorr2hages from './cardiologie/hemorr2hages'
-import herdoo2 from './cardiologie/herdoo2'
-import indcornell from './cardiologie/indcornell'
-import killip from './cardiologie/killip'
-import nyha from './cardiologie/nyha'
-import precisedapt from './cardiologie/precisedapt'
-import score4peps from './cardiologie/score4peps'
-import stesmith3v from './cardiologie/stesmith3v'
-import stesmith4v from './cardiologie/stesmith4v'
-import timinst from './cardiologie/timinst'
-import wellstvp from './cardiologie/wellstvp'
-import albi from './gastroenterologie/albi'
-import apri from './gastroenterologie/apri'
-import balthazar from './gastroenterologie/balthazar'
-import balthazar_modifie from './gastroenterologie/balthazar_modifie'
-import bisap from './gastroenterologie/bisap'
-import child_pugh from './gastroenterologie/child_pugh'
-import creus from './gastroenterologie/creus'
-import debit_perfusion_glucose from './gastroenterologie/debit_perfusion_glucose'
-import detection_ascite from './gastroenterologie/detection_ascite'
-import fib4 from './gastroenterologie/fib4'
-import fistule_anale_parks from './gastroenterologie/fistule_anale_parks'
-import ford from './gastroenterologie/ford'
-import forrest from './gastroenterologie/forrest'
-import gerdq from './gastroenterologie/gerdq'
-import glasgow_blatchford from './gastroenterologie/glasgow_blatchford'
-import king from './gastroenterologie/king'
-import lila from './gastroenterologie/lila'
-import meld from './gastroenterologie/meld'
-import meld_na from './gastroenterologie/meld_na'
-import nafld from './gastroenterologie/nafld'
-import ranson from './gastroenterologie/ranson'
-import rockall from './gastroenterologie/rockall'
+import abcd2 from './neurologie/abcd2'
+import absi from './brules/absi'
+import act12 from './pneumologie/act12'
+import adroguemadias from './medecine_interne/adroguemadias'
+import afc_resection from './chirurgie/afc_resection'
 import afsr_endometriose from './gynecologie/afsr_endometriose'
 import agegest_hu from './gynecologie/agegest_hu'
-import baumgarten from './gynecologie/baumgarten'
-import bishop from './gynecologie/bishop'
-import calgrossesse from './gynecologie/calgrossesse'
-import convergencespp from './gynecologie/convergencespp'
-import datationlcc from './gynecologie/datationlcc'
-import fernandez from './gynecologie/fernandez'
-import figomyome from './gynecologie/figomyome'
-import figotropho from './gynecologie/figotropho'
-import higham from './gynecologie/higham'
-import malinas from './gynecologie/malinas'
-import manning from './gynecologie/manning'
-import prematspia from './gynecologie/prematspia'
-import puqe from './gynecologie/puqe'
-import spia from './gynecologie/spia'
+import albi from './gastroenterologie/albi'
+import aldrete from './anesthesie/aldrete'
 import altemeier from './infectiologie/altemeier'
+import alvarado from './chirurgie/alvarado'
+import antidotes from './toxicologie/antidotes'
+import apfel from './anesthesie/apfel'
+import apgar_chir from './chirurgie/apgar_chir'
+import apri from './gastroenterologie/apri'
+import aquitaintvp from './cardiologie/aquitaintvp'
+import ariscat from './anesthesie/ariscat'
+import asa from './anesthesie/asa'
+import asdas from './rhumatologie/asdas'
+import balthazar from './gastroenterologie/balthazar'
+import balthazar_modifie from './gastroenterologie/balthazar_modifie'
 import bangui from './infectiologie/bangui'
-import call from './infectiologie/call'
-import corr_gb_pl from './infectiologie/corr_gb_pl'
-import dakar from './infectiologie/dakar'
-import hoen from './infectiologie/hoen'
-import jonesraa from './infectiologie/jonesraa'
-import maccabe from './infectiologie/maccabe'
-import meds from './infectiologie/meds'
-import palugrav from './infectiologie/palugrav'
-import rissc from './infectiologie/rissc'
-import sepsis3 from './infectiologie/sepsis3'
-import adroguemadias from './medecine_interne/adroguemadias'
+import barthel from './neurologie/barthel'
+import basdai from './rhumatologie/basdai'
+import basfi from './rhumatologie/basfi'
+import baumgarten from './gynecologie/baumgarten'
+import berlin from './orl/berlin'
+import bisap from './gastroenterologie/bisap'
+import bishop from './gynecologie/bishop'
+import borg from './pneumologie/borg'
+import braden from './dermatologie/braden'
+import bref from './neurologie/bref'
 import burch_wartofsky from './medecine_interne/burch-wartofsky'
 import bvaswg from './medecine_interne/bvaswg'
 import cacorrigee from './medecine_interne/cacorrigee'
+import cage_deta from './toxicologie/cage_deta'
+import calgrossesse from './gynecologie/calgrossesse'
+import call from './infectiologie/call'
+import caprini from './anesthesie/caprini'
+import cardiac_souffle from './cardiologie/cardiac_souffle'
+import cash from './dermatologie/cash'
+import cauchoix from './orthopedie/cauchoix'
+import ccsangina from './cardiologie/ccsangina'
+import centor from './orl/centor'
+import cha2ds2_va from './urgence/cha2ds2-va'
+import cha2ds2_vasc from './urgence/cha2ds2-vasc'
 import charlson from './medecine_interne/charlson'
+import chevillebrasidx from './cardiologie/chevillebrasidx'
+import child_pugh from './gastroenterologie/child_pugh'
+import ciwaar from './toxicologie/ciwaar'
+import ckdepi_2009 from './nephrologie/ckdepi_2009'
+import convergencespp from './gynecologie/convergencespp'
+import cormack from './anesthesie/cormack'
+import corr_gb_pl from './infectiologie/corr_gb_pl'
+import crb_65 from './urgence/crb-65'
+import creus from './gastroenterologie/creus'
+import crusade from './cardiologie/crusade'
+import curb65 from './pneumologie/curb65'
+import cushman from './toxicologie/cushman'
+import dakar from './infectiologie/dakar'
+import dapt from './cardiologie/dapt'
+import das28 from './rhumatologie/das28'
+import dasi from './cardiologie/dasi'
+import datationlcc from './gynecologie/datationlcc'
+import debit_perfusion_glucose from './gastroenterologie/debit_perfusion_glucose'
 import def_eaulibre from './medecine_interne/def_eaulibre'
 import def_sodium from './medecine_interne/def_sodium'
+import deltapp from './anesthesie/deltapp'
+import depistbpco from './pneumologie/depistbpco'
+import detection_ascite from './gastroenterologie/detection_ascite'
+import dissec_aorte from './cardiologie/dissec_aorte'
+import dlqi from './dermatologie/dlqi'
+import ecog from './oncologie/ecog'
+import eczemascorad from './dermatologie/eczemascorad'
+import edssech from './neurologie/edssech'
+import ehra_fa from './cardiologie/ehra_fa'
+import eisinger from './oncologie/eisinger'
+import epworth from './neurologie/epworth'
+import euroscore1log from './cardiologie/euroscore1log'
+import fagerstrom from './toxicologie/fagerstrom'
+import fernandez from './gynecologie/fernandez'
+import feverpain from './orl/feverpain'
 import fhscore from './medecine_interne/fhscore'
+import fib4 from './gastroenterologie/fib4'
+import figomyome from './gynecologie/figomyome'
+import figotropho from './gynecologie/figotropho'
 import findrisc from './medecine_interne/findrisc'
+import firstquest from './rhumatologie/firstquest'
+import fistule_anale_parks from './gastroenterologie/fistule_anale_parks'
+import ford from './gastroenterologie/ford'
+import forrest from './gastroenterologie/forrest'
+import four from './neurologie/four'
+import framingham from './cardiologie/framingham'
 import fructo_hba1c from './medecine_interne/fructo_hba1c'
+import g8quest from './oncologie/g8quest'
+import garden from './orthopedie/garden'
+import gastvol_perlas from './anesthesie/gastvol_perlas'
+import gerdq from './gastroenterologie/gerdq'
+import glasgow from './urgence/glasgow'
+import glasgow_blatchford from './gastroenterologie/glasgow_blatchford'
+import grace from './cardiologie/grace'
+import gustilo from './orthopedie/gustilo'
+import had from './neurologie/had'
+import haq from './rhumatologie/haq'
+import has_bled from './urgence/has-bled'
+import hasbled from './cardiologie/hasbled'
 import hba1c2gpm from './medecine_interne/hba1c2gpm'
+import heart from './cardiologie/heart'
+import hemorr2hages from './cardiologie/hemorr2hages'
+import herdoo2 from './cardiologie/herdoo2'
+import higham from './gynecologie/higham'
+import hints from './orl/hints'
+import hoen from './infectiologie/hoen'
 import homa_ir from './medecine_interne/homa_ir'
+import house_brackmann from './orl/house-brackmann'
+import iesr from './neurologie/iesr'
+import indcornell from './cardiologie/indcornell'
+import inhalation_fumee from './brules/inhalation_fumee'
+import isis from './orthopedie/isis'
+import jonesraa from './infectiologie/jonesraa'
+import karnofsky from './oncologie/karnofsky'
 import kcorrigee from './medecine_interne/kcorrigee'
+import khorana from './oncologie/khorana'
+import killip from './cardiologie/killip'
+import king from './gastroenterologie/king'
+import lagrange_rigault from './orthopedie/lagrange_rigault'
+import landry from './oncologie/landry'
+import le_fort from './orl/le-fort'
+import lee from './anesthesie/lee'
+import lequesne_genou from './orthopedie/lequesne_genou'
+import lequesne_hanche from './orthopedie/lequesne_hanche'
+import lila from './gastroenterologie/lila'
+import lund_browder from './brules/lund_browder'
+import maccabe from './infectiologie/maccabe'
+import macocha from './anesthesie/macocha'
+import malinas from './gynecologie/malinas'
+import mallampati from './anesthesie/mallampati'
+import mannheim from './chirurgie/mannheim'
+import manning from './gynecologie/manning'
+import meds from './infectiologie/meds'
+import melascore from './dermatologie/melascore'
+import meld from './gastroenterologie/meld'
+import meld_na from './gastroenterologie/meld_na'
+import mmrc from './pneumologie/mmrc'
+import mms from './neurologie/mms'
+import moore_rate from './chirurgie/moore_rate'
 import mwd6 from './medecine_interne/mwd6'
 import myasthenic_garche from './medecine_interne/myasthenic_garche'
 import nacorrigee from './medecine_interne/nacorrigee'
-import osmoplasma from './medecine_interne/osmoplasma'
-import trouanioniquep from './medecine_interne/trouanioniquep'
-import trouanioniqueu from './medecine_interne/trouanioniqueu'
-import ckdepi_2009 from './nephrologie/ckdepi_2009'
-import abcd2 from './neurologie/abcd2'
-import barthel from './neurologie/barthel'
-import bref from './neurologie/bref'
-import edssech from './neurologie/edssech'
-import epworth from './neurologie/epworth'
-import four from './neurologie/four'
-import had from './neurologie/had'
-import iesr from './neurologie/iesr'
-import mms from './neurologie/mms'
+import nafld from './gastroenterologie/nafld'
 import neurodn4 from './neurologie/neurodn4'
 import nihss from './neurologie/nihss'
+import nijmegen_goutte from './rhumatologie/nijmegen_goutte'
 import npi from './neurologie/npi'
 import nrs from './neurologie/nrs'
 import nutric from './neurologie/nutric'
-import rankin from './neurologie/rankin'
-import rass from './neurologie/rass'
-import sapsii from './neurologie/sapsii'
-import selle from './neurologie/selle'
-import stess from './neurologie/stess'
-import wall from './neurologie/wall'
-import wfns from './neurologie/wfns'
-import ecog from './oncologie/ecog'
-import eisinger from './oncologie/eisinger'
-import g8quest from './oncologie/g8quest'
-import karnofsky from './oncologie/karnofsky'
-import khorana from './oncologie/khorana'
-import landry from './oncologie/landry'
-import berlin from './orl/berlin'
-import centor from './orl/centor'
-import feverpain from './orl/feverpain'
-import hints from './orl/hints'
-import house_brackmann from './orl/house-brackmann'
-import le_fort from './orl/le-fort'
-import paradise from './orl/paradise'
-import stop_bang from './orl/stop-bang'
-import sudbury from './orl/sudbury'
-import westley from './orl/westley'
-import cauchoix from './orthopedie/cauchoix'
-import garden from './orthopedie/garden'
-import gustilo from './orthopedie/gustilo'
-import isis from './orthopedie/isis'
-import lagrange_rigault from './orthopedie/lagrange_rigault'
-import lequesne_genou from './orthopedie/lequesne_genou'
-import lequesne_hanche from './orthopedie/lequesne_hanche'
+import nyha from './cardiologie/nyha'
+import ohwidmark from './toxicologie/ohwidmark'
+import opioides_equiv from './toxicologie/opioides_equiv'
+import osmoplasma from './medecine_interne/osmoplasma'
 import ottawacheville from './orthopedie/ottawacheville'
 import ottawagenou from './orthopedie/ottawagenou'
-import salter from './orthopedie/salter'
-import act12 from './pneumologie/act12'
-import borg from './pneumologie/borg'
-import curb65 from './pneumologie/curb65'
-import depistbpco from './pneumologie/depistbpco'
-import mmrc from './pneumologie/mmrc'
+import packyear from './toxicologie/packyear'
+import palugrav from './infectiologie/palugrav'
+import paradise from './orl/paradise'
+import parc from './chirurgie/parc'
+import pas from './chirurgie/pas'
 import peakflow from './pneumologie/peakflow'
 import peakflowped from './pneumologie/peakflowped'
-import asdas from './rhumatologie/asdas'
-import basdai from './rhumatologie/basdai'
-import basfi from './rhumatologie/basfi'
-import das28 from './rhumatologie/das28'
-import firstquest from './rhumatologie/firstquest'
-import haq from './rhumatologie/haq'
-import nijmegen_goutte from './rhumatologie/nijmegen_goutte'
+import perc from './urgence/perc'
+import phototype_fitzpatrick from './dermatologie/phototype_fitzpatrick'
+import pomi from './toxicologie/pomi'
 import pr_acreular from './rhumatologie/pr_acreular'
+import precisedapt from './cardiologie/precisedapt'
+import prematspia from './gynecologie/prematspia'
+import psoriasis_pasi from './dermatologie/psoriasis_pasi'
+import puqe from './gynecologie/puqe'
+import qsofa from './urgence/qsofa'
+import ramsay from './anesthesie/ramsay'
+import rankin from './neurologie/rankin'
+import ranson from './gastroenterologie/ranson'
+import rass from './anesthesie/rass'
+import rempbruleadulte from './brules/rempbruleadulte'
+import rempbruleenfant from './brules/rempbruleenfant'
+import rissc from './infectiologie/rissc'
+import rockall from './gastroenterologie/rockall'
+import rudkin from './anesthesie/rudkin'
+import salter from './orthopedie/salter'
+import sapsii from './neurologie/sapsii'
+import score4peps from './cardiologie/score4peps'
 import sdai from './rhumatologie/sdai'
+import selle from './neurologie/selle'
+import sepsis3 from './infectiologie/sepsis3'
+import spia from './gynecologie/spia'
 import spondperiph_asas from './rhumatologie/spondperiph_asas'
 import spondylo_amor from './rhumatologie/spondylo_amor'
 import spondylo_asas from './rhumatologie/spondylo_asas'
 import spondylo_essg from './rhumatologie/spondylo_essg'
-import wpi_sss from './rhumatologie/wpi_sss'
-import antidotes from './toxicologie/antidotes'
-import cage_deta from './toxicologie/cage_deta'
-import ciwaar from './toxicologie/ciwaar'
-import cushman from './toxicologie/cushman'
-import fagerstrom from './toxicologie/fagerstrom'
-import ohwidmark from './toxicologie/ohwidmark'
-import opioides_equiv from './toxicologie/opioides_equiv'
-import packyear from './toxicologie/packyear'
-import pomi from './toxicologie/pomi'
 import stadenvip from './toxicologie/stadenvip'
-import cha2ds2_va from './urgence/cha2ds2-va'
-import cha2ds2_vasc from './urgence/cha2ds2-vasc'
-import crb_65 from './urgence/crb-65'
-import glasgow from './urgence/glasgow'
-import has_bled from './urgence/has-bled'
-import perc from './urgence/perc'
-import qsofa from './urgence/qsofa'
+import stesmith3v from './cardiologie/stesmith3v'
+import stesmith4v from './cardiologie/stesmith4v'
+import stess from './neurologie/stess'
+import stop_bang from './orl/stop-bang'
+import sudbury from './orl/sudbury'
+import timinst from './cardiologie/timinst'
+import toronto from './brules/toronto'
+import trouanioniquep from './medecine_interne/trouanioniquep'
+import trouanioniqueu from './medecine_interne/trouanioniqueu'
+import vauthey from './chirurgie/vauthey'
+import volventiladulte from './anesthesie/volventiladulte'
+import wall from './neurologie/wall'
+import wallace from './brules/wallace'
 import wells_pe from './urgence/wells-pe'
+import wellstvp from './cardiologie/wellstvp'
+import westley from './orl/westley'
+import wfns from './neurologie/wfns'
+import wpi_sss from './rhumatologie/wpi_sss'
 
 const registry = new Map<string, FormulaDefinition>()
 
 const formulas: FormulaDefinition[] = [
-  // cardiologie
-  aquitaintvp,
-  cardiac_souffle,
-  ccsangina,
-  chevillebrasidx,
-  crusade,
-  dapt,
-  dasi,
-  dissec_aorte,
-  ehra_fa,
-  euroscore1log,
-  framingham,
-  grace,
-  hasbled,
-  heart,
-  hemorr2hages,
-  herdoo2,
-  indcornell,
-  killip,
-  nyha,
-  precisedapt,
-  score4peps,
-  stesmith3v,
-  stesmith4v,
-  timinst,
-  wellstvp,
-  // gastroenterologie
-  albi,
-  apri,
-  balthazar,
-  balthazar_modifie,
-  bisap,
-  child_pugh,
-  creus,
-  debit_perfusion_glucose,
-  detection_ascite,
-  fib4,
-  fistule_anale_parks,
-  ford,
-  forrest,
-  gerdq,
-  glasgow_blatchford,
-  king,
-  lila,
-  meld,
-  meld_na,
-  nafld,
-  ranson,
-  rockall,
-  // gynecologie
+  abcd2,
+  absi,
+  act12,
+  adroguemadias,
+  afc_resection,
   afsr_endometriose,
   agegest_hu,
-  baumgarten,
-  bishop,
-  calgrossesse,
-  convergencespp,
-  datationlcc,
-  fernandez,
-  figomyome,
-  figotropho,
-  higham,
-  malinas,
-  manning,
-  prematspia,
-  puqe,
-  spia,
-  // infectiologie
+  albi,
+  aldrete,
   altemeier,
+  alvarado,
+  antidotes,
+  apfel,
+  apgar_chir,
+  apri,
+  aquitaintvp,
+  ariscat,
+  asa,
+  asdas,
+  balthazar,
+  balthazar_modifie,
   bangui,
-  call,
-  corr_gb_pl,
-  dakar,
-  hoen,
-  jonesraa,
-  maccabe,
-  meds,
-  palugrav,
-  rissc,
-  sepsis3,
-  // medecine_interne
-  adroguemadias,
+  barthel,
+  basdai,
+  basfi,
+  baumgarten,
+  berlin,
+  bisap,
+  bishop,
+  borg,
+  braden,
+  bref,
   burch_wartofsky,
   bvaswg,
   cacorrigee,
+  cage_deta,
+  calgrossesse,
+  call,
+  caprini,
+  cardiac_souffle,
+  cash,
+  cauchoix,
+  ccsangina,
+  centor,
+  cha2ds2_va,
+  cha2ds2_vasc,
   charlson,
+  chevillebrasidx,
+  child_pugh,
+  ciwaar,
+  ckdepi_2009,
+  convergencespp,
+  cormack,
+  corr_gb_pl,
+  crb_65,
+  creus,
+  crusade,
+  curb65,
+  cushman,
+  dakar,
+  dapt,
+  das28,
+  dasi,
+  datationlcc,
+  debit_perfusion_glucose,
   def_eaulibre,
   def_sodium,
+  deltapp,
+  depistbpco,
+  detection_ascite,
+  dissec_aorte,
+  dlqi,
+  ecog,
+  eczemascorad,
+  edssech,
+  ehra_fa,
+  eisinger,
+  epworth,
+  euroscore1log,
+  fagerstrom,
+  fernandez,
+  feverpain,
   fhscore,
+  fib4,
+  figomyome,
+  figotropho,
   findrisc,
+  firstquest,
+  fistule_anale_parks,
+  ford,
+  forrest,
+  four,
+  framingham,
   fructo_hba1c,
+  g8quest,
+  garden,
+  gastvol_perlas,
+  gerdq,
+  glasgow,
+  glasgow_blatchford,
+  grace,
+  gustilo,
+  had,
+  haq,
+  has_bled,
+  hasbled,
   hba1c2gpm,
+  heart,
+  hemorr2hages,
+  herdoo2,
+  higham,
+  hints,
+  hoen,
   homa_ir,
+  house_brackmann,
+  iesr,
+  indcornell,
+  inhalation_fumee,
+  isis,
+  jonesraa,
+  karnofsky,
   kcorrigee,
+  khorana,
+  killip,
+  king,
+  lagrange_rigault,
+  landry,
+  le_fort,
+  lee,
+  lequesne_genou,
+  lequesne_hanche,
+  lila,
+  lund_browder,
+  maccabe,
+  macocha,
+  malinas,
+  mallampati,
+  mannheim,
+  manning,
+  meds,
+  melascore,
+  meld,
+  meld_na,
+  mmrc,
+  mms,
+  moore_rate,
   mwd6,
   myasthenic_garche,
   nacorrigee,
-  osmoplasma,
-  trouanioniquep,
-  trouanioniqueu,
-  // nephrologie
-  ckdepi_2009,
-  // neurologie
-  abcd2,
-  barthel,
-  bref,
-  edssech,
-  epworth,
-  four,
-  had,
-  iesr,
-  mms,
+  nafld,
   neurodn4,
   nihss,
+  nijmegen_goutte,
   npi,
   nrs,
   nutric,
-  rankin,
-  rass,
-  sapsii,
-  selle,
-  stess,
-  wall,
-  wfns,
-  // oncologie
-  ecog,
-  eisinger,
-  g8quest,
-  karnofsky,
-  khorana,
-  landry,
-  // orl
-  berlin,
-  centor,
-  feverpain,
-  hints,
-  house_brackmann,
-  le_fort,
-  paradise,
-  stop_bang,
-  sudbury,
-  westley,
-  // orthopedie
-  cauchoix,
-  garden,
-  gustilo,
-  isis,
-  lagrange_rigault,
-  lequesne_genou,
-  lequesne_hanche,
+  nyha,
+  ohwidmark,
+  opioides_equiv,
+  osmoplasma,
   ottawacheville,
   ottawagenou,
-  salter,
-  // pneumologie
-  act12,
-  borg,
-  curb65,
-  depistbpco,
-  mmrc,
+  packyear,
+  palugrav,
+  paradise,
+  parc,
+  pas,
   peakflow,
   peakflowped,
-  // rhumatologie
-  asdas,
-  basdai,
-  basfi,
-  das28,
-  firstquest,
-  haq,
-  nijmegen_goutte,
+  perc,
+  phototype_fitzpatrick,
+  pomi,
   pr_acreular,
+  precisedapt,
+  prematspia,
+  psoriasis_pasi,
+  puqe,
+  qsofa,
+  ramsay,
+  rankin,
+  ranson,
+  rass,
+  rempbruleadulte,
+  rempbruleenfant,
+  rissc,
+  rockall,
+  rudkin,
+  salter,
+  sapsii,
+  score4peps,
   sdai,
+  selle,
+  sepsis3,
+  spia,
   spondperiph_asas,
   spondylo_amor,
   spondylo_asas,
   spondylo_essg,
-  wpi_sss,
-  // toxicologie
-  antidotes,
-  cage_deta,
-  ciwaar,
-  cushman,
-  fagerstrom,
-  ohwidmark,
-  opioides_equiv,
-  packyear,
-  pomi,
   stadenvip,
-  // urgence
-  cha2ds2_va,
-  cha2ds2_vasc,
-  crb_65,
-  glasgow,
-  has_bled,
-  perc,
-  qsofa,
+  stesmith3v,
+  stesmith4v,
+  stess,
+  stop_bang,
+  sudbury,
+  timinst,
+  toronto,
+  trouanioniquep,
+  trouanioniqueu,
+  vauthey,
+  volventiladulte,
+  wall,
+  wallace,
   wells_pe,
+  wellstvp,
+  westley,
+  wfns,
+  wpi_sss,
 ]
 
 formulas.forEach((f) => registry.set(f.slug, f))
@@ -429,4 +487,3 @@ function groupBy<T extends Record<string, any>>(arr: T[], key: string): Record<s
     {} as Record<string, T[]>
   )
 }
-
