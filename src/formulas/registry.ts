@@ -10,11 +10,24 @@ import glasgow from './urgence/glasgow'
 import wells from './urgence/wells-pe'
 import perc from './urgence/perc'
 
+// ORL formulas
+import hints from './orl/hints'
+import houseBrackmann from './orl/house-brackmann'
+import centor from './orl/centor'
+import westley from './orl/westley'
+import feverpain from './orl/feverpain'
+import stopbang from './orl/stop-bang'
+import berlin from './orl/berlin'
+import paradise from './orl/paradise'
+import sudbury from './orl/sudbury'
+import lefort from './orl/le-fort'
+
 // Registry: id → formula
 const registry = new Map<string, FormulaDefinition>()
 
 // Register all formulas
 const formulas: FormulaDefinition[] = [
+  // Urgence
   cha2ds2vasc,
   cha2ds2va,
   crb65,
@@ -23,6 +36,17 @@ const formulas: FormulaDefinition[] = [
   glasgow,
   wells,
   perc,
+  // ORL
+  hints,
+  houseBrackmann,
+  centor,
+  westley,
+  feverpain,
+  stopbang,
+  berlin,
+  paradise,
+  sudbury,
+  lefort,
 ]
 
 formulas.forEach((f) => registry.set(f.slug, f))
