@@ -8,6 +8,7 @@ export function generateStaticParams() {
   }))
 }
 
-export default function FormulaPage({ params }: { params: { specialty: string; slug: string } }) {
-  return <FormulaClient specialty={params.specialty} slug={params.slug} />
+export default async function FormulaPage(props: { params: Promise<{ specialty: string; slug: string }> }) {
+  const { specialty, slug } = await props.params
+  return <FormulaClient specialty={specialty} slug={slug} />
 }

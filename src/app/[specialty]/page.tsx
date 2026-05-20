@@ -7,9 +7,9 @@ export function generateStaticParams() {
   return [...new Set(metas.map((f) => f.specialty))].map((specialty) => ({ specialty }))
 }
 
-export default function SpecialtyPage({ params }: { params: { specialty: string } }) {
-  const specialty = params.specialty as any
-  const categories = getFormulasByCategory(specialty)
+export default async function SpecialtyPage(props: { params: Promise<{ specialty: string }> }) {
+  const { specialty } = await props.params
+  const categories = getFormulasByCategory(specialty as any)
   const count = Object.values(categories).flat().length
 
   if (count === 0) {
