@@ -20,10 +20,10 @@ const killip: FormulaDefinition = {
       value: c, label: labels[c]||'', risk: mort[c]||0, riskUnit: '% mortalité hospitalière',
       severity: c >= 3 ? 'high' : c >= 2 ? 'moderate' : 'low',
       ranges: [
-        {min:1,max:1,label:'Classe I',severity:'low',recommendation:"Pas d’IC. Surveillance scopée. IEC + β-bloquant. Coronarographie selon risque."},
-        {min:2,max:2,label:'Classe II',severity:'moderate',recommendation:"Diurétiques si congestion. Surveillance ICU. Coronarographie programmée."},
-        {min:3,max:3,label:'Classe III - OAP',severity:'high',recommendation:"Oxygène, diurétiques IV, dérivés nitrés. Coronarographie urgente. VNI si nécessaire."},
-        {min:4,max:4,label:'Classe IV - Choc cardiogénique',severity:'critical',recommendation:"URGENCE VITALE. Inotropes (dobutamine). Assistance (BIA/ECMO). Coronarographie immédiate. Réanimation hémodynamique."},
+        {min:1,max:1,label:'Classe I',severity:'low' as const,recommendation:"Pas d’IC. Surveillance scopée. IEC + β-bloquant. Coronarographie selon risque."},
+        {min:2,max:2,label:'Classe II',severity:'moderate' as const,recommendation:"Diurétiques si congestion. Surveillance ICU. Coronarographie programmée."},
+        {min:3,max:3,label:'Classe III - OAP',severity:'high' as const,recommendation:"Oxygène, diurétiques IV, dérivés nitrés. Coronarographie urgente. VNI si nécessaire."},
+        {min:4,max:4,label:'Classe IV - Choc cardiogénique',severity:'critical' as const,recommendation:"URGENCE VITALE. Inotropes (dobutamine). Assistance (BIA/ECMO). Coronarographie immédiate. Réanimation hémodynamique."},
       ],
     }
   },

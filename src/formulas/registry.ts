@@ -60,6 +60,7 @@ import cgi from './psychiatrie/cgi'
 import cha2ds2_va from './urgence/cha2ds2-va'
 import cha2ds2_vasc from './urgence/cha2ds2-vasc'
 import chad from './hematologie/chad'
+import chads2 from './cardiologie/chads2'
 import charlson from './medecine_interne/charlson'
 import chevillebrasidx from './cardiologie/chevillebrasidx'
 import child_growth from './pediatrie/child_growth'
@@ -222,6 +223,7 @@ import ottawacheville from './orthopedie/ottawacheville'
 import ottawagenou from './orthopedie/ottawagenou'
 import packyear from './toxicologie/packyear'
 import palugrav from './infectiologie/palugrav'
+import pam from './cardiologie/pam'
 import pan_ss from './psychiatrie/pan_ss'
 import paradise from './orl/paradise'
 import parc from './chirurgie/parc'
@@ -241,12 +243,14 @@ import psoriasis_pasi from './dermatologie/psoriasis_pasi'
 import puqe from './gynecologie/puqe'
 import qsofa from './urgence/qsofa'
 import qsofa_rea from './reanimation/qsofa_rea'
+import qt_corrige from './cardiologie/qt_corrige'
 import ramsay from './anesthesie/ramsay'
 import rankin from './neurologie/rankin'
 import ranson from './gastroenterologie/ranson'
 import rass from './anesthesie/rass'
 import rempbruleadulte from './brules/rempbruleadulte'
 import rempbruleenfant from './brules/rempbruleenfant'
+import riete from './cardiologie/riete'
 import rissc from './infectiologie/rissc'
 import rituximab_ipi from './hematologie/rituximab_ipi'
 import rockall from './gastroenterologie/rockall'
@@ -254,6 +258,8 @@ import rudkin from './anesthesie/rudkin'
 import salter from './orthopedie/salter'
 import saps3 from './reanimation/saps3'
 import sapsii from './neurologie/sapsii'
+import score from './cardiologie/score'
+import score2 from './cardiologie/score2'
 import score4peps from './cardiologie/score4peps'
 import sdai from './rhumatologie/sdai'
 import selle from './neurologie/selle'
@@ -267,6 +273,7 @@ import spondperiph_asas from './rhumatologie/spondperiph_asas'
 import spondylo_amor from './rhumatologie/spondylo_amor'
 import spondylo_asas from './rhumatologie/spondylo_asas'
 import spondylo_essg from './rhumatologie/spondylo_essg'
+import st_andre_tvp from './cardiologie/st_andre_tvp'
 import stadenvip from './toxicologie/stadenvip'
 import stesmith3v from './cardiologie/stesmith3v'
 import stesmith4v from './cardiologie/stesmith4v'
@@ -274,13 +281,19 @@ import stess from './neurologie/stess'
 import stone_score from './urologie/stone_score'
 import stop_bang from './orl/stop-bang'
 import sudbury from './orl/sudbury'
+import surface_valvulaire from './cardiologie/surface_valvulaire'
 import taille_enfant from './pediatrie/taille_enfant'
 import timed_up_and_go from './geriatrie/timed_up_and_go'
+import timi_coronarographique from './cardiologie/timi_coronarographique'
+import timi_hemorragies from './cardiologie/timi_hemorragies'
+import timi_sca from './cardiologie/timi_sca'
 import timinst from './cardiologie/timinst'
 import toronto from './brules/toronto'
 import trouanioniquep from './medecine_interne/trouanioniquep'
 import trouanioniqueu from './medecine_interne/trouanioniqueu'
+import tv from './cardiologie/tv'
 import vauthey from './chirurgie/vauthey'
+import villalta from './cardiologie/villalta'
 import volventiladulte from './anesthesie/volventiladulte'
 import wall from './neurologie/wall'
 import wallace from './brules/wallace'
@@ -356,6 +369,7 @@ const formulas: FormulaDefinition[] = [
   cha2ds2_va,
   cha2ds2_vasc,
   chad,
+  chads2,
   charlson,
   chevillebrasidx,
   child_growth,
@@ -516,6 +530,7 @@ const formulas: FormulaDefinition[] = [
   ottawagenou,
   packyear,
   palugrav,
+  pam,
   pan_ss,
   paradise,
   parc,
@@ -536,12 +551,14 @@ const formulas: FormulaDefinition[] = [
   puqe,
   qsofa,
   qsofa_rea,
+  qt_corrige,
   ramsay,
   rankin,
   ranson,
   rass,
   rempbruleadulte,
   rempbruleenfant,
+  riete,
   rissc,
   rituximab_ipi,
   rockall,
@@ -549,6 +566,8 @@ const formulas: FormulaDefinition[] = [
   salter,
   saps3,
   sapsii,
+  score,
+  score2,
   score4peps,
   sdai,
   selle,
@@ -562,6 +581,7 @@ const formulas: FormulaDefinition[] = [
   spondylo_amor,
   spondylo_asas,
   spondylo_essg,
+  st_andre_tvp,
   stadenvip,
   stesmith3v,
   stesmith4v,
@@ -569,14 +589,20 @@ const formulas: FormulaDefinition[] = [
   stone_score,
   stop_bang,
   sudbury,
+  surface_valvulaire,
   taille_enfant,
   timed_up_and_go,
+  timi_coronarographique,
+  timi_hemorragies,
+  timi_sca,
   timinst,
   toronto,
   trouanioniquep,
   trouanioniqueu,
+  tv,
   urologie_ipss,
   vauthey,
+  villalta,
   volventiladulte,
   wall,
   wallace,

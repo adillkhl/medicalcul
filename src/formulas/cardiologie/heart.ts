@@ -32,9 +32,9 @@ const heartScore: FormulaDefinition = {
       riskUnit: '% risque de MACE à 6 semaines',
       severity: score >= 7 ? 'high' : score >= 4 ? 'moderate' : 'low',
       ranges: [
-        {min:0,max:3,label:'0-3 - Faible risque (< 2% MACE)',severity:'low',recommendation:"Sortie possible si troponines normales. Consultation cardiologie sous 72h. Pas d’exploration invasive urgente."},
-        {min:4,max:6,label:'4-6 - Risque intermédiaire (~17% MACE)',severity:'moderate',recommendation:"Hospitalisation. Surveillance scopée. Dosage troponines sériées. Épreuve d’effort ou coroscanner avant sortie."},
-        {min:7,max:10,label:'7-10 - Haut risque (~72% MACE)',severity:'critical',recommendation:"Hospitalisation en soins intensifs. Coronarographie dans les 72h. Traitement médical intensif. Recherche ischémie."},
+        {min:0,max:3,label:'0-3 - Faible risque (< 2% MACE)',severity:'low' as const,recommendation:"Sortie possible si troponines normales. Consultation cardiologie sous 72h. Pas d’exploration invasive urgente."},
+        {min:4,max:6,label:'4-6 - Risque intermédiaire (~17% MACE)',severity:'moderate' as const,recommendation:"Hospitalisation. Surveillance scopée. Dosage troponines sériées. Épreuve d’effort ou coroscanner avant sortie."},
+        {min:7,max:10,label:'7-10 - Haut risque (~72% MACE)',severity:'critical' as const,recommendation:"Hospitalisation en soins intensifs. Coronarographie dans les 72h. Traitement médical intensif. Recherche ischémie."},
       ],
     }
   },

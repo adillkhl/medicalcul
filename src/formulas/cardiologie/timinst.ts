@@ -24,9 +24,9 @@ const timinst: FormulaDefinition = {
       riskUnit: '% risque d’événements à 14 jours (décès, IDM, ischémie)',
       severity: score >= 5 ? 'high' : score >= 3 ? 'moderate' : 'low',
       ranges: [
-        {min:0,max:2,label:'0-2 - Faible risque (5% évts)',severity:'low',recommendation:"Stratégie invasive ou conservative selon troponine. Décision collégiale."},
-        {min:3,max:4,label:'3-4 - Risque intermédiaire (13% évts)',severity:'moderate',recommendation:"Coronarographie dans les 72h. Traitement antithrombotique optimal."},
-        {min:5,max:7,label:'5-7 - Haut risque (26% évts)',severity:'high',recommendation:"Coronarographie urgente (< 24h). Coronarographie à la phase aiguë. Anticoagulation + double antiagrégation."},
+        {min:0,max:2,label:'0-2 - Faible risque (5% évts)',severity:'low' as const,recommendation:"Stratégie invasive ou conservative selon troponine. Décision collégiale."},
+        {min:3,max:4,label:'3-4 - Risque intermédiaire (13% évts)',severity:'moderate' as const,recommendation:"Coronarographie dans les 72h. Traitement antithrombotique optimal."},
+        {min:5,max:7,label:'5-7 - Haut risque (26% évts)',severity:'high' as const,recommendation:"Coronarographie urgente (< 24h). Coronarographie à la phase aiguë. Anticoagulation + double antiagrégation."},
       ],
     }
   },

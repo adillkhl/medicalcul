@@ -31,14 +31,14 @@ const wellstvp: FormulaDefinition = {
     if (values.previousDvt) score += 1
     if (values.alternativeDx) score -= 2
 
-    if (score >= 3) return {value:score, label:'Probabilité ÉLEVÉE (> 85%)', risk:85, riskUnit:'% probabilité TVP', severity:'high',
-      ranges:[{min:3,max:12,label:'Élevé',severity:'high',recommendation:"Écho-Doppler veineux en urgence (< 24h). Débuter HBPM sans attendre si forte suspicion. Hospitalisation si TVP proximale."},
-      {min:1,max:2,label:'Modéré (33%)',severity:'moderate',recommendation:"Écho-Doppler veineux. D-Dimères si accès rapide. Si D-Dimères < 500 ng/mL : exclure TVP."},
-      {min:-2,max:0,label:'Faible (5%)',severity:'low',recommendation:"D-Dimères. Si négatifs < 500 ng/mL : exclure TVP. Écho-Doppler seulement si D-Dimères positifs."}]}
-    if (score >= 1) return {value:score, label:'Probabilité MODÉRÉE', risk:33, riskUnit:'% probabilité TVP', severity:'moderate',
-      ranges:[{min:3,max:12,label:'Élevé',severity:'high'},{min:1,max:2,label:'Modéré',severity:'moderate',recommendation:"Écho-Doppler veineux. D-Dimères."},{min:-2,max:0,label:'Faible',severity:'low'}]}
-    return {value:score, label:'Probabilité FAIBLE (5%)', risk:5, riskUnit:'% probabilité TVP', severity:'low',
-      ranges:[{min:3,max:12,label:'Élevé',severity:'high'},{min:1,max:2,label:'Modéré',severity:'moderate'},{min:-2,max:0,label:'Faible',severity:'low',recommendation:"D-Dimères. Si négatifs : pas de TVP. Si positifs : écho-Doppler."}]}
+    if (score >= 3) return {value:score, label:'Probabilité ÉLEVÉE (> 85%)', risk:85, riskUnit:'% probabilité TVP', severity:'high' as const,
+      ranges:[{min:3,max:12,label:'Élevé',severity:'high' as const,recommendation:"Écho-Doppler veineux en urgence (< 24h). Débuter HBPM sans attendre si forte suspicion. Hospitalisation si TVP proximale."},
+      {min:1,max:2,label:'Modéré (33%)',severity:'moderate' as const,recommendation:"Écho-Doppler veineux. D-Dimères si accès rapide. Si D-Dimères < 500 ng/mL : exclure TVP."},
+      {min:-2,max:0,label:'Faible (5%)',severity:'low' as const,recommendation:"D-Dimères. Si négatifs < 500 ng/mL : exclure TVP. Écho-Doppler seulement si D-Dimères positifs."}]}
+    if (score >= 1) return {value:score, label:'Probabilité MODÉRÉE', risk:33, riskUnit:'% probabilité TVP', severity:'moderate' as const,
+      ranges:[{min:3,max:12,label:'Élevé',severity:'high' as const},{min:1,max:2,label:'Modéré',severity:'moderate' as const,recommendation:"Écho-Doppler veineux. D-Dimères."},{min:-2,max:0,label:'Faible',severity:'low' as const}]}
+    return {value:score, label:'Probabilité FAIBLE (5%)', risk:5, riskUnit:'% probabilité TVP', severity:'low' as const,
+      ranges:[{min:3,max:12,label:'Élevé',severity:'high' as const},{min:1,max:2,label:'Modéré',severity:'moderate' as const},{min:-2,max:0,label:'Faible',severity:'low' as const,recommendation:"D-Dimères. Si négatifs : pas de TVP. Si positifs : écho-Doppler."}]}
   },
   interpretation: `Le **score de Wells** (version TVP) est le plus utilisé pour l’évaluation clinique de la TVP.
 

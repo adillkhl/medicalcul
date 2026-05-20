@@ -42,10 +42,10 @@ const graceScore: FormulaDefinition = {
       label: score >= 140 ? 'Tres haut risque' : score >= 100 ? 'Haut risque' : score >= 80 ? 'Risque intermediaire' : 'Faible risque',
       severity: score >= 140 ? 'critical' : score >= 100 ? 'high' : score >= 80 ? 'moderate' : 'low',
       ranges: [
-        {min:0, max:79, label:'Faible risque', severity:'low', recommendation:"Traitement medical standard."},
-        {min:80, max:99, label:'Risque intermediaire', severity:'moderate', recommendation:"Coronarographie precoce. Traitement anti-thrombotique intensif."},
-        {min:100, max:139, label:'Haut risque', severity:'high', recommendation:"Coronarographie urgente (< 24h). Soins intensifs."},
-        {min:140, max:300, label:'Tres haut risque', severity:'critical', recommendation:"Coronarographie immediate. Assistance hemodynamique."},
+        {min:0, max:79, label:'Faible risque', severity:'low' as const, recommendation:"Traitement medical standard."},
+        {min:80, max:99, label:'Risque intermediaire', severity:'moderate' as const, recommendation:"Coronarographie precoce. Traitement anti-thrombotique intensif."},
+        {min:100, max:139, label:'Haut risque', severity:'high' as const, recommendation:"Coronarographie urgente (< 24h). Soins intensifs."},
+        {min:140, max:300, label:'Tres haut risque', severity:'critical' as const, recommendation:"Coronarographie immediate. Assistance hemodynamique."},
       ],
     }
   },

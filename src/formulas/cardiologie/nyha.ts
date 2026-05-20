@@ -19,10 +19,10 @@ const nyha: FormulaDefinition = {
       value: c, label: labels[c]||'',
       severity: c >= 3 ? 'high' : c >= 2 ? 'moderate' : 'low',
       ranges: [
-        {min:1,max:1,label:'Classe I',severity:'low',recommendation:"Traitement étiologique. IEC/ARA2, β-bloquant. Surveillance annuelle."},
-        {min:2,max:2,label:'Classe II',severity:'moderate',recommendation:"Optimiser traitement débuté. Diurétiques si signes de congestion. Réadaptation cardiaque."},
-        {min:3,max:3,label:'Classe III',severity:'high',recommendation:"IEC/ARA2 + βB + ARM + diurétique. CRT/Défibrillateur si FEVG ≤35% et QRS large."},
-        {min:4,max:4,label:'Classe IV',severity:'critical',recommendation:"IC terminale. Envisager assistance VG, transplantation. Soins palliatifs si CI. Hospitalisation."},
+        {min:1,max:1,label:'Classe I',severity:'low' as const,recommendation:"Traitement étiologique. IEC/ARA2, β-bloquant. Surveillance annuelle."},
+        {min:2,max:2,label:'Classe II',severity:'moderate' as const,recommendation:"Optimiser traitement débuté. Diurétiques si signes de congestion. Réadaptation cardiaque."},
+        {min:3,max:3,label:'Classe III',severity:'high' as const,recommendation:"IEC/ARA2 + βB + ARM + diurétique. CRT/Défibrillateur si FEVG ≤35% et QRS large."},
+        {min:4,max:4,label:'Classe IV',severity:'critical' as const,recommendation:"IC terminale. Envisager assistance VG, transplantation. Soins palliatifs si CI. Hospitalisation."},
       ],
     }
   },

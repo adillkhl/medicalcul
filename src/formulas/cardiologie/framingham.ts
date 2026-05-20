@@ -43,10 +43,10 @@ const framingham: FormulaDefinition = {
       risk, riskUnit: '% risque CV a 10 ans',
       severity: risk >= 20 ? 'high' : risk >= 10 ? 'moderate' : 'low',
       ranges: [
-        {min:0, max:5, label:'Faible risque', severity:'low', recommendation:"Conseils hygiene-dietetiques. Reevaluation dans 5 ans."},
-        {min:6, max:10, label:'Risque modere', severity:'moderate', recommendation:"Prise en charge des facteurs de risque. Statine si LDL > 1.90 ou diabete."},
-        {min:11, max:14, label:'Risque eleve', severity:'high', recommendation:"Statine + antiagregant si approprié. Controle strict des FDR."},
-        {min:15, max:30, label:'Risque tres eleve', severity:'critical', recommendation:"Statine forte dose + antiagregant. Objectif LDL < 0.70."},
+        {min:0, max:5, label:'Faible risque', severity:'low' as const, recommendation:"Conseils hygiene-dietetiques. Reevaluation dans 5 ans."},
+        {min:6, max:10, label:'Risque modere', severity:'moderate' as const, recommendation:"Prise en charge des facteurs de risque. Statine si LDL > 1.90 ou diabete."},
+        {min:11, max:14, label:'Risque eleve', severity:'high' as const, recommendation:"Statine + antiagregant si approprié. Controle strict des FDR."},
+        {min:15, max:30, label:'Risque tres eleve', severity:'critical' as const, recommendation:"Statine forte dose + antiagregant. Objectif LDL < 0.70."},
       ],
     }
   },
