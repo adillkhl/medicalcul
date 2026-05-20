@@ -59,8 +59,8 @@ const hasbled: FormulaDefinition = {
 • **Score 2** : risque modéré (2,0–3,7 %/an)
 • **Score ≥ 3** : risque élevé (3,7–8,7 %/an)
 
-Score ≥ 3 = vigilance maximale, mais n'est pas une contre-indication absolue à l'anticoagulation. L'objectif est d'identifier les patients nécessitant une surveillance renforcée et une correction des facteurs réversibles (INR, HTA, alcool, médicaments).`,
-  clinicalCommentary: `À utiliser systématiquement avec le CHA₂DS₂-VASc pour guider la décision d'anticoagulation. Un score HAS-BLED élevé ne doit pas conduire à priver un patient d'anticoagulation quand le CHA₂DS₂-VASc l'indique — il invite à la vigilance et au suivi. Les AODs (dabigatran, rivaroxaban, apixaban, edoxaban) ont un meilleur profil de sécurité que les AVK. Note : le critère "INR labile" ne concerne que les AVK ; si le patient est sous AOD, ce point est à 0.`,
+Score ≥ 3 = vigilance maximale, mais n’est pas une contre-indication absolue à l’anticoagulation. L'objectif est d’identifier les patients nécessitant une surveillance renforcée et une correction des facteurs réversibles (INR, HTA, alcool, médicaments).`,
+  clinicalCommentary: `À utiliser systématiquement avec le CHA₂DS₂-VASc pour guider la décision d'anticoagulation. Un score HAS-BLED élevé ne doit pas conduire à priver un patient d'anticoagulation quand le CHA₂DS₂-VASc l’indique — il invite à la vigilance et au suivi. Les AODs (dabigatran, rivaroxaban, apixaban, edoxaban) ont un meilleur profil de sécurité que les AVK. Note : le critère "INR labile" ne concerne que les AVK ; si le patient est sous AOD, ce point est à 0.`,
   references: [
     {
       type: 'pubmed',

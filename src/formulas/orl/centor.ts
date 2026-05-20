@@ -102,7 +102,7 @@ const centor: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `Le **score de Centor** (4 critères) modifié par **Mac Isaac** (ajustement sur l'âge) est le score clinique recommandé par la HAS et la SFORL pour l'angine.
+  interpretation: `Le **score de Centor** (4 critères) modifié par **Mac Isaac** (ajustement sur l'âge) est le score clinique recommandé par la HAS et la SFORL pour l’angine.
 
 **Critères (1 point chacun) :**
 - Fièvre > 38°C
@@ -115,10 +115,10 @@ const centor: FormulaDefinition = {
 - ≥ 45 ans : –1 point
 
 **Conduite :**
-- 0–1 : viral, pas de TDR, pas d'ATB
+- 0–1 : viral, pas de TDR, pas d’ATB
 - 2–3 : TDR obligatoire, ATB si TDR+
 - 4–5 : TDR + ATB probabiliste`,
-  clinicalCommentary: `Score indispensable en consultation ORL et médecine générale. Ne pas oublier le TDR streptocoque pour les scores 2-3. L'angine érythémato-pultacée de l'adulte jeune peut aussi être virale (EBV, adénovirus). Le score ne remplace pas la clinique : une angine unilatérale avec odynophagie sévère peut être un abcès (péritonsillien) même avec un score bas. L'antibiothérapie de première intention reste l'amoxicilline 50 mg/kg/j × 6 jours.`,
+  clinicalCommentary: `Score indispensable en consultation ORL et médecine générale. Ne pas oublier le TDR streptocoque pour les scores 2-3. L'angine érythémato-pultacée de l'adulte jeune peut aussi être virale (EBV, adénovirus). Le score ne remplace pas la clinique : une angine unilatérale avec odynophagie sévère peut être un abcès (péritonsillien) même avec un score bas. L'antibiothérapie de première intention reste l’amoxicilline 50 mg/kg/j × 6 jours.`,
   references: [
     {
       type: 'pubmed',

@@ -88,7 +88,7 @@ const cha2ds2vasc: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `Le score CHA₂DS₂-VASc estime le risque annuel d'accident thromboembolique (AVC, embolie systémique) chez les patients avec fibrillation auriculaire non valvulaire. Il guide la décision de mise sous anticoagulant oral.
+  interpretation: `Le score CHA₂DS₂-VASc estime le risque annuel d’accident thromboembolique (AVC, embolie systémique) chez les patients avec fibrillation auriculaire non valvulaire. Il guide la décision de mise sous anticoagulant oral.
 
 - **Score = 0** : FA isolée idiopathique → pas d'anticoagulation (ni aspirine)
 - **Score = 1** : anticoagulation à discuter (bénéfice/risque)
@@ -96,10 +96,10 @@ const cha2ds2vasc: FormulaDefinition = {
 
 Le sexe féminin compte 1 point indépendamment de l'âge dans cette version (CHA₂DS₂-VASc classique, toujours utilisé aux États-Unis). Pour la version ESC 2024 sans le sexe, voir CHA₂DS₂-VA.`,
   clinicalCommentary: `Très utilisé aux urgences pour les patients avec FA documentée. Attention :
-• Ne s'applique pas aux valvulopathies mitrales significatives (prothèse ou sténose mitrale)
-• Ne pas utiliser chez les patients avec valve mécanique (indication AVK d'emblée)
+• Ne s’applique pas aux valvulopathies mitrales significatives (prothèse ou sténose mitrale)
+• Ne pas utiliser chez les patients avec valve mécanique (indication AVK d’emblée)
 • L'évaluation du risque hémorragique (HAS-BLED) doit être systématiquement associée
-• **Depuis ESC 2024** : le CHA₂DS₂-VA (sans sexe) tend à remplacer ce score — voir l'autre calculateur DrScore
+• **Depuis ESC 2024** : le CHA₂DS₂-VA (sans sexe) tend à remplacer ce score — voir l’autre calculateur DrScore
 • MDCalc maintient les deux versions : CHA₂DS₂-VASc (classique) et CHA₂DS₂-VA (ESC 2024)`,
   references: [
     {

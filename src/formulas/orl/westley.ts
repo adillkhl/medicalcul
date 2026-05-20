@@ -105,12 +105,12 @@ const westley: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `Le **score de Westley** évalue la sévérité du croup (laryngite sous-glottique) chez l'enfant de 6 mois à 6 ans.
+  interpretation: `Le **score de Westley** évalue la sévérité du croup (laryngite sous-glottique) chez l’enfant de 6 mois à 6 ans.
 
 **Items (0-17 points) :**
 - Stridor : 0–2
 - Tirage/rétractions : 0–3
-- Entrée d'air : 0–2
+- Entrée d’air : 0–2
 - Cyanose : 0–5
 
 **Grades :**
@@ -120,7 +120,7 @@ const westley: FormulaDefinition = {
 - ≥ 12 : Très sévère (intubation probable)
 
 Le croup est habituellement viral (parainfluenza type 1). L'adrénaline nébulisée est réservée aux formes sévères avec stridor au repos ; son effet dure 2h.`,
-  clinicalCommentary: `Le croup (laryngite sous-glottique) est une urgence ORL pédiatrique fréquente. Le score de Westley est l'outil de référence pour grader la sévérité et décider de la prise en charge. Piège : ne pas confondre avec une épiglottite (plus rare, plus grave, fièvre élevée + dysphagie + hypersialorrhée + enfant toxique). L'épiglottite ne répond PAS aux corticoïdes ni à l'adrénaline nébulisée — elle nécessite une intubation en environnement sécurisé. Le croup répond bien à la dexaméthasone (dose unique 0,15–0,6 mg/kg). L'adrénaline nébulisée ne se fait qu'en milieu hospitalier avec surveillance scopée.`,
+  clinicalCommentary: `Le croup (laryngite sous-glottique) est une urgence ORL pédiatrique fréquente. Le score de Westley est l'outil de référence pour grader la sévérité et décider de la prise en charge. Piège : ne pas confondre avec une épiglottite (plus rare, plus grave, fièvre élevée + dysphagie + hypersialorrhée + enfant toxique). L'épiglottite ne répond PAS aux corticoïdes ni à l’adrénaline nébulisée — elle nécessite une intubation en environnement sécurisé. Le croup répond bien à la dexaméthasone (dose unique 0,15–0,6 mg/kg). L'adrénaline nébulisée ne se fait qu’en milieu hospitalier avec surveillance scopée.`,
   references: [
     {
       type: 'pubmed',

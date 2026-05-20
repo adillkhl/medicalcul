@@ -95,7 +95,7 @@ const stopbang: FormulaDefinition = {
 - 5-8 : risque élevé (PSG, prise en charge)
 
 Sensibilité de 93% pour score ≥ 5 en SAHOS modéré-sévère.`,
-  clinicalCommentary: `Le STOP-BANG est systématique en consultation d'ORL devant une suspicion d'apnée du sommeil. Il est aussi utilisé en pré-anesthésie. Le tour de cou > 40 cm est un critère très sensible. Si le score ≥ 5, IAH modéré-sévère probable (VPP 81-93%). Le bilan ORL recherche des causes obstructives (hypertrophie amygdalienne, rétrognathie, obstruction nasale). Les options thérapeutiques : PPC (gold standard), orthèse d'avancée mandibulaire (OAM), chirurgie (UPPP, DOME, hypoglossal nerve stimulation).`,
+  clinicalCommentary: `Le STOP-BANG est systématique en consultation d’ORL devant une suspicion d'apnée du sommeil. Il est aussi utilisé en pré-anesthésie. Le tour de cou > 40 cm est un critère très sensible. Si le score ≥ 5, IAH modéré-sévère probable (VPP 81-93%). Le bilan ORL recherche des causes obstructives (hypertrophie amygdalienne, rétrognathie, obstruction nasale). Les options thérapeutiques : PPC (gold standard), orthèse d'avancée mandibulaire (OAM), chirurgie (UPPP, DOME, hypoglossal nerve stimulation).`,
   references: [
     {
       type: 'pubmed',

@@ -83,10 +83,10 @@ const glasgow: FormulaDefinition = {
 • **V (réponse verbale)** : 1-5
 • **M (réponse motrice)** : 1-6
 
-Total = Y + V + M (3 à 15). Un GCS ≤ 8 = coma = indication d'intubation.
+Total = Y + V + M (3 à 15). Un GCS ≤ 8 = coma = indication d’intubation.
 
 Cotation : toujours prendre le meilleur côté pour la réponse motrice. La meilleure réponse (pas la première).`,
-  clinicalCommentary: `Score universel aux urgences, réanimation et préhospitalier. GCS 15 = normal. GCS ≤ 8 = coma, protection des voies aériennes nécessaire. Attention aux pièges : patient intubé (V = 1T), aphasique, sédaté, barrière linguistique. Chez l'enfant, utiliser le GCS pédiatrique adapté. La pupille et le réflexe de toux ne font pas partie du GCS officiel. Le score moteur est le plus prédictif du pronostic.`,
+  clinicalCommentary: `Score universel aux urgences, réanimation et préhospitalier. GCS 15 = normal. GCS ≤ 8 = coma, protection des voies aériennes nécessaire. Attention aux pièges : patient intubé (V = 1T), aphasique, sédaté, barrière linguistique. Chez l’enfant, utiliser le GCS pédiatrique adapté. La pupille et le réflexe de toux ne font pas partie du GCS officiel. Le score moteur est le plus prédictif du pronostic.`,
   references: [
     {
       type: 'pubmed',

@@ -20,6 +20,19 @@ export type Specialty =
   | 'toxicologie'
   | 'ophtalmologie'
   | 'divers'
+  // Extended matching Medicalcul specialties
+  | 'anesthesie'
+  | 'brules'
+  | 'chirurgie'
+  | 'geriatrie'
+  | 'medecine_interne'
+  | 'oncologie'
+  | 'orthopedie'
+  | 'soins_infirmiers'
+  | 'stomatologie'
+  | 'urologie'
+  | 'medecine_sport'
+  | 'medecine_legale'
 
 export type EvidenceLevel = 'A' | 'B' | 'C' | 'D' | 'avis'
 

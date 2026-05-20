@@ -152,7 +152,7 @@ const lefort: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `La **classification de Le Fort** (1901) décrit les fractures du massif facial selon le trait fracturaire. Elle repose sur les « lignes de faiblesse » de l'os facial.
+  interpretation: `La **classification de Le Fort** (1901) décrit les fractures du massif facial selon le trait fracturaire. Elle repose sur les « lignes de faiblesse » de l’os facial.
 
 | Type | Description | TDM | Traitement |
 |------|-------------|-----|------------|

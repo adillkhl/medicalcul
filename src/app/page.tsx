@@ -7,13 +7,13 @@ import { getFormulaMetas, getSpecialties, searchFormulas } from '@/formulas/regi
 import type { Specialty } from '@/formulas/types'
 
 const specialtyLabels: Record<Specialty, string> = {
-  urgence: 'Médecine d\'Urgence',
+  urgence: "Médecine d'Urgence",
   orl: 'ORL',
   cardiologie: 'Cardiologie',
   neurologie: 'Neurologie',
   pneumologie: 'Pneumologie',
   pediatrie: 'Pédiatrie',
-  gynecologie: 'Gynécologie',
+  gynecologie: 'Gynécologie-Obstétrique',
   gastroenterologie: 'Gastro-Entérologie',
   nephrologie: 'Néphrologie',
   hematologie: 'Hématologie',
@@ -26,6 +26,18 @@ const specialtyLabels: Record<Specialty, string> = {
   toxicologie: 'Toxicologie',
   ophtalmologie: 'Ophtalmologie',
   divers: 'Divers',
+  anesthesie: 'Anesthésiologie',
+  brules: 'Brûlés',
+  chirurgie: 'Chirurgie Viscérale',
+  geriatrie: 'Gériatrie',
+  medecine_interne: 'Médecine Interne',
+  oncologie: 'Oncologie',
+  orthopedie: 'Orthopédie',
+  soins_infirmiers: 'Soins Infirmiers',
+  stomatologie: 'Stomatologie',
+  urologie: 'Urologie',
+  medecine_sport: 'Médecine du Sport',
+  medecine_legale: 'Médecine Légale',
 }
 
 export default function Home() {

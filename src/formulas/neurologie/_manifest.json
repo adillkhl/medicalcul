@@ -1,0 +1,29 @@
+{
+  "specialty": "neurologie",
+  "count": 22,
+  "created": "2025-01",
+  "slugs": [
+    "abcd2",
+    "barthel",
+    "bref",
+    "neurodn4",
+    "edssech",
+    "epworth",
+    "four",
+    "glasgow",
+    "had",
+    "iesr",
+    "mms",
+    "rankin",
+    "nihss",
+    "npi",
+    "nrs",
+    "nutric",
+    "rass",
+    "sapsii",
+    "selle",
+    "stess",
+    "wall",
+    "wfns"
+  ]
+}

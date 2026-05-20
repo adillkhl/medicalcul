@@ -148,8 +148,8 @@ const sudbury: FormulaDefinition = {
 | 4-7 | Intermédiaire | IRM < 24h, HINTS |
 | ≥ 8 | Central élevé | IRM urgente, avis neuro |
 
-Le score a été validé à l'hôpital de Sudbury (Ontario, Canada) sur une cohorte de patients se présentant aux urgences pour vertige aigu.`,
-  clinicalCommentary: `Le Sudbury score est moins connu que le HINTS mais offre une approche quantitative complémentaire. Il est particulièrement utile quand le HINTS est difficile à réaliser (nystagmus absent, HIT non interprétable). Combiner HINTS + Sudbury donne la meilleure sensibilité (98%). Attention : le score n'a pas été validé en population pédiatrique. Un score élevé ne doit pas retarder la réalisation de l'HINTS ni l'imagerie.`,
+Le score a été validé à l’hôpital de Sudbury (Ontario, Canada) sur une cohorte de patients se présentant aux urgences pour vertige aigu.`,
+  clinicalCommentary: `Le Sudbury score est moins connu que le HINTS mais offre une approche quantitative complémentaire. Il est particulièrement utile quand le HINTS est difficile à réaliser (nystagmus absent, HIT non interprétable). Combiner HINTS + Sudbury donne la meilleure sensibilité (98%). Attention : le score n’a pas été validé en population pédiatrique. Un score élevé ne doit pas retarder la réalisation de l'HINTS ni l’imagerie.`,
   references: [
     {
       type: 'pubmed',

@@ -59,13 +59,13 @@ const qsofa: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `Le qSOFA fait partie de la définition Sepsis-3 (2016). Il permet d'identifier les patients suspects d'infection qui risquent d'évoluer vers un sepsis avec dysfonction d'organe.
+  interpretation: `Le qSOFA fait partie de la définition Sepsis-3 (2016). Il permet d’identifier les patients suspects d'infection qui risquent d'évoluer vers un sepsis avec dysfonction d’organe.
 
 • **qSOFA ≥ 2** : forte probabilité de sepsis avec dysfonction d'organe → mortalité intra-hospitalière ≈ 10 %
-• **qSOFA &lt; 2** : probabilité plus faible (mais ne l'exclut pas)
+• **qSOFA &lt; 2** : probabilité plus faible (mais ne l’exclut pas)
 
-Le qSOFA n'est pas un outil diagnostique du sepsis. Il ne remplace pas le SIRS. Son avantage : rapide, clinique (pas de bilan).`,
-  clinicalCommentary: `Depuis Sepsis-3, le qSOFA remplace le SIRS pour prédire le pronostic, mais le SIRS reste utile pour le dépistage précoce (sensibilité meilleure). Aux urgences, on fait souvent les deux. Un qSOFA négatif n'exclut pas un sepsis — si forte suspicion clinique, poursuivre le bilan. Ne pas utiliser pour décider de l'antibiothérapie.`,
+Le qSOFA n’est pas un outil diagnostique du sepsis. Il ne remplace pas le SIRS. Son avantage : rapide, clinique (pas de bilan).`,
+  clinicalCommentary: `Depuis Sepsis-3, le qSOFA remplace le SIRS pour prédire le pronostic, mais le SIRS reste utile pour le dépistage précoce (sensibilité meilleure). Aux urgences, on fait souvent les deux. Un qSOFA négatif n'exclut pas un sepsis — si forte suspicion clinique, poursuivre le bilan. Ne pas utiliser pour décider de l’antibiothérapie.`,
   references: [
     {
       type: 'pubmed',

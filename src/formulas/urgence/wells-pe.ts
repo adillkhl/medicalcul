@@ -48,13 +48,13 @@ const wells: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `Le score de Wells (version simplifiée à 7 items) est le score de probabilité clinique d'embolie pulmonaire le plus utilisé.
+  interpretation: `Le score de Wells (version simplifiée à 7 items) est le score de probabilité clinique d’embolie pulmonaire le plus utilisé.
 
 • **Probabilité faible (≤ 4)** : EP peu probable → D-dimères
 • **Probabilité élevée (&gt; 4)** : EP probable → angioscanner thoracique direct
 
-En pré-test, il s'utilise avec les D-dimères pour éviter les examens irradiants inutiles. Attention : le Wells "original" (2 catégories) et le Wells "3 catégories" existent. Cette version est la plus répandue aux urgences.`,
-  clinicalCommentary: `Règle d'or : ne pas demander de D-dimères si la probabilité est élevée (faux négatifs si Wells > 4, on fait l'angioscanner directement). Chez la femme enceinte, utiliser le score de Wells + D-dimères adaptés à l'âge gestationnel. Chez le sujet âgé, les D-dimères sont presque toujours élevés → spécificité médiocre → préférer l'angioscanner. Ne pas oublier d'évaluer aussi le risque hémorragique avant anticoagulation.`,
+En pré-test, il s’utilise avec les D-dimères pour éviter les examens irradiants inutiles. Attention : le Wells "original" (2 catégories) et le Wells "3 catégories" existent. Cette version est la plus répandue aux urgences.`,
+  clinicalCommentary: `Règle d'or : ne pas demander de D-dimères si la probabilité est élevée (faux négatifs si Wells > 4, on fait l’angioscanner directement). Chez la femme enceinte, utiliser le score de Wells + D-dimères adaptés à l'âge gestationnel. Chez le sujet âgé, les D-dimères sont presque toujours élevés → spécificité médiocre → préférer l'angioscanner. Ne pas oublier d'évaluer aussi le risque hémorragique avant anticoagulation.`,
   references: [
     {
       type: 'pubmed',
