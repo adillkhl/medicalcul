@@ -21,7 +21,7 @@ const waterlow: FormulaDefinition = {
     ]},
     {id:`mobilite`,type:`radio`,label:`Mobilite`,options:[
       {value:0,label:`Libre / Aide leger`},
-      {value:1,label:`Agite / Agite`},
+      {value:1,label:`Agite`},
       {value:2,label:`Apathique / Restreint`},
       {value:3,label:`Inerte / Traction / Immobilise`},
     ]},

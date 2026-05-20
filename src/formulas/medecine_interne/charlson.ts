@@ -127,7 +127,7 @@ const charlson: FormulaDefinition = {
     if (values.bpco) score += 1
     if (values.conn_tissu) score += 1
     if (values.ulcere) score += 1
-    if (values.hepatite_legere) score += 1
+    if (values.hepatite_legere) score += 2
     if (values.diabete) score += 1
     if (values.diabete_compl) score += 2
     if (values.hemiplegie) score += 2
@@ -189,9 +189,9 @@ const charlson: FormulaDefinition = {
   interpretation: `**Index de Charlson** — Prédiction de la mortalité à 1 an.
 
 **Pondération :**
-- 1 point : infarctus, IC, AOMI, AVC, démence, BPCO, connectivite, ulcère, hépatite légère, diabète
-- 2 points : diabète compliqué, hémiplégie, IR mod-sévère, tumeur non métastatique, leucémie, lymphome
-- 3 points : hépatite sévère (cirrhose)
+- 1 point : infarctus, IC, AOMI, AVC, démence, BPCO, connectivite, ulcère, diabète
+- 2 points : hépatopathie légère, diabète compliqué, hémiplégie, IR mod-sévère, tumeur non métastatique, leucémie, lymphome
+- 3 points : hépatopathie sévère (cirrhose)
 - 6 points : tumeur métastatique, sida
 
 **Âge** : +1 point par décennie au-delà de 50 ans.

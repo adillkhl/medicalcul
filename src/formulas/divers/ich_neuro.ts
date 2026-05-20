@@ -8,7 +8,7 @@ const ich_neuro: FormulaDefinition = {
   version: '2024', lastValidated: '2024-01', evidenceLevel: 'A',
   inputs: [
     { id: 'gcs', type: 'radio', label: 'Glasgow Coma Scale initial', options: [
-      { value: 0, label: '13-15' }, { value: 1, label: '9-12' }, { value: 2, label: '3-8' },
+      { value: 0, label: '13-15' }, { value: 1, label: '5-12' }, { value: 2, label: '3-4' },
     ]},
     { id: 'volume_ml', type: 'radio', label: 'Volume de l\'hématome (mL) — formule ABC/2', options: [
       { value: 0, label: '< 30 mL' }, { value: 1, label: '≥ 30 mL' },

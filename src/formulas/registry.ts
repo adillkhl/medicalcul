@@ -435,6 +435,7 @@ import diva from './soins_infirmiers/diva'
 import schemdent from './stomatologie/schemdent'
 import fract_rein from './urologie/fract_rein'
 import iief5 from './urologie/iief5'
+import norton from './soins_infirmiers/norton'
 
 const registry = new Map<string, FormulaDefinition>()
 
@@ -874,6 +875,7 @@ const formulas: FormulaDefinition[] = [
   schemdent,
   fract_rein,
   iief5,
+  norton,
 ]
 
 formulas.forEach((f) => registry.set(f.slug, f))

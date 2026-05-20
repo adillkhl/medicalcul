@@ -26,6 +26,7 @@ const fine: FormulaDefinition = {
     { id: 'hematocrite', type: 'radio', label: 'Hématocrite', options: [{ value: 0, label: '≥ 30%' }, { value: 1, label: '< 30%' }] },
     { id: 'pao2', type: 'radio', label: 'PaO₂ (air ambiant)', options: [{ value: 0, label: '≥ 60 mmHg' }, { value: 1, label: '< 60 mmHg' }] },
     { id: 'epanchement', type: 'boolean', label: 'Épanchement pleural (radio)' },
+    { id: 'nursing_home', type: 'boolean', label: 'Résidence en maison de retraite / EHPAD' },
   ],
   calculate: (values) => {
     const age = values.age ?? 40
@@ -48,6 +49,7 @@ const fine: FormulaDefinition = {
     if ((values.hematocrite ?? 0) === 1) total += 10
     if ((values.pao2 ?? 0) === 1) total += 10
     if (values.epanchement) total += 10
+    if (values.nursing_home) total += 10
     let classe = 'I', sev: 'high'|'moderate'|'low' = 'low'
     if (total <= 50) { classe = 'II'; sev = 'low' }
     else if (total <= 70) { classe = 'III'; sev = 'moderate' }

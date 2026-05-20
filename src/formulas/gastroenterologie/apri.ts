@@ -22,6 +22,16 @@ const apri: FormulaDefinition = {
       placeholder: 'Ex: 45',
     },
     {
+      id: 'ast_uln',
+      type: 'number',
+      label: 'Limite supérieure de la normale (LSN) pour AST',
+      unit: 'UI/L',
+      min: 10,
+      max: 100,
+      step: 1,
+      placeholder: '40',
+    },
+    {
       id: 'plaquettes',
       type: 'number',
       label: 'Plaquettes',
@@ -47,7 +57,7 @@ const apri: FormulaDefinition = {
       }
     }
 
-    const astRatio = ast / 40 // LSN AST = 40 UI/L
+    const astRatio = ast / (Number(values.ast_uln) || 40) // LSN AST configurable, défaut 40 UI/L
     const score = ((astRatio / plt) * 100)
     const scoreArrondi = Math.round(score * 100) / 100
 

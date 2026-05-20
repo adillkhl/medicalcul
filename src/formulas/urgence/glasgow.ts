@@ -6,9 +6,9 @@ const glasgow: FormulaDefinition = {
   name: 'Échelle de Glasgow (GCS)',
   specialty: 'urgence',
   category: 'Neurologie',
-  description: 'Évaluation du niveau de conscience et de la gravité neurologique (score 3-15)',
-  version: '2023',
-  lastValidated: '2023-01',
+  description: 'Évaluation du niveau de conscience et de la gravité neurologique (score 3-15, non testable = 0)',
+  version: '2024',
+  lastValidated: '2024-01',
   evidenceLevel: 'A',
   inputs: [
     {
@@ -20,6 +20,7 @@ const glasgow: FormulaDefinition = {
         { value: 3, label: 'À la demande verbale' },
         { value: 2, label: 'À la douleur' },
         { value: 1, label: 'Aucune' },
+        { value: 0, label: 'NT — Non testable (œdème, traumatisme)' },
       ],
     },
     {
@@ -32,6 +33,7 @@ const glasgow: FormulaDefinition = {
         { value: 3, label: 'Inappropriée' },
         { value: 2, label: 'Incompréhensible' },
         { value: 1, label: 'Aucune' },
+        { value: 0, label: 'NT — Non testable (intubé/trachéotomisé)' },
       ],
     },
     {
@@ -45,6 +47,7 @@ const glasgow: FormulaDefinition = {
         { value: 3, label: 'Flexion à la douleur (décortication)' },
         { value: 2, label: 'Extension à la douleur (décérébration)' },
         { value: 1, label: 'Aucune' },
+        { value: 0, label: 'NT — Non testable (bloqué/sédaté)' },
       ],
     },
   ],
@@ -54,17 +57,27 @@ const glasgow: FormulaDefinition = {
     const moteur = values.moteur ?? 0
     const total = oeil + verbal + moteur
 
+    const hasNT = oeil === 0 || verbal === 0 || moteur === 0
+    let ntSuffix = ''
+    if (hasNT) {
+      const parts: string[] = []
+      if (oeil === 0) parts.push('Y=NT')
+      if (verbal === 0) parts.push('V=NT')
+      if (moteur === 0) parts.push('M=NT')
+      ntSuffix = ` (${parts.join(', ')})`
+    }
+
     const getLabel = (t: number) => {
       if (t >= 13) return 'Traumatisme crânien léger'
       if (t >= 9) return 'Traumatisme crânien modéré'
       if (t >= 3) return 'Traumatisme crânien sévère'
-      return ''
+      return 'Non évaluable (composante(s) NT)'
     }
 
     return {
       value: total,
-      label: getLabel(total),
-      severity: total >= 13 ? 'low' : total >= 9 ? 'moderate' : 'high',
+      label: getLabel(total) + ntSuffix,
+      severity: total >= 13 ? 'low' : total >= 9 ? 'moderate' : total >= 3 ? 'high' : 'high',
       details: {
         Y: oeil,
         V: verbal,
@@ -74,19 +87,21 @@ const glasgow: FormulaDefinition = {
         { min: 13, max: 15, label: 'TC léger', severity: 'low', recommendation: 'Surveillance neurologique. Scanner cérébral selon contexte (règle NICE/New Orleans).' },
         { min: 9, max: 12, label: 'TC modéré', severity: 'moderate', recommendation: 'Scanner cérébral en urgence. Hospitalisation et surveillance neurosensorielle.' },
         { min: 3, max: 8, label: 'TC sévère (coma)', severity: 'high', recommendation: 'Intubation + ventilation en urgence. Bilan TDM. Réanimation. Neurochirurgie.' },
+        { min: 0, max: 2, label: 'Non évaluable (composante(s) NT)', severity: 'high', recommendation: 'Interpréter avec prudence. Signaler les composantes non testables dans le dossier.' },
       ],
     }
   },
-  interpretation: `L\'échelle de Glasgow (Glasgow Coma Scale) est la référence internationale pour quantifier le niveau de conscience. Elle comporte 3 items :
+  interpretation: `L'échelle de Glasgow (Glasgow Coma Scale) est la référence internationale pour quantifier le niveau de conscience. Elle comporte 3 items :
 
-• **Y (ouverture des yeux)** : 1-4
-• **V (réponse verbale)** : 1-5
-• **M (réponse motrice)** : 1-6
+• **Y (ouverture des yeux)** : 1-4 (NT=0 si œdème/traumatisme)
+• **V (réponse verbale)** : 1-5 (NT=0 si intubé/trachéotomisé)
+• **M (réponse motrice)** : 1-6 (NT=0 si bloqué/sédaté)
 
-Total = Y + V + M (3 à 15). Un GCS ≤ 8 = coma = indication d’intubation.
+Total = Y + V + M (3 à 15). Un GCS ≤ 8 = coma = indication d'intubation.
+En cas de composante NT, le score total est sous-estimé — interpréter avec prudence.
 
 Cotation : toujours prendre le meilleur côté pour la réponse motrice. La meilleure réponse (pas la première).`,
-  clinicalCommentary: `Score universel aux urgences, réanimation et préhospitalier. GCS 15 = normal. GCS ≤ 8 = coma, protection des voies aériennes nécessaire. Attention aux pièges : patient intubé (V = 1T), aphasique, sédaté, barrière linguistique. Chez l’enfant, utiliser le GCS pédiatrique adapté. La pupille et le réflexe de toux ne font pas partie du GCS officiel. Le score moteur est le plus prédictif du pronostic.`,
+  clinicalCommentary: `Score universel aux urgences, réanimation et préhospitalier. GCS 15 = normal. GCS ≤ 8 = coma, protection des voies aériennes nécessaire. Attention aux pièges : patient intubé (V = NT), aphasique, sédaté, barrière linguistique. Chez l'enfant, utiliser le GCS pédiatrique adapté. La pupille et le réflexe de toux ne font pas partie du GCS officiel. Le score moteur est le plus prédictif du pronostic.`,
   references: [
     {
       type: 'pubmed',

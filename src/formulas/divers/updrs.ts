@@ -2,9 +2,9 @@ import type { FormulaDefinition } from '../types'
 
 const updrs: FormulaDefinition = {
   id: 'updrs', slug: 'updrs',
-  name: 'UPDRS (Unified Parkinson\'s Disease Rating Scale)',
+  name: 'Évaluation UPDRS-III motrice (8 items sélectionnés)',
   specialty: 'divers', category: 'Neurologie',
-  description: 'Échelle d\'évaluation globale de la maladie de Parkinson — UPDRS (partie III motrice, score 0-108)',
+  description: 'Échantillon de 8 items de la partie III motrice de l\'UPDRS (score 0-32). ATTENTION : il ne s\'agit pas d\'une version abrégée validée de l\'UPDRS-III.',
   version: '2024', lastValidated: '2024-01', evidenceLevel: 'A',
   inputs: [
     { id: 'parole', type: 'radio', label: 'Parole', options: [{ value: 0, label: 'Normale' }, { value: 1, label: 'Légère perte d\'expression' }, { value: 2, label: 'Modérément altérée' }, { value: 3, label: 'Sévèrement altérée' }, { value: 4, label: 'Incompréhensible' }] },
@@ -18,10 +18,10 @@ const updrs: FormulaDefinition = {
   ],
   calculate: (values) => {
     const total = (values.parole ?? 0) + (values.expression_faciale ?? 0) + (values.tremblement_repos ?? 0) + (values.rigidite ?? 0) + (values.bradykinésie ?? 0) + (values.marche ?? 0) + (values.posture ?? 0) + (values.instabilite ?? 0)
-    return { value: total, label: `UPDRS-III : ${total}/32 (version simplifiée 8 items)`, severity: total >= 20 ? 'high' : total >= 10 ? 'moderate' : 'low' }
+    return { value: total, label: `Score moteur (8 items) : ${total}/32`, severity: total >= 20 ? 'high' : total >= 10 ? 'moderate' : 'low' }
   },
-  interpretation: 'L\'UPDRS complète comprend 4 parties (I : mental, II : AVQ, III : motrice, IV : complications). La partie III (motrice, 27 items, 0-108) est la plus utilisée.',
-  clinicalCommentary: 'Le MDS-UPDRS (version révisée 2008) est maintenant le standard. Ces 8 items sont un échantillon de la partie III. L\'évaluation complète nécessite l\'entraînement.',
-  references: [{ type: 'pubmed', title: 'Fahn S, Elton RL. UPDRS development. Recent developments in Parkinson\'s disease. 1987' }],
+  interpretation: 'L\'UPDRS complète (MDS-UPDRS 2008) comprend 4 parties (I : expériences non-motrices, II : AVQ, III : motrice 18 items, IV : complications motrices). Cet outil présente 8 items sélectionnés de la partie III (score 0-32). Il ne s\'agit PAS d\'une version abrégée validée de l\'UPDRS-III — le score ne peut pas être interprété comme un score UPDRS-III standard (0-108 ou 0-132). Pour une évaluation complète, utiliser le MDS-UPDRS officiel (18 items, 0-132).',
+  clinicalCommentary: 'Le MDS-UPDRS (version révisée 2008) est le standard. Ces 8 items sont un échantillon non validé de la partie III. L\'évaluation complète nécessite l\'entraînement et l\'utilisation du manuel officiel.',
+  references: [{ type: 'pubmed', title: 'Fahn S, Elton RL. UPDRS development. Recent developments in Parkinson\'s disease. 1987' }, { type: 'pubmed', title: 'Goetz CG et al. MDS-UPDRS. Mov Disord 2008', pmid: '19025984' }],
 }
 export default updrs

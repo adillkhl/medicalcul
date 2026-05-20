@@ -1,14 +1,14 @@
 import type { FormulaDefinition } from '../types'
 
 const pao2_fio2: FormulaDefinition = {
-  id: `pao2_fio2`, slug: `pao2_fio2`,
-  name: `Rapport PaO2/FiO2`,
+  id: `pf_ratio`, slug: `pf-ratio`,
+  name: `Rapport PaO₂/FiO₂ (PF Ratio) — Indice d'oxygénation`,
   specialty: `pneumologie`, category: `Oxygenation`,
-  description: `Calcul du rapport de PaO2 sur FiO2 pour l\'evaluation de l\'hypoxemie`,
+  description: `Rapport PaO₂/FiO₂ pour l'évaluation de l'hypoxémie et classification du SDRA (critères de Berlin)`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
-    {id:`pao2`,type:`number`,label:`PaO2`,unit:`mmHg`},
-    {id:`fio2`,type:`number`,label:`FiO2`,unit:`%`},
+    {id:`pao2`,type:`number`,label:`PaO₂`,unit:`mmHg`},
+    {id:`fio2`,type:`number`,label:`FiO₂`,unit:`%`},
   ],
   calculate: (values) => {
     const pao2 = parseFloat(values.pao2)||80; const fio2 = (parseFloat(values.fio2)||21)/100

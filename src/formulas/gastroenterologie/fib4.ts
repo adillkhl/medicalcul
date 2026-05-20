@@ -7,8 +7,8 @@ const fib4: FormulaDefinition = {
   specialty: 'gastroenterologie',
   category: 'Fibrose hépatique',
   description: 'Score non invasif de fibrose hépatique basé sur l\'âge, les transaminases et les plaquettes',
-  version: '2023',
-  lastValidated: '2023-06',
+  version: '2024',
+  lastValidated: '2024-06',
   evidenceLevel: 'B',
   inputs: [
     {
@@ -72,21 +72,25 @@ const fib4: FormulaDefinition = {
     const score = (age * ast) / (plt * Math.sqrt(alt))
     const scoreArrondi = Math.round(score * 100) / 100
 
+    // Age-specific adjustment: for patients ≥65, use higher threshold (2.0 instead of 1.45)
+    const lowCutoff = age >= 65 ? 2.0 : 1.45
+    const highCutoff = 3.25
+
     let severity: 'low' | 'moderate' | 'high' | 'critical' = 'low'
     let label = ''
     let recommendation = ''
 
-    if (scoreArrondi < 1.30) {
+    if (scoreArrondi < lowCutoff) {
       severity = 'low'
-      label = 'FIB-4 < 1.30 — Fibrose minime (F0-F1)'
+      label = `FIB-4 < ${lowCutoff} — Fibrose minime (F0-F1)`
       recommendation = 'Probabilité élevée (VPN > 90 %) d\'absence de fibrose significative. Pas de biopsie nécessaire. Surveillance standard.'
-    } else if (scoreArrondi <= 2.67) {
+    } else if (scoreArrondi <= highCutoff) {
       severity = 'moderate'
-      label = 'FIB-4 1.30-2.67 — Zone grise'
+      label = `FIB-4 ${lowCutoff}-${highCutoff} — Zone grise`
       recommendation = 'Risque intermédiaire de fibrose significative. Tests complémentaires recommandés (FibroScan, élastométrie, FibroTest).'
     } else {
       severity = 'high'
-      label = 'FIB-4 > 2.67 — Fibrose significative (≥ F3)'
+      label = `FIB-4 > ${highCutoff} — Fibrose significative (≥ F3)`
       recommendation = 'Fibrose significative probable (VPP ~80 %). Adresser en hépatologie. Bilan étiologique complet. Envisager biopsie hépatique.'
     }
 
@@ -95,9 +99,9 @@ const fib4: FormulaDefinition = {
       label,
       severity,
       ranges: [
-        { min: 0, max: 1.29, label: '< 1.30 — Fibrose minime (F0-F1)', severity: 'low', recommendation: 'Pas de biopsie. Surveillance.' },
-        { min: 1.30, max: 2.67, label: '1.30-2.67 — Zone grise', severity: 'moderate', recommendation: 'Tests complémentaires (FibroScan).' },
-        { min: 2.68, max: 100, label: '> 2.67 — Fibrose significative (≥ F3)', severity: 'high', recommendation: 'Avis hépatologique. Biopsie si nécessaire.' },
+        { min: 0, max: lowCutoff - 0.01, label: `< ${lowCutoff} — Fibrose minime (F0-F1)`, severity: 'low', recommendation: 'Pas de biopsie. Surveillance.' },
+        { min: lowCutoff, max: highCutoff, label: `${lowCutoff}-${highCutoff} — Zone grise`, severity: 'moderate', recommendation: 'Tests complémentaires (FibroScan).' },
+        { min: highCutoff + 0.01, max: 100, label: `> ${highCutoff} — Fibrose significative (≥ F3)`, severity: 'high', recommendation: 'Avis hépatologique. Biopsie si nécessaire.' },
       ],
     }
   },
@@ -107,12 +111,12 @@ const fib4: FormulaDefinition = {
 
 | Seuil | Interprétation |
 |-------|---------------|
-| < 1.30 | Fibrose minime (F0-F1) — VPN > 90 % |
-| 1.30-2.67 | Zone grise — tests complémentaires |
-| > 2.67 | Fibrose significative (≥ F3) — VPP ~ 80 % |
+| < 1.45 (ou < 2.0 si ≥ 65 ans) | Fibrose minime (F0-F1) — VPN > 90 % |
+| 1.45-3.25 (ou 2.0-3.25 si ≥ 65 ans) | Zone grise — tests complémentaires |
+| > 3.25 | Fibrose significative (≥ F3) — VPP ~ 80 % |
 
-Validé initialement dans l’hépatite C et VIH-VHC, utilisable dans la NAFLD et les hépatopathies alcooliques. Supérieur à l\'APRI pour la NAFLD.`,
-  clinicalCommentary: `Le FIB-4 est le meilleur score non invasif de première intention (coût nul, toujours disponible). Attention : le seuil de 1.30 est abaissé à 2.0 chez les > 65 ans pour la NAFLD. Le FIB-4 peut être faussement élevé en cas de cytolyse aiguë (AST très élevée). À répéter à distance d’un épisode aigu. Le FibroScan® reste l\'examen de référence pour confirmer le diagnostic de fibrose.`,
+Validé initialement dans l'hépatite C et VIH-VHC, utilisable dans la NAFLD et les hépatopathies alcooliques. Supérieur à l'APRI pour la NAFLD.`,
+  clinicalCommentary: `Le FIB-4 est le meilleur score non invasif de première intention (coût nul, toujours disponible). Le seuil est ajusté à 2.0 (au lieu de 1.45) chez les ≥ 65 ans pour la NAFLD, afin de réduire les faux positifs liés à l'âge. Le FIB-4 peut être faussement élevé en cas de cytolyse aiguë (AST très élevée). À répéter à distance d'un épisode aigu. Le FibroScan® reste l'examen de référence pour confirmer le diagnostic de fibrose.`,
   references: [
     {
       type: 'pubmed',

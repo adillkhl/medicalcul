@@ -3,55 +3,97 @@ import type { FormulaDefinition } from '../types'
 const framingham: FormulaDefinition = {
   id: 'framingham',
   slug: 'framingham',
-  name: 'Framingham — Risque cardiovasculaire',
+  name: 'Framingham — Risque coronarien (Hard CHD)',
   specialty: 'cardiologie',
   category: 'Risque CV',
-  description: "Score de Framingham de risque cardiovasculaire à 10 ans (infarctus, AVC, décès CV)",
+  description: "Score de Framingham de risque coronarien à 10 ans (infarctus du myocarde + décès coronarien) — équations de Wilson 1998",
   version: '2024',
   lastValidated: '2024-01',
   evidenceLevel: 'A',
   inputs: [
-    {id:'age', type:'number', label:'Âge', unit:'ans', min:18, max:100, step:1, placeholder:'45'},
+    {id:'age', type:'number', label:'Âge', unit:'ans', min:30, max:74, step:1, placeholder:'45'},
     {id:'sex', type:'radio', label:'Sexe', options:[{value:0,label:'Femme'},{value:1,label:'Homme'}]},
     {id:'totalChol', type:'number', label:'Cholestérol total', unit:'mg/dL', min:100, max:400, step:1, placeholder:'220'},
     {id:'hdlChol', type:'number', label:'HDL-Cholestérol', unit:'mg/dL', min:10, max:100, step:1, placeholder:'45'},
     {id:'sbp', type:'number', label:'Pression systolique', unit:'mmHg', min:80, max:250, step:1, placeholder:'130'},
     {id:'treated', type:'boolean', label:'Hypertension traitée'},
     {id:'smoker', type:'boolean', label:'Tabagisme actif'},
-    {id:'diabetes', type:'boolean', label:'Diabète'},
   ],
   calculate: (values) => {
-    const age = values.age ?? 50; const male = values.sex === 1
-    const chol = values.totalChol ?? 200; const hdl = values.hdlChol ?? 50
-    const sbp = values.sbp ?? 130; const treated = !!values.treated
-    const smoke = !!values.smoker; const dm = !!values.diabetes
+    const age = Number(values.age) || 50
+    const male = values.sex === 1
+    const chol = Number(values.totalChol) || 200
+    const hdl = Number(values.hdlChol) || 50
+    const sbp = Number(values.sbp) || 130
+    const treated = !!values.treated
+    const smoke = !!values.smoker
 
-    let score = 0
-    if (male) { if (age >= 70) score += 11; else if (age >= 60) score += 8; else if (age >= 50) score += 5; else if (age >= 40) score += 2 }
-    else { if (age >= 70) score += 13; else if (age >= 60) score += 9; else if (age >= 50) score += 6; else if (age >= 40) score += 2 }
-    if (chol >= 280) score += 2; else if (chol >= 240) score += 1
-    if (hdl < 40) score += 2; else if (hdl < 50) score += 1
-    if (treated) { if (sbp >= 160) score += 3; else if (sbp >= 140) score += 2; else if (sbp >= 130) score += 1 }
-    else { if (sbp >= 160) score += 2; else if (sbp >= 140) score += 1 }
-    if (smoke) score += male ? 4 : 3
-    if (dm) score += male ? 3 : 4
+    // Modèle Hard CHD (Wilson 1998) — pas de diabète dans ce modèle
+    let L: number
+    let s0: number
 
-    const risk = score >= 20 ? 30 : score >= 15 ? 15 : score >= 10 ? 8 : score >= 5 ? 3 : 1
+    if (male) {
+      // Hommes : coefficients Wilson 1998
+      L = 52.00961 * Math.log(age)
+        + 20.014077 * Math.log(chol)
+        + (-0.905964) * Math.log(hdl)
+        + 1.305784 * Math.log(sbp)
+        + (treated ? 0.241549 : 0)
+        + (smoke ? 12.096316 : 0)
+        + (-4.605038) * Math.log(age) * Math.log(chol)
+        + (smoke ? (-2.84367) * Math.log(age) : 0)
+        + (-2.93323) * Math.log(age) * Math.log(age)
+        - 172.300168
+      s0 = 0.9402 // baseline 10-year survival — hommes
+    } else {
+      // Femmes : coefficients Wilson 1998
+      L = 31.764001 * Math.log(age)
+        + 22.465206 * Math.log(chol)
+        + (-1.187731) * Math.log(hdl)
+        + 2.552905 * Math.log(sbp)
+        + (treated ? 0.420251 : 0)
+        + (smoke ? 13.07543 : 0)
+        + (-5.060998) * Math.log(age) * Math.log(chol)
+        + (smoke ? (-2.996945) * Math.log(age) : 0)
+        - 146.593306
+      s0 = 0.98767 // baseline 10-year survival — femmes
+    }
+
+    const risk = Math.min(99, Math.max(0.1, (1 - Math.pow(s0, Math.exp(L))) * 100))
+    const riskRound = Math.round(risk * 10) / 10
+
+    let severity: 'low' | 'moderate' | 'high' | 'critical' = 'low'
+    let label = ''
+    if (risk < 10) { label = `Framingham ${riskRound}% — Faible risque`; severity = 'low' }
+    else if (risk < 20) { label = `Framingham ${riskRound}% — Risque modéré`; severity = 'moderate' }
+    else { label = `Framingham ${riskRound}% — Haut risque`; severity = 'high' }
+
     return {
-      value: score,
-      label: risk >= 20 ? 'Haut risque' : risk >= 10 ? 'Risque intermediaire' : 'Faible risque',
-      risk, riskUnit: '% risque CV a 10 ans',
-      severity: risk >= 20 ? 'high' : risk >= 10 ? 'moderate' : 'low',
+      value: riskRound,
+      label,
+      risk: riskRound,
+      riskUnit: '% risque coronarien (IDM + décès CV) à 10 ans',
+      severity,
+      details: {
+        'Âge': `${age} ans`,
+        'Sexe': male ? 'Homme' : 'Femme',
+        'Cholestérol total': `${chol} mg/dL`,
+        'HDL-Cholestérol': `${hdl} mg/dL`,
+        'PAS': `${sbp} mmHg`,
+        'HTA traitée': treated ? 'Oui' : 'Non',
+        'Tabagisme': smoke ? 'Oui' : 'Non',
+      },
       ranges: [
-        {min:0, max:5, label:'Faible risque', severity:'low' as const, recommendation:"Conseils hygiene-dietetiques. Reevaluation dans 5 ans."},
-        {min:6, max:10, label:'Risque modere', severity:'moderate' as const, recommendation:"Prise en charge des facteurs de risque. Statine si LDL > 1.90 ou diabete."},
-        {min:11, max:14, label:'Risque eleve', severity:'high' as const, recommendation:"Statine + antiagregant si approprié. Controle strict des FDR."},
-        {min:15, max:30, label:'Risque tres eleve', severity:'critical' as const, recommendation:"Statine forte dose + antiagregant. Objectif LDL < 0.70."},
+        {min:0, max:9.9, label:'Risque faible (< 10%)', severity:'low' as const, recommendation:"Conseils hygiène-diététiques. Réévaluation dans 5 ans."},
+        {min:10, max:19.9, label:'Risque modéré (10-20%)', severity:'moderate' as const, recommendation:"Prise en charge des facteurs de risque. Statine si LDL > 1.90 ou diabète."},
+        {min:20, max:100, label:'Haut risque (≥ 20%)', severity:'high' as const, recommendation:"Statine forte dose + antiagrégant si approprié. Contrôle strict des FDR."},
       ],
     }
   },
-  interpretation: 'Le **score de Framingham** evalue le risque cardiovasculaire a 10 ans. Facteurs : age, sexe, cholesterol total, HDL, PAS, HTA traitee, tabac, diabete.',
-  clinicalCommentary: `Le score de Framingham tend a sous-estimer le risque chez les jeunes et surestimer chez les ages. Il a ete largement remplace par SCORE2 (ESC 2021).`,
-  references: [{type:'pubmed', title:'Wilson PWF et al. Prediction of CHD using risk factor categories. Circulation 1998', pmid:'9741203'}],
+  interpretation: 'Le **score de Framingham (Wilson 1998)** estime le risque coronarien à 10 ans (infarctus du myocarde + décès coronarien) à partir des équations de régression originales.\n\n**Modèle Hard CHD** — n\'inclut PAS le diabète (contrairement au modèle ATP III ou au General CVD). Facteurs : âge, sexe, cholestérol total, HDL, PAS, traitement HTA, tabac.\n\n**Seuils :** < 10 % faible; 10-20 % modéré; ≥ 20 % élevé.',
+  clinicalCommentary: 'Ce calculateur utilise les équations de régression originales de Wilson 1998 (modèle Hard CHD) plutôt que le système de points approximatif. Il ne prédit pas les AVC (modèle coronarien strict). Le SCORE2 (ESC 2021) est recommandé en Europe comme alternative.',
+  references: [
+    {type:'pubmed', title:'Wilson PWF et al. Prediction of CHD using risk factor categories. Circulation 1998', pmid:'9741203'},
+  ],
 }
 export default framingham

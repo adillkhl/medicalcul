@@ -16,9 +16,9 @@ const khorana: FormulaDefinition = {
       type: 'select',
       label: 'Type de cancer (site primitif)',
       options: [
-        { value: 0, label: 'Famille à très haut risque : estomac, pancréas, cerveau (glioblastome)' },
+        { value: 2, label: 'Famille à très haut risque : estomac, pancréas, cerveau (glioblastome)' },
         { value: 1, label: 'Famille à haut risque : poumon, gynécologique (ovaire, utérus), lymphome, myélome, vessie, testicule, rein' },
-        { value: 2, label: 'Famille à risque standard : sein, colorectal, prostate, autres' },
+        { value: 0, label: 'Famille à risque standard : sein, colorectal, prostate, autres' },
       ],
     },
     {
@@ -97,7 +97,7 @@ const khorana: FormulaDefinition = {
       riskUnit: total >= 3 ? 'Khorana - risque élevé' : undefined,
       details: {
         'Risque à 6 mois': riskPercent,
-        'Type de cancer': ['Très haut risque', 'Haut risque', 'Risque standard'][cancerRisk],
+        'Type de cancer': ['Risque standard', 'Haut risque', 'Très haut risque'][cancerRisk],
         'Plaquettes': platHigh ? '≥ 350 G/L' : '< 350 G/L',
         'Hémoglobine': lowHb ? '< 10 g/dL' : '≥ 10 g/dL',
         'Leucocytes': wbcHigh ? '> 11 000/mm³' : '≤ 11 000/mm³',

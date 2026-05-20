@@ -49,18 +49,18 @@ const nrs_2002: FormulaDefinition = {
     
     const score_nutrition = (q1+q2+q3) + perte + nutrition
     const total = score_nutrition + severite
-    const age_ajust = (total >= 3 && age70) ? 1 : 0
+    const age_ajust = (total >= 4 && age70) ? 1 : 0
     const final_score = total + age_ajust
     
-    return {value:final_score, label:final_score < 3 ? 'Pas de risque nutritionnel' : 'Risque nutritionnel eleve', severity: final_score < 3 ? 'low' : 'high',
+    return {value:final_score, label:final_score < 4 ? 'Pas de risque nutritionnel' : 'Risque nutritionnel eleve', severity: final_score < 4 ? 'low' : 'high',
       details:{ score_nutrition: score_nutrition, score_severite: severite, ajustement_age: age_ajust },
       ranges:[
-        {min:0,max:2,label:'Pas de risque nutritionnel - Surveillance hebdomadaire',severity:'low'},
-        {min:3,max:7,label:'Risque eleve - Plan de soins nutritionnels',severity:'high'},
+        {min:0,max:3,label:'Pas de risque nutritionnel - Surveillance hebdomadaire',severity:'low'},
+        {min:4,max:7,label:'Risque eleve - Plan de soins nutritionnels',severity:'high'},
       ]}
   },
-  interpretation: `Le NRS-2002 comporte 2 etapes:<br/><br/>Etape 1 (screening initial): 3 questions Oui/Non<br/>• IMC < 20.5 ?<br/>• Perte de poids > 5% en 3 mois ?<br/>• Apports alimentaires reduits > 50% en 1 semaine ?<br/>Si OUI a au moins 1 question → Etape 2<br/><br/>Etape 2 (scoring):<br/>• Score nutritionnel (0-3)<br/>• Score de severite de la maladie (0-3)<br/>• Ajustement age: +1 si ≥ 70 ans ET score ≥ 3<br/>Score total ≥ 3 = risque nutritionnel eleve`,
-  clinicalCommentary: `Le NRS-2002 est recommande par l\'ESPEN pour le depistage nutritionnel hospitalier. Il est valide en geriatrie, oncologie, chirurgie. Un score ≥ 3 est associe a une augmentation du risque de complications post-operatoires et de mortalite. A realiser a l\'admission et idealement 1x/semaine.`,
+  interpretation: `Le NRS-2002 comporte 2 etapes:<br/><br/>Etape 1 (screening initial): 3 questions Oui/Non<br/>• IMC < 20.5 ?<br/>• Perte de poids > 5% en 3 mois ?<br/>• Apports alimentaires reduits > 50% en 1 semaine ?<br/>Si OUI a au moins 1 question → Etape 2<br/><br/>Etape 2 (scoring):<br/>• Score nutritionnel (0-3)<br/>• Score de severite de la maladie (0-3)<br/>• Ajustement age: +1 si ≥ 70 ans ET score ≥ 4<br/>Score total ≥ 4 = risque nutritionnel eleve (selon MDCalc)<br/>Note: Le seuil original NRS-2002 (Kondrup 2003) est ≥ 3, mais MDCalc utilise ≥ 4.`,
+  clinicalCommentary: `Le NRS-2002 est recommande par l'ESPEN pour le depistage nutritionnel hospitalier. Il est valide en geriatrie, oncologie, chirurgie. Le seuil MDCalc est ≥ 4 (contre ≥ 3 dans la version originale de Kondrup). A realiser a l'admission et idealement 1x/semaine.`,
   references: [
     {type:`pubmed`,title:`Kondrup J et al. Clin Nutr 2003`,pmid:`12505347`},
     {type:`pubmed`,title:`Kondrup J et al. Nutr Hosp 2002`,pmid:`12492029`},

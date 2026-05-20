@@ -84,6 +84,7 @@ const nihss: FormulaDefinition = {
         { value: 2, label: '2 — Chute sur le lit avant 10s (peut résister à la gravité un temps)' },
         { value: 3, label: '3 — Aucun effort contre gravité (bras tombe immédiatement)' },
         { value: 4, label: '4 — Aucun mouvement' },
+        { value: 0, label: 'NT — Amputation / fusion articulaire (non testable)' },
       ],
     },
     {
@@ -96,6 +97,7 @@ const nihss: FormulaDefinition = {
         { value: 2, label: '2 — Chute sur le lit avant 10s' },
         { value: 3, label: '3 — Aucun effort contre gravité' },
         { value: 4, label: '4 — Aucun mouvement' },
+        { value: 0, label: 'NT — Amputation / fusion articulaire (non testable)' },
       ],
     },
     {
@@ -108,6 +110,7 @@ const nihss: FormulaDefinition = {
         { value: 2, label: '2 — Chute sur le lit, résiste partiellement à la gravité' },
         { value: 3, label: '3 — Chute immédiate, pas d\'effort contre gravité' },
         { value: 4, label: '4 — Aucun mouvement' },
+        { value: 0, label: 'NT — Amputation / fusion articulaire (non testable)' },
       ],
     },
     {
@@ -120,6 +123,7 @@ const nihss: FormulaDefinition = {
         { value: 2, label: '2 — Chute sur le lit, résiste partiellement' },
         { value: 3, label: '3 — Chute immédiate' },
         { value: 4, label: '4 — Aucun mouvement' },
+        { value: 0, label: 'NT — Amputation / fusion articulaire (non testable)' },
       ],
     },
     {

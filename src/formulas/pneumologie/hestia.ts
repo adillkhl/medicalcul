@@ -17,9 +17,10 @@ const hestia: FormulaDefinition = {
     { id: 'insuf_hepatique', type: 'boolean', label: 'Insuffisance hépatique sévère' },
     { id: 'grossesse', type: 'boolean', label: 'Grossesse' },
     { id: 'compliance', type: 'boolean', label: 'Non-compliance ou impossibilité de suivi médical' },
+    { id: 'hist_htia', type: 'boolean', label: 'Thrombopénie induite par l\'héparine (TIH / HIT)' },
   ],
   calculate: (values) => {
-    const total = (values.hemodynamique ? 1 : 0) + (values.thrombolyse ? 1 : 0) + (values.hypoxemie ? 1 : 0) + (values.ep_retard ? 1 : 0) + (values.douleur_intense ? 1 : 0) + (values.hemorragie ? 1 : 0) + (values.clairance_creat ? 1 : 0) + (values.insuf_hepatique ? 1 : 0) + (values.grossesse ? 1 : 0) + (values.compliance ? 1 : 0)
+    const total = (values.hemodynamique ? 1 : 0) + (values.thrombolyse ? 1 : 0) + (values.hypoxemie ? 1 : 0) + (values.ep_retard ? 1 : 0) + (values.douleur_intense ? 1 : 0) + (values.hemorragie ? 1 : 0) + (values.clairance_creat ? 1 : 0) + (values.insuf_hepatique ? 1 : 0) + (values.grossesse ? 1 : 0) + (values.compliance ? 1 : 0) + (values.hist_htia ? 1 : 0)
     return { value: total, label: `Hestia : ${total} critères positif(s)`, severity: total >= 1 ? 'high' : 'low' }
   },
   interpretation: 'Si tous les critères sont négatifs (score = 0) : traitement ambulatoire possible. Si ≥ 1 critère positif : hospitalisation recommandée.',

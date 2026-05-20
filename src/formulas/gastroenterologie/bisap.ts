@@ -45,7 +45,7 @@ const bisap: FormulaDefinition = {
   calculate: (values) => {
     let score = 0
     const bun = Number(values.bun)
-    if (bun && bun > 7.14) score += 1
+    if (bun && bun > 8.92) score += 1
     if (values.impaired_mental) score += 1
     if (values.sis) score += 1
     if (values.age_60) score += 1
@@ -84,7 +84,7 @@ const bisap: FormulaDefinition = {
   interpretation: `Le **score BISAP** (Bedside Index for Severity in Acute Pancreatitis) est un score pronostique simple, validé, utilisable dès l’admission.
 
 **5 critères** (1 point chacun) :
-1. BUN > 7.14 mmol/L
+1. BUN > 8.92 mmol/L (25 mg/dL)
 2. Troubles de la conscience (Glasgow < 15)
 3. SIRS (≥ 2 critères)
 4. Âge > 60 ans
