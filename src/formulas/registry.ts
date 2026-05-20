@@ -2,6 +2,7 @@ import type { FormulaDefinition, FormulaMeta, Specialty } from './types'
 
 // Import all formulas
 import cha2ds2vasc from './urgence/cha2ds2-vasc'
+import cha2ds2va from './urgence/cha2ds2-va'
 import crb65 from './urgence/crb-65'
 import hasbled from './urgence/has-bled'
 import qsofa from './urgence/qsofa'
@@ -15,6 +16,7 @@ const registry = new Map<string, FormulaDefinition>()
 // Register all formulas
 const formulas: FormulaDefinition[] = [
   cha2ds2vasc,
+  cha2ds2va,
   crb65,
   hasbled,
   qsofa,

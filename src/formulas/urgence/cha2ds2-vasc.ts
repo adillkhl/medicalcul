@@ -69,8 +69,7 @@ const cha2ds2vasc: FormulaDefinition = {
     if (values.avc) score += 2
     if (values.vasculaire) score += 1
     if (values.age_65) score += 1
-    // Sexe féminin ne compte que si ≥ 65 ans (recommandations 2012-2023)
-    if (values.sexe_feminin && (values.age_65 || values.age_75)) score += 1
+    if (values.sexe_feminin) score += 1
 
     const risks = [0.78, 2.01, 3.71, 5.92, 9.27, 15.26, 19.74, 21.5, 22.38, 23.64]
 
@@ -95,12 +94,13 @@ const cha2ds2vasc: FormulaDefinition = {
 - **Score = 1** : anticoagulation à discuter (bénéfice/risque)
 - **Score ≥ 2** : anticoagulation orale formelle si risque hémorragique acceptable
 
-Le sexe féminin n'est plus pris en compte comme facteur de risque indépendant dans les recommandations ESC 2024 (nouveau score CHA₂DS₂-VA).`,
+Le sexe féminin compte 1 point indépendamment de l'âge dans cette version (CHA₂DS₂-VASc classique, toujours utilisé aux États-Unis). Pour la version ESC 2024 sans le sexe, voir CHA₂DS₂-VA.`,
   clinicalCommentary: `Très utilisé aux urgences pour les patients avec FA documentée. Attention :
-• Ne s'applique pas aux valvulopathies mitrales significatives (prothèse ou sténose mitrale rhumatismale) — utiliser le CHA₂DS₂-VASc avec prudence.
-• Ne pas utiliser chez les patients avec ACFA et valve mécanique (indication AVK d'emblée).
-• L'évaluation du risque hémorragique (HAS-BLED) doit être systématiquement associée.
-• Depuis 2024, les recommandations ESC simplifient en retirant le sexe comme facteur → le CHA₂DS₂-VA (sans le "Sc" pour sexe) tend à remplacer ce score.`,
+• Ne s'applique pas aux valvulopathies mitrales significatives (prothèse ou sténose mitrale)
+• Ne pas utiliser chez les patients avec valve mécanique (indication AVK d'emblée)
+• L'évaluation du risque hémorragique (HAS-BLED) doit être systématiquement associée
+• **Depuis ESC 2024** : le CHA₂DS₂-VA (sans sexe) tend à remplacer ce score — voir l'autre calculateur DrScore
+• MDCalc maintient les deux versions : CHA₂DS₂-VASc (classique) et CHA₂DS₂-VA (ESC 2024)`,
   references: [
     {
       type: 'guideline',
@@ -114,8 +114,8 @@ Le sexe féminin n'est plus pris en compte comme facteur de risque indépendant 
     },
     {
       type: 'url',
-      title: 'HAS — Fibrillation auriculaire : stratégie thérapeutique',
-      url: 'https://www.has-sante.fr/jcms/c_2843282',
+      title: 'MDCalc — CHA2DS2-VASc Score',
+      url: 'https://www.mdcalc.com/calc/801/cha2ds2-vasc-score-atrial-fibrillation-stroke-risk',
     },
   ],
 }

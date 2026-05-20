@@ -36,12 +36,12 @@ const wells: FormulaDefinition = {
       severity: isHigh ? 'high' : 'low',
       ranges: [
         {
-          min: 0, max: 4, label: 'Probabilité clinique faible',
+          min: 0, max: 4, label: 'Probabilité clinique faible (Wells ≤ 4)',
           severity: 'low',
           recommendation: 'Envisager dosage des D-dimères. Si D-dimères normaux, EP exclue. Si élevés, angioscanner thoracique.',
         },
         {
-          min: 4.5, max: 12.5, label: 'Probabilité clinique élevée',
+          min: 4.5, max: 12.5, label: 'Probabilité clinique élevée (Wells &gt; 4)',
           severity: 'high',
           recommendation: 'Angioscanner thoracique en première intention (ou scintillation V/Q si CI). D-dimères non nécessaires.',
         },
