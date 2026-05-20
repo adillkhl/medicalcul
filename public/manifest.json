@@ -2,14 +2,12 @@
   "name": "Medicalcul",
   "short_name": "Medicalcul",
   "description": "Calculateurs et scores médicaux pour les professionnels de santé",
-  "start_url": "/",
+  "start_url": "/medicalcul/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#2563eb",
   "icons": [
-    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
-    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+    { "src": "/medicalcul/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
   ],
   "categories": ["medical", "health"]
 }

@@ -5,7 +5,7 @@ import { useEffect } from 'react'
 export default function PwaRegister() {
   useEffect(() => {
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/sw.js').catch(() => {})
+      navigator.serviceWorker.register('/medicalcul/sw.js').catch(() => {})
     }
   }, [])
   return null
