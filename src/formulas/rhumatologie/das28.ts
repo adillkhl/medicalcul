@@ -141,7 +141,7 @@ const das28: FormulaDefinition = {
 - 2,6–3,2 : Faible activité
 - 3,2–5,1 : Activité modérée
 - > 5,1 : Activité élevée`,
-  clinicalCommentary: `Le DAS28 est le score d'activité le plus utilisé en rhumatologie pour la PR. La cible thérapeutique recommandée par l'EULAR est la rémission (ou à défaut la faible activité). Une diminution ≥ 1,2 est une bonne réponse EULAR. Attention : ne pas mélanger DAS28-CRP et DAS28-ESR dans le suivi d'un même patient — utiliser toujours le même biomarqueur.`,
+  clinicalCommentary: `Le DAS28 est le score d\'activité le plus utilisé en rhumatologie pour la PR. La cible thérapeutique recommandée par l\'EULAR est la rémission (ou à défaut la faible activité). Une diminution ≥ 1,2 est une bonne réponse EULAR. Attention : ne pas mélanger DAS28-CRP et DAS28-ESR dans le suivi d\'un même patient — utiliser toujours le même biomarqueur.`,
   references: [
     {
       type: 'pubmed',

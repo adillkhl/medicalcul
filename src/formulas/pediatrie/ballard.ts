@@ -4,7 +4,7 @@ const ballard: FormulaDefinition = {
   id: `ballard`, slug: `ballard`,
   name: `Score de Ballard (Nouveau Ballard Score — NBS)`,
   specialty: `pediatrie`, category: `Neonatalogie`,
-  description: `Évaluation de l'âge gestationnel par maturité neurologique (6 critères) et externe (6 critères) — score total de -10 à 50`,
+  description: `Évaluation de l\'âge gestationnel par maturité neurologique (6 critères) et externe (6 critères) — score total de -10 à 50`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`posture`,type:`radio`,label:`Posture (neurologique)`,options:[{value:-1,label:`< 26 sem: flaccide`},{value:0,label:`26 sem: début flexion hanches`},{value:1,label:`28 sem: flexion hanches + genoux`},{value:2,label:`30 sem: flexion légère des membres`},{value:3,label:`32 sem: flexion modérée`},{value:4,label:`34 sem: bonne flexion`},{value:5,label:`≥ 36 sem: flexion complète`}]},
@@ -35,11 +35,11 @@ const ballard: FormulaDefinition = {
         {min:45,max:55,label:`≥ 38 SA — Terme`,severity:'low'},
       ]}
   },
-  interpretation: `Le New Ballard Score (NBS) est la méthode de référence pour estimer l'âge gestationnel par l'examen clinique du nouveau-né. 12 critères : 6 neurologiques (posture, fenêtre carrée, retour bras, angle poplité, foulard, talon-oreille) et 6 externes (peau, lanugo, plantes, mamelon, œil/oreille, génital). Chaque item est coté de -1 à 5 (score max 50).`,
-  clinicalCommentary: `Utile quand la date des dernières règles est inconnue ou l'échographie précoce non disponible. Fiable de 20 à 44 SA. Chaque item est pondéré de -1 à 5. Le total se convertit en semaines d'aménorrhée. Attention : moins fiable en cas de croissance intra-utérine sévère ou d'anasarque.`,
+  interpretation: `Le New Ballard Score (NBS) est la méthode de référence pour estimer l\'âge gestationnel par l\'examen clinique du nouveau-né. 12 critères : 6 neurologiques (posture, fenêtre carrée, retour bras, angle poplité, foulard, talon-oreille) et 6 externes (peau, lanugo, plantes, mamelon, œil/oreille, génital). Chaque item est coté de -1 à 5 (score max 50).`,
+  clinicalCommentary: `Utile quand la date des dernières règles est inconnue ou l\'échographie précoce non disponible. Fiable de 20 à 44 SA. Chaque item est pondéré de -1 à 5. Le total se convertit en semaines d\'aménorrhée. Attention : moins fiable en cas de croissance intra-utérine sévère ou d\'anasarque.`,
   references: [
     {type:`pubmed`,title:`Ballard JL et al. New Ballard Score for gestational age assessment. J Pediatr 1991`,pmid:`2010720`},
-    {type:`guideline`,title:`OMS — Évaluation de l'âge gestationnel`,url:`https://www.who.int/`},
+    {type:`guideline`,title:`OMS — Évaluation de l\'âge gestationnel`,url:`https://www.who.int/`},
   ],
 }
 export default ballard

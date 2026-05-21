@@ -36,7 +36,7 @@ const maigreur_enfant: FormulaDefinition = {
       ]}
   },
   interpretation: `L\'evaluation de la maigreur de l\'enfant repose sur l\'IMC pour l\'age, exprime en Z-score ou percentile selon les courbes OMS. Un IMC < -2 DS definit la maigreur. < -3 DS = maigreur severe. La maigreur peut refleter une denutrition aigue ou chronique.`,
-  clinicalCommentary: `La maigreur de l\'enfant est un marqueur de denutrition qu'il faut toujours explorer. Distinguer maigreur constitutionnelle (familiale) et pathologique. Associer a d\'autres indicateurs : pli cutane, PB, albuminemie. Chez le nourrisson, la courbe de poids est plus sensible que l\'IMC. Les causes les plus frequentes : erreurs dietetiques, RGO, allergies alimentaires.`,
+  clinicalCommentary: `La maigreur de l\'enfant est un marqueur de denutrition qu\'il faut toujours explorer. Distinguer maigreur constitutionnelle (familiale) et pathologique. Associer a d\'autres indicateurs : pli cutane, PB, albuminemie. Chez le nourrisson, la courbe de poids est plus sensible que l\'IMC. Les causes les plus frequentes : erreurs dietetiques, RGO, allergies alimentaires.`,
   references: [
     {type:`pubmed`,title:`Cole TJ et al. Body mass index cut offs to define thinness in children. BMJ 2007`,pmid:`17711999`},
     {type:`guideline`,title:`HAS - Denutrition de l\'enfant (2022)`,url:`https://www.has-sante.fr/`},

@@ -96,7 +96,7 @@ const score4peps: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `Le **4PEPS** (Roy et al. 2022) est un score clinique à 4 niveaux de probabilité d'embolie pulmonaire, surpassant les scores de Genève et Wells en discrimination.
+  interpretation: `Le **4PEPS** (Roy et al. 2022) est un score clinique à 4 niveaux de probabilité d\'embolie pulmonaire, surpassant les scores de Genève et Wells en discrimination.
 
 **12 items :**
 - Âge : < 50 ans (-2), 50-64 ans (-1), ≥ 65 (0)
@@ -113,7 +113,7 @@ const score4peps: FormulaDefinition = {
 - Syncope : 2
 
 **Niveaux :** ≤ 0 faible, 1-5 modéré, 6-10 élevé, > 10 très élevé.`,
-  clinicalCommentary: `Le 4PEPS a été validé dans une cohorte de 2000 patients suspects d'EP aux urgences. Il surpasse le score de Genève révisé et le Wells PE en AUC (0.79 vs 0.73-0.75). Utilisez-le aux urgences devant toute suspicion d'EP. N'oubliez pas de demander les D-Dimères pour les scores faibles et modérés. L'angioscanner thoracique est l'examen de référence.`,
+  clinicalCommentary: `Le 4PEPS a été validé dans une cohorte de 2000 patients suspects d\'EP aux urgences. Il surpasse le score de Genève révisé et le Wells PE en AUC (0.79 vs 0.73-0.75). Utilisez-le aux urgences devant toute suspicion d\'EP. N\'oubliez pas de demander les D-Dimères pour les scores faibles et modérés. L\'angioscanner thoracique est l\'examen de référence.`,
   references: [
     { type: 'pubmed', title: 'Roy PM et al. Development and validation of a 4-level pulmonary embolism clinical probability score (4PEPS). J Am Coll Cardiol 2022', pmid: '35618346' },
   ],

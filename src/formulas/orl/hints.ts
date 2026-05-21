@@ -94,7 +94,7 @@ const hints: FormulaDefinition = {
 3. **Test of Skew** : déviation verticale alternative = central, absent = périphérique
 
 Un seul signe central suffit à suspecter un AVC du tronc cérébral ou du cervelet. Le HINTS est plus sensible que l’IRM dans les premières 48h d\'un AVC postérieur (100% vs 88%).`,
-  clinicalCommentary: `Le HINTS est PLUS PERFORMANT que l\'IRM précoce pour l’AVC postérieur dans les 48h. HINTS négatif = neurite vestibulaire jusqu'à preuve du contraire. Attention : ne s’applique PAS aux vertiges paroxystiques positionnels (VPPB). Le HINTS se fait AUX URGENCES, pas au cabinet pour un patient stable. Faites un HINTS à tout vertige aigu + nystagmus + nausées/vomissements. Si le patient a des facteurs de risque vasculaire (HTA, diabète, âge > 60, tabac) et un HINTS positif : IRM en urgence.`,
+  clinicalCommentary: `Le HINTS est PLUS PERFORMANT que l\'IRM précoce pour l’AVC postérieur dans les 48h. HINTS négatif = neurite vestibulaire jusqu\'à preuve du contraire. Attention : ne s’applique PAS aux vertiges paroxystiques positionnels (VPPB). Le HINTS se fait AUX URGENCES, pas au cabinet pour un patient stable. Faites un HINTS à tout vertige aigu + nystagmus + nausées/vomissements. Si le patient a des facteurs de risque vasculaire (HTA, diabète, âge > 60, tabac) et un HINTS positif : IRM en urgence.`,
   references: [
     {
       type: 'pubmed',

@@ -121,7 +121,7 @@ const crusade: FormulaDefinition = {
 - **31–40** : modéré (8,6 %)
 - **41–50** : élevé (11,9 %)
 - **> 50** : très élevé (15,3 %)`,
-  clinicalCommentary: `Le CRUSADE est validé pour les SCA non ST+, pas pour les ST+. L'abord radial est associé à une réduction significative des complications hémorragiques par rapport au fémoral, surtout chez les patients à haut risque CRUSADE. Pondérations issues de Subherwal et al. Circulation 2009.`,
+  clinicalCommentary: `Le CRUSADE est validé pour les SCA non ST+, pas pour les ST+. L\'abord radial est associé à une réduction significative des complications hémorragiques par rapport au fémoral, surtout chez les patients à haut risque CRUSADE. Pondérations issues de Subherwal et al. Circulation 2009.`,
   references: [
     {
       type: 'pubmed',

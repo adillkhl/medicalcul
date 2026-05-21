@@ -21,7 +21,7 @@ const oxypnoe: FormulaDefinition = {
         return {value:retval, label:retlabel, severity:(retsev as 'low'|'moderate'|'high'|'critical'), ranges}
   },
   interpretation: `Calcul du debit d\'oxygene: lunettes 1L/min = +4% FiO2. Masque simple: 5L=40%, 8L=60%. Masque reservoir: 80-90%.`,
-  clinicalCommentary: `Les lunettes nasales peuvent debiter jusqu'a 6L/min (44% FiO2 max). L\'humidification est necessaire > 4L/min.`,
+  clinicalCommentary: `Les lunettes nasales peuvent debiter jusqu\'a 6L/min (44% FiO2 max). L\'humidification est necessaire > 4L/min.`,
   references: [
     {type:`pubmed`,title:`O Driscoll BR, Howard LS. Thorax 2011`,pmid:`21555715`}
   ],

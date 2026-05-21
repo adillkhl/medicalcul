@@ -14,8 +14,8 @@ const madrs: FormulaDefinition = {
     {id:`appetit`,type:`radio`,label:`Appetit reduit`,options:[{value:0,label:`0 — Appetit normal`},{value:1,label:`1 —`},{value:2,label:`2 — Appetit legerement reduit`},{value:3,label:`3 —`},{value:4,label:`4 — Appetit nettement reduit`},{value:5,label:`5 —`},{value:6,label:`6 — Refuse de manger`}]},
     {id:`concentration`,type:`radio`,label:`Difficulte de concentration`,options:[{value:0,label:`0 — Normale`},{value:1,label:`1 —`},{value:2,label:`2 — Difficulte legere`},{value:3,label:`3 —`},{value:4,label:`4 — Difficulte frequente`},{value:5,label:`5 —`},{value:6,label:`6 — Incapacite totale`}]},
     {id:`lassitude`,type:`radio`,label:`Lassitude / ralentissement`,options:[{value:0,label:`0 — Normal`},{value:1,label:`1 —`},{value:2,label:`2 — Difficulte a commencer`},{value:3,label:`3 —`},{value:4,label:`4 — Ralentissement marque`},{value:5,label:`5 —`},{value:6,label:`6 — Stupeur`}]},
-    {id:`sentiments`,type:`radio`,label:`Incapacite a ressentir (anhedonie)`,options:[{value:0,label:`0 — Interet normal`},{value:1,label:`1 —`},{value:2,label:`2 — Moins d'interet`},{value:3,label:`3 —`},{value:4,label:`4 — Perte d'interet marquee`},{value:5,label:`5 —`},{value:6,label:`6 — Indifference totale`}]},
-    {id:`pessimisme`,type:`radio`,label:`Pensees pessimistes`,options:[{value:0,label:`0 — Optimiste`},{value:1,label:`1 —`},{value:2,label:`2 — Decouragement`},{value:3,label:`3 —`},{value:4,label:`4 — Desespoir`},{value:5,label:`5 —`},{value:6,label:`6 — Idees d'incurabilite`}]},
+    {id:`sentiments`,type:`radio`,label:`Incapacite a ressentir (anhedonie)`,options:[{value:0,label:`0 — Interet normal`},{value:1,label:`1 —`},{value:2,label:`2 — Moins d\'interet`},{value:3,label:`3 —`},{value:4,label:`4 — Perte d\'interet marquee`},{value:5,label:`5 —`},{value:6,label:`6 — Indifference totale`}]},
+    {id:`pessimisme`,type:`radio`,label:`Pensees pessimistes`,options:[{value:0,label:`0 — Optimiste`},{value:1,label:`1 —`},{value:2,label:`2 — Decouragement`},{value:3,label:`3 —`},{value:4,label:`4 — Desespoir`},{value:5,label:`5 —`},{value:6,label:`6 — Idees d\'incurabilite`}]},
     {id:`suicide`,type:`radio`,label:`Idees suicidaires`,options:[{value:0,label:`0 — Aucune`},{value:1,label:`1 —`},{value:2,label:`2 — Lassitude de vivre`},{value:3,label:`3 —`},{value:4,label:`4 — Desir de mort`},{value:5,label:`5 —`},{value:6,label:`6 — Projets ou tentatives`}]},
   ],
   calculate: (values) => {
@@ -25,13 +25,13 @@ const madrs: FormulaDefinition = {
     return {value:s, label:`MADRS ${s}/60`, severity: sev,
       ranges:[
         {min:0,max:6,label:`Normal / pas de depression`,severity:'low',recommendation:`Pas de depression. Surveillance.`},
-        {min:7,max:18,label:`Depression legere`,severity:'moderate',recommendation:`Psychotherapie ou surveillance. Traitement selon l'evolution.`},
+        {min:7,max:18,label:`Depression legere`,severity:'moderate',recommendation:`Psychotherapie ou surveillance. Traitement selon l\'evolution.`},
         {min:19,max:30,label:`Depression moderee`,severity:'moderate',recommendation:`Antidepresseur indique. Suivi regulier.`},
         {min:31,max:60,label:`Depression severe`,severity:'high',recommendation:`Traitement intensif. Hospitalisation si risque suicidaire.`},
       ]}
   },
   interpretation: `La MADRS est une echelle de 10 items (cotes 0-6 avec intermediaires 1,3,5) sensible au changement therapeutique. Score total 0-60. Seuils : 0-6 (normal), 7-18 (leger), 19-30 (modere), >= 31 (severe). Tres utilisee dans les essais cliniques pour sa sensibilite. Les valeurs impaires (1,3,5) permettent une graduation plus fine entre les descripteurs pairs.`,
-  clinicalCommentary: `Plus sensible au changement que la HAM-D, meilleure pour les suivis d'evolution sous traitement. Cotation sur les 7 derniers jours. Les items pairs (cotes 0,2,4,6) offrent plus de granularite avec les intermediaires 1,3,5. Attention aux scores d'anxiete (item tension interne) et de suicide (ne pas sous-estimer).`,
+  clinicalCommentary: `Plus sensible au changement que la HAM-D, meilleure pour les suivis d\'evolution sous traitement. Cotation sur les 7 derniers jours. Les items pairs (cotes 0,2,4,6) offrent plus de granularite avec les intermediaires 1,3,5. Attention aux scores d\'anxiete (item tension interne) et de suicide (ne pas sous-estimer).`,
   references: [
     {type:`pubmed`,title:`Montgomery SA, Asberg M. A new depression scale designed to be sensitive to change. Br J Psychiatry 1979`,pmid:`738828`},
   ],

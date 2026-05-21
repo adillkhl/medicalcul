@@ -111,12 +111,12 @@ const asdas: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `**ASDAS** (Ankylosing Spondylitis Disease Activity Score) — Score composite validé par l'ASAS.
+  interpretation: `**ASDAS** (Ankylosing Spondylitis Disease Activity Score) — Score composite validé par l\'ASAS.
 
 **Formule ASDAS-CRP :**
 0,12 × Douleur rachidienne (0-5) + 0,06 × Raideur matinale (0-5) + 0,11 × Global patient (0-5) + 0,07 × Douleur périphérique (0-5) + 0,58 × ln(CRP+1)
 
-**Seuils d'activité :**
+**Seuils d\'activité :**
 - < 1,3 : Maladie inactive
 - 1,3 – < 2,1 : Activité modérée
 - 2,1 – < 3,5 : Activité élevée
@@ -127,7 +127,7 @@ const asdas: FormulaDefinition = {
 - Amélioration ≥ 2,0 : amélioration majeure
 
 ⚠️ Tous les items subjectifs sont sur une échelle 0–5 (et non 0–10 comme le BASDAI).`,
-  clinicalCommentary: `L'ASDAS est plus sensible que le BASDAI pour discriminer l'activité de la spondylarthrite. Il est recommandé par l'ASAS et l'EULAR comme critère de décision thérapeutique (cibles : ASDAS inactive ou faible activité). Ce calculateur implémente l'ASDAS-CRP conforme à la publication originale (Machado et al. 2011).`,
+  clinicalCommentary: `L\'ASDAS est plus sensible que le BASDAI pour discriminer l\'activité de la spondylarthrite. Il est recommandé par l\'ASAS et l\'EULAR comme critère de décision thérapeutique (cibles : ASDAS inactive ou faible activité). Ce calculateur implémente l\'ASDAS-CRP conforme à la publication originale (Machado et al. 2011).`,
   references: [
     {
       type: 'pubmed',

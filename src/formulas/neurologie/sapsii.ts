@@ -233,7 +233,7 @@ const sapsii: FormulaDefinition = {
 **Score : 0–163.** La mortalité hospitalière estimée est dérivée du score total par une équation logistique.
 
 **Limites :** Le SAPS II ne prédit pas la mortalité individuelle, mais donne une estimation pour un groupe de patients. Il est recalibré (SAPS II) et des versions plus récentes existent (SAPS 3).`,
-  clinicalCommentary: `Le SAPS II est utile en réanimation neurologique pour stratifier le risque de mortalité chez les patients avec AVC grave, traumatisme crânien, ou hémorragie méningée. Attention : le GCS est fortement pondéré (jusqu'à 16 pts), ce qui peut surévaluer le risque chez les patients neurologiques avec coma réversible. Ne pas utiliser pour les décisions de limitation thérapeutique individuelles. Toujours prendre la pire valeur dans les 24h.`,
+  clinicalCommentary: `Le SAPS II est utile en réanimation neurologique pour stratifier le risque de mortalité chez les patients avec AVC grave, traumatisme crânien, ou hémorragie méningée. Attention : le GCS est fortement pondéré (jusqu\'à 16 pts), ce qui peut surévaluer le risque chez les patients neurologiques avec coma réversible. Ne pas utiliser pour les décisions de limitation thérapeutique individuelles. Toujours prendre la pire valeur dans les 24h.`,
   references: [
     {
       type: 'pubmed',

@@ -111,7 +111,7 @@ const ecog: FormulaDefinition = {
     }
   },
   interpretation: "L'**ECOG Performance Status** (Zubrod) est l\'échelle de référence pour évaluer l\'état général du patient cancéreux.\n\n**Grades :**\n- **0** : Activité normale sans restriction\n- **1** : Ambulatoire, activité physique légère\n- **2** : Capacité d\'autosoins, alité < 50%\n- **3** : Alité > 50%, autosoins limités\n- **4** : Alité en permanence, soins constants\n- **5** : Décès\n\n**Impact thérapeutique :** ECOG ≤ 1 → chimiothérapie standard ; ECOG 2 → adaptation ; ECOG ≥ 3 → soins palliatifs.",
-  clinicalCommentary: "L\'ECOG est le facteur pronostique le plus puissant en cancérologie, indépendamment du type de cancer. Il prédit la tolérance à la chimiothérapie et la survie globale. À âge égal, un patient ECOG 0-1 a un pronostic bien meilleur qu'un patient ECOG 2+. L\'ECOG doit être réévalué à chaque consultation et avant chaque cycle de chimiothérapie. Il existe une échelle alternative : le Karnofsky (0-100).",
+  clinicalCommentary: "L\'ECOG est le facteur pronostique le plus puissant en cancérologie, indépendamment du type de cancer. Il prédit la tolérance à la chimiothérapie et la survie globale. À âge égal, un patient ECOG 0-1 a un pronostic bien meilleur qu\'un patient ECOG 2+. L\'ECOG doit être réévalué à chaque consultation et avant chaque cycle de chimiothérapie. Il existe une échelle alternative : le Karnofsky (0-100).",
   references: [
     {
       type: 'pubmed',

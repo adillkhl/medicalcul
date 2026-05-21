@@ -59,7 +59,7 @@ const riete: FormulaDefinition = {
 - Age > 75 ans: 1 pt
 
 **Score :** < 1.5 faible, 1.5-2.9 modere, ≥ 3 eleve.`,
-  clinicalCommentary: `Score developpe a partir du registre RIETE (> 8000 patients). Un score eleve ne contre-indique pas l'anticoagulation mais justifie une surveillance rapprochee. La duree minimale de traitement est de 3 mois pour une TVP proximale. Les AOD sont une alternative aux AVK pour le traitement de la MTEV.`,
+  clinicalCommentary: `Score developpe a partir du registre RIETE (> 8000 patients). Un score eleve ne contre-indique pas l\'anticoagulation mais justifie une surveillance rapprochee. La duree minimale de traitement est de 3 mois pour une TVP proximale. Les AOD sont une alternative aux AVK pour le traitement de la MTEV.`,
   references: [
     {type:`pubmed`,title:`Ruiz-Gimenez N et al. Predictive variables for major bleeding in patients presenting with documented acute venous thromboembolism. Findings from the RIETE Registry. J Thromb Haemost 2008`,pmid:`18433427`}
   ],

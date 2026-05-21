@@ -141,7 +141,7 @@ const spondyloAmor: FormulaDefinition = {
 - ≥ 6 : Spondylarthropathie certaine
 - 5 : Probable
 - ≤ 4 : Peu probable`,
-  clinicalCommentary: `Les critères d\'Amor (1990) ont précédé les critères ASAS. Bien qu'historiques, ils restent utiles en clinique pour leur simplicité. Les critères ASAS (2009) sont désormais la référence pour la spondylarthrite axiale.`,
+  clinicalCommentary: `Les critères d\'Amor (1990) ont précédé les critères ASAS. Bien qu\'historiques, ils restent utiles en clinique pour leur simplicité. Les critères ASAS (2009) sont désormais la référence pour la spondylarthrite axiale.`,
   references: [
     {
       type: 'pubmed',

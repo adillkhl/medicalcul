@@ -91,17 +91,17 @@ const glasgow: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `L'échelle de Glasgow (Glasgow Coma Scale) est la référence internationale pour quantifier le niveau de conscience. Elle comporte 3 items :
+  interpretation: `L\'échelle de Glasgow (Glasgow Coma Scale) est la référence internationale pour quantifier le niveau de conscience. Elle comporte 3 items :
 
 • **Y (ouverture des yeux)** : 1-4 (NT=0 si œdème/traumatisme)
 • **V (réponse verbale)** : 1-5 (NT=0 si intubé/trachéotomisé)
 • **M (réponse motrice)** : 1-6 (NT=0 si bloqué/sédaté)
 
-Total = Y + V + M (3 à 15). Un GCS ≤ 8 = coma = indication d'intubation.
+Total = Y + V + M (3 à 15). Un GCS ≤ 8 = coma = indication d\'intubation.
 En cas de composante NT, le score total est sous-estimé — interpréter avec prudence.
 
 Cotation : toujours prendre le meilleur côté pour la réponse motrice. La meilleure réponse (pas la première).`,
-  clinicalCommentary: `Score universel aux urgences, réanimation et préhospitalier. GCS 15 = normal. GCS ≤ 8 = coma, protection des voies aériennes nécessaire. Attention aux pièges : patient intubé (V = NT), aphasique, sédaté, barrière linguistique. Chez l'enfant, utiliser le GCS pédiatrique adapté. La pupille et le réflexe de toux ne font pas partie du GCS officiel. Le score moteur est le plus prédictif du pronostic.`,
+  clinicalCommentary: `Score universel aux urgences, réanimation et préhospitalier. GCS 15 = normal. GCS ≤ 8 = coma, protection des voies aériennes nécessaire. Attention aux pièges : patient intubé (V = NT), aphasique, sédaté, barrière linguistique. Chez l\'enfant, utiliser le GCS pédiatrique adapté. La pupille et le réflexe de toux ne font pas partie du GCS officiel. Le score moteur est le plus prédictif du pronostic.`,
   references: [
     {
       type: 'pubmed',

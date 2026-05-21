@@ -60,7 +60,7 @@ const nrs_2002: FormulaDefinition = {
       ]}
   },
   interpretation: `Le NRS-2002 comporte 2 etapes:<br/><br/>Etape 1 (screening initial): 3 questions Oui/Non<br/>• IMC < 20.5 ?<br/>• Perte de poids > 5% en 3 mois ?<br/>• Apports alimentaires reduits > 50% en 1 semaine ?<br/>Si OUI a au moins 1 question → Etape 2<br/><br/>Etape 2 (scoring):<br/>• Score nutritionnel (0-3)<br/>• Score de severite de la maladie (0-3)<br/>• Ajustement age: +1 si ≥ 70 ans ET score ≥ 4<br/>Score total ≥ 4 = risque nutritionnel eleve (selon MDCalc)<br/>Note: Le seuil original NRS-2002 (Kondrup 2003) est ≥ 3, mais MDCalc utilise ≥ 4.`,
-  clinicalCommentary: `Le NRS-2002 est recommande par l'ESPEN pour le depistage nutritionnel hospitalier. Il est valide en geriatrie, oncologie, chirurgie. Le seuil MDCalc est ≥ 4 (contre ≥ 3 dans la version originale de Kondrup). A realiser a l'admission et idealement 1x/semaine.`,
+  clinicalCommentary: `Le NRS-2002 est recommande par l\'ESPEN pour le depistage nutritionnel hospitalier. Il est valide en geriatrie, oncologie, chirurgie. Le seuil MDCalc est ≥ 4 (contre ≥ 3 dans la version originale de Kondrup). A realiser a l\'admission et idealement 1x/semaine.`,
   references: [
     {type:`pubmed`,title:`Kondrup J et al. Clin Nutr 2003`,pmid:`12505347`},
     {type:`pubmed`,title:`Kondrup J et al. Nutr Hosp 2002`,pmid:`12492029`},

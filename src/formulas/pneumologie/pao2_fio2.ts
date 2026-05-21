@@ -2,9 +2,9 @@ import type { FormulaDefinition } from '../types'
 
 const pao2_fio2: FormulaDefinition = {
   id: `pf_ratio`, slug: `pf-ratio`,
-  name: `Rapport PaO₂/FiO₂ (PF Ratio) — Indice d'oxygénation`,
+  name: `Rapport PaO₂/FiO₂ (PF Ratio) — Indice d\'oxygénation`,
   specialty: `pneumologie`, category: `Oxygenation`,
-  description: `Rapport PaO₂/FiO₂ pour l'évaluation de l'hypoxémie et classification du SDRA (critères de Berlin)`,
+  description: `Rapport PaO₂/FiO₂ pour l\'évaluation de l\'hypoxémie et classification du SDRA (critères de Berlin)`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
     {id:`pao2`,type:`number`,label:`PaO₂`,unit:`mmHg`},

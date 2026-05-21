@@ -165,7 +165,7 @@ const meld: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `Le **score MELD-Na** (Model for End-Stage Liver Disease) est le score de reference pour la priorisation des patients en liste d'attente de transplantation hepatique (UNOS/OPTN 2016).
+  interpretation: `Le **score MELD-Na** (Model for End-Stage Liver Disease) est le score de reference pour la priorisation des patients en liste d\'attente de transplantation hepatique (UNOS/OPTN 2016).
 
 **Formule MELD** (original) :
 MELD = 9.57 × ln(Cr) + 3.78 × ln(Bili) + 11.2 × ln(INR) + 6.43
@@ -181,14 +181,14 @@ Avec :
 - Na = natrémie en mmol/L (clampée entre 125 et 140)
 
 Si le patient est dialyse, la creatinine est fixee a 4 mg/dL.
-Si la natrémie n'est pas renseignée, le MELD original (sans sodium) est calculé.
+Si la natrémie n\'est pas renseignée, le MELD original (sans sodium) est calculé.
 
 **Mortalite a 3 mois** (MELD-Na) :
 - ≤ 9 : ~1.9 %
 - 10-19 : ~6.0 %
 - 20-29 : ~19.6 %
 - ≥ 30 : ~52.6-71.3 %`,
-  clinicalCommentary: `Le MELD-Na (2016) a remplacé le MELD original pour l'attribution des greffons. L'ajout de la natrémie améliore la prédiction de mortalité, particulièrement dans la cirrhose ascitique. Le score doit être recalculé régulièrement (toutes les semaines si MELD > 20). Attention : le MELD peut sous-estimer le risque dans l'hépatite fulminante ou le CHC.`,
+  clinicalCommentary: `Le MELD-Na (2016) a remplacé le MELD original pour l\'attribution des greffons. L\'ajout de la natrémie améliore la prédiction de mortalité, particulièrement dans la cirrhose ascitique. Le score doit être recalculé régulièrement (toutes les semaines si MELD > 20). Attention : le MELD peut sous-estimer le risque dans l\'hépatite fulminante ou le CHC.`,
   references: [
     {
       type: 'pubmed',

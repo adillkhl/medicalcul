@@ -7,8 +7,8 @@ const epds: FormulaDefinition = {
   description: `Auto-questionnaire de 10 items pour le depistage de la depression du post-partum et prenatale`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
-    {id:`rire`,type:`radio`,label:`1. Je peux rire et prendre les choses du bon cote`,options:[{value:0,label:`Autant qu'avant`},{value:1,label:`Plutot moins qu'avant`},{value:2,label:`Tres nettement moins`},{value:3,label:`Pas du tout`}]},
-    {id:`plaisir`,type:`radio`,label:`2. Je me fais du plaisir en pensant a ce qui m\'attend`,options:[{value:0,label:`Autant qu'avant`},{value:1,label:`Plutot moins qu'avant`},{value:2,label:`Tres nettement moins`},{value:3,label:`Pas du tout`}]},
+    {id:`rire`,type:`radio`,label:`1. Je peux rire et prendre les choses du bon cote`,options:[{value:0,label:`Autant qu\'avant`},{value:1,label:`Plutot moins qu\'avant`},{value:2,label:`Tres nettement moins`},{value:3,label:`Pas du tout`}]},
+    {id:`plaisir`,type:`radio`,label:`2. Je me fais du plaisir en pensant a ce qui m\'attend`,options:[{value:0,label:`Autant qu\'avant`},{value:1,label:`Plutot moins qu\'avant`},{value:2,label:`Tres nettement moins`},{value:3,label:`Pas du tout`}]},
     {id:`culpabilite`,type:`radio`,label:`3. Je me suis blamee injustement (ou culpabilite)`,options:[{value:0,label:`Non, jamais`},{value:1,label:`Parfois`},{value:2,label:`Assez souvent`},{value:3,label:`Oui, tres souvent`}]},
     {id:`anxiete`,type:`radio`,label:`4. Je me suis sentie inquiete ou anxieuse sans raison`,options:[{value:0,label:`Non`},{value:1,label:`Rarement`},{value:2,label:`Parfois`},{value:3,label:`Tres souvent`}]},
     {id:`panique`,type:`radio`,label:`5. Je me suis sentie effrayee ou paniquee sans raison`,options:[{value:0,label:`Non`},{value:1,label:`Rarement`},{value:2,label:`Parfois`},{value:3,label:`Tres souvent`}]},

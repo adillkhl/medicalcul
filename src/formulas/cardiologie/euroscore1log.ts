@@ -69,7 +69,7 @@ const euroscore2: FormulaDefinition = {
         { value: 2, label: 'Deux interventions combinees (PAC + valve, etc.)' },
         { value: 3, label: 'Trois interventions combinees ou plus' },
       ] },
-    // Chirurgie de l'aorte thoracique
+    // Chirurgie de l\'aorte thoracique
     { id: 'chir_aorte', type: 'boolean', label: 'Chirurgie de l aorte thoracique' },
   ],
   calculate: (values) => {
@@ -141,7 +141,7 @@ const euroscore2: FormulaDefinition = {
     else if (type_chir === 2) logit += 0.6163302
     else if (type_chir === 3) logit += 0.8549371
 
-    // 18. Chirurgie de l'aorte thoracique
+    // 18. Chirurgie de l\'aorte thoracique
     if (values.chir_aorte) logit += 0.7175601
 
     const mortalite = Math.min(99, Math.max(0.1, Math.exp(logit) / (1 + Math.exp(logit)) * 100))
@@ -219,7 +219,7 @@ const euroscore2: FormulaDefinition = {
     }
   },
   interpretation: 'L\'**EuroSCORE II** (Nashef et al. 2012) predit la mortalite operatoire en chirurgie cardiaque. Il remplace l\'EuroSCORE I (1999) qui surestimait le risque chez les patients a haut risque.\n\n**18 facteurs de risque :** age, sexe, CrCl, FEVG, NYHA, CCS 4, diabete insulino, HTAP, arteriopathie, mobilite reduite, reoperation, BPCO, endocardite, etat critique, IDM recent, urgence, type d\'intervention, chirurgie aorte.\n\n**Seuils de risque :** < 2% faible, 2-5% modere, 5-10% eleve, > 10% tres eleve.',
-  clinicalCommentary: "L'EuroSCORE II est le standard actuel recommandé par les sociétés savantes (ESC/EACTS). Il a été développé à partir d'une base de 16 828 patients européens (2010). Il est plus performant que l'EuroSCORE I logistique pour les patients à haut risque. Ce calculateur implémente la version logistique complète (β coefficients).",
+  clinicalCommentary: "L\'EuroSCORE II est le standard actuel recommandé par les sociétés savantes (ESC/EACTS). Il a été développé à partir d\'une base de 16 828 patients européens (2010). Il est plus performant que l\'EuroSCORE I logistique pour les patients à haut risque. Ce calculateur implémente la version logistique complète (β coefficients).",
   references: [
     {
       type: 'pubmed',

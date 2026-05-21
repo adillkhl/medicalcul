@@ -7,7 +7,7 @@ const news2: FormulaDefinition = {
   description: `National Early Warning Score pour detection deterioration clinique (avec SpO2 Scale 2 pour risque hypercapnique)`,
   version: `2024`, lastValidated: `2024-01`, evidenceLevel: `A`,
   inputs: [
-    {id:`spo2_scale`,type:`radio`,label:`Echelle SpO2 (selon risque d'insuffisance respiratoire hypercapnique)`,options:[
+    {id:`spo2_scale`,type:`radio`,label:`Echelle SpO2 (selon risque d\'insuffisance respiratoire hypercapnique)`,options:[
       {value:1,label:`Scale 1 — Patient STANDARD`},
       {value:2,label:`Scale 2 — Risque hypercapnique (BPCO/obesite/SAS)`},
     ]},
@@ -51,8 +51,8 @@ const news2: FormulaDefinition = {
   },
   interpretation: `NEWS2: score de deterioration clinique (7 parametres). Score >= 5 = alerte. >= 7 = urgence.
 
-**SpO2 Scale 2** : pour patients a risque d'insuffisance respiratoire hypercapnique (BPCO, obesite severe, syndrome d'apnee du sommeil). Ces patients ont une cible de SpO2 a 88-92%. La cotation SpO2 est differente :
-- SpO2 88-92% = 0 point (quel que soit l'oxygene)
+**SpO2 Scale 2** : pour patients a risque d\'insuffisance respiratoire hypercapnique (BPCO, obesite severe, syndrome d\'apnee du sommeil). Ces patients ont une cible de SpO2 a 88-92%. La cotation SpO2 est differente :
+- SpO2 88-92% = 0 point (quel que soit l\'oxygene)
 - SpO2 >= 93% sous oxygene = 5 points (hyperoxie dangereuse)`,
   clinicalCommentary: `Recommande par NICE pour detection precoce du sepsis. Utiliser Scale 2 pour les patients avec risque hypercapnique: BPCO, obésité sévère (IMC > 40), SOH, mucoviscidose, maladies neuromusculaires, déformation thoracique. Ne pas utiliser Scale 2 de facon systematique — seulement pour les personnes a risque identifie.`,
   references: [

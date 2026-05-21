@@ -79,7 +79,7 @@ const norton: FormulaDefinition = {
       ],
     }
   },
-  interpretation: `L'échelle de Norton est l'une des premières échelles de risque d'escarre (Doreen Norton, 1962). Elle évalue 5 items notés de 1 (mauvais) à 4 (bon) :
+  interpretation: `L\'échelle de Norton est l\'une des premières échelles de risque d\'escarre (Doreen Norton, 1962). Elle évalue 5 items notés de 1 (mauvais) à 4 (bon) :
 
 • **État général** : 1-4
 • **État mental** : 1-4
@@ -94,7 +94,7 @@ const norton: FormulaDefinition = {
 • 5-8 : risque très élevé
 
 **Seuil critique : < 14 = patient à risque.**`,
-  clinicalCommentary: `Échelle validée et largement utilisée en gériatrie et soins infirmiers. Simple et rapide (moins de 5 minutes). Plus sensible que spécifique — permet un dépistage large. Attention : les scores intermédiaires (11-14) nécessitent une réévaluation régulière. L'association avec le score de Braden ou Waterlow peut améliorer la prédiction. Réévaluer le risque à chaque changement d'état clinique ou au moins 1x/semaine.`,
+  clinicalCommentary: `Échelle validée et largement utilisée en gériatrie et soins infirmiers. Simple et rapide (moins de 5 minutes). Plus sensible que spécifique — permet un dépistage large. Attention : les scores intermédiaires (11-14) nécessitent une réévaluation régulière. L\'association avec le score de Braden ou Waterlow peut améliorer la prédiction. Réévaluer le risque à chaque changement d\'état clinique ou au moins 1x/semaine.`,
   references: [
     { type: 'pubmed', title: 'Norton D et al. An investigation of geriatric nursing problems in hospital. 1962' },
     { type: 'pubmed', title: 'Norton D. Calculating the risk: reflections on the Norton Scale. Decubitus 1989', pmid: '2775477' },
