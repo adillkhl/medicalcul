@@ -1,0 +1,13 @@
+{
+  "name": "Medicalcul",
+  "short_name": "Medicalcul",
+  "description": "Calculateurs et scores médicaux pour les professionnels de santé",
+  "start_url": "/medicalcul/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    { "src": "/medicalcul/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ],
+  "categories": ["medical", "health"]
+}

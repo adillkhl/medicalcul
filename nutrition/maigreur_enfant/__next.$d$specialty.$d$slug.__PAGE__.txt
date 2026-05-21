@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[78640,["/medicalcul/_next/static/chunks/0snzhrwtxpk5a.js","/medicalcul/_next/static/chunks/0d3shmwh5_nmn.js","/medicalcul/_next/static/chunks/0fez2w16~e68m.js","/medicalcul/_next/static/chunks/0jr1gob-ryxt1.js"],"default"]
+3:I[97367,["/medicalcul/_next/static/chunks/0snzhrwtxpk5a.js","/medicalcul/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"specialty":"nutrition","slug":"maigreur_enfant"}],[["$","script","script-0",{"src":"/medicalcul/_next/static/chunks/0fez2w16~e68m.js","async":true}],["$","script","script-1",{"src":"/medicalcul/_next/static/chunks/0jr1gob-ryxt1.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"pS-hj3f4CI7bU5EohqySF"}
+5:null
